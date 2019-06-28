@@ -1,0 +1,13 @@
+{
+    "display_name": "Jacob",
+    "name_color": "#2f3a47",
+    "scale": 0.9,
+    "voice": "deep",
+    "default_outfit": "suit",
+    "eye_line": 0.0,
+	"poses": {
+        "a": {
+        	"image_height": 765
+        }
+	}
+}

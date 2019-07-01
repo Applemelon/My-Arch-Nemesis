@@ -5,6 +5,10 @@ label AN_start:
     body john AN_sayaka underwear
     body sayaka AN_john uniform
 
+    pause 2
+    play music AN_bgm_welcome_to_this_world fadein 4
+    pause 1
+
     "Divine punishment."
     "Ever heard of it? It's the kind of thing that happens when you've fucked up really bad."
     "Some say it doesn't exist, others do. But can you really blame anyone for thinking how they do? After all, you've either experienced it, or you haven't."
@@ -13,6 +17,7 @@ label AN_start:
     "That day was at the start of our final school year, our debut as seniors on Tina Koya High."
     "The 8th of August is the date where it all began."
 
+    stop music fadeout 2
     pause 1.5
 
     title "8th of August" "The first day"
@@ -35,7 +40,7 @@ label AN_start:
 
     "I opened my eyes with hesitation. I was still tired, but surprisingly enough I didn't feel like complete crap after staying up too late."
     "I tried finding my phone to my left but..."
-    think "Has there... always been a wall on my right-hand side?"
+    think "Has there... always been a wall on my left-hand side?"
 
     $ screenfilter.blur = 10
 
@@ -51,6 +56,7 @@ label AN_start:
     john "{size=-5}Did I drink or something yesterd-{/size}"
 
     with hpunch
+    $ renpy.sound.set_volume(0.1)
 
     think "Wh- Is that me speaking?"
     john "One, two, three... Why do I..."
@@ -129,6 +135,7 @@ label AN_start:
     "As I began to understand that this wasn't a dream and that I was suddenly in full control of one of the best looking girls in school, I fully blushed with her face."
 
     scene bg sayaka bedroom day with dissolve
+    $ renpy.sound.set_volume(1)
     play sound sfx_lockpick
     show john a_17 blush at left, faceright:
         alpha 0.0
@@ -190,14 +197,80 @@ label AN_start:
 
     extend " Oh for crying out loud, focus! This isn't the time to be fascinated being stuck as one of the most horrible people on earth!"
 
+    scene black with dissolve
+    play sound sfx_door_close
+    scene AN_bg sayaka hallway day
+    show john a_6 at left, faceright:
+        ease 1 xpos 0.5
+    with dissolve
+
     "As I got out of her room, the next hurdle began to be apparent."
 
+    show john a_13:
+        faceleft
+        pause 0.5
+        faceright
 
+    think "Where exactly do I go...?"
 
+    show AN_bg sayaka hallway day behind john:
+        ease 0.75 zoom 2.0 xalign 0.4
+    show john at Position(pos=(0.40, 1.0), anchor=(0.5, 1.0)), faceleft with ease:
+        easein 0.25 yanchor 0.98
+        easein 0.25 yanchor 0.96
+    show john at Position(pos=(0.40, 1.0), anchor=(0.5, 0.96)), faceleft
 
+    "This house looked absolutely enormous. It was hard to tell, but I had to be a story up since I saw stairs leading down."
 
+    scene black with dissolve
+    scene bg sadie bathroom day
+    show john b_11 at center, faceright:
+        alpha 0.0
+    with dissolve
+    play sound sfx_door_open
+    show john at center:
+        ease 0.5 alpha 1.0
 
+    "After looking around a bit more, I managed to find the bathroom."
 
+    show john at faceleft
+
+    john "Even her bathroom is massive..."
+
+    show john b_1 at centerright, faceright with ease
+
+    "I thought that I might as well brush my teeth. It felt like something I should do right now."
+    "I didn't like going anywhere with a bad feeling in my mouth, so I grabbed the only pink toothbrush which I assumed was hers and shrubbed away."
+
+    show john b_25
+
+    think "Actually, thinking about it, I'm using freaking Sayaka's toothbrush..."
+    think "If I weren't her then I would probably puke."
+
+    scene black with dissolve
+    scene bg sayaka kitchen day
+    show AN_saki a_0 at left, faceleft
+    show john b_5 at right:
+        alpha 0.0
+    with dissolve
+    show john at Position(pos=(0.60, 1.0), anchor=(0.5, 1.0)), faceleft with ease:
+        ease 0.5 alpha 1.0
+
+    "I found my way to the kitchen after going through the, once again, massive living room area and found a woman with pink hair, just like Sayaka, standing there."
+
+    show john b_2
+
+    john "Uhm... Good morning."
+
+    show AN_saki a_4 at faceright
+    pause 1
+    show john b_7
+    show AN_saki a_9
+
+    AN_saki "You're early. Grab some cereal if you're hungry, I don't have time to make you anything."
+    john "Uh... Okay."
+    "This had to be her mom. Or her sister if she had one, but I doubted that she would be a sister after what she just said."
+    AN_saki "I'm going to be late today again. You know where the cup-noodles are."
 
 
 

@@ -1,0 +1,13 @@
+{
+	"display_name": "Sonya",
+	"name_color": "#D7E0F1",
+	"voice": "tomboy",
+	"default_outfit": "uniform",
+	"eye_line": 0.01,
+	"scale": 0.9,
+	"poses": {
+		"a": {
+			"facing": "right"
+		}
+	}
+}

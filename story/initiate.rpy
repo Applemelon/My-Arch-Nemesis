@@ -1,5 +1,11 @@
 label AN_start:
 
+    define both = Speaker('Both', voice_male, color='#bf8eb8')
+
+    body john AN_sayaka underwear
+    body sayaka AN_john uniform
+    body cornelia AN_cornelia
+
     image fire:
         "AN_asset animations fire fire(1)"
         pause 0.03

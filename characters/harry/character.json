@@ -1,0 +1,12 @@
+{
+    "name_color": "#89be94",
+    "name": "Harry",
+    "voice": "male",
+    "eye_line": 0.29,
+    "scale": 0.9,
+    "poses": {
+        "a": {
+            "facing": "right"
+        }
+    }
+}

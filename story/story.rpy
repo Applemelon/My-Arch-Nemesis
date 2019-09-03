@@ -5593,6 +5593,11 @@ label AN_day_1:
 
     "Without even looking back at Cornelia I raced towards this smug-ass bitch who was minding her own business."
 
+    #SKIP
+    show sayaka:
+        alpha 1.0
+        centerleft
+
     show john b_19 at right
     show cornelia b_8 at offscreenright
 
@@ -5826,7 +5831,6 @@ label AN_day_1:
     show AN_harry a_0 at Position(pos=(0.8, 1.0), anchor=(0.5, 1.0)), faceleft
     show rita b_0 at Position(pos=(0.9, 1.0), anchor=(0.5, 1.0)), faceleft
     with dissolve
-    outfit AN_harry gym
 
     think "Huh, so Kiyoshi has the same P.E. class as me."
 
@@ -5877,10 +5881,18 @@ label AN_day_1:
 
     "Of course, as my terrible luck would have it, I was put into the position as one of the captains."
 
+    #SKIP
+    show john:
+        alpha 1.0
+
     show cornelia:
         ease 0.5 alpha 1.0
 
     cornelia "Hey, Saya..."
+
+    #SKIP
+    show cornelia:
+        alpha 1.0
 
     show john at faceright
 
@@ -5905,6 +5917,11 @@ label AN_day_1:
 
     think "At least I know two people I want in my group now. Maybe I'll pick Brad or someone else I know if they are left by the end."
 
+    #SKIP
+    show john:
+        xpos 0.25
+        faceright
+
     show alex a_3 at Position(pos=(0.55, 1.0), anchor=(0.5, 1.0)):
         faceleft
         alpha 0.0
@@ -5917,13 +5934,18 @@ label AN_day_1:
 
     alex "Sayaka, you need to pick next."
 
+    #SKIP
+    show alex:
+        alpha 1.0
+
     show john a_10
     show cornelia a_1:
         ease 0.5 alpha 1.0
 
     john "Oh, of course! Cornelia, come over here."
 
-    show cornelia a_2
+    show cornelia a_2:
+        alpha 1.0
 
     cornelia "Yes, Saya!"
 
@@ -5943,6 +5965,11 @@ label AN_day_1:
 
     "She sure is happy about something as trivial as this. Which was made apparent as she merrily trotted her way behind me."
 
+    #SKIP
+    show cornelia:
+        xpos 0.1
+        faceright
+
     show alex at faceright
     show kiyoshi:
         ease 0.5 alpha 1.0
@@ -5952,6 +5979,14 @@ label AN_day_1:
         ease 0.5 alpha 1.0
 
     "Sure enough, nobody picked Kiyoshi. His terrible skills at being sceptical about things and sports has really come through in the last 24 hours."
+
+    #SKIP
+    show kiyoshi:
+        alpha 1.0
+    show AN_harry:
+        alpha 1.0
+    show rita:
+        alpha 1.0
 
     show cornelia a_12
     show john a_0 at faceleft
@@ -5979,7 +6014,9 @@ label AN_day_1:
 
     kiyoshi "Naturally, J-man. Or should I be calling you S-girl now?"
 
-    show kiyoshi a_3
+    show kiyoshi a_3:
+        xpos 0.375
+        faceright
     show cornelia a_19
 
     kiyoshi "That does not roll off the tongue as much."
@@ -6312,88 +6349,1462 @@ label AN_day_1:
 
     title "12th of August" "Day 5 - Sayaka"
 
+    pause 1
+    scene bg classroom 1
+    show jack a_0 at centerright, faceleft
+    with dissolve
 
+    jack "Now, is there {i}anyone{/i} in here who is able to tell me anything about Charles Philippe?"
 
+    show jack a_8
+    show sayaka a_5 at Position(pos=(0.2, 1.1), anchor=(0.5, 1.0)):
+        faceright
+        alpha 0.0
 
+    jack "...Nobody?"
 
+    show jack a_9
+    show sayaka:
+        ease 0.5 alpha 1.0
 
+    jack "...How about you, John? Got anything {q}wise{/q} to share with us about this topic since you so seemingly believe you do not need to pay attention?"
 
+    show sayaka a_2:
+        alpha 1.0
 
+    sayaka "Huh? Wh-What?"
 
+    show sayaka a_16
 
+    "What actually is his deal here?"
+    "I looked away for ten seconds and already he starts fucking singling me out again!"
+    sayaka "Don't know."
 
+    show jack a_0
 
+    jack "I believe I made it perfectly clear that this was homework assignment for today, didn't I?"
+    sayaka "No it wasn't. We had to read a text from some documentalist."
 
+    show jack a_1
 
+    jack "That was the assignment for the class. But of course your inferior head wouldn't be able to keep track of me telling you to research this topic last class."
 
+    show sayaka a_7
 
+    sayaka "You never told me anything like that!"
 
+    show sayaka a_16
+    show jack a_0
 
+    "To add fucking insult to injury, the entire class was humoring themselves as if this was some kind of circus. Nobody was defending me, at all!"
+    "Why is any of this happening? What did I ever do to that fuckface?"
+    jack "I made it very clear. So I am expecting a report on Charles Philippe's rule this tuesday. Just to make sure you actually do something for once."
 
+    show jack a_9
 
+    jack "Oh, and be sure to add in a section that retrospects on why it is important to listen to your teacher. Maybe you could make advancements by yourself where even the best would fail to teach you."
 
+    show sayaka a_20
 
+    sayaka "I already have two reports for tuesday that you gave me two days ago!"
 
+    show jack a_3
+    show sayaka a_16
 
+    jack "Am I to assume you would like one more, this time about proper behavior in class?"
 
+    show sayaka a_24
 
+    sayaka "I- N- No."
 
+    show jack a_0
+    show sayaka a_16
 
+    jack "As I thought. Moving on."
 
+    show jack:
+        ease 0.5 alpha 0.0
 
+    "Fuck. Him. Fuck. Him."
+    "If I could I would punch him right in his stupid grinning face right now."
+    "Is he always like this towards John?"
 
+    show katrina a_9:
+        center
+        ypos 1.1
+        faceright
+        alpha 0.0
 
+    "How the hell did John manage to piss this jerk off this hard? Like, how?"
 
+    show katrina:
+        ease 0.5 alpha 1.0
 
+    "And his stupid girlfriend Katrina isn't even saying anything!"
+    "If you want to be a true friend for once then fucking do something about this!"
 
+    scene black with dissolve
+    outfit brad uniform
+    show AN_bg library day:
+        zoom 2.0 xalign 1.0 yalign 0.5
+    show sayaka a_24:
+        center
+        faceleft
+        ypos 1.1
+    with dissolve
 
+    think "Sigh... Okay, just keep it cool. No more flipping out."
 
+    show sayaka a_16
 
+    "In the end, that excuse of a teacher sent us to the school library to prepare for {i}another{/i} report we would have to do in his class."
+    "We even had to present it. And based on what I had seen so far, no matter what effort I put into it, he would be scum towards me no matter what."
+    "So as if I'd bother working on that. I was instead spending time clinging on to the hope that some book around here may tell me anything about my situation."
+    "I'd been here three days already, reading some garbage books from god-knows what kind of pathetic authors, and I'm already getting totally sick of it."
 
+    show brad a_0 at Position(pos=(0.8, 1.0), anchor=(0.5, 1.0)) behind sayaka:
+        faceleft
+        alpha 0.0
 
+    "I was almost half considering just conceding and praying to god or something, but as if that would help."
 
+    show brad:
+        ease 0.5 alpha 1.0
 
+    brad "Got room for one more at the table?"
 
+    #SKIP
+    show brad:
+        alpha 1.0
 
+    show sayaka a_2 at faceright
 
+    think "Huh?"
 
+    show sayaka a_5
 
+    think "Oh, it's Brad."
+    think "What does he want from a twerp like John?"
+    sayaka "Yeah, sure."
 
+    show brad a_7:
+        ease 0.5 ypos 1.1
 
+    brad "Thanks. I saw what you're reading. That's some weird stuff you're gonna talk about in front of Jack."
 
+    show sayaka a_16
 
+    sayaka "Oh, this? I'm just trying to read some books to figure out something completely unrelated. I couldn't give less of a shit about that jerk."
 
+    show brad a_4
 
+    brad "Uhuh. {q}Spiritual Bond{/q}... Didn't know you were into the... Metaphysical stuff and books like that, or what do you call it?"
 
+    show brad a_1
+    show sayaka a_2
 
+    brad "What are you trying to figure out? I'm not into spirits and such, but you know I'm a great advisor, heh."
 
+    show sayaka a_5
+    show brad a_0
 
+    sayaka "I really doubt you would be interested. Or even know anything about this."
+    brad "That just piques my interest even more. Come on, you starting a new religion or something?"
 
+    show sayaka a_27 at faceleft
 
+    sayaka "{i}Sigh{/i}... Alright, because it's you... How do I even explain this so you get it..."
 
+    show sayaka a_5 at faceright
 
+    sayaka "Something that isn't possible happened. And I don't know how it happened or who or what did it."
 
+    show brad a_3
 
+    sayaka "So I've been trying to read any book about some sci-fi bullshit I could find but I'm getting nowhere with this."
 
+    show brad a_4
 
+    brad "Something impossible? Doesn't that just mean it is possible?"
 
+    show sayaka a_16
 
+    sayaka "Obviously. But I want to know how it happened, hence why I am reading this. But even after reading the first few pages I know this one's a dud as well."
 
+    show brad a_5
 
+    brad "But you don't want to share what happened?"
+    sayaka "Fuck no. Only me and someone else can know about this."
 
+    show brad a_1
 
+    brad "Ah well, too bad."
 
+    show brad a_0
+    show sayaka a_2
 
+    brad "But it sounds interesting. More interesting than whatever Mallory has planned for us."
+    brad "Honestly I don't really know what else to tell you. Sounds to me like you're into something weird."
 
+    show sayaka a_16
 
+    sayaka "It totally is."
 
+    show sayaka a_5
+    show brad a_1
 
+    brad "You know, when I was in middle school, Zoey did some weird-ass stuff too."
 
+    show brad a_4
 
+    brad "Oh, you know Zoey, my sister, right? She started here as a freshman this year."
 
+    show sayaka a_2
 
+    sayaka "I think I saw some yellow runt telling everyone she was your sibling or something yesterday."
 
+    show brad a_7
 
+    brad "She did?"
+
+    show brad a_1
+
+    brad "Hah, that's sweet of her."
+
+    show brad a_0
+
+    brad "Anyways, her shenanigans are really annoying sometimes, I wouldn't say that her pranks were out of this world or anything impossible like you claim your problem to be, but I grew to like it when she did something stupid."
+
+    show sayaka a_24
+
+    sayaka "God, it's so cliche to say that I can turn this into something positive."
+
+    show sayaka a_16
+    show brad a_7
+
+    brad "I know, but cliche stuff is cliche because it's normal, right?"
+
+    show sayaka a_5
+
+    sayaka "And man, you really swoon over your sister, don't you?"
+
+    show brad a_1
+
+    brad "Can't help it."
+
+    show brad a_4
+
+    brad "Oh, and uh... Nice hair you got there...?"
+
+    show sayaka a_16
+
+    sayaka "Drop it, I know it's stupid."
+    brad "Did you lose a bet?"
+    sayaka "I tried to get back at someone but now I'm stuck with this ridiculous color."
+
+    show sayaka a_27
+
+    sayaka "{size=-5}It doesn't fit me at all right now...{/size}"
+
+    show brad a_1
+    show sayaka a_2
+
+    brad "Was it Kat?"
+
+    show sayaka a_7
+    show brad a_4
+
+    sayaka "Katrina? Fuck no. Why would you think that?"
+
+    show sayaka a_16
+    show brad a_6
+
+    brad "Ah, you know, with the rumors going around and all..."
+
+    show sayaka a_2
+
+    think "The rumors?"
+
+    show sayaka a_5
+
+    sayaka "What rumors?"
+
+    show brad a_5
+
+    brad "About you and Kat."
+
+    show sayaka a_16
+
+    sayaka "I don't give a shit about her."
+
+    show brad a_3
+
+    brad "Man, you guys got into that bad of a fight?"
+    sayaka "Let's not make this about her. What is the rumor?"
+
+    show brad a_5
+
+    brad "You know, you and Kat are seen as the {q}nerdy{/q} couple of the school, so you guys causing such a big fallout in the lunchroom has sparked all kinds of people to speculate."
+
+    show sayaka a_5
+
+    sayaka "So it's just that? Speculation?"
+
+    show brad a_7
+
+    brad "I don't really spend a lot of time thinking about rumors, man. Someone has started saying you made her cry deliberately, which I really don't buy."
+    think "Of course you wouldn't buy it if it was {i}John{/i} you were talking to."
+    think "The wettest noodle of them all."
+
+    show brad a_0
+
+    brad "Sorry about whatever went down, I know you guys liked each other."
+
+    play sound sfx_bell
+    show brad a_4
+
+    "And thankfully, the bell rang for lunch just in time for me not having to deal with talking about that bitch anymore."
+
+    show brad a_1
+
+    brad "Damn, I took all your time now."
+    brad "If you aren't studying for Mallory's torture lessons during his class then it must be pretty important, whatever you're doing."
+
+    show sayaka a_0
+    show brad a_0
+
+    sayaka "It's okay. I needed someone to talk to."
+
+    show brad a_1
+
+    brad "Stressed week?"
+
+    show brad a_0
+    show sayaka a_10
+
+    sayaka "Oh, you wouldn't know."
+
+    show sayaka a_0
+    show brad a_7
+
+    brad "Hey, if you want, you can come along with me to our table during lunch. In case you're still not getting along with your friends."
+
+    show sayaka a_5
+
+    "Brad had never been this nice to any of the girls I knew, yet he was being a complete bro to freaking John of all people?"
+
+    show sayaka a_15
+
+    think "He isn't actually, like, secretly popular amongst the cool guy group, is he?"
+
+    show sayaka a_6
+
+    sayaka "Uhh... Sure, I think I'll take you up on the offer."
+
+    show sayaka a_2
+
+    sayaka "Better than sitting around doing nothing."
+
+    show brad a_0
+
+    brad "Cool. Let's jet."
+
+    scene black with dissolve
+    show bg lunch:
+        zoom 1.5 xalign 0.8 yalign 0.95
+    show sayaka a_0 at centerright, faceleft
+    show brad a_0 at center, faceleft
+    with dissolve
+
+    "The last two days during lunch had been excessively boring."
+
+    show sayaka a_5
+
+    "I could barely afford my regular sandvich with the money John had and standing in line was a real pain."
+    "Having Corny go fetch the food was what I always did. She would do it without asking."
+    "But with John's shitty popularity I would barely be able to command anyone around."
+
+    outfit rita uniform
+    show sadie a_5 at Position(pos=(0.35, 1.0), anchor=(0.5, 1.0)):
+        faceright
+        alpha 0.0
+    show rita b_11 at Position(pos=(0.55, 1.0), anchor=(0.5, 1.0)):
+        faceright
+        alpha 0.0
+    show irene b_3 at Position(pos=(0.75, 1.0), anchor=(0.5, 1.0)):
+        faceleft
+        alpha 0.0
+    show allison a_3 at Position(pos=(0.9, 1.0), anchor=(0.5, 1.0)) behind irene:
+        faceleft
+        alpha 0.0
+
+    "Anyways, I might as well check up on whether the idiot has done anything stupid this time."
+
+    show sayaka a_2:
+        ease 0.5 xpos 1.2 alpha 0.0
+    show brad:
+        ease 0.5 xpos 0.95 alpha 0.0
+    show bg lunch:
+        ease 0.5 zoom 2.0 xalign 0.6 yalign 0.7
+    show sadie:
+        pause 0.25
+        ease 0.5 alpha 1.0
+    show rita:
+        pause 0.25
+        ease 0.5 alpha 1.0
+    show irene:
+        pause 0.25
+        ease 0.5 alpha 1.0
+    show allison:
+        pause 0.25
+        ease 0.5 alpha 1.0
+
+    "While following Brad, I threw a look towards my table."
+
+    #SKIP
+    show sayaka:
+        alpha 0.0
+    show brad:
+        alpha 0.0
+    show sadie:
+        alpha 1.0
+    show irene:
+        alpha 1.0
+    show rita:
+        alpha 1.0
+    show allison:
+        alpha 1.0
+
+    "But my body wasn't there...?"
+
+    hide sayaka
+    hide brad
+
+    "Neither was Corny."
+    think "Are they late or something? It's already been three minutes and everyone else is there."
+    brad "Hey, John..."
+    sayaka "What?"
+    brad "Did... Kiyoshi actually manage to score Sayaka...?"
+    sayaka "Huh?"
+
+    outfit john uniform_pony
+    outfit cornelia uniform
+    outfit kiyoshi uniform
+    show bg lunch:
+        pause 0.25
+        ease 0.5 xalign 0.1 yalign 0.65
+    show sadie:
+        ease 0.5 alpha 0.0
+    show rita:
+        ease 0.5 alpha 0.0
+    show irene:
+        ease 0.5 alpha 0.0
+    show allison:
+        ease 0.5 alpha 0.0
+    show john a_6:
+        centerleft
+        faceright
+        ypos 1.1
+        alpha 0.0
+    show cornelia a_6:
+        center
+        faceleft
+        ypos 1.1
+        alpha 0.0
+    show kiyoshi a_2:
+        left
+        faceright
+        ypos 1.1
+        alpha 0.0
+
+    "He pointed towards a completely different table in the back."
+
+    show john:
+        ease 0.5 alpha 1.0
+    show cornelia:
+        ease 0.5 alpha 1.0
+    show kiyoshi:
+        ease 0.5 alpha 1.0
+    hide sadie
+    hide rita
+    hide irene
+    hide allison
+
+    "It was a bit hard seeing anything since Brad had the height advantage, but there they were."
+    "John, Corny, and fucking Kiyoshi."
+    think "What the?"
+    think "Why the hell is he sitting with that perv?!"
+
+    scene black with dissolve
+    pause 0.5
+
+    title "12th of August" "Day 5 - John"
+
+    show bg lunch:
+        zoom 2.0 xalign 0.05 yalign 0.65
+    show john a_0:
+        center
+        faceleft
+        ypos 1.1
+    show cornelia a_5:
+        centerright
+        faceleft
+        ypos 1.1
+    show kiyoshi a_2:
+        centerleft
+        faceright
+        ypos 1.1
+    with dissolve
+
+    kiyoshi "Since yesterday I read three different light novels I found about the subject of swapping on the internet."
+    kiyoshi "They were valuable research material, but ultimately, I do not believe in reincarnation, magic, or anything like that."
+
+    show john a_6
+    show kiyoshi a_1
+
+    john "...Dude, why are you reading light novels?"
+    john "That's fiction."
+
+    show kiyoshi a_2
+
+    kiyoshi "Wee~~~ell... Mostly because I got really drawn into the stories and ended up reading until three in the night yesterday."
+
+    show kiyoshi a_1
+    show john a_0 at faceright
+    show cornelia a_15
+
+    cornelia "I'm sorry, but what are you two clearly-not-somehow-dating-for-god-fucking-knows-what-reason people talking about?"
+
+    show john b_18
+    show kiyoshi a_4
+    show cornelia a_14
+
+    john "We aren't dating!"
+
+    show john b_17
+
+    kiyoshi "What you're suggesting is preposterous!"
+
+    show john b_19
+
+    john "Seriously, just imagining being with him romantically is disgusting."
+
+    show john a_17
+    show kiyoshi a_3
+
+    kiyoshi "Extremely so. Bros don't do that."
+
+    show kiyoshi a_0
+    show cornelia b_23
+
+    cornelia "Yeesh, I get it."
+    cornelia "Apparently you're in on this... Weird swapping thing too."
+
+    show cornelia b_17
+
+    cornelia "But why are you suddenly so... Normal? Seriously, it freaks me out."
+
+    show john b_25 at faceleft
+    show cornelia b_18
+
+    "Cornelia had a point on that one."
+    "Kiyoshi was usually flirty as all hell around girls, especially Sayaka and Cornelia."
+
+    show john b_23
+
+    think "Well, {i}flirty{/i} is a generous way of saying it..."
+
+    show john b_25
+
+    "It's nice that he immediately accepted my story without thinking twice about it, but I half expected him to be flirty with me now as well."
+    "Which luckily hasn't happend."
+
+    show john b_27
+
+    "Maybe he is actually more reliable than I thought?!"
+
+    show john b_0
+    show kiyoshi a_3
+
+    kiyoshi "Normal?"
+    kiyoshi "I am not normal, mind you. I am special."
+
+    show cornelia b_11
+    show kiyoshi a_0
+
+    cornelia "Yes. Vee~~ery special."
+
+    show john at faceright
+    show cornelia a_0
+
+    cornelia "Saya are you sure you don't want to go back to the other girls...?"
+
+    show john b_2
+
+    john "Relax. We're just sitting with Kiyoshi for today, we can sit with them tomorrow."
+
+    show john b_1
+
+    john "Kat and Kyoko apparently still don't want to talk about this, so it's good to catch up with him once in a while."
+
+    show john a_20
+
+    "And the entire Kat and Kyoko thing was a shame. I was sure they would relax at some point and not be pissed at me, or Kiyoshi for taking my side, but for now they didn't want to talk with us."
+
+    show cornelia a_4
+    show john b_5
+
+    cornelia "If you say so..."
+
+    show cornelia a_22
+
+    cornelia "{size=-10}This week has been so fucking weird...{/size}"
+
+    show john at faceleft
+    show kiyoshi a_2
+    show sayaka a_16 at Position(pos=(0.65, 1.0), anchor=(0.5, 1.0)) behind john:
+        faceleft
+        alpha 0.0
+    show brad a_5 at left behind kiyoshi:
+        faceright
+        alpha 0.0
+
+    kiyoshi "It is good to hear that you also treasure our friendship."
+
+    show kiyoshi a_1
+    show sayaka:
+        ease 0.5 alpha 1.0
+
+    sayaka "Excuse me?"
+
+    #SKIP
+    show sayaka:
+        alpha 1.0
+
+    show cornelia b_28:
+        ease 0.5 xpos 0.85
+    show john b_11
+    show kiyoshi a_0
+    with hpunch
+
+    cornelia "Eep!"
+
+    show cornelia b_26
+    show john at faceright
+
+    "Someone suddenly poked me on my shoulder."
+    "When I turned around, queen asshole was on time to surely nag me again."
+    sayaka "What are you doing? With him? At the same table?"
+
+    show cornelia b_17
+    show john b_0
+    show sayaka at faceright
+
+    cornelia "Jeez, don't scare me like that, asshole!"
+
+    show cornelia b_18
+    show sayaka at faceleft
+
+    john "Sayaka, I'm just eating lunch with my friends. Are you going to forbid me from doing that as well now?"
+
+    show sayaka a_7
+
+    sayaka "Uh, hello?! Yes?! Anyone but him! Did you tell them about us?"
+
+    show sayaka a_16
+
+    john "Of course I did. They both know we swapped."
+
+    show sayaka a_20
+    show cornelia b_26
+
+    sayaka "You... Absolute... AAGH!"
+
+    show john b_25
+
+    sayaka "Is it so hard to do simple tasks like {q}don't interact with weirdos{/q}?!"
+
+    #SKIP
+    show brad:
+        ease 0.5 alpha 1.0
+
+    show kiyoshi a_4
+    show cornelia b_31
+
+    sayaka "Why are you doing this?! You're just ruining my reputation!"
+
+    show sayaka a_21
+    show brad a_4
+
+    "Sayaka's half-way shouting was now garnering a bit of attention."
+
+    show sayaka a_15:
+        faceright
+        pause 0.5
+        faceleft
+        pause 0.5
+        faceright
+    show john b_13
+
+    "Attention that she noticed."
+
+    show sayaka at faceleft
+
+    "Even though the attention on us three was aplenty already because the number one girl in school was sitting with the most despised guy among the girls."
+
+    show sayaka a_21
+
+    sayaka "{size=-5}Why can you not do ONE thing properly?{/size}"
+
+    show john b_17
+    show cornelia b_5
+
+    brad "Uh, John?"
+
+    show john b_18
+    show brad a_5
+
+    john "You're not exactly keeping it a secret yourself in this public space either."
+
+    show sayaka a_15
+    show john b_17
+
+    sayaka "...!"
+
+    show john a_17
+
+    john "You know he is actually willing to help try to reverse the swap."
+
+    show sayaka a_16
+
+    sayaka "Oh spare me the formalities, I know you're probably just as much of a sick perv as him and want to take advantage of this."
+
+    show cornelia b_29
+    show john b_0
+
+    cornelia "Hold on."
+
+    show sayaka at faceright
+
+    "The girl that was pretty much sinking into her chair out of confusion finally spoke up."
+
+    show cornelia b_31
+
+    cornelia "Is... Is this entire swap thing actually a real thing?"
+
+    show sayaka a_7
+
+    sayaka "No! No swaps, no nothing! I'm Dumbass Davis and he is Sayaka Sato!"
+
+    show sayaka a_16 at faceleft
+    show john b_6
+
+    john "You know that you can trust her, right?"
+
+    show sayaka a_21
+
+    sayaka "N-"
+
+    show cornelia b_11
+    show john b_23
+
+    think "Heh, if you answer no here it would make you look bad, wouldn't it?"
+
+    show john b_31
+
+    john "As I tried telling you this morning, yes, me and Sayaka swapped bodies for some reason."
+
+    show brad a_4
+
+    cornelia "..."
+
+    show cornelia a_22
+    show sayaka a_16 at faceright
+
+    cornelia "But that shouldn't be possible..."
+
+    show john b_27
+    show sayaka a_15
+
+    brad "Oh damn, I think I've heard something I shouldn't have heard."
+
+    show sayaka at faceleft
+    show john at faceleft
+
+    john "Huh? Brad?!"
+
+    show cornelia a_20
+
+    think "What the heck is he doing here? I hadn't noticed him at all."
+
+    show john b_13 at faceright
+
+    john "Uh... Guess someone else is in on it then."
+
+    show brad a_5
+
+    brad "Was that the {q}impossible{/q} thing you told me about then, John?"
+
+    show sayaka a_16
+
+    show john a_13 at faceleft
+
+    john "{i}Sigh{/i}... She, or he, whatever, is Sayaka, not John."
+
+    show brad a_4
+
+    brad "Whoah. So I was talking to Queenie all the time?"
+    brad "That's trippy."
+
+    show john a_6
+
+    think "He is... unusually accepting as well."
+
+    show sayaka a_20
+    show john b_0 at faceright
+    show cornelia b_31
+
+    sayaka "Fine! Anyone else want to know?!"
+
+    show john b_3
+    show sayaka a_16
+
+    john "Dude, chill. Let's just put all the stuff we've done behind us and actually get help on this, alright?"
+
+    show sayaka a_7
+
+    sayaka "Alright?! You probably still haven't lifted a finger trying to figure out how to swap back!"
+
+    show john b_19
+    show sayaka a_16
+
+    john "I got Kiyoshi to help us!"
+
+    show sayaka a_7
+    show john b_3
+
+    sayaka "Bullshit! I bet you've been oggling all over me ever since you told him!"
+
+    show sayaka a_16
+    show cornelia a_22
+
+    cornelia "Uhm... I think he {i}is{/i} trying to help..."
+
+    show sayaka a_21 at faceright
+    show john b_6
+    show cornelia a_8
+
+    "Sayaka turned her absolute fury towards Cornelia now."
+    think "Boy, this girl is a living volcano..."
+
+    show sayaka a_20
+    show brad a_3
+
+    sayaka "You're siding with them now, Corny?!"
+
+    show sayaka a_16
+    show cornelia b_32
+
+    cornelia "Wha- N- No! Im not siding with anybody! Everything they've talked about for lunch was how they want to figure out how to swap back or something!"
+
+    show john b_0
+    show kiyoshi a_1
+    show cornelia b_31
+    show sayaka a_5
+
+    sayaka "...They did?"
+
+    show sayaka at faceleft
+    show john b_18
+
+    john "If the first thing you do wouldn't be yelling at us, then you would know that Kiyoshi wants to help us."
+
+    show john b_17
+
+    john "Considering how desperate you are to swap back, I'd say you should say thank you to any help you can get, especially from someone as... Uh... Unorthodox as Kiyoshi."
+    john "You know, the nerd who knows a thing or two about weird stuff?"
+
+    show kiyoshi a_3
+    show john a_5 at faceleft
+
+    kiyoshi "Hey, what I am researching are legitimate theories."
+
+    show john a_0
+    show kiyoshi a_0
+
+    john "Legitimate, but also weird."
+
+    show sayaka a_2
+
+    sayaka "...Are you actually willing to help us then? Without being your usual shitty self?"
+
+    show kiyoshi a_2
+
+    kiyoshi "I very much plan to, oh maiden in need of ai-"
+
+    show kiyoshi a_1
+    show sayaka a_16
+    show john at faceright
+
+    sayaka "Yeah yeah, whatever. Fine then."
+
+    show john b_1
+
+    "For the first time, I was able to calm her down, if even a little. Be it with the help of two other people, but still, we've tamed the dragon."
+
+    show brad a_7
+    show kiyoshi at faceleft
+    show cornelia b_0
+    show sayaka a_5
+    show john b_0 at faceleft
+
+    brad "Uh, so yeah, good luck to you guys."
+
+    show sayaka a_16
+
+    sayaka "Ugh, you heard everything, didn't you?"
+
+    show brad a_1
+
+    brad "Sorry, it was just a bit too interesting to listen for me to just bail out of the conversation."
+
+    show brad a_5
+
+    brad "But you and Sayaka have switched places then?"
+
+    show cornelia b_17
+    show john at faceright
+    show sayaka a_2 at faceright
+    show kiyoshi a_0 at faceright
+
+    cornelia "Seriously, this isn't a prank, right?"
+
+    show cornelia b_18
+    show kiyoshi a_1
+
+    kiyoshi "They very much have. I am sure you have both taken notice to how they act very differently now."
+
+    show kiyoshi a_6
+    show john at faceleft
+    show sayaka at faceleft
+
+    kiyoshi "For example, John's body over there is for some unexplainable reason secretly attracted to me now."
+
+    show kiyoshi a_1
+    show sayaka a_16
+    show john a_32
+
+    sayaka "I am not attracted to you, you fucking perv."
+
+    show kiyoshi a_2
+
+    kiyoshi "Denial is the sweetest way of showing love."
+
+    show cornelia a_0
+    show brad a_0
+    show john a_0
+    show sayaka a_5
+
+    brad "Hmm..."
+
+    show brad a_1
+
+    brad "I'll buy it. But I'm also hungry. See you guys later."
+
+    show john a_14
+
+    john "See ya."
+
+    scene black with dissolve
+    show bg lunch:
+        zoom 2.0 xalign 0.05 yalign 0.65
+    show john a_0 at Position(pos=(0.6, 1.1), anchor=(0.5, 1.0)), faceleft
+    show cornelia a_5 at Position(pos=(0.8, 1.1), anchor=(0.5, 1.0)), faceleft
+    show kiyoshi a_1 at Position(pos=(0.2, 1.1), anchor=(0.5, 1.0)), faceright
+    show sayaka a_5 at Position(pos=(0.4, 1.1), anchor=(0.5, 1.0)), faceleft
+    with dissolve
+
+    sayaka "So exactly {i}what{/i} have you looked at so far? Any books? Articles?"
+    kiyoshi "I have only dabbled in a few light novels so far. These stories turn out to be quite expansive in some cases."
+    kiyoshi "The methods of swapping here are typically connected to an event or mere coincidence."
+
+    show kiyoshi a_2
+
+    kiyoshi "But it is too soon to make any firm conclusions. Besides, this phenomenon has opened up the doors for an entirely new genre for me."
+
+    show kiyoshi a_1
+    show john a_6
+    show sayaka at faceright
+
+    john "Like I said, light novels are fiction. They don't help."
+
+    show sayaka a_16
+
+    sayaka "Are you kidding me? Of course they help! Would you not categorize what {i}really happened{/i} to us as fiction under normal circumstances?"
+
+    show john a_0
+
+    john "Well, if you put it like that..."
+    sayaka "If anything, we might get ideas on what to do in order to swap back."
+
+    show sayaka a_5 at faceleft
+
+    sayaka "And I fucking hate to say it, but please help me by looking for clues. Your weirdo-factor actually would come in useful for once."
+    "Sayaka was being sincere towards Kiyoshi for once. I bet it helped being able to communicate with him because she has my body."
+    "With him not creeping out on her, he was being much more normal towards her and all."
+
+    show kiyoshi a_6
+
+    kiyoshi "Anything for my darling in peril."
+
+    show john a_31
+
+    think "Or maybe I just imagined him being more normal."
+
+    show kiyoshi a_0
+    show john b_0
+
+    kiyoshi "It is a shame though. I would imagine that Kyoko would love to have a closer look at this phenomena as well."
+
+    show john b_4
+    show sayaka at faceright
+
+    john "Yeah, I kind of hoped they would get around to realizing this is a thing by now."
+
+    show sayaka a_16
+    show cornelia b_18
+
+    sayaka "You want to tell {i}those{/i} two as well?"
+
+    show john b_7
+
+    sayaka "Aren't you fine with this guy just knowing? Or are you going to tell the entire fucking school?"
+
+    show cornelia b_17
+    show john b_13 at faceright
+
+    cornelia "I agree, you should keep this between us."
+
+    show cornelia b_24
+
+    cornelia "And especially far away from them."
+
+    show john a_26
+    show cornelia b_14
+
+    john "What is your deal with Kat and Kyoko anyways?"
+
+    show john a_6 at faceleft
+
+    john "I get why you don't like Kiyoshi since he's Kiyoshi..."
+
+    show kiyoshi a_5
+
+    kiyoshi "Hey, I don't like the way you phrase your descriptions of me today, J-girl."
+
+    show kiyoshi a_0
+    show john a_13
+
+    john "But what have they ever done to you two?"
+
+    show cornelia b_26
+    show sayaka a_5
+    pause 1.5
+
+    cornelia "...Uhm..."
+
+    show cornelia a_11
+    show sayaka a_16
+    show john b_0 at faceright
+
+    "Cornelia looked at Sayaka as if asking for permissions."
+
+    show john at faceleft
+
+    "I know that Sayaka and Kat have a background, so maybe she knows a bit about it. But without Sayaka's permission she probably won't say a word."
+
+    show cornelia a_4
+
+    sayaka "No. Go be buddy-buddy with gingerface and that nerd if you want to. But don't drag me into it!"
+    sayaka "Actually, don't be buddy-buddy with them at all while you're posing as me."
+
+    show john b_18
+
+    john "God, you don't ever get it, do you?"
+
+    show john a_17
+
+    sayaka "Get what?!"
+
+    show john b_18
+    show cornelia a_0
+
+    john "How absolutely bitchy you are. Can't you talk about them normally with us and tell us what your issue is instead of this bullshit?"
+
+    show sayaka a_7
+    show john b_17
+
+    sayaka "Fuck you. I didn't ask for any of this to happen!"
+
+    show sayaka a_16
+
+    sayaka "Also, why have you been rubbing your eyes all this time?"
+
+    show john a_13
+
+    john "Huh?"
+    "Ah. I was doing it subconsciously at this point, but my eyes had become {i}really{/i} itchy now."
+
+    show john b_4
+
+    john "I don't know, it hurts like hell and I was going to ask you anyways."
+
+    show sayaka a_5
+    show cornelia b_0
+
+    john "Sometime yesterday it suddenly started itching, and whenever I touch my eyes it hurts like hell."
+    sayaka "When you touch your eyes...?"
+
+    show sayaka a_16
+    show john b_5
+
+    sayaka "Did you not clean my co-"
+
+    show sayaka a_15
+    show john b_6
+
+    "She just stopped herself midway during her sentence, as if not wanting to be heard."
+
+    show sayaka a_5:
+        ease 0.5 xpos 0.45
+
+    sayaka "{size=-5}Did you not clean my contact lenses properly?{/size}"
+
+    show john a_13
+
+    john "Contact lenses?"
+
+    show sayaka a_16
+
+    sayaka "Shh!"
+
+    show cornelia b_11
+
+    cornelia "Oh yeah, that's right! When did you last clean them?"
+
+    show kiyoshi a_4
+
+    kiyoshi "{size=-5}My darling uses contact lenses?{/size}"
+
+    show john a_5
+
+    john "..."
+
+    show john a_30
+
+    john "Clean them...?"
+    "Sayaka uses contact lenses?"
+    "I've literally not even once noticed or heard anything about that."
+
+    show kiyoshi a_1
+
+    kiyoshi "Ah, you are supposed to clean those every day, J-girl."
+
+    show john b_27
+    show sayaka a_7
+
+    sayaka "Seriously?! I even gave you  list of things to do!"
+
+    show john b_28
+    show sayaka a_16
+
+    john "You gave me seven pages to read through!"
+
+    show john b_27
+    show sayaka a_7
+    show cornelia b_24
+
+    sayaka "Did I not make it clear to read through all seven pages?!"
+
+    show sayaka a_16
+
+    john "..."
+
+    show john b_17
+
+    john "Maybe..."
+
+    show sayaka a_25
+
+    sayaka "Oh my fu-"
+
+    show sayaka a_7:
+        ease 0.5 ypos 1.0
+
+    sayaka "Come with me you fucking noodle brain."
+
+    show sayaka a_16:
+        ease 0.25 xpos 0.5
+        pause 0.25
+        faceleft
+        pause 0.25
+        ease 0.75 xpos 0.2 alpha 0.0
+    show john b_28:
+        pause 0.25
+        faceright
+        ease 0.25 ypos 1.0
+        pause 0.25
+        ease 0.75 xpos 0.285 alpha 0.0
+    show kiyoshi a_0:
+        pause 1
+        faceleft
+
+    "With that, she yanked me up and dragged me out of the lunchroom."
+
+    scene black with dissolve
+    scene bg school bathroom day
+    show sayaka a_16:
+        centerright
+        faceleft
+        alpha 0.0
+    show john b_11:
+        right
+        faceleft
+        alpha 0.0
+    pause 0.5
+    play sound sfx_door_close
+    show sayaka:
+        ease 0.5 center alpha 1.0
+        pause 1
+        faceright
+    show john:
+        pause 0.5
+        ease 0.5 centerright alpha 1.0
+    pause 0.5
+
+    "She dragged me into the women's bathroom."
+
+    #SKIP
+    show john:
+        centerright
+        alpha 1.0
+    show sayaka:
+        center
+        faceright
+        alpha 1.0
+
+    "Not that there was anything wrong with being here in my current situation, but..."
+
+    show john b_18
+
+    john "Why do we have to go in here together? If anyone sees me being in here together with a girl, it's going to spread rumors like wildfire!"
+
+    show john b_17
+
+    sayaka "Who cares about you. You need to remove the lenses right now so just deal with it."
+    john "We could've just have done this in the boy's bathro-"
+
+    show sayaka a_7
+    show john b_27
+
+    sayaka "Are you fucking stupid?! What if someone caught me being in there? Rumors would spread like wildfire!"
+
+    show john a_6
+    show sayaka a_16
+
+    think "..."
+    sayaka "Now get your ass to the mirror!"
+
+    show john b_25
+
+    john "Fine..."
+
+    show john:
+        ease 0.5 xpos 0.5
+    show sayaka:
+        ease 0.25 xpos 0.375
+
+    think "If it would remove this terrible itch then I'd put up with her shit."
+
+    show john b_0
+    show sayaka a_5 at faceleft
+
+    sayaka "Good. Now put a finger on your lower eye-lid and look up."
+
+    show john a_6
+
+    john "I do what?"
+
+    show sayaka a_16 at faceright
+
+    sayaka "Those instructions were, like, the {i}simplest{/i} instructions ever."
+
+    show john a_32
+
+    john "Well excusez moi, Ms. Perfect, but I've never done this before."
+
+    show sayaka a_24 at faceleft
+    show john a_0
+
+    sayaka "{i}Sigh{/i}..."
+
+    show sayaka a_16 at faceright
+
+    sayaka "Finger under your eye-lid."
+
+    show john b_0:
+        transform_anchor True
+        ease 0.75 rotate 5 ypos 1.05
+
+    john "Alright."
+
+    show john b_13
+    show sayaka at faceleft
+
+    "Really, something so simple should not be this terrifying."
+    "Sayaka's nails were, despite me not taking care of them at all, long and lethal to the eye."
+    "If I jerked my finger upwards, I would practically pierce my eye."
+
+    show sayaka a_5
+
+    sayaka "Now look up."
+    sayaka "The lens should slide down. Then you can grab it."
+
+    show john b_28
+
+    john "I what?! Grab it with these nails?!"
+
+    show sayaka at faceright
+
+    john "Oh god this feels weird as fuck!"
+
+    show sayaka a_7
+    show john b_27
+
+    sayaka "Stop crying you baby! Just pick it and take it out!"
+
+    show john b_11
+
+    "Easier said than done. Her nails were a thing, and I honestly have absolutely no idea of how not to mutilate my eyes like this."
+
+    show sayaka a_5 at faceleft
+
+    sayaka "Just use the... What's the word for it..."
+
+    show john b_26
+    show sayaka at faceright
+
+    john "Oh god I can feel it slowly sliding down under my eyelid!"
+
+    show john b_27
+    show sayaka a_7
+
+    sayaka "Pinch it out already! Use your... fingerprint-place of the finger!"
+
+    show sayaka a_16
+    show john b_28
+
+    john "What the fuck is the fingerprint-place of the finger?!"
+
+    show sayaka a_20
+
+    sayaka "Pinch it between your fingers! How hard can it be?!"
+
+    scene black with dissolve
+    pause 1
+
+    title "12th of August" "Day 5 - Zoey...?"
+
+    scene bg school hallway2 day
+    show zoey a_0 at centerleft, faceleft
+    show mel a_7 at center, faceleft
+    with dissolve
+
+    zoey "Oooh! And a burger place too! My great bro told me ll about it!"
+
+    show zoey b_2
+
+    zoey "You're gonna be amazed at that place especially!"
+
+    show zoey b_0
+    show mel b_0
+
+    mel "Sounds like you have this place mapped out fine, girl."
+
+    show mel a_2
+
+    mel "You know, burgers are somewhat of a specialty in my home-"
+
+    show zoey b_6
+    show mel a_0
+
+    zoey "Wait... Do you hear that?"
+
+    show mel a_7
+
+    mel "Huh?"
+
+    show zoey b_4
+
+    zoey "From in there."
+
+    show zoey a_2:
+        ease 0.75 xpos 0.2
+    show mel a_8:
+        ease 1 xpos 0.35
+
+    mel "I can't hear anythin-"
+
+    show mel a_7
+    show zoey a_3
+
+    sayaka "{size=-7}Just let me get it myself already!{/size}"
+    sayaka "{size=-7}You fucking suck at this!{/size}"
+
+    show mel a_8
+
+    john "{size=-7}N- No! Don't do it like that!{/size}"
+    john "{size=-7}Oh god it's even further in now! Get it out!{/size}"
+    mel "...Are they... Doing it in there?"
+
+    show zoey a_4 at faceright
+
+    zoey "Of course. This school really is just like Brad explained it."
+
+    show zoey a_2 at faceleft
+    show mel a_6
+
+    john "{size=-7}Oh my god! I finally got it out!{/size}"
+    john "{size=-7}Wait, no. Now it's stuck to my fingers! This stuff is sticky as hell!{/size}"
+
+    show zoey a_4 at faceright
+
+    zoey "Students are bold and full of youth here. It was a great idea to go to this high school."
+
+    show zoey a_2
+
+    mel "I'm really starting to regret entering this school if this is what happens in the first week..."
+
+    show zoey a_3
+
+    zoey "We should give them our respect and leave them alone."
+
+    show mel a_6
+
+    mel "...Yeah..."
+
+    show mel:
+        faceright
+        ease 0.75 center alpha 0.0
+    show zoey:
+        ease 0.75 centerleft alpha 0.0
+
+    sayaka "{size=-7}Fucking finally!{/size}"
+    sayaka "{size=-7}Now take out the other one.{/size}"
+    john "{size=-7}...There's another one?!{/size}"
+    sayaka "{size=-7}In the other eye, you fucking idiot.{/size}"
+
+    scene black with dissolve
 
 
 

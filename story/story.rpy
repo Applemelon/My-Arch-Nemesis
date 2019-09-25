@@ -7720,11 +7720,11 @@ label AN_day_1:
     show mel a_7 at center, faceleft
     with dissolve
 
-    zoey "Oooh! And a burger place too! My great bro told me ll about it!"
+    zoey "Oooh! And a burger place too! My great bro told me all about it!"
 
     show zoey b_2
 
-    zoey "You're gonna be amazed at that place especially!"
+    zoey "You're gonna be totally flabbergasted at their food!"
 
     show zoey b_0
     show mel b_0
@@ -7805,6 +7805,157 @@ label AN_day_1:
     sayaka "{size=-7}In the other eye, you fucking idiot.{/size}"
 
     scene black with dissolve
+    scene bg school hallway day
+    $ screenfilter.blur = 2.5
+    show black
+    show sayaka a_5 at Position(pos=(0.6, 1.0), anchor=(0.5, 1.0)), faceright
+    show john b_3 at Position(pos=(0.4, 1.0), anchor=(0.5, 1.0)), faceright
+    hide black
+    with dissolve
+    pause 1
+
+    john "Seriously, I can't see anything."
+
+    show sayaka a_16
+
+    sayaka "And that won't change after telling me three fucking times about it! I get it, my eyesight is shit. Can we move on to something else? Or just not talk anymore, preferably?"
+
+    show john b_5
+
+    john "Fine. Can you tell me the code to your phone then?"
+    sayaka "Why, so you can go snoop around on even more personal stuff?"
+
+    show john b_17
+
+    john "So I can use your fucking phone. I'm only able to take calls right now."
+    sayaka "Got anything else interesting you want to do with it?"
+
+    show john b_18
+
+    john "Well, yes, call you in case I need to know something. Or order take-out since your parents don't do a single thing all day except tell me how uninterested they are in me. Oh wait, they don't even bother telling me that."
+
+    show john b_17
+    show sayaka a_21 at faceleft
+
+    sayaka "Listen here, you little piece of shit."
+
+
+
+    sayaka "You can make fun of everything else and make me look like a circus clown, but if you dare say anything bad about mom and daddy, then you can kiss your ass goodbye. Got it?"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

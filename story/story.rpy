@@ -19,7 +19,7 @@ label AN_initited:
 
 label AN_day_1:
 
-    title "8th of August" "The first day - John"
+    title "8th of August (Monday)" "The first day - John"
 
     $ renpy.sound.set_volume(0.25)
     play sound [AN_sfx_alarm] loop
@@ -1333,7 +1333,7 @@ label AN_day_1:
 
     stop music fadeout 2
 
-    title "8th of August" "The first day - Sayaka"
+    title "8th of August (Monday)" "The first day - Sayaka"
 
     scene black
     show AN_bg auditorium:
@@ -1782,7 +1782,7 @@ label AN_day_1:
 
     stop music fadeout 2
 
-    title "8th of August" "The first day - John"
+    title "8th of August (Monday)" "The first day - John"
 
     play music bgm_marty_gots_a_plan
     scene bg school garden day
@@ -2067,7 +2067,7 @@ label AN_day_1:
     scene black with Dissolve(1.5)
     pause 1
 
-    title "9th of August" "Day 2 - Sayaka"
+    title "9th of August (Tuesday)" "Day 2 - Sayaka"
 
     outfit sayaka noshirt
     $ renpy.sound.set_volume(0.25)
@@ -2529,7 +2529,7 @@ label AN_day_1:
     pause 1.5
 
     think "What. The. Fuck. Is going on?!"
-    title "9th of August" "Day 2 - John"
+    title "9th of August (Tuesday)" "Day 2 - John"
 
     outfit john uniform_pony
     pause 0.5
@@ -3791,7 +3791,7 @@ label AN_day_1:
 
     scene black with Dissolve(1.0)
 
-    title "9th of August" "Day 2 - Night"
+    title "9th of August (Tuesday)" "Day 2 - Night"
 
     scene bg sayaka kitchen night lights off
     show john b_25 at offscreenleft, faceright
@@ -4409,7 +4409,7 @@ label AN_day_1:
     scene black with Dissolve(1.5)
     pause 1
 
-    title "11th of August" "Day 4 - John"
+    title "11th of August (Thursday)" "Day 4 - John"
 
     outfit john uniform_pony
     pause 1
@@ -5334,7 +5334,7 @@ label AN_day_1:
 
     scene black with Dissolve(1.5)
 
-    title "11th of August" "Day 4 - Sayaka"
+    title "11th of August (Thursday)" "Day 4 - Sayaka"
 
     outfit sayaka uniform
     pause 0.5
@@ -5515,7 +5515,7 @@ label AN_day_1:
 
     scene black with Dissolve(1.0)
 
-    title "12th of August" "Day 5 - John"
+    title "12th of August (Friday)" "Day 5 - John"
 
     show bg school entrance day:
         zoom 2.0 xalign 0.8 yalign 0.8
@@ -6345,7 +6345,7 @@ label AN_day_1:
     scene black with dissolve
     pause 1
 
-    title "12th of August" "Day 5 - Sayaka"
+    title "12th of August (Friday)" "Day 5 - Sayaka"
 
     pause 1
     scene bg classroom 1
@@ -6840,7 +6840,7 @@ label AN_day_1:
     scene black with dissolve
     pause 0.5
 
-    title "12th of August" "Day 5 - John"
+    title "12th of August (Friday)" "Day 5 - John"
 
     show bg lunch:
         zoom 2.0 xalign 0.05 yalign 0.65
@@ -7719,7 +7719,7 @@ label AN_day_1:
     scene black with dissolve
     pause 1
 
-    title "12th of August" "Day 5 - Zoey...?"
+    title "12th of August (Friday)" "Day 5 - Zoey...?"
 
     scene bg school hallway2 day
     show zoey a_0 at centerleft, faceleft
@@ -7900,7 +7900,7 @@ label AN_day_1:
 
     scene black with Dissolve(1.0)
 
-    title "13th of August" "Day 6 - John"
+    title "13th of August (Saturday)" "Day 6 - John"
 
     $ screenfilter.blur = 2
     outfit AN_harry uniform
@@ -8308,6 +8308,1216 @@ label AN_day_1:
     show sayaka a_5
 
     sayaka "Alright. Head... Butts..."
+    "Huh. I never imagined I'd see the day come."
+    "Sayaka sitting at the same table as Kiyoshi, alone, and they were talking with each other."
+
+    show john b_0:
+        alpha 0.0
+        right
+        faceleft
+    show cornelia b_13:
+        alpha 0.0
+        centerright
+        faceleft
+
+    "She had a small notebook she was writing in. Definitely related to swapping us back."
+
+    show cornelia:
+        ease 0.5 xpos 0.6 alpha 1.0
+    show john:
+        pause 0.25
+        ease 0.5 xpos 0.8 alpha 1.0
+
+    cornelia "Hey Saya."
+
+    #SKIP
+    show john:
+        xpos 0.8
+        alpha 1.0
+    show cornelia b_1:
+        xpos 0.6
+        alpha 1.0
+
+    show sayaka at faceright
+
+    sayaka "Hm? Oh, Corny."
+
+    show sayaka a_16
+
+    sayaka "And you."
+
+    show cornelia a_1:
+        ease 0.5 ypos 1.1
+    show john a_34:
+        ease 0.65 ypos 1.1
+
+    john "I feel very welcome."
+
+    show kiyoshi a_7
+    show sayaka a_5 at faceleft
+    show john a_0
+    show cornelia a_0
+
+    kiyoshi "J-girl and Corny! Good timing to arrive."
+
+    show sayaka a_5 at faceright
+    show cornelia a_19
+    show kiyoshi a_16
+
+    cornelia "Don't ever call me Corny again."
+
+    show cornelia a_5
+
+    kiyoshi "I see. Perhaps you're more of a {q}{i}Nelia{/i}{/q} kind of girl?"
+
+    show cornelia a_14
+    show john a_31
+
+    cornelia "Don't call me by any of your nicknames!"
+
+    show kiyoshi a_12
+
+    kiyoshi "Cornelia it is!"
+
+    show john a_5
+    show cornelia a_5
+
+    john "And could you at least settle on a name for me instead of changing it every time we meet? Not that I'd be against you just calling me by my name as well."
+
+    show sayaka a_16 at faceleft
+    show kiyoshi a_0
+
+    sayaka "Who cares about nicknames. You got anything else?"
+
+    show kiyoshi a_4
+
+    kiyoshi "I am afraid that this was it for now. But even if these methods end up without success, I've found a treasure trove of material that I can research during the weekend."
+
+    show kiyoshi a_6
+
+    kiyoshi "If you know what I mean by that, J-S-Girl."
+
+    show john a_6
+    show sayaka a_5
+    show cornelia a_15
+
+    "For some reason he was winking with one of his eyes towards me, even though it was clear as day that the two girls saw him doing the gesture and knew exactly what he meant."
+    sayaka "You mean you've found some sicko porn somewhere?"
+
+    show kiyoshi a_16
+
+    kiyoshi "It is not si- ...Uhhh... Noo...?"
+
+    show john a_5
+    show cornelia a_6
+
+    sayaka "As long as I don't have to read that shit and you find methods that could swap us back, whatever."
+
+    show sayaka at faceright
+
+    john "You're finding ways to re-enact the swap?"
+
+    show cornelia a_5
+
+    sayaka "Yes. We can try some of them right after we leave here."
+
+    show kiyoshi a_1
+
+    john "Mind if I ask what we're trying?"
+    sayaka "{i}Sigh... {/i} Yes..."
+
+    show sayaka a_16
+
+    sayaka "But just so your brain understands the circumstances, I am {b}only{/b} doing these things to hopefully turn things back to normal. Kapish?"
+
+    show john a_13
+
+    john "Yeah yeah."
+
+    show sayaka a_5
+
+    sayaka "So far we have drinking the same cup of water, ingesting each other's DNA... And, uh... {size=-5}Kissing...{/size} And headbutting each other."
+
+    show john a_10
+    show cornelia a_7
+
+    john "Oh. Sounds goo-"
+
+    show john a_3
+
+    john "{i}Kissing?!{/i}"
+    cornelia "No way you would make out with him, Saya!"
+
+    show sayaka a_16
+
+    sayaka "{size=-5}Shut the fuck up, both of you. If you're going to talk about something this gross then do it quietly! People are listening to everything we're saying!{/size}"
+
+    show john a_8:
+        faceright
+        pause 0.75
+        faceleft
+        pause 1
+        faceright
+    show cornelia a_8
+
+    "I instinctively looked around, and sure enough, there were some who had their attention on us. Not many, but some."
+
+    show john a_9
+    show cornelia a_0
+
+    "Starting rumors like this would be bad right now."
+
+    show john a_17 at faceleft
+
+    "Even though plenty rumors are probably making their rounds already."
+    john "Still, even if we were in death's stranding I'd never imagine that you of all people would actually agree to that."
+
+    show sayaka a_7
+
+    sayaka "Do I look like someone who wants to do that?"
+    sayaka "As I said, this is only for us to turn back."
+    sayaka "And as if it's not bad enough with it being you, kissing myself is weird as fuck. So don't think I'm doing it for fun or because I would enjoy it."
+
+    show john a_27
+    show sayaka a_16
+
+    "Oh yeah. That would mean me kissing myself as well."
+    "Shit, is that considered gay? Technically?"
+
+    show john a_8
+
+    "Besides, my first kiss would be with myself!"
+
+    show john a_30
+    show kiyoshi a_18
+
+    kiyoshi "Good on you S-man, if I could be in your shoes I'd take the offer."
+
+    show john a_27
+    show kiyoshi a_6
+
+    john "Who are you talking to now with that nickname? Me or Sayaka?"
+    kiyoshi "You, obviously."
+
+    show sayaka a_5 at faceleft
+    show john a_0
+    show kiyoshi a_17
+
+    sayaka "If I was stuck as Kiyoshi I think I'd jump off a cliff the moment I had the opportunity."
+
+    show john a_11
+    show sayaka at faceright
+
+    john "Hey hey, you just said something positive about me!"
+
+    show cornelia a_6
+    show sayaka a_16
+    show john a_10
+    show kiyoshi a_0
+
+    sayaka "I said that between Nazi Germany and North Korea, I would rather want to live in North Korea."
+
+    show john a_15
+
+    sayaka "North Korea being you in case you missed the analogy. Which means you are a terrible choice of residence."
+
+    show john a_31
+    show cornelia a_4
+
+    john "Man you're just brimming with humor."
+
+    show john a_0
+    show sayaka a_5
+
+    cornelia "Okay, we get it. You hate each other. Now here."
+
+    show kiyoshi a_1
+
+    "She shoved a glass of water that she got just earlier when we bought food to the middle of the table."
+
+    show cornelia a_5
+
+    cornelia "I didn't drink anything yet. So try your drinking thing."
+    "Both of us chugged a sip. Drinking from a glass of water is supposingly not a very difficult thing, but it was still awkward as all hell doing this."
+
+    show sayaka a_16
+
+    sayaka "This feels way too fucking intimate all of a sudden."
+
+    show john a_17
+    show cornelia a_14
+
+    john "Ditto."
+
+    show cornelia a_15
+
+    cornelia "And you two want to try kissing each other when youthink {i}this{/i} is intimate?"
+
+    show sayaka a_7
+    show cornelia a_14
+
+    sayaka "Oh shut up, bitch."
+
+    show john a_5
+    show cornelia a_5 at faceright
+    show sayaka a_16
+
+    john "Wait, so what did this actually accomplish? I am pretty sure we didn't drink from the same cup last sunday."
+
+    show sayaka a_5
+    show cornelia at faceleft
+
+    sayaka "Maybe we accidentally drank from the same bottle or something a week earlier. Who knows. The only thing that matters is whether it works or not."
+
+    show john a_0
+
+    "Still, my hopes were not exactly sky high for this to work."
+    john "I don't suppose this would take effect immediately, would it?"
+    sayaka "I don't know. With luck we are back to ourselves when we wake up tomorrow."
+
+    show sayaka at faceleft
+    show kiyoshi a_2
+
+    kiyoshi "Actually, the novel I read had the main characters swap immediately. I can only assume it was because of the DNA exchange of saliva entering the-"
+
+    show kiyoshi a_0
+    show sayaka a_16
+    show cornelia a_8
+
+    sayaka "And that's just about as much as I want to hear about that, thank you very much."
+
+    show cornelia a_5
+    show sayaka a_5 at faceright
+
+    cornelia "Anything else you want to try now? I remembered something we need to talk about later, Saya."
+    sayaka "What is it now?"
+
+    show cornelia a_4
+
+    cornelia "Well, you know, the party."
+
+    show sayaka a_2
+
+    sayaka "Party?"
+
+    show john a_13
+
+    john "The party?"
+
+    show kiyoshi a_6
+
+    kiyoshi "Aha! The party!"
+
+    show kiyoshi a_7
+    show cornelia a_6
+
+    kiyoshi "What party?"
+
+    show kiyoshi a_1
+    show sayaka a_20
+
+    sayaka "Oh shit! The party in two weeks!"
+
+    show sayaka a_15
+    show cornelia a_5
+
+    cornelia "Yes, that one."
+    sayaka "Fuck! We can't cancel that!"
+
+    show john b_5
+
+    john "Wait, party?"
+
+    show sayaka a_16
+    show john a_15
+
+    sayaka "...Ugh, you're just going to have to deal with it."
+
+    show john a_16
+    show cornelia at faceright
+
+    john "What party?!"
+
+    show cornelia a_0
+    show john a_17
+
+    cornelia "Sayaka's monthly party."
+
+    show john a_7
+
+    john "You do parties each month?"
+
+    show cornelia a_3
+    show john a_30
+
+    cornelia "Have you not noticed that Saya hosted parties every month last year?"
+
+    show kiyoshi a_11
+    show cornelia a_5 at faceleft
+    show sayaka a_5 at faceleft
+
+    kiyoshi "Ahh, yes. I've tried entering numerous times."
+
+    show kiyoshi a_9
+
+    kiyoshi "But somehow I never manage to get in."
+
+    show cornelia a_6
+    show sayaka a_16
+    show john a_0
+
+    sayaka "Because you aren't invited you knobhead."
+
+    show sayaka a_5 at faceright
+    show cornelia a_0 at faceright
+    show kiyoshi a_0
+    show john a_13
+
+    john "Is this like... Some kind of {q}popular people{/q} party you got going on?"
+    sayaka "Yes. Now you know why you don't know this exists."
+
+    show john a_6
+
+    john "Oof."
+
+    show john a_0
+    show sayaka a_19
+
+    sayaka "You have to ask permission from mom and daddy to host it on Saturday two weeks from now."
+
+    show john a_8
+
+    john "Wait, wait, wait. I am not hosting any parties, lady."
+
+    show sayaka a_5
+
+    john "I've barely even been to any!"
+
+    show sayaka a_16
+
+    sayaka "I will arrange everything if we haven't swapped back by then. All you need to do is do what I tell you to do."
+
+    show john a_17
+
+    sayaka "If I don't host these parties, people will start thinking lowly of me."
+
+    show cornelia a_5
+
+    cornelia "Exactly."
+
+    show john a_3
+    show sayaka a_5
+
+    john "Alright, alright. As long as I don't have to do anything."
+
+    show john a_6
+
+    sayaka "Good."
+
+    show sayaka at faceleft
+    show cornelia at faceleft
+    show kiyoshi a_6
+
+    kiyoshi "Could it be that the invitation I've been looking for for months might be showing itself to me now?"
+    sayaka "No."
+
+    show kiyoshi a_15
+
+    kiyoshi "Worth a try. Hey John, you will help me sneak in, right?"
+
+    show john a_6
+
+    john "You're on your own here bud."
+
+    show kiyoshi a_3
+
+    kiyoshi "Tough blow, J-man."
+
+    show john a_5
+
+    john "You'll get used to it."
+
+    show john a_0
+    show sayaka at faceright
+    show cornelia at faceright
+    show kiyoshi a_0
+
+    john "Anyways, you got anything else we need to do before we leave?"
+
+    show sayaka a_8
+
+    sayaka "Headbutting."
+
+    show cornelia a_14 at faceleft
+    show john a_26
+
+    john "Headbutting? You think we could have swapped because we headbutted each other?"
+    john "When have we ever headbutted each other?"
+
+    show john a_6
+    show sayaka a_16
+
+    sayaka "Who cares. I'm going to headbutt you. Get ready, and make sure I don't hit something important!"
+
+    show john a_32
+
+    john "Ugh, fine."
+
+    scene black with dissolve
+    pause 1
+    scene bg neighborhood2 day
+    show john b_9:
+        center
+        faceright
+        block:
+            ease 0.9 yanchor 0.99
+            ease 1.3 yanchor 1.00
+            repeat
+    show cornelia b_1 behind john:
+        centerright
+        faceright
+        block:
+            easein 0.8 yanchor 0.99
+            easein 1.2 yanchor 1.00
+            repeat
+    with dissolve
+
+    john "Agh, this still hurts!"
+
+    show cornelia b_0
+    show john b_8
+
+    john "Why did she have to headbutt me like we're in a deathmatch? She still doesn't get how strong she can hit now that she has my physique at all!"
+
+    show cornelia b_25
+    show john b_11
+
+    cornelia "I'm sure you deserved it."
+
+    show john b_19
+    show cornelia b_1
+
+    john "As if! I've been putting up with her shittalk for way too long! If anyone deserves a headbutt, it's her."
+
+    show john b_17
+    show cornelia b_24
+
+    cornelia "Yeah yeah, I get it, you're all bark and no bite."
+
+    show john b_33
+
+    john "You don't get fed up with her at all?"
+
+    show john b_31
+    show cornelia b_17
+
+    cornelia "Unlike you, I'm able to see Saya for what she is. A good friend and a great leader."
+
+    show cornelia b_6
+    show john b_11
+
+    cornelia "So when you're done whining about all your issues then maybe you could see just how fucked up this is for her."
+
+    show cornelia b_24
+
+    john "Oh come on, her life is far from perfect."
+
+    show cornelia b_17
+
+    cornelia "But she still remains positive and gets to call herself the queen of school."
+    cornelia "Your life is probably all peachy peachy with a nice family and all, but we don't all have that, Mr. Perfect."
+
+    show cornelia b_23
+
+    cornelia "Don't just think she is respected and feared by people for no reason."
+
+    show john b_13
+    show cornelia b_5
+
+    john "Well- Yeah, it's just..."
+
+    show john b_22
+
+    "Well she did have a point. Her parents basically didn't exist and her friends were for the most part all entirely artificial."
+
+    show john b_5
+
+    john "Even if she may have it hard here and there, she isn't the only one, you know."
+
+    show cornelia b_24
+
+    cornelia "You wouldn't understand what she has gone through anyways."
+
+    show john b_1
+
+    john "I guess I wouldn't. Either way, I don't want to spend the entire afternoon in another heated discussion. I've had enough of that lately."
+
+    show cornelia b_0
+
+    john "You were going to take me to the mall, right?"
+
+    show cornelia b_1
+
+    cornelia "Yup! They are currently selling some of the new Goopy skirts. We have to try some!"
+
+    show john b_6
+
+    john "...Goopy...?"
+
+    show cornelia b_17
+    show john b_27
+
+    cornelia "You don't know Goopy?!"
+
+    show cornelia b_23
+
+    cornelia "They make some of the most fashionable clothes and handbags!"
+
+    show john b_6
+
+    cornelia "Jeez, are you living in the last year or something?"
+
+    show cornelia b_5
+
+    john "It would seem I still have much to learn about this world."
+
+    scene black with Dissolve(1.5)
+    $ screenfilter.blur = 0
+
+    title "14th of August (Sunday)" "Day 7 - Sayaka"
+
+    outfit sayaka casual
+    scene bg main room day
+    show sayaka a_5:
+        centerleft
+        faceleft
+        ypos 1.1
+    with dissolve
+    pause 1
+    show sayaka a_2
+
+    sandra "{size=-5}Honey, Kiyoshi is here!{/size}"
+
+    show sayaka a_0
+
+    sayaka "Coming!"
+
+    show sayaka a_5:
+        ease 0.75 ypos 1.0
+
+    "Yeah... So this is me in a situation I never thought I'd find myself in."
+    "Kiyoshi - yes, that Kiyoshi - visiting my home for the time being."
+    "He promised to read up more about possible swap methods me and John could do and practically invited himself over, saying {q}It's fine because he would {i}technically{/i} be visiting John{/q}."
+
+    show sayaka a_24
+
+    sayaka "{i}Sigh...{/i}"
+
+    show sayaka a_2
+
+    "Were it not for my current situation I never would have let that freak near me, yet here he is, being more reliable than crappy John."
+
+    scene black with dissolve
+    outfit kiyoshi casual
+    scene bg main livingroom day
+    show kiyoshi a_1 at centerright, faceright
+    show sandra a_1 at right, faceright
+    show sayaka a_8:
+        offscreenleft
+        faceright
+        alpha 0.0
+    with dissolve
+    pause 0.25
+    show sayaka:
+        ease 1.0 centerleft alpha 1.0
+    pause 0.75
+    show kiyoshi at faceleft
+    show sandra a_9
+    pause 0.25
+
+    kiyoshi "Aha! {i}John{/i}, how nice to see you."
+
+    #SKIP
+    show kiyoshi:
+        centerright
+        faceleft
+
+    sayaka "Yeah yeah, whatever. Come with me."
+
+    show kiyoshi a_2:
+        ease 0.75 center
+
+    kiyoshi "Naturally."
+
+    show kiyoshi a_1 at faceright
+    show sandra b_9 at faceleft
+
+    sandra "Oh, John, before I forget, there will be some fruit salad later. Leona is coming over and we are making some."
+
+    show sayaka a_0
+
+    sayaka "Sure. Sounds delicious."
+
+    show kiyoshi at faceleft
+    show sayaka a_8
+
+    sayaka "Now come on, we've got a lot to cover today."
+
+    scene black with dissolve
+    pause 0.5
+    scene bg main room day
+    show sayaka a_5:
+        centerleft
+        faceright
+        ypos 1.1
+    show kiyoshi a_15:
+        centerright
+        faceright
+    with dissolve
+    pause 0.5
+    show kiyoshi a_14:
+        pause 0.25
+        faceleft
+        pause 1.5
+        faceright
+
+    kiyoshi "I must say, you've made an effort to keep this room clean."
+
+    show kiyoshi a_1 at faceleft
+
+    sayaka "Of course I have. The day I woke up there was shit everywhere in here."
+
+    show sayaka a_16
+
+    sayaka "I can't live with that."
+
+    show sayaka a_2
+
+    sayaka "Anyways, let's not beat around the bush. You found anything interesting?"
+
+    show kiyoshi a_6:
+        ease 0.5 ypos 1.1
+
+    kiyoshi "Ah yes. I can say that I am plenty proud of the info I've gathered yesterday."
+
+    show kiyoshi a_0
+
+    kiyoshi "I don't assume anything has happened since you gave John one of the most aggressive headbutts I've seen yet?"
+    sayaka "Nothing."
+    kiyoshi "Hm, that eliminates one of the three main tropes."
+
+    show kiyoshi a_1
+
+    kiyoshi "In... What do you call it nowadays... Modern literature-"
+
+    show sayaka a_5
+    show kiyoshi a_0
+
+    sayaka "In manga, not modern literature."
+    kiyoshi "Yes, as I said, in {i}modern literature{/i}, the big three swapping methods seem to be physical traumatic contact between two heads, kissing, and finally, lightning."
+
+    show sayaka a_32
+
+    sayaka "Lightning? I think I've heard about that. Two people struck by lightning and something happens, right?"
+
+    show kiyoshi a_9
+    show sayaka a_5
+
+    kiyoshi "Exactly. Since it would seem kissing is out of the question for now..."
+
+    show sayaka a_16
+    show kiyoshi a_13
+
+    sayaka "Of course it is! To begin with we never kissed each other anyways."
+
+    show kiyoshi a_15
+
+    kiyoshi "It never hurts to try, you know."
+    sayaka "Absolutely fucking yes it does."
+
+    show kiyoshi a_9
+
+    kiyoshi "Ah well. I guess John's first kiss will have to wait then."
+
+    show sayaka a_7
+
+    sayaka "You're trying to make me kiss him so he can have me as his first kiss?"
+
+    show sayaka a_16
+    show kiyoshi a_8
+
+    kiyoshi "I am a great wingman, aren't I?"
+    sayaka "Ugh, fuck you."
+
+    show kiyoshi a_1
+
+    kiyoshi "Anyhow, I have lots of other things you can try before attempting to electrocute both of you at the same time."
+
+    show sayaka a_5
+
+    "..."
+    "The guy had ideas, that was for sure."
+    "Magic spells, falling down stairs, brain swap during surgery, body swap potions, voodoo puppets, taking a shower at the same time, speaking someone's name three times in a mirror..."
+    "And all other kinds of insane shit he could come up with on the fly."
+    "Whether those ideas were rational or not was another thing entirely."
+
+    scene black with dissolve
+    pause 1
+
+    "But the main question we had to ask ourselves was still the same."
+    "Is this a question of {q}Why did it happen{/q}, or is it a question of {q}Who did it{/q}."
+    "It would be ideal if this happened by accident. If I could replicate it, then everything would go back to normal."
+    "I would be able to build up my reputation again, to live life as a winner and be, well, me."
+    "On the other hand, if this was caused by someone and I couldn't replicate it myself..."
+    "I would be at the mercy of whoever tries to destroy my life."
+
+    scene bg main room day
+    show sayaka a_5:
+        centerleft
+        faceright
+        ypos 1.1
+    show kiyoshi a_0:
+        centerright
+        faceleft
+        ypos 1.1
+    with dissolve
+
+    kiyoshi "Now, with all the quibble out of the way, let me give you my final thoughts on what truly happened between you and John."
+
+    show sayaka a_15
+
+    sayaka "You got even more?"
+    kiyoshi "Of course. And I think you will find this to be the most probable cause."
+
+    show sayaka a_5
+    pause 1
+
+    kiyoshi "Aliens."
+
+    pause 1
+    show sayaka a_33
+
+    sayaka "...Aliens?"
+
+    pause 1
+
+    kiyoshi "Aliens."
+
+    show sayaka a_7
+
+    sayaka "Why the fuck would aliens swap me and that nerd?"
+
+    show sayaka a_16
+    show kiyoshi a_7
+
+    kiyoshi "You see, I've long been gathering evidence on alien life. I believe you two were chosen as an alien experiment to swap the souls of two humans."
+
+    show kiyoshi a_17
+    show sayaka a_5
+
+    kiyoshi "Or maybe..."
+
+    show kiyoshi a_6
+
+    kiyoshi "Or maybe it was an accident when the aliens altered the reality on earth!"
+    kiyoshi "That's it!"
+
+    show sayaka a_33
+
+    sayaka "..."
+
+    show sayaka a_16
+    show kiyoshi a_1
+
+    sayaka "How does that help me swap back?"
+
+    show kiyoshi a_0
+
+    kiyoshi "It... Uh, doesn't. However, if we could make contact with these aliens, perhaps we could make a deal with them."
+
+    show sayaka a_5
+    show kiyoshi a_1
+
+    kiyoshi "What do you say we go make some crop circles?"
+
+    show sayaka a_16
+
+    sayaka "I am not making crop circles with you, Kiyoshi."
+
+    play sound sfx_knock
+    show sayaka a_5 at faceleft
+    show kiyoshi a_0
+
+    "Just as this discussion ended, Ms. Davis knocked on the door."
+    sandra "The salad is ready, boys."
+
+    show sayaka a_12
+
+    sayaka "Thanks!"
+
+    show kiyoshi a_1
+    show sayaka a_0 at faceright
+
+    sayaka "I'm hungry. Let's put this off for now."
+
+    show kiyoshi a_2
+    show sayaka a_5
+
+    kiyoshi "It has been a while since I have had something from Ms. Davis."
+
+    show sayaka a_10:
+        ease 0.75 ypos 1.0
+    show kiyoshi a_1:
+        pause 1.5
+        ease 1 ypos 1.0
+
+    sayaka "She makes really good food, trust me."
+
+    show sayaka a_15
+
+    think "...Wait."
+    think "I'm not getting along with him, am I?"
+
+    play sound sfx_door_open
+    show sayaka a_21:
+        faceleft
+        ease 1 xpos 0.0 alpha 0.0
+    show kiyoshi:
+        pause 0.5
+        ease 1 xpos 0.4 alpha 0.0
+
+    "I shuddered from the thought and left to eat something."
+
+    scene black with dissolve
+    pause 0.5
+    outfit leona casual_b
+    scene bg main livingroom day
+    show leona a_1:
+        centerright
+        faceright
+        xpos 0.6
+        ypos 1.15
+    show sandra a_1:
+        centerright
+        faceright
+        xpos 0.8
+        ypos 1.15
+    show sayaka a_0:
+        alpha 0.0
+        center
+        faceright
+        xpos 0.2
+    show kiyoshi a_1:
+        alpha 0.0
+        center
+        faceright
+        xpos 0.0
+    with dissolve
+    pause 0.5
+    show sayaka:
+        ease 0.5 alpha 1.0 xpos 0.3
+    show kiyoshi:
+        pause 0.25
+        ease 0.5 alpha 1.0 xpos 0.1
+    pause 0.5
+    show sandra a_0
+    pause 0.25
+    show leona at faceleft
+
+    sayaka "Hello Ms. Winters."
+
+    #SKIP
+    show sayaka:
+        alpha 1.0
+        xpos 0.3
+    show kiyoshi:
+        alpha 1.0
+        xpos 0.1
+
+    show leona a_4
+
+    leona "Good afternoon you two."
+
+    show leona a_1
+
+    leona "Help yourselves to some."
+    "She pointed to two extra bowls they had laid out for us."
+
+    show sayaka a_6
+
+    "Ms. Winters was one of the teachers I respected the most, if I had to mention one in particular."
+    "She didn't do all kinds of bullshit in her classes like some others would and did her job."
+    "For that, she would definitely be my pick as my favorite teacher."
+    "To think that she was close enough to Ms. Davis on a personal level to hang out with her though..."
+
+    show sayaka a_0
+    show kiyoshi a_2 behind sayaka:
+        ease 0.75 xpos 0.45
+
+    kiyoshi "Don't mind if I do."
+    sayaka "We'll take it back to my room."
+
+    show sandra b_1 at faceleft
+
+    sandra "Aw, but we were hoping to talk lots and lots about school and grades with you."
+
+    show sayaka a_15
+    show sandra b_9
+
+    sayaka "Wait, really?!"
+
+    show sayaka a_5
+    show leona a_4
+    show sandra b_0
+
+    leona "She's messing with you. Go enjoy it if you don't want to hang out with the old ladies."
+
+    show kiyoshi a_6
+    show leona a_1
+    show sandra b_9
+
+    kiyoshi "To be honest, I would not be against staying here with you two ladi-"
+
+    show sayaka a_16:
+        ease 0.25 xpos 0.325
+        pause 0.25
+        faceleft
+        pause 0.25
+        ease 0.5 xpos 0.225
+        pause 0.25
+        ease 0.5 xpos 0.125
+        pause 0.25
+        ease 0.5 xpos 0.025
+    show kiyoshi a_5:
+        transform_anchor True
+        pause 0.5
+        ease 0.25 rotate -5 ypos 1.03
+        ease 0.5 xpos 0.35
+        pause 0.25
+        ease 0.5 xpos 0.25
+        pause 0.25
+        ease 0.5 xpos 0.15
+    show leona a_6
+    show sandra b_5
+
+    sayaka "Don't you dare start with this again. We're going back to my room."
+
+    show sayaka a_5 at faceright
+    show kiyoshi a_6 at faceright
+
+    kiyoshi "Ah, I see. Well, anyone would be jealous if the Kiymaster chose someone else to talk with. May it be another day!"
+
+    show sayaka a_16:
+        faceleft
+        ease 1 xpos -0.05 alpha 0.0
+    show kiyoshi:
+        ease 1 xpos 0.05 alpha 0.0
+    show leona a_7
+    show sandra b_8
+
+    sayaka "Oh just shut it, you."
+
+    leona "Uh, yeah. See you later."
+
+    show sandra b_1
+
+    sandra "{size=-10}You think he still has a crush on you?{/size}"
+
+    show sandra b_0
+    show leona b_8 at faceright
+
+    leona "S- S- Sandra! Don't say that!"
+
+    scene black with dissolve
+    pause 0.25
+    scene bg main room day
+    show sayaka a_24:
+        faceright
+        centerleft
+        alpha 0.0
+    show kiyoshi a_4:
+        faceright
+        left
+        alpha 0.0
+    with dissolve
+    play sound sfx_door_open
+    show sayaka:
+        ease 0.75 centerright alpha 1.0
+    show kiyoshi:
+        pause 0.5
+        ease 0.5 centerleft alpha 1.0
+
+    sayaka "For god's sake..."
+
+    show sayaka a_16 at faceleft
+    show kiyoshi a_0
+
+    sayaka "You know, you could actually be tolerable to talk to..."
+
+    show kiyoshi a_1
+
+    kiyoshi "Hm? Have I perhaps broken through to you?"
+
+    show kiyoshi a_4
+
+    sayaka "If, you would stop doing this pathetic excuse of an attempt at flirting and frankly creepy shit you're doing, that is."
+
+    show kiyoshi a_3
+
+    "God, this guy. Now he looked confused at me."
+    kiyoshi "Uhm, what are you talking about?"
+
+    show sayaka a_7
+    show kiyoshi a_16
+
+    sayaka "You!"
+    sayaka "I never imagined even once that I would have this conversation with you!"
+
+    show kiyoshi a_5
+
+    sayaka "But apparently it's needed for you to face fucking facts. You're disgusting, you know?"
+
+    show kiyoshi a_11
+    show sayaka a_16
+
+    kiyoshi "Aha, don't say it like tha-"
+
+    show sayaka a_7
+    show kiyoshi a_0
+
+    sayaka "I am fucking serious!"
+    sayaka "All you do is jump from one girl to the next like a perverted dog in heat!"
+
+    show kiyoshi a_4
+
+    sayaka "I think I've slapped you and pepper sprayed you at least 50 times now and you still don't get it!"
+    sayaka "Girls don't like it when you're trying your mating rituals! Why don't you get it?!"
+
+    show sayaka a_16
+
+    kiyoshi "..."
+
+    show kiyoshi a_0
+
+    kiyoshi "I would not per se say that I made any moves on any of the ladies downstairs though."
+
+    show sayaka a_7
+
+    sayaka "That's totally besides the point!"
+    sayaka "How many times do you need to have an anchor smacked across your face before you finally take the hint?"
+
+    show sayaka a_25
+    show kiyoshi a_5
+
+    sayaka "Nobody wants to be {q}flirted{/q} at by some dipshit!"
+
+    show sayaka a_16
+
+    kiyoshi "..."
+    "Finally, it seems he takes offense to me."
+
+    show kiyoshi a_4
+    show sayaka a_2
+
+    sayaka "{i}Sigh...{/i} Look..."
+    sayaka "I am not going to lie. I am not against being friends with you. You seem reliable and trustworthy, unlike many other people."
+
+    show sayaka a_5
+
+    sayaka "But the moment you start thinking with your dick you become such a massive turn-off."
+
+    show sayaka a_2
+
+    sayaka "Get it?"
+
+    show kiyoshi a_3
+
+    kiyoshi "...Kind of?"
+    kiyoshi "You are not mad at me then?"
+
+    show sayaka a_16
+    show kiyoshi a_0
+
+    sayaka "I am angry as fuck at you right now. But it's not the {q}Fuck you{/q} kind of angry, it's the dissapointment kind of."
+
+    show sayaka a_5
+
+    sayaka "But... Look. You're helping me by spending your time. I can't pay you back in money, but what if I gave you some actual tips on how to get into a girl's pants?"
+
+    show kiyoshi a_5
+
+    sayaka "Not only would it help you, but also all the girls who have to listen to your constant barking."
+
+    show kiyoshi a_14
+
+    kiyoshi "You'd do that?"
+
+    show sayaka a_3
+
+    sayaka "I am the master matchmaker in this school for a reason after all."
+    sayaka "Even finding some random nerd for you should be a breeze."
+
+    show sayaka a_17
+    show kiyoshi a_8
+
+    kiyoshi "That would be a gift I would never be able to refuse."
+
+    show kiyoshi a_11
+    show sayaka a_5
+
+    kiyoshi "I would need to give you my extensive list of research that has helped me create {q}Kiyoshi's Womanly Exam{/q} then!"
+
+    show kiyoshi a_1
+    show sayaka a_16
+
+    sayaka "What the hell is that?"
+
+    show kiyoshi a_2
+
+    kiyoshi "Ah, you see: This is a kind of qualification process in which I examine the bodily structure and personal integr-"
+
+    show sayaka a_20
+
+    sayaka "{i}Not listening!{/i}"
+
+    scene black with dissolve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

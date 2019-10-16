@@ -9481,36 +9481,250 @@ label AN_day_1:
     sayaka "{i}Not listening!{/i}"
 
     scene black with dissolve
+    pause 0.5
+    scene bg main house dusk
+    show kiyoshi a_2 at right, faceleft
+    show sayaka a_0 at centerleft, faceright
+    show sandra b_0 at left, faceright
+    with dissolve
+    pause 0.75
+    show kiyoshi a_1:
+        faceright
+        ease 0.75 alpha 0.0 offscreenright
+    pause 0.5
+    scene black with dissolve
+    play sound sfx_door_open
+    scene bg main entrance day
+    show sandra b_9:
+        alpha 0.0
+        offscreenleft
+        faceright
+    show sayaka a_0 behind sandra:
+        alpha 0.0
+        left
+        faceright
+    with dissolve
+    pause 0.25
+    show sandra:
+        pause 0.25
+        ease 1.0 alpha 1.0 centerleft
+    show sayaka:
+        ease 0.75 alpha 1.0 center
+    pause 0.85
+    play sound sfx_door_close
 
+    sandra "He looked happier than usual."
 
+    #SKIP
+    show sayaka:
+        alpha 1.0
+        center
+    show sandra:
+        alpha 1.0
+        centerleft
 
+    show sayaka a_2 at faceleft
 
+    sayaka "Kiyoshi?"
 
+    show sayaka a_5
 
+    sayaka "I just promised him something."
 
+    show sandra a_1 at faceleft
 
+    sandra "Oh? And what would that be?"
 
+    show sayaka a_6
+    show sandra a_0
 
+    sayaka "It's not something I'm planning on telling you."
 
+    show sandra a_2
 
+    sandra "Ah darn. For a moment I thought it was because you gave him your console."
 
+    show sayaka a_5
 
+    sandra "I didn't think I'd see the day where you of all people would give it away for free."
 
+    show sayaka a_2
 
+    sayaka "He just... Asked for it."
+    "He did. But it wasn't specifically him who wanted that video game thing."
+    "Apparently John had nothing to do all day, so rather than him doing weird shit in my body, I'd let him play on that thing instead. He did ask Kiyoshi to bring it to him now that he was here anyways."
 
+    show sayaka a_5
 
+    "I did make it perfectly clear that absolutely {i}nobody{/i}, especially my parents, should ever find out about it."
+    "And it wasn't like I'd ever use it myself, so while we were swapped, he could have that piece of junk."
 
+    show sandra a_4
 
+    sandra "I know I've asked this at least ten times this week but are you sure you're alright John?"
+    sandra "It's just so unlike you to suddenly go to bed early and study."
 
+    show sandra b_3 at faceright
 
+    sandra "Not that I'm complaining."
 
+    show sayaka a_6
 
+    sayaka "It's fine. It's just for a week or two, I hope."
 
+    show sandra b_4
 
+    sandra "You hope?"
 
+    show sandra b_5
 
+    sandra "Is this one of those challenges I've read about on the internet?"
 
+    show sayaka a_10
 
+    sayaka "Wha- No no, none of that. I just... felt like it..."
+
+    show sayaka a_0
+    show sandra b_3
+
+    sandra "..."
+
+    show sandra b_9
+
+    sandra "In that case, if you don't want to play games, do you want to watch a movie after dinner?"
+
+    show sayaka a_5
+
+    sayaka "A movie?"
+    "Now she's piqued my interest."
+
+    show sayaka a_0
+
+    sayaka "What kind of movie?"
+
+    show sandra b_0
+
+    sandra "Anything you'd like."
+
+    show sayaka a_5
+    show sandra b_9
+
+    think "Huh... Well, if John gets to act however he wants in front of the people I know, I'm sure I should be allowed to watch some crappy teen movie."
+
+    show sayaka a_12
+
+    sayaka "I'd love to. And if there is still some of your fruit salad left, we totally should have some while watching. That stuff was just delish."
+
+    show sandra b_1
+
+    sandra "Now that's a promise."
+
+    scene black with dissolve
+    pause 1
+
+    title "15th of August (Monday)" "Day 8 - Sayaka"
+
+    outfit sayaka uniform
+    show bg school entrance day:
+        zoom 2.0 xalign 0.2 yalign 0.8
+    show carrie a_0 at left, faceright
+    show sayaka a_5 at centerleft, faceright
+    with dissolve
+    show sayaka:
+        block:
+            ease 1.3 ypos 1.02
+            ease 1.1 ypos 1.0
+            repeat
+    show carrie:
+        block:
+            ease 1.2 ypos 1.02
+            ease 1.0 ypos 1.0
+            repeat
+
+    carrie "It is nice weather today, isn't it?"
+
+    show sayaka a_32
+
+    sayaka "Uh, sure."
+
+    show carrie a_15
+
+    carrie "..."
+
+    show sayaka a_16
+    show bg school entrance day:
+        ease 5 xalign 0.3
+
+    think "Ugh, it'd be best if that psycho would just do as she is told instead of trying to talk."
+    "It's not like she wasn't useful though, she carried my stuff around and somehow managed to be around to carry my stuff home as well at the end of the day."
+
+    show sayaka a_5
+
+    think "Which makes you think about what she even does the entire day."
+
+    show cornelia b_8:
+        alpha 0.0
+        faceleft
+        right
+
+    think "Not that I care."
+
+    show carrie a_2:
+        ease 0.5 ypos 1.0
+    show sayaka:
+        faceleft
+        ease 0.5 ypos 1.0
+
+    sayaka "Alright, my stuff."
+
+    show carrie a_15
+
+    carrie "Here you go."
+
+    "It wasn't {i}that{/i} heavy of a backpack that I had to carry around, but if I had the service available, I wouldn't let it go to waste."
+
+    show cornelia:
+        ease 0.75 alpha 1.0 centerright
+    show bg school entrance day:
+        ease 0.5 xalign 0.3
+
+    cornelia "{size=-5}Saya!{/size}"
+
+    show sayaka a_2 at faceright
+    show carrie a_2
+
+    carrie "..!"
+    "I saw Cornelia running towards me, and behind her was John who..."
+
+    show cornelia b_21
+    show sayaka a_21
+
+    outfit john uniform_pony_pants
+    accessory john set glasses
+    show john b_15:
+        alpha 0.0
+        offscreenright
+        faceleft
+
+    cornelia "Saya, please don't get angry now! I told him this would ruin your reputation but he insisted that it wasn't a big deal, and-"
+
+    show sayaka a_7
+
+    sayaka "...What the fuck is he wearing?!"
+
+    show bg school entrance day:
+        ease 0.75 xalign 0.8
+    show carrie:
+        ease 0.75 offscreenleft alpha 0.0
+    show sayaka:
+        ease 0.75 xpos 0.2 alpha 0.0
+    show cornelia a_8:
+        ease 0.75 xpos 0.4 alpha 0.0
+    show john:
+        pause 0.25
+        ease 0.5 centerright alpha 1.0
+
+    "Not like I couldn't tell it by myself though."
 
 
 

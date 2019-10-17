@@ -2356,6 +2356,8 @@ label AN_day_1:
     "I decided to just do it. There is no way that I can't live as John Davis, I may be one of luxury and status, but that does not mean that I am unable to do these mundane things that he can."
     "Even then, I despised having to do this, but Ms. Davis would probably flip completely if I didn't do it."
 
+    #TODO: Remove AN_carrie
+
     scene black with dissolve
     body carrie AN_carrie
     scene bg main house day
@@ -9712,6 +9714,8 @@ label AN_day_1:
 
     sayaka "...What the fuck is he wearing?!"
 
+    #TODO: Fix Sayaka legs with jeans on
+
     show bg school entrance day:
         ease 0.75 xalign 0.8
     show carrie:
@@ -9725,6 +9729,259 @@ label AN_day_1:
         ease 0.5 centerright alpha 1.0
 
     "Not like I couldn't tell it by myself though."
+
+    hide sayaka
+    hide cornelia
+    hide carrie
+
+    "He had completely dropped my skirt and went to school in fucking jeans!"
+    "Who does that?!"
+
+    show sayaka a_7:
+        centerleft
+        faceright
+        alpha 0.0
+
+    "And he was using glasses too!"
+
+    show sayaka:
+        ease 0.5 center alpha 1.0
+    show john b_0
+
+    sayaka "You prick!"
+
+    show john b_2
+    show sayaka a_16
+
+    john "Why hello there."
+
+    show john b_10
+
+    john "Do you at least want to hear me explain why I'm using jea-"
+
+    show john b_27
+    show sayaka a_20
+
+    sayaka "I won't let you explain shit! You're going to go home {i}right now{/i} and change back to what I always wear!"
+
+    show john a_17
+    show sayaka a_21
+
+    john "Dude, people can hear us talking."
+
+    show sayaka at faceleft
+    show cornelia b_14 behind sayaka:
+        left
+        faceright
+        alpha 0.0
+    show carrie a_13 behind cornelia:
+        offscreenleft
+        faceright
+        alpha 0.0
+
+    "Luckily I was able to grasp myself before becoming completely angry. We were in front of the school, of course there would be people watching."
+
+    show sayaka at faceright
+    show carrie:
+        ease 0.75 alpha 1.0 left
+    show cornelia:
+        ease 0.5 centerleft alpha 1.0
+
+    "But it's not like that fucking matters now anyways! What are people going to think when they see a supposed beauty queen looking like a geek from some pervy magazine?"
+
+    show john a_13
+
+    john "Look, I {i}really{/i} hate wearing skirts, and since it seems we're going to be stuck for a long while, I thought-"
+
+    show john a_0
+    show sayaka a_7
+
+    sayaka "Thought what?!"
+
+    show sayaka a_16
+    show john a_32
+    show carrie a_10
+
+    "He paused a moment in shock and promptly gave me {i}those{/i} eyes that this prick always gives me, as if he thinks he is above me."
+
+    show john a_5
+
+    john "I thought that I'd like to feel just a bit comfortable. No offense, but your life is boring to me and your clothing sucks to wear."
+
+    show sayaka a_7
+
+    sayaka "Are you even trying to figure out how to swap back?!"
+
+    show sayaka a_16
+    show john b_18
+
+    john "How am I supposed to?! I don't have access to the most basic human right nowadays which is internet because your chummy ass refuses to let me access your computer or phone!"
+
+    show sayaka a_7
+    show john b_17
+    show cornelia a_8 at faceleft
+
+    sayaka "Because you'd abuse the hell out of access to those things!"
+
+    show cornelia b_8 at faceright
+    show sayaka a_16
+
+    cornelia "...G- Guys, calm down-"
+
+    show john b_19
+
+    john "But you wouldn't abuse access to {b}my{/b} phone by digging through it to find all kinds of dirt on it?! I bet you've already browsed through every single conversation I've had with my friends on there!"
+
+    show john b_17
+    show sayaka a_20
+    show cornelia b_26 at faceleft
+
+    sayaka "How fucking dare you accuse me of anything!"
+
+    show john a_3
+    show sayaka a_21
+
+    john "Oh I dare to accuse you very much you communist bitch!"
+
+    show john a_26
+    show carrie a_13
+    show cornelia at faceright
+
+    john "Also, what the fuck is Carrie doing here?!"
+    carrie "Huh?"
+
+    show cornelia b_3 with hpunch
+    show sayaka a_15 at faceleft
+    show john a_30
+
+    cornelia "{i}{b}{size=+5}GUYS!{/size}{/b}{/i}"
+
+    show sayaka a_7
+    show john a_3
+    show cornelia b_26
+
+    both "What?!"
+
+    show sayaka a_16
+    show john a_17
+    show cornelia a_8
+
+    cornelia "{b}Everyone{/b} is staring at us!"
+
+    show john a_5:
+        pause 0.5
+        faceright
+        pause 1.0 faceleft
+    show sayaka a_5:
+        pause 1.0
+        faceright
+
+    "We both looked around, and sure enough, an absolutely massive crowd had formed around us."
+
+    show sayaka at faceleft
+
+    "Almost similar to the kinds of crowds that gather in a ring around a fist-fight in a school in one of those teen movies."
+
+    show john a_4
+    show sayaka at faceright
+
+    john "Uh..."
+
+    show cornelia a_5
+
+    john "Okay, I'll admit, I'm sorry, but I'm not going back home to change now."
+
+    show sayaka a_16
+    show john a_5
+
+    sayaka "Yes, you are."
+
+    show john b_19
+    show cornelia a_11
+
+    john "Seriously, who are you to decide after just randomly dying my hair pink."
+
+    show sayaka a_7
+    show john b_17
+
+    sayaka "You deserved it!"
+
+    show cornelia b_17
+    show sayaka a_16
+
+    cornelia "Oh my fucking-"
+
+    show cornelia b_3
+
+    cornelia "Both of you, come with me, right now!"
+
+    show cornelia b_18:
+        ease 2 xpos 1.2
+    show sayaka a_15:
+        transform_anchor True
+        faceleft
+        pause 0.75
+        ease 0.25 rotate 5
+        ease 1.5 xpos 1.2
+    show john b_27
+    pause 1
+    show john b_28:
+        transform_anchor True
+        ease 0.25 rotate 5
+        ease 1 xpos 1.2
+
+    "Corny grabbed both our sleeves and had a look on her face that was a mix between anger and embarrassment."
+
+    show carrie a_16
+
+    sayaka "Carrie, go home, I have shit to do!"
+
+    scene black
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 label AN_start:
 
-    define both = Speaker('Both', voice_male, color='#bf8eb8')
+    define both = Speaker('Sayaka & John', voice_male, color='#bf8eb8')
 
     body john AN_sayaka underwear
     body sayaka AN_john uniform

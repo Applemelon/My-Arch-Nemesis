@@ -9936,52 +9936,646 @@ label AN_day_1:
 
     sayaka "Carrie, go home, I have shit to do!"
 
-    scene black
+    scene black with dissolve
+    pause 0.5
+    scene bg school garden day
+    show john b_6:
+        offscreenleft
+        xpos -0.35
+        faceleft
+        transform_anchor True
+        rotate 5
+    show sayaka a_7:
+        offscreenleft
+        xpos -0.37
+        faceleft
+        transform_anchor True
+        rotate 5
+    show cornelia b_24:
+        offscreenleft
+        faceright
+    with dissolve
+    pause 0.25
+    show john:
+        ease 1.5 centerright
+        faceleft
+        ease 0.25 rotate 0 ypos 1.0
+    show sayaka:
+        pause 0.75
+        ease 0.6 centerleft
+        ease 0.25 rotate 0 ypos 1.0
+        faceright
+    show cornelia:
+        pause 0.25
+        ease 1.0 center
+    pause 1
 
+    "Corny dragged us away from the crowd, coincidentally to where I dragged John the first few times."
 
+    #SKIP
+    show john b_4:
+        centerright
+        rotate 0
+        faceleft
+    show sayaka a_16:
+        centerleft
+        rotate 0
+        faceright
+    show cornelia a_14:
+        center
+        faceleft
 
+    "When there was nobody else in sight, she released her grip from our clothes and stood in place for a few seconds."
 
+    show cornelia a_3
 
+    cornelia "What are you two doing?!"
 
+    show john b_7
+    show cornelia a_14
+    show sayaka a_5
 
+    john "Wha-"
 
+    show cornelia a_5
 
+    cornelia "You are both making us look like complete idiots!"
 
+    show sayaka a_7
+    show john b_0
 
+    sayaka "I am making us look like idiots?! Look at this dickhead who is making me look like one alre-"
 
+    show cornelia b_3
+    show sayaka a_15
+    show john b_11
 
+    cornelia "Don't you think I've told him how absolutely stupid he is already for doing this?!"
+    cornelia "Do you really think telling him to go fuck himself is going to change anything?!"
 
+    show cornelia b_14
+    show sayaka a_4
+    show john b_15
 
+    sayaka "Wh- Why are you talking back to me?!"
 
+    show sayaka a_15
 
+    "This guy was just grinning because Corny of all fucking people dared to talk to me like a superior or something."
 
+    show sayaka a_21
 
+    think "I swear, when we swap back..."
 
+    show sayaka a_16
+    show cornelia a_4 at faceright
+    show john b_13
 
+    cornelia "Can you guys just, for once, not argue in front of each other?"
 
+    show sayaka a_7
+    show cornelia b_5 at faceleft
 
+    sayaka "How am I supposed to-"
 
+    show sayaka a_15
+    show cornelia b_3
 
+    cornelia "Hey!"
 
+    show cornelia b_17
 
+    cornelia "Don't say another word!"
 
+    show cornelia b_14
+    show sayaka a_21
+    show john b_11
 
+    sayaka "You- But- "
 
+    show sayaka a_20 at faceleft
+    show john b_2
 
+    sayaka "{b}{i}ARGH!{/i}{/b}"
 
+    show sayaka a_24
+    show cornelia at faceright
 
+    think "Fuck!"
 
+    show cornelia b_17
+    show john b_11
+    show sayaka a_16
 
+    think "I know she's right, keeping up this bullshit is only going to make me look like an equal to that idiot."
 
+    show john b_21
+    show cornelia b_14
+    show sayaka at faceright
 
+    "He himself looked content being able to get away without anything happening though..."
 
+    show cornelia a_5 at faceleft
+    show john b_25
 
+    think "I need my payback on this, and I'm so going to get it soon, just you wait."
+    cornelia "Are we fine?"
+    sayaka "Urgh, yes! Fine! Do whatever you want!"
 
+    show john a_24
+    show cornelia at faceright
 
+    john "I was fine from the beginning."
 
+    show sayaka a_7
+    show cornelia at faceleft
 
+    sayaka "You-"
 
+    show sayaka a_16
+    show cornelia b_23
+    show john a_31
 
+    cornelia "Good! Then we're all going to our classes. Alright?"
+
+    show john a_13
+    show sayaka a_5
+    show cornelia b_24
+
+    sayaka "...Alright, fine."
+
+    show john a_11
+
+    john "Sure."
+
+    show john a_10
+
+    "I felt a bit calmer now, maybe Corny talking back turned out to be the best for me."
+    "Before leaving, I got a glimpse of his face. He smiled, clearly enjoying seeing me beaten."
+
+    show sayaka:
+        faceleft
+        ease 3 xpos -0.2
+    show john a_13
+
+    "I knew that this was his own pathetic way of getting payback at me for using that stupid dye on his hair. I need to figure out some way to get at him that would hit him good."
+
+    show john a_1
+    show cornelia a_11 at faceright
+
+    john "See you at lunch then...?"
+
+    show cornelia at faceleft
+
+    sayaka "{size=-5}Whatever.{/size}"
+
+    show cornelia a_19
+
+    cornelia "...Sigh..."
+
+    scene black with dissolve
+    pause 1
+
+    title "16th of August (Tuesday)" "Day 9 - Sayaka"
+
+    outfit kiyoshi uniform
+    pause 1
+    scene bg lunch
+    show sayaka a_5:
+        center
+        faceright
+        ypos 1.1
+    show cornelia a_0:
+        centerright
+        faceleft
+        ypos 1.1
+    show kiyoshi a_17:
+        centerleft
+        faceright
+        ypos 1.1
+    with dissolve
+
+    sayaka "So, any ideas?"
+
+    show cornelia a_4
+
+    cornelia "Really, do you think it's a good idea to do anything...?"
+
+    show cornelia a_5
+
+    cornelia "I mean, it would just end up becoming a loop of both of you wanting payback..."
+
+    show sayaka a_16
+
+    sayaka "No, I need it. I cannot live knowing that that moron is able to pose around as me with those clothes."
+    cornelia "I guess as long as we keep an eye on him to make sure he doesn't do something stupid..."
+
+    show sayaka a_5
+
+    "Normally, I would consult everyone at my former table to figure out some way to really put someone back into their place somehow."
+    "If people annoyed me to no end, they would end up facing me and my group unless they kissed my feet."
+
+    show sayaka a_16
+
+    "But things were different now. John was wearing my face and the only help I had was Corny."
+
+    show sayaka a_5 at faceleft
+
+    "And, well, Kiyoshi, who was currently somehow reading something on his phone while also eating lunch."
+
+    show cornelia a_12
+    show sayaka a_2
+
+    cornelia "Well, got anything in mind?"
+
+    show sayaka a_5 at faceright
+    show cornelia a_1
+
+    sayaka "I need something that degrades him even further than where he already is."
+    sayaka "Something that he wouldn't notice so that he doesn't get the idea to do the same thing to me."
+
+    show sayaka a_2
+
+    sayaka "I don't know. I already fucked up his friendship with Katrina and Kyoko. Those are pretty much the only girls he talks with, so..."
+
+    show cornelia a_11
+
+    cornelia "Girls?"
+
+    show cornelia a_0
+    show sayaka a_3
+
+    sayaka "Wouldn't it be hilarious to see his chances of ever getting another girlfriend smother away? Heh, that's a good thought."
+
+    show cornelia a_7
+    show sayaka a_5
+
+    cornelia "You want to neuter yourself...? While in his body?"
+
+    show sayaka a_20
+    show cornelia a_20
+
+    sayaka "What?! No!"
+
+    show sayaka a_16
+
+    sayaka "Don't joke about that, I'm not... Doing that!"
+
+    show cornelia a_0
+    show sayaka a_5
+
+    "I took a bite out of my sandwich and thought about hard it."
+    sayaka "I don't know, I don't typically ruin my reputation with girls as a guy."
+
+    show cornelia a_12
+
+    cornelia "Ah, so that's what you want to do."
+
+    show cornelia a_22
+
+    cornelia "Uh... Maybe you could wear some weird clothes too...?"
+
+    show cornelia a_0
+    show sayaka a_32
+
+    sayaka "Nah, that's too obvious. I need the reputation gone, not just something that might attract someone else."
+    sayaka "Hmm... If there was something I could get inspiration from, this would be much easier."
+
+    show sayaka a_2
+
+    sayaka "Do we even have examples of someone in this school who all girls just, like, hate?"
+
+    show cornelia a_4
+
+    cornelia "Hmm..."
+    "..."
+
+    show sayaka a_15 at faceleft
+    show cornelia b_11
+
+    "...!"
+    "As if having the exact same thought, we both looked at the guy sitting at our table peacefully reading."
+
+    show sayaka a_14 at faceright
+    show cornelia b_29
+
+    "Both of us pointed at him in silence and then turned to each other."
+    sayaka "Oh!"
+
+    show cornelia b_10
+
+    cornelia "We have the greatest weapon right here!"
+
+    show sayaka a_3 at faceleft
+    show cornelia b_22
+    show kiyoshi a_16
+
+    "He noticed us both staring at him after a while and looked at us with a confused look."
+
+    show kiyoshi a_5
+
+    kiyoshi "...Huh?"
+
+    show kiyoshi a_4
+
+    sayaka "You!"
+
+    show kiyoshi a_5
+
+    kiyoshi "...Me?"
+
+    show sayaka a_17
+    show kiyoshi a_9
+
+    sayaka "Tell us how you act around girls!"
+    kiyoshi "Wh-"
+    "He looked as if he had just seen a ghost or something."
+
+    show kiyoshi a_3
+
+    kiyoshi "Act around girls? Could it perhaps be that you want to entrap the heart of a woman just like I do?"
+
+    show sayaka a_2
+    show cornelia b_24
+    show kiyoshi a_0
+
+    sayaka "Uh... Yeah, whatever you just said."
+
+    show kiyoshi a_5
+    show sayaka a_5
+
+    kiyoshi "Oh no. Could it be that you truly are lesbian?"
+
+    show sayaka a_7
+    show cornelia b_0
+
+    sayaka "Wha- No! I just need to give John some payback by having all girls see him like they see you, you kno-"
+
+    show sayaka a_15 at faceright
+    show cornelia b_17
+    show kiyoshi a_4
+
+    cornelia "Hey, don't tell him the plan! He sides with John after all!"
+
+    show sayaka a_2 at faceleft
+    show cornelia b_14
+    show kiyoshi a_6
+
+    kiyoshi "Ah, you want to pay back John's misdoings against you by making him a favor? How wholehearted of you."
+
+    show sayaka a_33
+    show cornelia b_6
+
+    "..."
+    sayaka "...Yeah, that."
+
+    show kiyoshi a_12
+
+    kiyoshi "Could this perhaps be a part of my training then?"
+
+    show sayaka a_2
+    show cornelia b_24
+
+    think "His training...?"
+
+    show sayaka a_32
+
+    think "Oh yeah, I did promise him to {i}flirt better{/i} or something..."
+
+    show sayaka a_6
+
+    sayaka "Uh, yes, I want to try out how you approach girls first, you know."
+
+    show cornelia b_23
+    show sayaka a_2 at faceright
+    show kiyoshi a_0
+
+    cornelia "What is this {q}training{/q} I just heard about?"
+
+    show kiyoshi a_14
+    show sayaka a_5 at faceleft
+    show cornelia b_31
+
+    kiyoshi "My dear Sayaka has promised me to learn how to approach girls properly, as it seems my previous attempts have been fruitless."
+
+    show kiyoshi a_1
+    show cornelia b_27
+    show sayaka at faceright
+
+    cornelia "Pfft, really?"
+
+    show cornelia a_2
+
+    cornelia "You're gonna teach him how to talk with girls?"
+
+    show sayaka a_16
+    show kiyoshi a_2
+
+    "Man, this bitch was giggling to herself because of that stupid promise."
+    "She sure had a mind of her own now that she was spending time with John, huh?"
+
+    show cornelia a_12
+    show sayaka a_5
+    show kiyoshi a_4
+
+    cornelia "But honestly, you must have done something crazy to him. I know you're a guy for the time being, but he is like, not even paying attention to me."
+
+    show cornelia a_10
+
+    cornelia "Kind of like a tamed animal if you ask me, haha."
+
+    show sayaka a_32 at faceleft
+    show cornelia a_2
+
+    think "Huh, she is actually kind of right."
+    think "Normally he'd be all over any girl he sees."
+
+    show cornelia a_1
+    show kiyoshi a_3
+
+    kiyoshi "What do you mean?"
+
+    show kiyoshi a_4
+    show sayaka a_5
+
+    sayaka "She means that it's weird that you're not trying to get into her pants."
+
+    show cornelia a_3
+
+    cornelia "H- Hey! Don't even try to make me imagine that picture in my head!"
+
+    show cornelia a_5
+    show kiyoshi a_3
+
+    kiyoshi "Why would I want to go out with Cornelia?"
+
+    show sayaka a_2
+    show cornelia a_11
+    show kiyoshi a_4
+
+    "..."
+
+    show cornelia b_8
+
+    cornelia "...What?"
+
+    show cornelia b_11
+
+    think "He just said something weird."
+
+    show kiyoshi a_11
+
+    kiyoshi "I mean, you aren't exactly girlfriend material."
+
+    show kiyoshi a_1
+
+    cornelia "..."
+
+    show cornelia b_3
+
+    cornelia "...WHAT?!"
+
+    show sayaka a_10
+    show kiyoshi a_0
+
+    sayaka "Pffftt..."
+
+    show cornelia b_18
+
+    sayaka "Aa~~~~ahahahaha..."
+
+    show sayaka a_13
+
+    sayaka "Oh my god, for real?"
+
+    show cornelia b_32
+
+    cornelia "Hey! Don't laugh at that!"
+
+    show cornelia b_28
+
+    cornelia "And what do you mean I'm not {q}girlfriend material{/q}?!"
+
+    show kiyoshi a_14
+    show cornelia b_32
+
+    kiyoshi "According to {q}Kiyoshi's Womanly Exam{/q}, Cornelia lacks the following."
+    kiyoshi "Strike one: She is unusually flat."
+
+    show cornelia b_29
+    show sayaka a_14
+
+    kiyoshi "Strike two: Her personality is quite shallow and from observations, not very feminine."
+
+    show cornelia b_3
+
+    cornelia "Wh- Wai-"
+
+    show cornelia b_8
+
+    kiyoshi "Strike three: Too short. Although it is important that the height does not exceed the Kiyoshi, the girl must be at least able to see above high quality kitchen counters."
+
+    show sayaka a_13 at faceright
+
+    "Corny had a face of absolute terror on her. There was no stopping this, the number one perv of the school was saying that she, of all people, wasn't good enough for him."
+
+    show kiyoshi a_7
+    show cornelia b_29
+    show sayaka a_6 at faceleft
+
+    kiyoshi "Strike four: The examinee is not in the least attracti-"
+
+    show cornelia b_28
+    show sayaka a_14
+    show kiyoshi a_4
+
+    cornelia "{b}STOP! OH MY GOD, STOP!{/b}"
+
+    show kiyoshi a_5
+    show cornelia b_29
+
+    kiyoshi "Huh? What's wrong?"
+
+    show cornelia a_3
+    show sayaka a_1
+    show kiyoshi a_4
+
+    cornelia "What's wrong?! Are you kidding me?! You've been hitting on me {i}EVERY TIME{/i} I see you, and now you're telling me I'm ugly!"
+
+    show sayaka a_13
+    show cornelia b_18
+
+    sayaka "-ahahah, yeah, that's kinda true, actually..."
+
+    show kiyoshi a_3
+
+    kiyoshi "Of course I would, you were with the lovely Sayaka after all."
+
+    show cornelia a_8
+    show sayaka a_2
+    show kiyoshi a_4
+
+    cornelia "...Wait, so you're saying that every time you were hitting on us, you were only hitting on Saya?"
+
+    show kiyoshi a_9
+    show sayaka a_6
+
+    kiyoshi "Of course. Wasn't that clear?"
+
+    show cornelia a_20
+
+    cornelia "What?!"
+
+    show sayaka a_13
+    show cornelia b_8
+
+    sayaka "Pfffft-"
+
+    "This was so hilarious, so much that I slammed the table with my hand in sheer laughter."
+
+    show kiyoshi a_0
+    show cornelia b_3
+
+    cornelia "I absolutely {i}refuse{/i} to accept that you, of all people, are telling me that!"
+
+    show cornelia b_28
+
+    cornelia "You don't realize there is a charm to smaller girls?!"
+
+    show cornelia b_29
+    show kiyoshi a_17
+
+    kiyoshi "Charm? There is no charm about that. There needs to be something else, and I do not see that in you."
+
+    show cornelia a_8
+    show sayaka a_14
+
+    cornelia "Wha- Why- You..."
+
+    show sayaka a_10
+
+    sayaka "-ahahah, this is killing me..."
+
+    show kiyoshi a_4
+    show cornelia b_8
+
+    cornelia "He- Hey, stop l- Laughing!"
+
+    show sayaka a_13
+
+    "Kiyoshi's confused look just made this so much better, but knowing that lunchtime wouldn't last forever, I finally managed to get a grip on myself again."
+
+    show sayaka a_1
+
+    think "Although this probably is one of the funniest things I could ever think of."
+
+    show sayaka a_13
+
+    sayaka "Oh- Okay, but really, tell us what it is you do whenever you try to talk with girls."
+
+    scene black with dissolve
+
+    title "17th of August (Wednesday)" "Day 10 - Sayaka"
 
 
 

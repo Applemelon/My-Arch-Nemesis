@@ -5,6 +5,7 @@ label AN_start:
     body john AN_sayaka underwear
     body sayaka AN_john uniform
     body cornelia AN_cornelia
+    body emily AN_emily
 
     image fire:
         "AN_asset animations fire fire(1)"

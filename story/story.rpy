@@ -10577,10 +10577,1047 @@ label AN_day_1:
 
     title "17th of August (Wednesday)" "Day 10 - Sayaka"
 
+    pause 1
+    show AN_asset grain
+    show sayaka a_5:
+        center
+        faceleft
+        xpos 0.65
+    show kiyoshi a_6:
+        center
+        faceright
+        xpos 0.35
+    with dissolve
 
+    kiyoshi "{i}So, first of all, you must find your target. Ideally, try to approach her in seclusion.{/i}"
 
+    show sayaka a_32
+    show kiyoshi a_4
 
+    sayaka "{i}Seclusion...? Really?{/i}"
 
+    show kiyoshi a_3
+
+    kiyoshi "{i}Anything wrong?{/i}"
+
+    show kiyoshi a_0
+    show sayaka a_16
+
+    sayaka "{i}It just sounds so fucking creepy when you say it like that.{/i}"
+
+    show kiyoshi a_11
+
+    kiyoshi "{i}Uh, well... Approach her while she is alone, then?{/i}"
+
+    show sayaka a_5
+    show kiyoshi a_4
+
+    sayaka "{i}I don't think it gets better now that you've imprinted that word into my brain.{/i}"
+    kiyoshi "{i}Uh...{/i}"
+
+    show kiyoshi a_17
+
+    "He discreetly cleared his throat before continuing."
+
+    show kiyoshi a_11
+
+    kiyoshi "{i}First of all, declare that your heart is hers!{/i}"
+
+    scene AN_bg dullschool rear day
+    show zoey a_2 at centerleft, faceright
+    show sayaka a_17 at centerright, faceleft
+    with dissolve
+
+    "Heh, the plan was simple. Go and ask loads of girls out and get rejected in order to start rumors of John confessing to {i}everyone{/i}."
+    "As long as I was him, I didn't want to be ostracized by everyone, so acting exactly like Kiyoshi was out of the question."
+    "But that didn't mean that I couldn't give off the aura of some creep who wanted every girl he sees."
+    "I had basically prepared for every situation right now, and if I prepare for something, things {i}never{/i} go south."
+
+    show zoey a_3
+
+    zoey "So, what's up?"
+    "This was Zoey, Brad's sister who just recently started going here as a freshman."
+
+    show sayaka a_5
+
+    "Since she was Brad's sister, I knew she would be among the popular girls, even if she looked a bit... Uh, childish, I guess."
+
+    show sayaka a_17
+
+    "Which also means that having her start rumors among freshmen she's sure to impress would result in a bingo for me."
+
+    show sayaka a_9
+
+    think "Alright, Kiyoshi-gameface on."
+
+    show sayaka a_6
+
+    sayaka "You know, I've noticed you."
+
+    pause 1
+    show zoey a_7
+
+    zoey "...Huh?"
+
+    show sayaka a_0
+
+    sayaka "Amongst all the... New girls, you stand out to me."
+
+    show zoey a_2
+
+    zoey "..."
+
+    show zoey a_3
+    show sayaka a_5
+
+    zoey "....Huh?"
+
+    show sayaka a_3
+
+    think "She's completely dumb-founded..."
+    think "Guess Kiyoshi's moves really do completely alienate every girl he talks to."
+
+    show sayaka a_0
+
+    sayaka "Would you please go out with me?"
+
+    show zoey a_2 blush
+    pause 1.5
+    show zoey b_4 blush
+
+    zoey "...S- Seriously?!"
+
+    show sayaka a_5
+
+    sayaka "It would be my, uh... Utmost pleasure, I think... And-"
+
+    show zoey a_0
+
+    zoey "Okay, sure."
+    sayaka "-it would pain my hea-"
+
+    show sayaka a_16
+
+    sayaka "{b}What?{/b}"
+
+    show zoey b_3:
+        ease 0.75 xpos 0.6
+    show sayaka a_15 blush:
+        pause 0.5
+        ease 0.5 xpos 0.75
+
+    zoey "I know a really good place we could go eat something! You like burgers, right?"
+
+    show sayaka a_4 blush
+
+    sayaka "Uh... S- Sure...?"
+
+    show zoey b_0
+    show sayaka a_15 blush
+
+    zoey "You want to go this Sunday at twelve? It comes as a bit of a surprise that one of Brad's friends likes me, but this sounds exciting."
+
+    show sayaka a_18 blush
+    show zoey b_6
+
+    think "What the hell are those puppy eyes?! Why can't I just-"
+
+    show sayaka a_11 blush
+
+    sayaka "No- I mean- Y- Yeah, why not, I guess...?"
+
+    show zoey a_1
+
+    zoey "Cool, talk to you later then!"
+
+    show zoey b_2:
+        faceleft
+        ease 0.75 xpos 0.4 alpha 0.0
+    show sayaka a_15 blush
+
+    think "..."
+
+    show sayaka a_4 blush
+
+    sayaka "{size=-5}What the fuck...?!{/size}"
+
+    show sayaka a_14 blush
+
+    think "O- Okay, that was just one girl who seemed to accept anyone, hah, nothing to worry about, I can just... Tell her it was a joke later on..."
+
+    scene black with dissolve
+    pause 0.5
+    show AN_asset grain
+    show sayaka a_5:
+        center
+        faceleft
+        xpos 0.65
+    show kiyoshi a_6:
+        center
+        faceright
+        xpos 0.35
+    with dissolve
+
+    kiyoshi "{i}It is also important to make sure you properly convey your feelings.{/i}"
+
+    show sayaka a_32
+
+    kiyoshi "{i}Love is the most powerful force in the universe!{/i}"
+
+    show kiyoshi a_18
+
+    kiyoshi "{i}Besides several panourgian inventions, including death rays, that is.{/i}"
+
+    show sayaka a_2
+    show kiyoshi a_16
+
+    sayaka "{i}So, what, you just tell someone you love them?{/i}"
+
+    show kiyoshi a_15
+
+    kiyoshi "{i}Exactly.{/i}"
+
+    show sayaka a_16
+
+    sayaka "{i}That's exactly the same advice you gave me just earlier! How is telling someone you love them and telling someone that your heart is theirs any different?!{/i}"
+
+    #TODO: Remove body statement below
+    body emily AN_emily
+
+    scene AN_bg dullschool rear day
+    show emily a_5 at centerleft, faceright
+    show sayaka a_16 at centerright, faceleft
+    with dissolve
+
+    "Alright, talking with a freshman who didn't know better was a mistake."
+    "Juniors already know John and how boring he is, if they even knew him, and the only one I really knew a lot about was this chick that always did announcements on mondays."
+    "She hung out with Katrina occasionally, so she had to know how lame John is."
+
+    show sayaka a_24
+
+    think "Okay, gameface back on."
+
+    show sayaka a_1
+
+    sayaka "I am {i}so{/i} happy that you decided to take your time to see me."
+
+    show emily a_0
+    show sayaka a_0
+
+    emily "You asked to talk, so obviously it's the least I can do for you John."
+
+    show emily a_1
+
+    emily "So, what did you want to talk about? It sounded serious."
+
+    show sayaka a_5
+
+    sayaka "Well, you see, for the longest of times I've tried to hold this back..."
+
+    show sayaka a_3
+
+    think "Damn, I'm so good at acting."
+
+    show sayaka a_11
+
+    sayaka "But... I really do think I truly love you."
+
+    show emily a_5
+    show sayaka a_6
+
+    emily "...Eh?!"
+
+    show emily a_6 blush
+    show sayaka a_2
+
+    emily "{b}EHH?!{/b}"
+    emily "Really?! For real?!"
+
+    show sayaka a_9
+
+    sayaka "Yes, I understand if you feel like I am boring and bland, so let us just leave it at th-"
+
+    show sayaka a_5
+    show emily a_3 blush
+
+    emily "What? Really? I think you're a great guy John!"
+
+    show sayaka a_16
+
+    sayaka "You think what now?"
+
+    show emily a_4
+
+    emily "For real, I thought you liked Kat since you two are together, but now I feel kind of..."
+
+    show emily at faceleft
+
+    emily "Flustered, I guess?"
+
+    show emily a_6 blush at faceright
+    show sayaka a_32
+
+    emily "In a good way, you know!"
+
+    show emily a_5
+    show sayaka a_25
+
+    sayaka "No no, for real, you don't have to respond so kindly to me, I'm just doing this becau-"
+
+    show sayaka a_16 blush
+    show emily a_3 blush
+
+    emily "Hey hey hey, don't worry about it, I think it takes a lot of courage to say something like that, you know? Being asked out like this is totally every girl's dream!"
+
+    show sayaka a_15 blush
+    show emily a_4
+
+    think "Wha- What the hell is up with this girl?! Guys ask girls out like this all the time, don't they?!"
+
+    show sayaka a_4
+
+    sayaka "But-"
+
+    show sayaka a_15 blush
+    show emily a_7 at faceleft
+
+    emily "I like you a lot too, so if you want to hang out together sometime where we aren't the five of us like always, I think it would be really fun."
+    think "Who the hell are {q}the five of us{/q}?!"
+
+    show emily at faceright
+
+    think "Does this girl actually fucking like John?!"
+
+    show sayaka a_18 blush
+
+    sayaka "Uh... Uhhhh... Y- Yeah. Su- Sure..."
+
+    show sayaka a_15 blush
+
+    think "And why am {b}{i}I{/i}{/b} feeling embarrassed?!"
+    think "I want to refuse this, but I feel so fucking embarrassed!"
+
+    show emily a_2 blush
+
+    emily "Sweet! Really, I feel a bit guilty knowing Kat and all, but I'd like to give it a try!"
+
+    show emily a_4 blush
+
+    emily "We'll see each other later, right? Or is there something else on your mind?"
+
+    show sayaka a_14 blush
+
+    sayaka "Uheheh, no...? Heh..."
+
+    show emily a_1 blush
+
+    emily "Give me a call or a text and we'll figure something out! See you later!"
+    sayaka "Yeah..."
+
+    show sayaka a_4 blush
+
+    think "Oh my god why."
+
+    scene black with dissolve
+    pause 0.5
+    show AN_asset grain
+    show sayaka a_5:
+        center
+        faceleft
+        xpos 0.65
+    show kiyoshi a_7:
+        center
+        faceright
+        xpos 0.35
+    with dissolve
+
+    kiyoshi "{i}Most importantly, convey your feelings in a most romantic way.{/i}"
+    kiyoshi "{i}The way to a woman's heart is to make her understand that no matter what, she can rely on you and you alone!{/i}"
+
+    show sayaka a_7
+    show kiyoshi a_4
+
+    sayaka "{i}That's just telling someone you love them with extra steps!{/i}"
+
+    show sayaka a_16
+
+    sayaka "{i}Is this really it? All you can muster to do when interacting with any woman is to say that you love her in the most roundabout way?{/i}"
+
+    show kiyoshi a_5
+
+    kiyoshi "{i}We- Well, you did mention that my strategy was ineffective...{/i}"
+
+    show kiyoshi a_4
+
+    sayaka "{i}Yeah, well, no shit if this is the only thing you even do...{/i}"
+    sayaka "{i}Sigh... I think I've promised to help for something that can't be helped...{/i}"
+
+    scene AN_bg dullschool rear day
+    show allison a_24 at centerleft, faceright
+    show sayaka a_24 at centerright, faceleft
+    with dissolve
+
+    think "Okay, get your fucking grip together."
+
+    show sayaka a_15
+
+    think "Those two were just... Oddballs."
+
+    show sayaka a_17
+
+    think "Yeah, that's it. They are crazy to actually accept a confession from someone like John."
+
+    show allison a_26
+
+    "This time, I wasn't going to fool around with people I didn't know."
+    "Once word spread that I had confessed to two people at the same time, he would look like an absolute asshole anyways."
+
+    show sayaka a_3
+
+    "Now, to the main dish. Allison."
+
+    show sayaka a_5
+
+    allison "So, uh... You wanted to talk?"
+    "People think she is oh so innocent because of how clumsy and kind she is. But dig deeper into how she acts, and you'll quickly find that she isn't some goodie-two-shoes at all."
+    "She's been asked out by more people than me even, and has coldly rejected everyone."
+
+    show sayaka a_17
+    show allison a_3
+
+    "This time, I was sure to get someone who would reject me!"
+
+    show sayaka a_16
+
+    think "Also, no more Kiyoshi talk! I'm doing this my own way now."
+
+    show sayaka a_5
+    show allison a_24
+
+    sayaka "I'll be honest, I like you. Alright?"
+
+    show sayaka a_30
+
+    sayaka "I... Uh, would like you to go out with me...?"
+
+    show sayaka a_15 blush
+    show allison a_25 blush
+
+    think "Wait, what the hell am I saying! I'm getting fucking embarrassed again! Why?!"
+
+    show allison a_18 blush
+
+    allison "Oh... The others joked that you would... Uh, confess to me when you asked me to talk with you."
+
+    show allison a_21 blush
+    show sayaka a_5 blush
+
+    allison "So this is kind of embarrassing."
+
+    show sayaka a_17
+
+    think "Alright! Finally someone who sees this guy as a massive joke!"
+
+    show allison a_9
+    show sayaka a_5
+
+    allison "Uhm..."
+
+    show allison a_21
+
+    allison "But it doesn't really bother me that you tell me though."
+
+    show sayaka a_10
+
+    sayaka "Ah, understanabl-"
+
+    show sayaka a_7 blush
+    show allison a_0
+
+    extend " What."
+
+    show sayaka a_15 blush
+
+    think "She doesn't actually..."
+
+    show allison a_1
+
+    allison "I think you're really cute and interesting, but I can't tell my friends about us if... You do want to go out with me."
+
+    show sayaka a_4 blush
+
+    sayaka "W- Wait, but you've rejected {i}so many{/i} people before! Why would you say yes to me? I'm boring as hell and can't do anything properly-"
+
+    show sayaka a_15 blush
+    show allison a_9 blush
+
+    allison "But I like that. You seem really reliable and fun to hang out with."
+
+    show sayaka a_4 blush
+
+    sayaka "He- He does- I mean, I do?"
+
+    show allison a_12
+    show sayaka a_15 blush
+
+    allison "I do think that someone asked you to confess to me, maybe Sayaka since you two talk to each other a lot right now."
+
+    show allison a_10 blush
+
+    allison "And when Katrina got mad last week I think something happened. So if you don't really like me then that's okay too."
+
+    show allison a_22 blush at faceleft
+
+    "She shifted in place as if... She really did like the situation she was in..."
+
+    show sayaka a_24
+    show allison a_23 blush
+
+    think "How is this even happening..."
+    think "This entire thing was such a stupid idea!"
+
+    show sayaka a_15 blush
+    show allison a_16:
+        faceright
+        ease 0.5 xpos 0.5
+
+    allison "I know! We can exchange numbers if you'd like."
+
+    show allison a_23
+
+    allison "If you still want to go somewhere just us two alone then I would be very happy."
+
+    show allison a_0
+    show sayaka a_11 blush:
+        ease 0.75 xpos 0.75
+
+    sayaka "You, uh... Really don't have to do that."
+
+    show sayaka a_17 blush
+    show allison a_11
+
+    allison "Non-sense. I do think you're cute. So if you ever change your mind, please tell me."
+
+    show allison a_21
+    show sayaka a_15
+
+    "Without really being able to retaliate, I ended up adding her number, which I already knew, to John's phone."
+    "And for some reason, it kinda felt good?"
+
+    show sayaka a_21
+
+    "Don't tell me..."
+
+    scene black with dissolve
+
+    title "18th of August (Thursday)" "Day 11 - Sayaka"
+
+    show bg lunch:
+        zoom 2.0 xalign 0.05 yalign 0.65
+    show sayaka a_25:
+        center
+        faceleft
+        xpos 0.45
+        ypos 1.2
+        transform_anchor True
+        rotate -10
+    show kiyoshi a_4:
+        centerleft
+        faceright
+        xpos 0.2
+        ypos 1.1
+    with dissolve
+
+    sayaka "I don't fucking get it!"
+    sayaka "Why do they all like him?! Why do people like some roadside fodder like John?!"
+
+    show sayaka a_16:
+        ease 0.75 rotate 0 ypos 1.1 xpos 0.4
+    show kiyoshi a_2
+
+    kiyoshi "I can take it that yesterday's lunch period was a great success for your plans to give J-man a shot with the ladies."
+
+    show sayaka a_4
+    show kiyoshi a_1
+
+    sayaka "Yes! No! It's terrible! I couldn't say no to {i}any of them{/i} once they were okay with him {q}liking them{/q}!"
+
+    show sayaka a_16
+
+    "To think one of my plans to ruin someone failed so spectacularly that I didn't even know why I did it in the first place..."
+    "If this wasn't basically the taste of defeat then I didn't know anymore."
+
+    show sayaka a_17 at faceright
+
+    "Even then, texting the three people I talked to yesterday was still the ace in my pocket. I had just recently texted them that this was all a joke. No way they wouldn't see him like a scumbag now then!"
+
+    show kiyoshi a_14
+
+    kiyoshi "Ah yes, about this highly fascinating light novel I read just recently-"
+
+    show sayaka a_3
+    show kiyoshi a_10
+
+    "I had already texted all of them when we entered the lunchroom, so it was only a matter of time until rumors would spread about him, I bet."
+
+    show kiyoshi a_8
+
+    kiyoshi "Oh, she isn't listening to me."
+    kiyoshi "Back to eating I go."
+
+    show kiyoshi a_1
+    show sayaka a_5 at faceleft
+    play sound sfx_text
+
+    "And speak of the devil, my phone vibrated to signal that I received a message!"
+
+    text start john
+    text title "Annoying Citrus"
+
+    msg john "hello. sorry, but yesterday was a bet i lost and i would like to avoid going out with you after all. thanks" instant
+    msg zoey "what? why? i still want to take you somewhere even if ti was for fun! im still taking you with me on sunday, alright? it sounds like we could have a lot of fun!"
+
+    text end
+    pause 1
+    show sayaka a_15
+
+    think "..."
+
+    show kiyoshi a_10
+
+    think "Oh god, this is hell..."
+
+    show sayaka a_24
+    show cornelia b_1:
+        alpha 0.0
+        right
+        xpos 0.8
+        faceleft
+    show john b_1:
+        alpha 0.0
+        right
+        xpos 0.95
+        faceleft
+
+    sayaka "{size=-5}Just fucking kill me already...{/size}"
+
+    show sayaka a_16 at faceright
+    show cornelia:
+        ease 0.75 alpha 1.0 xpos 0.65
+    show john:
+        ease 0.75 alpha 1.0 xpos 0.8
+
+    "It only took a good two minutes before John and Corny finally showed up, although they looked a bit disgruntled."
+
+    show cornelia b_2
+
+    cornelia "Hey Saya."
+
+    show cornelia b_0
+    show sayaka at faceleft
+    show john b_0
+
+    sayaka "Whatever..."
+
+    show john b_5
+
+    john "Uh...?"
+    john "Is she angry at us?"
+
+    show kiyoshi a_11
+
+    kiyoshi "I believe she managed to get herself too many girls yesterday."
+
+    show cornelia:
+        ease 0.5 ypos 1.1
+    show john a_13
+    show kiyoshi a_1
+    pause 1
+    show john b_6:
+        ease 0.5 ypos 1.1
+
+    john "...I'm not even gonna ask."
+
+    show john b_0
+
+    john "Although the most bizarre thing just happened to us..."
+
+    show sayaka at faceright
+    show cornelia b_6
+    show john b_5
+
+    cornelia "Yeah, some blonde freshman was staring at us all the time while we got some food."
+
+    show john b_11
+    show cornelia b_5
+
+    john "It was really bizarre."
+
+    show cornelia a_6 at faceright
+
+    cornelia "Yeah, we get it, it was bizarre, you've already said that four times now."
+
+    show john b_0
+
+    john "Oh, right, sorry."
+
+    show sayaka a_5
+    show cornelia b_0 at faceleft
+    play sound sfx_text
+
+    think "Huh? Ah, another message..."
+
+    text start john
+    text title "DnD Emily"
+
+    msg john "hello emily, yesterday was just a joke, disregard everything i said" instant
+    msg emily "Aw, I thought as much, guess there is still some love for Kat xP"
+
+    text end
+    show sayaka a_15
+    pause 1.5
+    show sayaka a_4
+    show john b_27
+    show cornelia b_26
+
+    sayaka "{i}{b}AARGH! Fuck this!{/b}{/i}"
+
+    show john b_28
+
+    john "Wo- What is it now?!"
+
+    show sayaka a_16
+    show john b_28
+
+    "Corny and John were both startled at my outburst."
+
+    show sayaka:
+        ease 0.25 ypos 1.0
+        ease 0.5 xpos 0.7
+    show john b_7:
+        transform_anchor True
+        pause 1
+        ease 0.25 rotate -3 ypos 1.05
+    show cornelia:
+        pause 0.5
+        faceright
+        ease 0.5 xpos 0.55
+
+    "I grabbed John by the collar of his outfit and dragged him along."
+
+    show sayaka at faceleft
+    show john b_28
+
+    john "Wait, what did I do now?!"
+
+    show sayaka a_7:
+        ease 2.0 xpos -0.4
+    show john behind kiyoshi:
+        pause 0.1
+        ease 2.0 xpos -0.3
+    show cornelia:
+        pause 0.75
+        faceleft
+
+    sayaka "Shut up and come with me."
+    john "{size=-5}But what about my food?!{/size} {size=-7}No, wait,{/size} {size=-10}I'm starving!{/size}"
+
+    show cornelia a_11
+    pause 1.5
+    show cornelia a_14
+
+    cornelia "How are you just calmly still eating your food...?"
+
+    show kiyoshi a_8
+
+    kiyoshi "Ah, I was just wondering if that girl you saw staring at you in astonishment was interested in me."
+
+    show cornelia a_6
+
+    cornelia "Yeah, no."
+
+    scene black with dissolve
+
+    title "18th of August (Thursday)" "Day 11 - John"
+
+    pause 0.5
+    scene bg school bathroom day
+    show john b_19:
+        alpha 0.0
+        center
+        faceleft
+        xpos 1.1
+        ypos 1.05
+        transform_anchor True
+        rotate -3
+    show sayaka a_16:
+        alpha 0.0
+        center
+        faceleft
+        xpos 0.95
+    with dissolve
+    pause 0.5
+    show john:
+        pause 1
+        ease 1 alpha 1.0 xpos 0.7
+    show sayaka:
+        pause 1
+        ease 1 alpha 1.0 xpos 0.5
+
+    john "{size=-7}Ow ow ow- Hey, hold up, why are we- {/size}Hey! Why are you dragging me into the girl's bathroom again?!"
+
+    #SKIP
+    show john:
+        alpha 1.0
+        xpos 0.7
+    show sayaka:
+        alpha 1.0
+        xpos 0.5
+
+    show john b_19:
+        ease 0.25 rotate 0 ypos 1.0
+
+    john "At least let me check if someone is here!"
+
+    show sayaka a_7 at faceright
+    show john b_27
+
+    sayaka "Like I care!"
+
+    show sayaka a_16
+
+    think "Man, what the hell is her deal today?"
+
+    show john a_13 at faceright
+
+    "There was nobody in here again, luckily for me."
+
+    show john b_11
+
+    think "Aren't the girl's stalls usually really occupied with people all the time normally?"
+    think "Man, it's so convenient how nobody is here right now so that we can talk in private."
+
+    show john b_0 at faceleft
+
+    john "Alright, alright, we're here."
+
+    show john a_4
+
+    john "Geez, you know that your grip is way stronger right now than normally right? It really hurts when you do something like that."
+
+    show john a_0
+
+    "But really, what did I do now? I thought she was over the entire jeans and glasses thing."
+
+    show sayaka a_7
+
+    sayaka "You're going to a mixer with me."
+
+    show sayaka a_16
+    show john b_11
+
+    john "...A mixer?"
+
+    show john b_25
+
+    think "Isn't that..."
+
+    pause 0.5
+    show john b_28
+
+    john "{i}{b}WHAT?!{/b}{/i}"
+    john "What the hell?! Do you want to go out with me like this?!"
+
+    show john b_27
+    show sayaka a_7
+
+    sayaka "Shut the hell up you good-for-nothing!"
+
+    show sayaka a_16
+
+    sayaka "I don't give a crap about you, I just have something to confirm."
+
+    show john b_28
+
+    john "Something to confirm? What the hell are you going to {q}confirm{/q} by going to a mixer with me?!"
+
+    show john b_27
+
+    sayaka "Then you haven't noticed it? When you look at guys?"
+
+    show john b_6
+
+    john "Uh, what am I supposed to notice?"
+    sayaka "That they look like boyfriend material?!"
+
+    show john b_27
+
+    #TODO: Add blushes to glasses
+    john "Wha-{nw}"
+
+    show john b_28 blush
+
+    extend "What?!"
+    think "Wait, why am I getting so flustered by her saying that?"
+
+    show john a_8 blush
+
+    john "N- No! Never!"
+
+    show john a_27
+
+    think "Seriously?!"
+    sayaka "I casually talked to some girls yesterday and got embarrased as fuck! And I know for sure that I'm not some lesbie!"
+
+    show sayaka a_7
+
+    sayaka "This entire body swap shit has to be fucking with me, and if it fucks with me, I bet it fucks with your head too."
+
+    show sayaka a_16
+    show john a_29 blush
+
+    john "I, uh... Maybe a little bit...?"
+
+    show john a_27 blush
+
+    john "Wait, are you actually dating a girl right now?!"
+
+    show sayaka a_20
+
+    sayaka "Of course not! I'm not lesbian you asshole."
+
+    show sayaka a_16
+    show john b_19
+
+    john "But why the hell should I- I mean, why would I go to this mixer thing with you? Why don't you just go yourself?"
+
+    show john b_17
+
+    sayaka "Because I decided you're going too."
+
+    show john a_6
+
+    john "Wow, I don't know what I expected asking Ms. Full-Of-It over here."
+
+    show sayaka a_7
+
+    sayaka "You're going, basta!"
+
+    show john b_18
+
+    john "And I {b}really{/b} don't feel like going, so no thank you."
+
+    show john b_17
+    show sayaka a_21:
+        faceleft
+        ease 0.5 xpos 0.4
+
+    sayaka "Nghh...!"
+
+    show john b_6
+
+    think "Man, she is annoyed like all hell right now."
+
+    show john b_4
+
+    think "Not that I do this to annoy her, I just {i}really{/i} don't want to go do that kind of thing with her."
+
+    show john b_17
+    show sayaka a_7:
+        faceright
+        ease 0.25 xpos 0.55
+
+    sayaka "Fine, if you go, we're even with the glasses and jeans."
+
+    show sayaka a_16
+    show john b_18
+
+    john "Seriously? That's your logic? In the first place, you started it because you dyed my hair!"
+
+    show john b_17
+    show sayaka a_7
+
+    sayaka "In the first place I did it because {b}you{/b} decided to ditch cheerleading, and still do!"
+
+    show john b_11
+    show sayaka a_16
+
+    john "Wait, that's why you did it?"
+
+    show sayaka a_4
+
+    sayaka "You didn't fucking realize until now?!"
+
+    show john b_28
+    show sayaka a_21
+
+    john "How am I supposed to?! Hello? You're not communicating with me at all!"
+
+    show sayaka a_20
+    show john b_13
+
+    sayaka "Do you really think this is fun for me?! My life being used by someone I hate?!"
+    sayaka "Everything I built up, being torn down within a single fucking week because, oh, I don't know, some stupid god decided that this time, I should be the one getting grated by the worst fucking human he could find?!"
+
+    show sayaka a_21
+    show john b_19
+
+    john "What? No, I..."
+
+    show sayaka a_20
+    show john b_11
+
+    sayaka "You're terrible at dealing with women you prick! Not only that, but now it turns out that I am starting to become a lesbie even though I know I'm not!"
+
+    show sayaka a_4
+
+    sayaka "I don't know what's happening to me! I'm going fucking crazy over this, and you're still fighting against me!"
+
+    show john b_8
+
+    john "Hey- No, Sayaka, I'm- I'm sorry, I didn't mean it like that, it's just, you know..."
+
+    show sayaka a_7
+
+    sayaka "Go to the fucking mixer with me."
+
+    show john b_4
+    show sayaka a_16
+
+    think "...Man, I didn't know that this was how she felt. She actually seems completely broken over her sudden change in sexuality..."
+    think "Although I feel the same as well."
+    "Being attracted to guys even though you know you aren't. It was a feeling that was indescribable."
+    "Instincts clashing together, basically. I kind of felt confused, but that was about it, but for her it must be much more serious if she even started pleading to me to go to this thing in her own way."
+
+    show john b_18
+
+    john "{i}Sigh{/i}... Alright..."
+
+    show john b_13
+
+    john "You want to go to make sure we both feel this way, right? No tricks, no dating between us, right?"
+    sayaka "Of course."
+
+    show john b_25
+
+    john "Okay, but if I do this, we're even. I get to wear what I want as long as it isn't a clown outfit-"
+    sayaka "{size=-5}You're already wearing one...{/size}"
+
+    show john a_32
+
+    john "...As I said, as long as it isn't a clown outfit. Okay?"
+
+    show john a_6
+
+    sayaka "...Fine, have it your way."
+
+    show john b_25
+
+    think "Oh god, what have I even gotten myself into..."
+
+    scene black with dissolve
+
+    title "20th of August (Saturday)" "Day 13 - John"
 
 
 

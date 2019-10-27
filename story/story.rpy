@@ -11619,21 +11619,1140 @@ label AN_day_1:
 
     title "20th of August (Saturday)" "Day 13 - John"
 
+    pause 1
+    scene bg sayaka house day
+    show john b_2:
+        center
+        xpos 0.45
+        faceright
+    show cornelia a_1:
+        center
+        xpos 0.75
+        faceleft
+    with dissolve
+
+    "Ah yes, sweet release. We were done with the half-day at school today and finally had weekend once more."
+
+    show john b_4
+
+    "Tomorrow would be the day where I would go to this dreaded mixer with Sayaka of all people, and it was stressful thinking about it, but sometimes I think it's important not to make her too angry."
+
+    show john a_0
+    show cornelia a_2
+
+    cornelia "See you on monday then."
+
+    show cornelia a_1
+    show john b_29
+
+    john "Ah, uh... You don't want to come in for a drink or something since your parents arent home and everything?"
+
+    show cornelia a_14
+
+    "She looked at me as if confused about it. For whatever reason she didn't expect this at all."
+
+    show cornelia b_4
+    show john b_0
+
+    cornelia "No... It's okay, I don't... Uh, usually just enter her house, you know..."
+
+    show john a_6
+
+    john "Huh? You don't?"
+
+    show john a_13
+    show cornelia b_0
+
+    john "Has she never invited you over to just hang out?"
+
+    show cornelia b_17
+
+    cornelia "What? No, of course not! We hang out in the mall and I get to go to her home if we are setting things up for her parties. That's it."
+
+    show cornelia b_14
+    show john a_30
+
+    "Well that took a sad turn. I didn't expect them to have a friendship this terrible."
+    "What she was saying was essentially that Sayaka never let her just casually visit her, even though they walked to school and back every single day..."
+
+    show john a_13
+
+    john "No, please, if that's the case, I really insist. I'm not Sayaka, remember? Or do you have anything better to do?"
+
+    show cornelia b_21
+
+    cornelia "Well, no, but..."
+
+    show john a_11
+    show cornelia b_31
+
+    john "Come on! You get to just casually hang out in her house. Doesn't that sound exciting?"
+
+    show cornelia b_23
+
+    cornelia "If you put it like that, sure, but-"
+
+    show cornelia b_5
+    show john b_14
+
+    john "Then make yourself comfortable. Come on, what's the harm?"
+
+    show cornelia b_4
+    show john b_1
+    pause 1
+    show cornelia b_1
+
+    cornelia "...Alright, you win, sure."
+
+    scene black with dissolve
+    play sound sfx_sliding_door_open
+    pause 2
+    play sound sfx_door_open
+    pause 1
+    play sound sfx_door_close
+    scene bg sayaka kitchen day
+    show john b_0 at left, faceleft
+    show cornelia a_1 at center, faceleft
+    with dissolve
+    pause 0.5
+    show john b_12:
+        faceright
+        ease 0.5 centerleft
+
+    john "Oh yeah, sorry, this household only has weird juice brands to drink besides water."
+
+    show john b_1
+
+    cornelia "That's okay."
+
+    show john:
+        ease 3 xpos 0.8
+    show cornelia:
+        pause 1.25
+        faceright
+
+    "At least I could spend some idle time of the day on talking to Cornelia right now. I actually liked talking to her on occasions now."
+
+    show john a_0
+
+    john "Uh... So let's see... We got apple juice, raspberry juice... Something called lemon water...?"
+
+    show cornelia b_1:
+        ease 1 xpos 0.675
+
+    cornelia "Lemon water sounds good."
+
+    show john a_11
+
+    john "Coming right up!"
+
+    menu:
+        "it a menu":
+            "hey"
+
+    scene black with dissolve
+    pause 0.5
+    play sound sfx_door_open
+    scene bg sayaka bedroom day
+    show john b_0 at center, faceleft
+    show cornelia a_11 at right, faceleft
+    with dissolve
+
+    "I did have my console in my room now which helped entertain me, and I managed to break Sayaka's phone lock too, so life was a bit more bearable, with not having anything to do the entire day and all."
+
+    show john b_1 at faceright
+
+    "But still, I did like talking to people, that much hasn't changed despite our swap."
+
+    show john b_0
+    show cornelia a_12
+
+    cornelia "It's been so long since I've been in Saya's room... It almost feels like I'm breaking some kind of law, heh."
+
+    show john b_6
+    show cornelia a_11
+
+    john "You haven't been to her room? Aren't you guys close friends or something?"
+
+    show cornelia a_6
+
+    cornelia "Well, duh, but this is her {i}private{/i} room. The one she sleeps in and stuff."
+
+    show cornelia b_0:
+        ease 0.5 centerright
+    show john a_27
+
+    john "Sayaka has more rooms?!"
+
+    show cornelia b_6
+
+    cornelia "...Seriously, you didn't know?"
+
+    show cornelia b_24
+    show john a_26
+
+    john "Why would she have multiple rooms? You mean bedrooms?"
+
+    show cornelia b_2
+    show john a_6
+
+    cornelia "I can show you later. Really, you live here and you don't even know that."
+
+    show john b_2
+    show cornelia b_1
+
+    john "Don't blame me, I haven't had a guide yet."
+
+    show john b_6
+
+    think "What would she even need more than one room for?"
+    think "What am I thinking. It's Sayaka. Logic doesn't apply like that."
+
+    show john b_1
+
+    john "But I'm looking forward to learning more about this place."
+
+    show cornelia a_1
+
+    cornelia "I only really know the living room area and where she hangs out when she wants to be in private."
+
+    show john a_0:
+        faceleft
+        ease 0.75 xpos 0.4
+        faceright
+
+    john "Ah yeah, are you for real when you say she never invited you over?"
+
+    show cornelia a_5
+
+    cornelia "Why would she?"
+
+    show john b_11:
+        ease 0.5 ypos 1.15
+
+    john "But aren't you guys friends?"
+
+    show cornelia b_5
+
+    cornelia "Of course."
+
+    show cornelia b_0:
+        faceright
+        pause 1
+        ease 0.5 xpos 0.75
+        faceleft
+        ease 0.5 ypos 1.1
+
+    john "It just doesn't seem like the friendship goes both ways to me..."
+
+    show john a_13
+
+    john "You know, when I think of friends, I think of hanging out on a day off or doing stuff together."
+
+    show cornelia a_0
+
+    cornelia "What we do in our free time is none of your business, you know. Besides, we don't play the same friendship game like you guys do."
+
+    show cornelia a_13
+
+    cornelia "Sayaka has qualities that you can't even understand, and before you came along she had status and power in her image alone."
+
+    show john a_30
+    show cornelia a_18
+
+    cornelia "We can't play some kid's game of {q}Hang out and cuddle with your friends{/q} like that."
+
+    show cornelia a_1
+    show john a_24
+
+    john "But isn't that exactly what we're doing right now...?"
+
+    show cornelia a_10
+    pause 1.5
+    show cornelia a_19
+
+    cornelia "...No."
+
+    show cornelia a_7
+    show john a_2
+
+    cornelia "Well yes, but you aren't the real Saya!"
+
+    show john a_12
+    show cornelia a_0
+
+    john "Haha, you totally do enjoy sometimes just talking, don't you? Having talked to you for two weeks convinced me."
+
+    show cornelia a_8 blush
+    show john a_1
+
+    cornelia "Sh- Shut up, I'm only doing this because it's you."
+
+    show john a_14
+
+    john "Heh, sorry."
+
+    show cornelia b_6 blush at faceright
+    show john a_1
+
+    "It was really easy to figure out how she feels about certain things."
+    "If I had never swapped with Sayaka, I probably never would have seen Cornelia in this kind of light, but she was really not that bad."
+
+    show cornelia b_24 at faceleft
+
+    "The only thing that stood out to me about her was the influence Sayaka was having on her, and I personally didn't think it was the good kind of influence."
+    "But whatever, right now I was in charge on that front."
+
+    show john b_0
+
+    think "Actually, all this talk is making me remember about this thing I found some time ago."
+
+    show john a_0
+    show cornelia b_5
+
+    think "Maybe it's worth a shot asking Cornelia about it."
+
+    show john b_0
+
+    john "Hey, by the way, I wanted to ask you something."
+
+    show cornelia b_0
+
+    cornelia "Hm?"
+
+    show john:
+        faceleft
+        pause 0.5
+        ease 0.5 ypos 1.0
+        ease 0.75 xpos 0.25
+
+    john "I found this thing after rummaging through the room."
+
+    show cornelia b_6
+
+    cornelia "Why have you been rummaging through Saya's room? You know she would never allow that."
+
+    show cornelia b_24
 
 
+    john "What she doesn't know, doesn't hurt her."
+    "After digging through the drawers I found the thing I had been wondering about for a long time."
 
+    show AN_asset picture_frame with dissolve
+    show cornelia b_23:
+        center
+        xpos 0.4
 
+    john "Here."
+    cornelia "An old picture?"
+    john "Sounds like you don't know what it is either."
+    cornelia "Hm, no, never seen it."
+    john "I just thought that this girl right here-"
+    "I pointed at the little girl to the very left."
+    john "Doesn't she look a lot like Kat?"
+    cornelia "..."
+    john "And this girl on the right looks like Sayaka."
+    "Cornelia went silent the moment I mentioned Kat's name."
+    cornelia "{i}Sigh...{/i}"
 
+    hide AN_asset picture_frame with dissolve
 
+    cornelia "Look, I'm sure someone out there would appreciate your endless curiosity in the business of someone else..."
 
+    show john at faceright
 
+    cornelia "But this isn't something you're supposed to know about. I don't even know much about it and I'm next to Saya constantly."
 
+    show cornelia b_5
+    show john b_4
 
+    john "So you think I should stay out of trying to figure out the beef between Sayaka and Kat?"
 
+    show cornelia b_0
 
+    cornelia "Exactly."
 
+    show john b_13
 
+    john "Ugh, fine. I'm just really curious as to why they hate each other so much..."
+    john "I know that they were friends at some point, but something {i}must{/i} have happened, especially if Sayaka keeps this picture hidden."
 
+    show cornelia b_6
+
+    cornelia "You're really bad at letting a topic go just like that, huh?"
+
+    show cornelia b_24
+    show john a_14
+
+    john "Seems like it."
+
+    show john a_0
+    show cornelia b_5 at faceright
+
+    cornelia "That aside, why does Sayaka have an EksBox in her room...?"
+
+    show john a_11
+
+    john "Oh, you know what it is? Do you have one yourself?"
+
+    show cornelia b_11 at faceleft
+    show john a_10
+
+    cornelia "Of course not. You think I'm some kind of nerd who knows about that stuff?"
+
+    show john a_31
+    show cornelia b_0
+
+    think "...But She still knows what an EksBox is..."
+
+    show john a_25
+
+    john "Alright, sorry, my bad."
+
+    show john a_10
+
+    john "But do you want to try playing?"
+
+    show cornelia b_24:
+        pause 1
+        faceright
+        pause 1.5
+        faceleft
+
+    "She eyed me and the console curiously. It was clear as day that she was conflicted and was really bad at hiding that."
+
+    show john a_14
+    show cornelia b_5
+
+    "The moment I had asked her the question I immediately realized that she totally did want to play, if just a little."
+
+    show john a_1
+    show cornelia a_1 at faceleft
+
+    cornelia "...No, but you can go ahead if you want to. I'll watch."
+
+    show john b_11
+
+    john "Wouldn't that be boring for you?"
+    cornelia "I said it's fine, you only have one controller anyways."
+
+    show john b_13
+
+    john "Alright then."
+
+    show john b_24:
+        ease 2 xpos 0.65
+        ease 0.75 xpos 0.675 ypos 1.15
+    show cornelia:
+        pause 1
+        faceright
+
+    think "She even knows how controllers look."
+    think "Heh, too easy to read."
+
+    show john b_23
+    show cornelia a_13
+
+    "I couldn't help but smirk."
+
+    scene black with dissolve
+    pause 1
+    play music AN_bgm_gaming fadein 1
+    scene bg sayaka bedroom dusk
+    show john b_17:
+        center
+        faceright
+        xpos 0.5
+        ypos 1.15
+    show cornelia b_23:
+        center
+        faceright
+        xpos 0.35
+        ypos 1.15
+    with dissolve
+
+    cornelia "No, no, you're doing it all wrong, you need to first stack up blocks and wait for a straight block to appear."
+
+    show cornelia b_5
+
+    john "Am I not doing that already?"
+
+    show john b_3
+
+    cornelia "You need to wait until you have four height rows before you drop a straight block down there, else you lose the multiplier."
+
+    show cornelia b_6
+
+    cornelia "Geez, I thought you were good at games and even I know more about Dedris than you."
+
+    show john b_17
+    show cornelia b_24
+
+    john "Hey, I've never really played Dedris before."
+
+    show cornelia a_0
+
+    cornelia "As if that's an excuse. If you're good at one game then another game gets easier to pick up."
+
+    show cornelia a_1
+
+    cornelia "So if you nerd through tens of games the next one should be ever easier to learn."
+
+    show john b_6
+
+    think "...Why does she know so much about games..."
+
+    show john b_0
+
+    "I only had the games that were installed on my console, so after we got bored of them we started playing some retro games that were already installed when I bought it."
+    "And for some reason, Cornelia of all people was tutoring me in how to play them at what is basically competitive level..."
+
+    show john b_11
+
+    john "So are retro games your thing?"
+
+    show cornelia b_6
+
+    cornelia "No games are my thing! And don't miss the middle with the L-block."
+
+    show john b_25
+
+    john "Right..."
+    think "Geez, she'd rip my hair out if I missed an obvious placement for these blocks."
+
+    show john b_0
+    show cornelia a_11
+    #TODO: Reduce volume of sound below
+    play sound sfx_kiyoshi_sing
+
+    "Whilst playing, Cornelia's phone started playing her ringtone."
+    cornelia "Oh, it's mom-"
+
+    show cornelia a_8
+
+    cornelia "What the hell, it's half past six already?!"
+
+    show john b_11
+
+    think "Oh yeah, we have spent a lot of time just playing games I had."
+
+    show john b_5
+    show cornelia b_0:
+        ease 0.5 ypos 1.0 xpos 0.4
+        pause 0.25
+        ease 4 offscreenright
+
+    "I kept playing while she went outside the room to talk."
+
+    play sound sfx_door_open
+
+    "Sayaka's parents would probably still be gone for another two or three hours, but hers are maybe wondering where she is."
+
+    play sound sfx_door_close
+    show cornelia b_4:
+        faceleft
+        ease 2.5 centerright
+    show john b_0
+
+    "It only took a few minutes before she entered again."
+
+    show cornelia b_0
+
+    cornelia "My parents are preparing dinner, so I'm leaving soon."
+
+    show john a_10
+    stop music fadeout 3
+
+    john "Ah, alright."
+
+    show john a_14:
+        pause 1
+        ease 0.5 ypos 1.0
+
+    john "It is probably enough games for me today anyways."
+
+    show john a_10
+    show cornelia b_30
+
+    cornelia "And, uh... And if you want you can come along."
+
+    show john a_29
+
+    john "Huh? Really? Your parents would let me eat over at them?"
+
+    show cornelia b_0
+    show john a_0
+
+    cornelia "My mom said that since you invited me to hang out for once they'd like to repay the favor. Something along those lines."
+
+    show john a_13
+
+    john "Hmm..."
+    think "Man, when was the last time I had dinner with someone other than myself?"
+    "Every day here really was the monotone same. Get home, be by myself and then order something for dinner alone."
+    "For the last few days I have been buying my own food to make from a store nearby and ate whatever I wanted to cook, but it just felt like I was living by myself."
+
+    show john b_14
+
+    john "Sure, why not. Don't see a reason why I would refuse."
+
+    show john b_11
+
+    think "Actually, I do have something Sayaka and Kiyoshi want me to read about the swapping thing before monday..."
+
+    show john b_23
+
+    think "Well, that can wait."
+
+    show john b_10
+
+    john "I am going to get changed though before we go. These school clothes just don't work as comfy wear."
+
+    show john b_1:
+        faceleft
+        ease 1 xpos 0.3
+    show cornelia a_7
+
+    cornelia "H- Huh?! You're getting changed?"
+
+    show cornelia b_14
+
+    cornelia "I hope you close your eyes while you don't have any clothes on!"
+
+    show john a_6 at faceright
+
+    john "...Seriously?"
+    john "You don't think I've seen her naked before?"
+
+    show cornelia b_17
+
+    cornelia "A guy can't just watch a girl naked whenever he wants!"
+
+    show cornelia b_14
+    show john b_6
+
+    john "Yeah, yeah, I get it. But Sayaka gets to see me naked whenever she wants to too, so don't think this is one-sided."
+
+    show cornelia a_3
+
+    cornelia "But you are totally uninteresting physically. Saya is leagues above you in appearance."
+
+    show cornelia a_14
+    show john a_32
+
+    john "That's a very roundabout way of telling me I'm ugly..."
+
+    show john a_13
+    show cornelia b_5
+
+    john "Besides, we've both already realized that the swap is starting to affect us mentally."
+    john "At the start I thought seeing her in her underwear was hot, but nowadays it doesn't even affect me when I see other girls half-naked or whatever."
+
+    show cornelia b_11
+
+    cornelia "That's- That still isn't an excuse for you to go around the girl's changing room, you know?!"
+
+    show john b_6
+    show cornelia b_5
+
+    "Earlier yesterday when we had P.E., Cornelia made sure I was the last one in and out of the changing room."
+    "For obvious reasons."
+    think "And she still hasn't realized that it was me during the first P.E. lesson I had as Sayaka."
+
+    show cornelia a_5
+    show john b_0
+
+    cornelia "Fine then, not like I can stop you peeking when you're alone anyways..."
+
+    show cornelia a_8
+
+    cornelia "But.. Are you guys starting to turn into each other?"
+
+    show john a_6
+    show cornelia a_22
+
+    john "What does that mean?"
+
+    show cornelia a_8
+    show john a_0
+
+    cornelia "Like... Are you starting to become more like Saya then since you, uh... Start seeing girls like a girl? That's what you said, right?"
+
+    show cornelia a_22
+    show john b_1
+
+    john "Nah, I don't think it's that extreme. Sayaka said it has to do with hormones or something probably."
+
+    show cornelia a_0
+
+    cornelia "Oh, that makes sense."
+
+    show john b_0
+    show cornelia a_14
+
+    cornelia "But really, hurry up, my mom is waiting for us."
+
+    scene black with Dissolve(1.0)
+
+    title "21st of August (Sunday)" "Day 14 - John"
+
+    outfit john underwear
+    accessory john set
+    $ screenfilter.blur = 2
+    #TODO: Reduce volume of sound
+    play sound AN_sfx_rooster
+    pause 1.5
+    scene bg sayaka bedroom day
+    show black:
+        alpha 0.5
+    show john b_6:
+        faceright
+        center
+        xpos 0.6
+        ypos 1.15
+        alpha 0.0
+    with Dissolve(1.0)
+    pause 1.5
+
+    think "..."
+
+    show john:
+        ease 0.75 alpha 1.0
+    show black:
+        ease 0.75 alpha 0.0
+
+    think "Ugh, why do the neighbors have a freaking rooster of all things..."
+
+    show john b_22
+
+    "It was that bliss time of the week where I could just stay in my bed half-asleep, despite Gunnar the Rooster from next door screaming his lungs out."
+
+    show john b_20
+
+    "Sundays were the best, especially if you spent a lot of time just gaming into midnight last day."
+
+    show john b_14
+
+    think "I'm sure Cornelia can be proud of the fact that I finally unlocked hard-mode in Dedris."
+
+    show john b_22
+
+    think "..."
+    think "Right, I made the stupid decision to promise going on this date thing."
+    john "{i}Sigh...{/i}"
+
+    show john b_6 at faceleft
+
+    think "Glasses, glasses, where art thou."
+
+    show john b_14
+
+    think "There you are."
+
+    accessory john set glasses
+    show john b_23
+    with dissolve
+    $ screenfilter.blur = 0
+
+    think "That's better."
+
+    show john b_6
+
+    think "Man, I would've loved sleeping until like twelve into noon, but Sayaka told me I had to get up as early as possible."
+
+    show john a_6
+
+    think "..."
+
+    show john a_32
+
+    think "I should probably get up before she ambushes me while I'm still lying here."
+
+    scene black with dissolve
+    outfit john uniform_b_pony_jeans
+    scene bg sayaka kitchen day
+    show john b_6:
+        center
+        faceright
+        ypos 1.1
+    with dissolve
+    pause 2
+    play sound sfx_bell
+    pause 1
+    play sound AN_sfx_silence
+    pause 0.5
+    show john b_11 at faceleft
+
+    think "Oh, that has to be her."
+
+    show john b_6
+
+    think "She's really early..."
+
+    show john:
+        ease 0.75 ypos 1.0
+        pause 1
+        ease 5 offscreenleft
+
+    "I was still munching on my cereal, so I took the bowl with me to the front door."
+
+    scene black with dissolve
+    scene AN_bg sayaka backyard day
+    show john b_0:
+        right
+        faceleft
+        alpha 0.0
+    with dissolve
+    show john:
+        pause 0.5
+        ease 0.75 alpha 1.0 centerright
+
+    "It was a bit of a hassle since anyone without a key wouldn't even be able to get into this massive complex of a building."
+
+    #SKIP
+    show john:
+        centerright
+        alpha 1.0
+
+    #TODO: Remove below body statement
+    body carrie carrie
+    outfit zoey casual
+    outfit sayaka winter
+    play sound sfx_sliding_door_open
+    show carrie a_9:
+        left
+        faceright
+        alpha 0.0
+        xpos 0.0
+    show zoey a_2:
+        left
+        faceright
+        alpha 0.0
+    show sayaka a_16:
+        centerleft
+        faceright
+        alpha 0.0
+
+    "I opened the gate for her and..."
+
+    show john b_6
+    show sayaka:
+        ease 0.5 center alpha 1.0
+    show zoey:
+        pause 0.25
+        ease 0.5 xpos 0.35 alpha 1.0
+    show carrie:
+        pause 0.5
+        ease 0.5 xpos 0.2 alpha 1.0
+
+    sayaka "Took you long enough."
+
+    show zoey b_1
+
+    zoey "I knew it, you totally were going to be with this girl today! You shouldn't just lie to girls like that!"
+
+    show carrie a_2
+    show sayaka a_24
+
+    carrie "{size=-5}Another rival...{/size}"
+    john "..."
+
+    show zoey a_2
+    show sayaka a_16
+    show john b_19
+
+    john "What the hell are they doing here?"
+
+    show john b_17
+
+    "That blonde girl that kept looking at me during lunch last day and freaking Carrie were with her in tow."
+
+    show sayaka a_7
+
+    sayaka "Not my fault that this annoying girl doesn't want to leave me alone."
+
+    show sayaka a_16 at faceleft
+    show zoey a_3
+
+    zoey "We both agreed we would be going to hang out today."
+
+    show sayaka a_7
+
+    sayaka "Did not!"
+
+    show sayaka a_16 at faceright
+    show zoey a_2
+    show carrie a_16 at faceleft
+
+    john "Wait, you're bringing her to the mixer?"
+
+    show zoey a_3
+    show sayaka a_15
+
+    zoey "The mixer? What is that?"
+
+    show sayaka a_4 at faceleft
+
+    sayaka "She is only staying until we're done preparing {i}you alone to go to the aforementioned thing{/i}."
+
+    show john b_6
+    show sayaka a_16
+
+    john "...Uh... Am I supposed to agree with what you're sayi-"
+
+    show john b_28
+    show sayaka a_15 at faceright
+
+    extend " Ah, I mean, yes, {i}I am the only one going to this thing{/i}...?"
+
+    show john b_26
+    show sayaka a_13
+
+    sayaka "{i}Exactly{/i}."
+
+    show john b_27
+    show zoey b_6
+    show sayaka a_8 at faceleft
+
+    zoey "...What are you guys even talking about?"
+
+    show sayaka a_16
+
+    sayaka "Not something you have to know."
+
+    show zoey b_5
+    show carrie a_2 at faceright
+
+    sayaka "Carrie, my things."
+
+    show carrie a_1:
+        pause 1
+        ease 0.5 xpos 0.35
+    show zoey a_2:
+        pause 1.25
+        ease 0.75 xpos 0.2
+
+    carrie "Yes! Here you go."
+
+    show sayaka a_0
+    show john b_11
+    show carrie a_14
+
+    sayaka "Thanks, see you later at six."
+
+    show carrie a_15
+
+    carrie "Of course, John."
+
+    show carrie a_1 blush:
+        faceleft
+        ease 2.5 offscreenleft
+    show zoey:
+        pause 1.5
+        faceleft
+
+    "Unbelievably, she waltzed her way back towards where she lived."
+
+    show zoey at faceright
+    show sayaka a_5 at faceright
+    show john b_6
+
+    john "Did you actually for real tame this girl?"
+
+    show john b_13
+
+    sayaka "What do you mean {q}tame her{/q}? All I did was make sure she doesn't cause trouble for me."
+
+    show sayaka at faceleft
+    show zoey a_7
+
+    zoey "Who was she anyways? She gave me the creeps."
+
+    show john b_25
+    show sayaka at faceright
+
+    john "You don't even know half of it. Man, I'm so glad I don't have to interact with her anymore."
+
+    show sayaka a_17
+    show john b_11
+    show zoey a_2
+
+    sayaka "Bah, you're just missing out on free workforce. All you need to do is throw her a bone and make sure she doesn't get any wrong ideas."
+
+    show sayaka a_16:
+        ease 4 offscreenright
+    show zoey b_2:
+        pause 2
+        ease 4.5 offscreenright
+    show john:
+        pause 2
+        faceright
+        pause 1
+        faceleft
+        pause 1.5
+        faceright
+
+    sayaka "Anyways, I'm not here to chat about useless stuff. You bought the things I told you right?"
+    "Without much of a warning, she just walked through the door as if she owned the place and expected me to follow."
+
+    show john b_6
+
+    "And that girl followed her almost immediately, and I still had no idea who the hell she was or what she was even doing here."
+
+    scene black with dissolve
+    scene bg sayaka kitchen day
+    show sayaka a_5 at centerright, faceright
+    show zoey a_0 at center, faceleft
+    show john b_0:
+        offscreenleft
+        faceright
+        ease 1.0 centerleft
+    with dissolve
+
+    john "I didn't find the exact shampoo you told me to buy but I found something similar."
+
+    show sayaka at faceleft
+
+    sayaka "That's fine. As long as the eyeliner and lipstick are the exact same."
+
+    show john b_6
+
+    john "...Do you really want me to actually wear that stuff?"
+
+    show zoey a_2
+
+    zoey "You don't use eyeliner normally?"
+
+    show sayaka a_16
+    show zoey at faceright
+    show john b_11
+
+    sayaka "Yes she does, and yes, I do want you to wear it."
+
+    show sayaka a_5
+
+    sayaka "Now. Let's get down to business"
+
+    show sayaka:
+        faceright
+        ease 0.75 xpos 0.85
+    play sound sfx_door_open
+
+    "She walked up to the fridge, opened it, and found a can of soda that had been lying around for god knows how long."
+
+    show sayaka:
+        faceleft
+        ease 0.5 xpos 0.7
+    show zoey a_3
+
+    sayaka "Here. Me and Sayaka have to talk in private for a bit, so go into the living room and watch some TV while you wait."
+
+    show zoey a_0
+
+    "She handed the blonde the soda, to which the girl smiled."
+
+    show zoey a_1
+
+    zoey "Sure!"
+
+    show zoey a_3
+
+    zoey "But I want to join in on applying her make-up."
+
+    show sayaka a_16
+
+    sayaka "Yeah yeah, scram."
+
+    show zoey b_2:
+        ease 3 offscreenright
+    show john b_6
+    show sayaka a_5:
+        pause 1
+        faceright
+    pause 2
+    play sound sfx_door_close
+    pause 0.5
+
+    "The girl left the kitchen and closed the door behind her."
+
+    show john b_25
+    show sayaka at faceleft
+
+    john "...Care to explain?"
+
+    show sayaka a_16
+
+    sayaka "I can't get rid of her."
+
+    show john b_17
+
+    john "You can't get rid of her? Why is she following you in the first place?"
+
+    show sayaka a_7
+
+    sayaka "She just... Came up to me and told me she liked me and now I'm stuck with her."
+
+    show john b_6
+    show sayaka a_16
+
+    john "...So you're saying that within two weeks, you've managed to get some freshman to fanatically like me. For no reason."
+    sayaka "Who cares about it? We don't have a lot of time so we need to start doing the make-up and hair."
+
+    show john b_13
+
+    john "I still don't get why she is suddenly attached to you like Carrie, I mean, it really reeks like you're hiding someth-"
+
+    show sayaka a_4
+
+    sayaka "I said, who cares!"
+
+    show sayaka a_25 at faceright
+    show john b_25
+
+    think "She is totally hiding something."
+
+    show sayaka a_16 at faceleft
+    show john b_18
+
+    john "Who even is she?"
+
+    show john b_17
+    show sayaka a_5
+
+    sayaka "...{i}Sigh...{/i} Her name is Zoey and she is Brad's sister."
+
+    show john b_11
+
+    john "Huh..."
+
+    show john b_28
+
+    john "Wait, Brad has a sister?! That Brad?!"
+
+    show john b_27
+
+    sayaka "Yes, that Brad. And she agreed to leave me alone for the rest of the day if she could help out with this, so just, don't question why she's here and everything will be fine."
+
+    show sayaka a_16
+    show john b_0
+
+    sayaka "Got that drilled into your brain?"
+
+    show john b_6
+
+    john "Yes, sir."
+
+    show sayaka:
+        faceright
+        ease 4 offscreenright
+
+    think "I was curious what on earth made her stick to Sayaka in the first place, but it wouldn't seem she wants to talk about it."
+
+    play sound sfx_door_open
+    scene black with dissolve
+    scene bg sayaka livingroom day
+    with dissolve
+    play sound sfx_door_close
 
 
 

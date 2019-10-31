@@ -12296,7 +12296,7 @@ label AN_day_1:
 
     title "21st of August (Sunday)" "Day 14 - John"
 
-    outfit john underwear
+    outfit john underwear_badhair
     accessory john set
     $ screenfilter.blur = 2
     #TODO: Reduce volume of sound
@@ -12359,12 +12359,9 @@ label AN_day_1:
     show john b_6
 
     think "Man, I would've loved sleeping until like twelve into noon, but Sayaka told me I had to get up as early as possible."
-
-    show john a_6
-
     think "..."
 
-    show john a_32
+    show john b_25
 
     think "I should probably get up before she ambushes me while I'm still lying here."
 
@@ -12744,15 +12741,705 @@ label AN_day_1:
 
     show sayaka:
         faceright
-        ease 4 offscreenright
+        ease 2.5 offscreenright
 
     think "I was curious what on earth made her stick to Sayaka in the first place, but it wouldn't seem she wants to talk about it."
 
     play sound sfx_door_open
     scene black with dissolve
     scene bg sayaka livingroom day
+    show zoey a_3 at centerright, faceright
+    show sayaka a_16:
+        center
+        xpos 0.4
+        faceright
+    show john b_0:
+        offscreenleft
+        faceright
+        ease 2 xpos 0.275
     with dissolve
+    show zoey a_2 at centerright, faceleft
     play sound sfx_door_close
+
+    sayaka "We're done talking. If you want to do this then get off your ass and follow us."
+
+    show zoey a_0 at faceleft
+    show john b_6
+
+    zoey "Huh? Oh that was fast. Sure."
+    think "Seriously, why does this girl even want to be in a 100 meter radius of Sayaka if this is how she treats her..."
+
+    scene black with dissolve
+    pause 1
+    outfit john underwear_badhair
+    accessory john set
+    outfit sayaka winter_tshirt
+    $ screenfilter.blur = 2
+    scene bg sadie bathroom day
+    show john b_6:
+        centerright
+        faceright
+        ypos 1.15
+    show sayaka a_5:
+        center
+        faceright
+        xpos 0.5
+    show zoey a_0:
+        centerright
+        faceright
+        xpos 0.6
+    with dissolve
+
+    sayaka "The face cream."
+
+    show zoey b_6:
+        ease 0.5 xpos 0.85
+
+    zoey "Uh... What drawer?"
+    sayaka "Third from the top on the right."
+
+    show zoey b_0
+
+    zoey "Oh, okay."
+
+    show zoey a_0
+
+    think "..."
+
+    show john b_23
+
+    think "I feel like a doll that's being pampered right now..."
+
+    show zoey:
+        faceleft
+        ease 0.5 xpos 0.6
+    show sayaka a_2
+
+    zoey "Here you go."
+
+    show sayaka a_5
+    show zoey at faceright
+
+    "Sayaka was concentrated on putting all kinds of chemicals on my face in the right way."
+
+    show john b_20
+
+    "It just... I don't know, looked weird to see my own body applying stuff to Sayaka's face, while I had control of Sayaka's face and all."
+
+    show john b_6
+    show zoey a_3
+
+    "I had looked at myself in the mirror plenty of times during these last two weeks, but this was still bizarre. My face was full of some weird cream she smeared around for the 4th time now."
+
+    show john b_0
+
+    zoey "Do you guys do this often?"
+
+    show sayaka a_2
+
+    sayaka "Often? Uh..."
+
+    show john b_30
+
+    john "N- No, John just... Likes to practice for the future, heh, right, John?"
+
+    show sayaka a_6
+    show zoey a_2
+    show john b_13
+
+    sayaka "Uh, yeah, sure."
+
+    show zoey a_1
+
+    zoey "Ooh, you want to be some kind of make-up stylist or whatcha call it?"
+
+    show zoey a_0
+    show sayaka a_0
+    show john b_1
+
+    sayaka "Uhm, yeah, that."
+    "It was only for a brief moment, but Sayaka actually nodded in approval to me in the mirror. Almost as if telling me {q}good job{/q}."
+
+    show john b_14
+
+    "It almost felt fulfilling having this girl approve of my genius lie."
+
+    show sayaka a_5
+    show john b_29
+
+    john "But don't, you know, tell anyone. It's a secret."
+
+    show zoey b_2
+
+    zoey "My lips are sealed."
+
+    show zoey a_0
+    show john b_11
+    show sayaka a_8
+
+    sayaka "Good. Now wait 15 minutes for the cream to sink in, then wash your face afterwards."
+    sayaka "After that you can take a bath while I fix your hair and then we do the final touches."
+
+    show zoey a_7
+    show john b_25
+
+    john "Uh... Sounds good."
+
+    show zoey a_1
+    show john b_11
+    show sayaka a_5
+
+    zoey "Ahaha, he said he is going to do your hair while you're taking a dip in the water and you're just okay with that?"
+
+    show john b_27
+    show sayaka a_15
+
+    zoey "You're so weird. "
+
+    show zoey a_0
+
+    sayaka "..."
+
+    show john b_26
+
+    think "Wait, did she actually say that?"
+
+    show sayaka a_12
+    show john b_27
+    show zoey a_7
+
+    sayaka "I'm just gonna go make a call real quick."
+
+    show sayaka a_16:
+        transform_anchor True
+        ease 0.5 rotate 7.5 ypos 1.02
+
+    "She leaned down right next to my ear and started whispering to me."
+
+    show zoey a_2
+
+    sayaka "{size=-8}This is taking too long and I have to do this while you're washing yourself or we're going to be late, so I'm getting this brat away from here with my plan B.{/size}"
+
+    show sayaka a_12:
+        ease 0.5 rotate 0 ypos 1.0
+    show zoey a_3 at faceleft
+
+    zoey "Huh?"
+
+    show john b_7 at faceleft
+
+    john "Hey, hey, hey..."
+
+    show sayaka a_16:
+        faceleft
+        ease 4 xpos -0.5
+
+    john "You're not serious right?"
+
+    play sound sfx_door_close
+
+    "She ignored me and got out her phone (well, it's actually my phone but whatever)."
+
+    show john b_0
+    show zoey b_4 at faceright
+
+    zoey "What did he tell you?"
+
+    show john b_2
+
+    john "Uh... Nothing..."
+
+    show zoey a_2
+    show john b_14
+
+    zoey "..."
+
+    show zoey a_3
+    show john b_1
+
+    zoey "You like him too, right? You can't hide that, you guys are way too close."
+
+    show john b_28
+
+    john "W- What? Like him? Me?"
+
+    show john b_11
+    show zoey a_2
+
+    zoey "Heck yeah. But I'll let you know, he confessed to me, not you. And I bet you told him to text me what he did."
+
+    show john b_26
+
+    zoey "But I don't give up that easily!"
+
+    show john b_19
+
+    john "What?! He confessed to you? What the hell are you talking about?"
+
+    show zoey b_5:
+        faceleft
+        ease 0.75 xpos 0.55
+    show john b_17
+
+    zoey "Hmpf, so he didn't tell you."
+
+    show zoey b_2 at faceright
+
+    zoey "But yeah, that's right. I'm still trying to figure out why he would suddenly back out again, but even someone who has the guts to do that as a prank is someone I think is really cool."
+
+    show john b_5
+
+    john "Ba- Back up, are you serious? Confessed, like in, tell you he likes you?"
+    zoey "Of course."
+
+    show john b_19
+
+    john "Wha- Why would he do tha-"
+
+    show john b_27
+    play sound sfx_door_open
+    show zoey a_2 at faceleft
+    show sayaka a_10:
+        faceright
+        ease 2 centerleft
+
+    "As I was trying to figure out what the heck she was saying, Sayaka walked back into the bathroom with a smile on her face."
+
+    show john b_6
+    show sayaka a_0
+
+    john "...What did you do now?"
+
+    show sayaka a_16
+
+    sayaka "What do you mean by that?"
+
+    show john b_25
+
+    john "You have a smile on your face, that's not a good sign."
+    sayaka "Rude."
+
+    show sayaka a_6
+
+    sayaka "Anyways, I'm {i}so sorry{/i} Zoey, but it seems like Brad has business with you and is here in a minute to pick you up, so sadly we will have to part ways now."
+
+    show zoey a_3
+    show john b_0
+
+    zoey "Why would Brad come here all of a sudden?"
+    zoey "Why do you even know he's coming?"
+
+    show sayaka a_12
+
+    sayaka "Oh, he called me."
+
+    show zoey a_7
+    show sayaka a_0
+
+    zoey "But didn't you just walk out to make a ca-"
+
+    show zoey b_1
+
+    zoey "Oh come on!"
+
+    show zoey b_6
+
+    zoey "I just want to spend time with you!"
+
+    show sayaka a_5
+
+    sayaka "Well, boo-hoo, life is unfair."
+
+    show john b_6
+
+    think "Man, it gives an entirely different take on her character if she is being nefarious and it affects yourself positively as a result..."
+    think "She just doesn't give a crap about Zoey's feelings at all."
+
+    show zoey b_5
+    show john b_0
+
+    zoey "...Fine."
+
+    show zoey a_3 at faceright
+
+    zoey "But I'm not giving him up to you yet."
+
+    show john b_2
+
+    john "Uh... Sure..."
+
+    show zoey:
+        faceleft
+        ease 4 offscreenleft
+    show sayaka:
+        pause 2.75
+        faceleft
+    show john b_25
+
+    think "I don't know if I'm supposed to be happy that Sayaka has made some random girl fall this hard for me or if I should be angry."
+
+    show john b_17
+
+    think "Still, confessed to her? Why on earth would she do that?"
+
+    scene black with dissolve
+    pause 1
+    play sound sfx_door_open
+    scene bg sadie bathroom day
+    show john b_6:
+        centerright
+        faceright
+        ypos 1.15
+    show sayaka a_5:
+        offscreenleft
+        faceright
+        ease 3 xpos 0.5
+    with dissolve
+
+    sayaka "Alright, she's finally gone."
+
+    show sayaka a_16
+    show john b_0
+
+    sayaka "Geez was she annoying."
+
+    show john b_6
+
+    john "Right..."
+
+    show john b_13
+
+    john "About what she to-"
+
+    show john b_0
+    show sayaka a_5:
+        faceleft
+        ease 0.5 xpos 0.35
+
+    sayaka "Now get your ass up and wash your face, 15 minutes have long passed. I'm gonna go fill the bathtub and figure out how to fix your hair."
+
+    show john b_7 at faceleft
+
+    john "Were you serious when you said you're gonna do my hair while I'm..."
+
+    show sayaka at faceright
+
+    sayaka "While what? While you're in the tub? You're not supposed to get your hair wet right now anyways and we're running short on time, so yes, I am serious."
+
+    show john b_5
+
+    john "...You don't feel embarrassed at all about doing that...?"
+
+    show sayaka a_2
+
+    sayaka "...About seeing myself naked?"
+
+    show john b_4
+
+    john "Yeah, that..."
+
+    show sayaka a_16
+    show john b_0
+
+    sayaka "I've literally grown up with that body, why the hell would I be embarrassed looking at it?"
+
+    show john b_4
+
+    john "..."
+    "Man, I thought she would feel just a little bit like me, but for some reason it felt... Just wrong to let her see me without any clothes on."
+    "Was I just being weird? Or was the swap affecting me here too?"
+    "This is weird..."
+
+    scene black with dissolve
+    pause 0.5
+    outfit john casual
+    outfit sayaka winter
+    $ screenfilter.blur = 0
+    scene bg sayaka bedroom day
+    show john b_1 at left, faceleft
+    show sayaka a_5 at centerleft, faceleft
+    with dissolve
+
+    john "So, we done with the dress-up?"
+
+    show john a_1 at faceright
+    show sayaka a_0
+
+    sayaka "Yep. You finally look like me again."
+
+    show john a_32
+    show sayaka a_5
+
+    john "Do I really need to wear contacts though? They are annoying to wear."
+    sayaka "Yes, you do."
+
+    show john a_6
+    show sayaka a_16
+
+    sayaka "As we agreed, you can wear those shitty glasses again once we're done, but you better not embarrass me in front of the other people or I'm retracting the deal!"
+
+    show john a_13
+
+    john "Yeah, yeah, fine by me."
+
+    scene black with dissolve
+    pause 1.5
+    scene bg yui house day
+    show john b_0:
+        center
+        faceright
+        xpos 0.6
+        block:
+            ease 0.75 ypos 1.02
+            ease 0.6 ypos 1.0
+            repeat
+    show sayaka a_5:
+        center
+        faceright
+        xpos 0.8
+        block:
+            ease 0.85 ypos 1.02
+            ease 0.65 ypos 1.0
+            repeat
+    with dissolve
+
+    "After what felt like hours of being baked with what had to be ten different beauty products, I was finally deemed ready to get this thing over with."
+
+    show john b_6
+
+    "Sayaka had somehow arranged this unfathomably quick and rented some really cliche karaoke room for four."
+
+    show john a_0
+
+    "So I assumed it was going to be a two girls two boys situation, which would feel extremely awkward since I'd {i}have{/i} to interact with us being only four."
+    sayaka "And you know exactly how to act, right?"
+
+    show john a_13
+
+    john "Yeah yeah, girly, legs closed, laugh at jokes that aren't funny..."
+
+    show john a_0
+
+    sayaka "And make sure not to spill food."
+
+    show john a_13
+
+    john "And that."
+
+    show john a_26
+
+    john "Shouldn't I actually be giving you demands on how to act too?"
+
+    show john a_6
+    show sayaka a_13
+
+    sayaka "Oh come on, anything I do would be a better option than what you would do."
+
+    show sayaka a_6
+    show john b_13
+
+    john "Didn't you say that you got nervous around girls?"
+
+    show sayaka a_5
+
+    sayaka "I know how to deal with it now."
+
+    show john a_13
+
+    john "Actually, that reminds me, that Zoey girl mentioned something..."
+
+    show sayaka a_2
+
+    sayaka "Mentioned what?"
+    john "Something about you confessing to her."
+
+    show sayaka a_15 blush
+    show john b_11
+
+    "Her face went red in an instant as she looked away."
+
+    show john b_6
+    #TODO: Add blush to expression below
+    show sayaka a_24 blush
+
+    think "Could you make it more obvious that you did something stupid?"
+
+    show john a_6
+
+    john "Not like I'm going to complain about you somehow ending up scoring me a girlfriend or something..."
+
+    show sayaka a_16 blush
+    show john a_31
+
+    john "Besides, she's being annoying to {i}you{/i} right now so I really have no idea what you were thinking."
+
+    show sayaka a_4 blush
+
+    sayaka "Shut up, okay?!"
+
+    show sayaka a_15 blush
+    show john a_13
+
+    john "Geez, touchy subject or something?"
+
+    show sayaka a_16 blush
+
+    "It was probably something I would have digged further into to get my satisfaction of annoying her a bit, but with this mixer thing coming up I figured probably shouldn't tempt the devil."
+
+    scene black with dissolve
+    scene AN_bg karaoke bar alt
+    show john b_0:
+        center
+        faceleft
+        alpha 0.0
+    show sayaka a_5:
+        center
+        faceright
+        alpha 0.0
+    with dissolve
+    play sound sfx_door_open
+    show john:
+        pause 1
+        ease 0.75 xpos 0.4 alpha 1.0
+    show sayaka:
+        pause 0.25
+        ease 0.75 xpos 0.6 alpha 1.0
+
+    "We arrived at the locale, which was kind of cozy looking."
+    "We were just in time, with a minute to spare, but there was nobody else in sight here yet."
+
+    scene black with dissolve
+    pause 0.5
+    outfit sayaka winter_tshirt
+    scene AN_bg karaoke bar alt
+    show john a_13:
+        center
+        faceleft
+        xpos 0.8
+        ypos 1.1
+    show sayaka a_16:
+        center
+        faceleft
+        xpos 0.6
+        ypos 1.1
+    with dissolve
+
+    "Time ran with us just sitting around for five minutes. I couldn't really be bothered striking up something to talk with Sayaka about, and evidently, neither could she."
+
+    show john b_0
+
+    sayaka "{size=-7}Where the hell are they...{/size}"
+
+    show john a_6
+    outfit audrey casual_c
+    outfit dominic casual
+    show audrey a_0:
+        alpha 0.0
+        center
+        faceright
+        xpos 0.4
+    show dominic a_5:
+        alpha 0.0
+        center
+        faceright
+
+    think "At least I know who is the more patient one of us two..."
+
+    play sound sfx_door_open
+    show sayaka a_5
+    show dominic behind audrey:
+        ease 0.5 alpha 1.0 xpos 0.35
+    show audrey :
+        pause 1
+        ease 0.5 alpha 1.0 xpos 0.2
+
+    "After ten minutes in total, two people entered the room."
+
+    show sayaka a_0:
+        ease 0.25 ypos 1.0 xpos 0.575
+    show dominic a_3
+    show audrey b_1
+    show john b_1
+
+    "Sayaka lit up from her grumpy mood immediately as if nothing were ever wrong and greeted them."
+
+    show dominic a_0
+    show audrey b_0
+
+    sayaka "Hello. Great to meet both of you. Dominic and Audrey, I believe it was?"
+    audrey "Hey. We're so sorry about the delay."
+
+    show dominic a_2
+
+    dominic "Yeah, hey, the train was delayed so we had to run our pants off, heh."
+
+    show dominic a_0
+    show sayaka a_1
+
+    sayaka "Ah, public transport. I totally get what you went through, haha."
+
+    show john b_6
+
+    think "Uh... Has she ever even taken public transport?"
+
+    show john b_0
+    show sayaka a_0
+
+    think "Don't tell me she is going to lie all throughout the day."
+    sayaka "As you guys already know, my name is John, and this lady over here is Sayaka, the one I talked to you about."
+
+    show john b_14
+    show sayaka a_5 at faceright
+
+    john "Oh, yeah, hi."
+    "I waved my hand as we introduced ourselves."
+
+    show john b_1
+    show dominic b_1
+    show sayaka a_0 at faceleft
+
+    dominic "I'm Dominic, glad to meet you."
+
+    show dominic a_0 at faceleft
+    show audrey a_1
+
+    audrey "And I'm Audrey."
+
+    show john a_2
+    show audrey a_0
+    show dominic at faceright
+
+    john "Ah, cool meeting you guys."
+
+    show dominic b_2
+    show john a_10
+
+    dominic "Pleasure is all ours."
+
+    show dominic a_2
+    show sayaka a_8
+    show john a_34
+
+    "He smiled gently at me, but in the corner of my eye I could feel Sayaka feeling physical disgust."
+
+    show john a_1
+
+    "This Dominic guy seemed like a normal guy, so why she'd react like that was really beyond me."
+
+    show john a_31
+
+    think "But then again, this is Sayaka we are talking about."
+
+    scene black with dissolve
+
+
+
+
+
+
+
+
+
 
 
 

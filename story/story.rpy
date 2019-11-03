@@ -13431,6 +13431,644 @@ label AN_day_1:
     think "But then again, this is Sayaka we are talking about."
 
     scene black with dissolve
+    pause 3
+    scene AN_bg karaoke bar alt
+    show john b_13:
+        center
+        faceleft
+        xpos 0.8
+        ypos 1.1
+    show sayaka a_0:
+        center
+        faceleft
+        xpos 0.6
+        ypos 1.1
+    show audrey b_0:
+        center
+        faceright
+        xpos 0.4
+        ypos 1.1
+    show dominic a_1 behind audrey:
+        center
+        faceright
+        xpos 0.2
+        ypos 1.1
+    with Dissolve(1.0)
+
+    "It went more smoothly than I thought it would. Sayaka was practically leading the conversation with me just nodding."
+
+    show john b_12
+    show dominic a_0
+
+    "Oh, and the magic trick of faking a small smile or laugh when the others said something that was supposed to be funny."
+
+    show john a_32
+
+    "Which quickly became very tiring to do."
+
+    show john b_0
+    show sayaka a_5
+    show dominic a_5
+    show audrey b_9
+
+    sayaka "Actually, I was wondering, do you guys know each other already?"
+
+    show audrey b_0
+    show dominic b_0
+
+    dominic "Heh, you guessed right. We are actually both working under an apprenticeship as waiters."
+
+    show dominic a_0
+    show sayaka a_2
+
+    sayaka "You can have an apprenticeship as a waiter?"
+
+    show dominic a_2
+
+    dominic "Yep. We both work at cafes that are practically right next to each other."
+
+    show dominic a_0
+    show sayaka a_5
+    show audrey b_1
+
+    audrey "And we've been friends since pre-school, so it was kinda funny that we ended up both wanting to do the same thing when we grow up and then even ended up in neighboring shops."
+
+    show john b_5
+
+    think "Huh, seems weird to me that they haven't gotten together themselves yet if they have such matching interests. They look like the perfect match."
+
+    show audrey a_0
+    show dominic
+    show sayaka a_5
+
+    sayaka "Huh, shouldn't you guys have gotten together yourselves yet if you have such matching interests? You really look like you'd be the perfect match for each other already."
+
+    show john b_6
+
+    think "...What, she can read minds now too?"
+
+    show john b_0
+    show audrey b_1
+
+    audrey "Hehe, we get that a lot. But we both agreed that we would rather want to be rivals and co-workers in the future if everything goes well."
+
+    show audrey b_0
+    show dominic a_2
+
+    dominic "And I wouldn't survive a day with Drey's famous frisbee tray flying everywhere around the house."
+
+    show audrey b_3 at faceleft
+
+    audrey "That has only happened three times."
+
+    show john b_23
+    show dominic a_1
+    show sayaka a_16
+
+    think "Nah, I take back everything I said before. These guys are {i}too much{/i} of a match."
+
+    show audrey a_3
+    show dominic a_0
+    show sayaka a_24
+
+    "Sayaka let out a long sigh while Audrey and Dominic were bickering and laughing over what appears to be misfortunes that happened during the job."
+
+    show john b_0:
+        transform_anchor True
+        ease 0.75 rotate -5
+    show sayaka a_5
+    show audrey a_0
+
+    john "{size=-5}I'm supposed to feel flustered about Dominic, right?{/size}"
+
+    show john
+    show sayaka a_33
+    show dominic b_2
+
+    "I almost thought she wouldn't answer since the banter the other two were doing was starting to cool off, but eventually she did respond."
+
+    show sayaka a_16
+    show audrey a_6
+    show dominic b_5
+
+    sayaka "{size=-5}Yes, but these guys are so basic.{/size}"
+
+    show audrey a_1
+    show dominic a_1
+
+    john "{size=-5}Basic?{/size}"
+
+    show dominic a_5
+    show audrey b_6 at faceright
+    show sayaka a_34
+    show john b_11:
+        ease 0.5 rotate 0
+
+    sayaka "Aaa~~~anyhow, let's do something. I rented this karaoke room for a reason after all."
+
+    show sayaka a_5
+    show audrey b_1
+    show dominic a_0
+
+    audrey "Heh, we are going to hear you sing?"
+
+    show audrey b_0
+    show sayaka a_3
+
+    sayaka "I'll show you what a future star sounds like, just you watch."
+
+    scene black with dissolve
+    pause 1
+    accessory sayaka set shadow
+    show AN_bg karaoke bar alt:
+        zoom 1.5 xalign 0.75 yalign 0.8
+    show john a_14:
+        center
+        faceleft
+        xpos 0.45
+    show audrey a_1:
+        center
+        faceleft
+        xpos 0.25
+    show sayaka a_21:
+        transform_anchor True
+        center
+        faceleft
+        xpos 0.65
+        ypos 1.2
+        rotate -5
+    show dominic a_5:
+        center
+        faceleft
+        xpos 0.8
+        ypos 1.15
+    with dissolve
+
+    "The karaoke actually turned out to be quite fun."
+
+    show john a_10
+    show audrey a_0 at faceright
+
+    "I hadn't considered singing with Sayaka's voice before, but it was actually... Really good."
+
+    show john b_0 at faceright
+    show dominic a_6
+    show sayaka a_24
+
+    "Well, her on the other hand..."
+
+    show sayaka a_21
+
+    sayaka "{size=-8}I can't sing... This body can't sing...{/size}"
+
+    show john a_31
+    show sayaka a_24
+    show dominic a_2
+    show audrey b_6
+
+    "I felt just a tiny bit bad for apparently robbing her of her talent to hit notes, since I knew that I was terrible at it with my actual body."
+    "Turns out, that talent at being terrible at singing carries over when you swap with someone."
+
+    show john b_6
+
+    think "But she is having just a bit of an existential crisis right now, isn't she?"
+
+    accessory sayaka set
+    show dominic a_0
+    show audrey b_0
+    show john b_0
+    show sayaka a_5:
+        faceright
+        ease 0.5 rotate 0 ypos 1.15 xpos 0.6
+
+    dominic "You know, I'd pay a pretty penny if you were a performer at a party or something."
+
+    show audrey a_1
+    show john at faceleft
+    show sayaka at faceleft
+
+    audrey "U-huh!"
+
+    show john b_12
+    show audrey a_0
+
+    john "Heh, well, maybe it's a possibility for the future."
+
+    show john b_0
+    show audrey b_0
+    show sayaka a_33
+
+    audrey "Hey, hey, can I do this one with you as well?"
+    "She pointed towards some song I knew. {q}Don't start unbelieving{/q}."
+
+    show john a_24
+
+    think "What a classic."
+
+    show dominic a_2
+    show sayaka a_5 at faceright
+    show john b_0
+    show audrey b_9
+
+    dominic "We're in for a treat now."
+
+    show dominic a_0
+
+    dominic "You know, Audrey actually performs on stage sometimes."
+
+    show sayaka at faceleft
+    show john b_12:
+        pause 1
+        faceleft
+
+    john "What? Really? That's amazing!"
+
+    show john b_1
+    show audrey b_7 blush
+
+    audrey "Don't up-play me like that Dom, I only experimented a little once or twice doing it."
+
+    show john b_0 at faceright
+    show sayaka at faceright
+    show audrey b_4 blush
+    show dominic b_2
+
+    dominic "I could invite you to the next time she does her gig if you're up for it."
+
+    show john b_2
+    show sayaka a_33
+
+    john "Heh, uh... Maybe."
+
+    show john b_5
+    show sayaka a_5 at faceleft
+    show audrey a_0 blush:
+        faceleft
+        ease 1.0 ypos 1.05 xpos 0.2
+
+    think "Crap, is this guy already asking me out for another event?!"
+    think "How do I even turn him down? I don't want to go out with a dude!"
+
+    show john b_0 at faceleft
+    show audrey a_1:
+        pause 1
+        faceright
+        ease 0.5 ypos 1.0 xpos 0.25
+    play sound sfx_device
+
+    "While I had a mild internal panic attack, Audrey turned on the track which brought me back to reality just a bit."
+
+    show john b_4
+
+    think "I probably have to tell him I don't want to meet him again at some point, right?"
+    think "But I need to say it in some sort of gentle way to not hurt him..."
+
+    show john b_19
+
+    think "ARGH! Why am I thinking about this like that?!"
+
+    show john b_11:
+        pause 1
+        faceright
+    show audrey b_0
+    show sayaka a_16
+
+    sayaka "What, not gonna sing with your beautiful and talented voice...?"
+
+    show john at faceleft
+
+    think "Oh, right, the song."
+    "But the way Sayaka said that to me was the most monotone way possible."
+
+    show john b_6
+
+    "She clearly had nothing but spite and jealousy towards me for stealing her spotlight."
+
+    show john b_23
+
+    think "Sorry, heh."
+
+    scene black with dissolve
+    pause 0.5
+    show AN_bg karaoke hallway day:
+        zoom 1.5 xalign 0.7 yalign 0.8
+    show john b_0 at center, faceright
+    show sayaka a_16 at centerright, faceright
+    with dissolve
+
+    "Me and Sayaka had excused ourselves out of the room under the pretense to go get something to drink."
+    "Mostly because Sayaka heavily insisted on us doing that for them."
+    "But I can imagine that her thirst wasn't the reason for wanting to go out of the room for a minute."
+
+    show sayaka a_7
+    show john b_11
+
+    sayaka "Those guys are so fucking lame!"
+
+    show sayaka a_16
+    show john b_0
+
+    john "What? Why?"
+
+    show sayaka a_7 at faceleft
+    show john b_13
+
+    sayaka "Don't you see it? They are clearly already buddy-buddy with each other and are just finding excuses not to fuck already because they are too scared what the other one would say!"
+
+    show sayaka a_25
+
+    sayaka "This entire thing is so freaking pointless, how am I supposed to get turned on by someone who is already in the pants of someone else?!"
+
+    show sayaka a_16
+    show john b_3
+
+    john "Whoah, whoah, calm down."
+
+    show john a_13
+
+    john "They might hear you, you know..."
+
+    show sayaka at faceright
+
+    sayaka "Urgh, I spent money on this for nothing."
+
+    show john a_30
+
+    john "So... You don't think Audrey is attractive or something?"
+
+    show sayaka a_7
+
+    sayaka "I mean, sure, she's cute and would probably make for a great girlfr-"
+
+    show sayaka a_20
+    show john b_11
+
+    sayaka "Oooh fuck no what am I saying?!"
+
+    show sayaka a_7 at faceleft
+
+    sayaka "She's average!"
+
+    show sayaka a_16
+    show john b_6
+
+    john "{i}Sigh...{/i} Okay, so you're having another one of your anger fits."
+
+    show sayaka a_7
+    show john b_11
+
+    sayaka "It's not-"
+
+    show sayaka a_25 at faceright
+
+    sayaka "Argh! Fine!"
+
+    show john a_6
+    show sayaka a_16
+
+    john "...What's fine?"
+
+    show sayaka at faceleft
+
+    sayaka "That I'm pissed! I get it, I was supposed to figure out if I turned lesbian and obviously I am!"
+
+    show john a_0
+
+    sayaka "But what about you? You think that joke of a man is worth anything?"
+
+    show john b_0
+
+    john "Uhm... Well..."
+
+    show john a_4
+
+    think "I guess I looked at him in a bit of a different light...?"
+    think "I mean, if he asked me out on a date while I was still a guy then I'd still try to politely tell him something like {q}Whoah, back off{/q} in order to not hurt his feelings too much..."
+
+    show john a_13
+
+    john "It's... Uh... Kind of complicated I think."
+
+    show sayaka a_5
+
+    sayaka "What about the girl? You seemed all giddy-giddy being able to sing with her without holding back."
+    sayaka "No perv thoughts at all?"
+
+    show john b_13
+
+    john "I guess not...?"
+
+    show sayaka a_8
+
+    sayaka "You didn't even notice how you managed to ram her tits a couple times while you were so caught up in using {i}my voice{/i} for your own fun?"
+
+    show john a_8 blush
+
+    john "Wait, I did?!"
+
+    show john b_27 blush
+
+    think "Hell, I didn't even notice that. I just went with the flow, Audrey was pretty much a natural born performer which I tried to mirror for fun."
+
+    show john a_0 blush
+    show sayaka a_33
+
+    sayaka "I really hope for your own sake that you aren't naturally gay."
+
+    show john b_18
+
+    john "I didn't do that on purpose!"
+
+    show john b_4
+    show sayaka a_5
+
+    john "And I'm sorry that I suck at singing..."
+
+    show sayaka at faceright
+
+    sayaka "You better be."
+
+    scene black with dissolve
+    scene AN_bg karaoke bar alt
+    show sayaka a_34:
+        faceleft
+        alpha 0.0
+        center
+        xpos 0.7
+        pause 0.75
+        ease 0.75 xpos 0.6 alpha 1.0
+    show john b_11:
+        faceleft
+        alpha 0.0
+        center
+        xpos 0.9
+        pause 0.75
+        ease 0.75 xpos 0.8 alpha 1.0
+    show dominic a_0:
+        faceleft
+        center
+        xpos 0.35
+        pause 0.5
+        faceright
+    show audrey a_0:
+        faceleft
+        center
+        xpos 0.15
+        pause 0.75
+        faceright
+    with dissolve
+    play sound sfx_door_open
+
+    "We brought the refreshments to the other two and ended up staying for another hour or so before finally deciding to end the day there."
+
+    scene black with dissolve
+    outfit sayaka winter
+    scene bg city walkway day
+    show sayaka a_12:
+        center
+        xpos 0.5
+        faceright
+    show john b_14 behind sayaka:
+        center
+        xpos 0.3
+        faceright
+    show dominic a_2:
+        center
+        xpos 0.7
+        faceleft
+    show audrey a_1:
+        center
+        xpos 0.85
+        faceleft
+    with dissolve
+    show dominic a_0:
+        pause 0.5
+        faceright
+        ease 2 alpha 0.0 xpos 1.2
+    show audrey b_0:
+        pause 0.4
+        faceright
+        ease 2 alpha 0.0 xpos 1.35
+
+    "About three and a half hours had passed with them, and I had both their numbers registered on my phone now."
+
+    show john b_1
+    show sayaka a_33
+
+    "This entire thing actually went completely different to what my expectations were. I thought this would have been some kind of date where we'd end up kissing or some crap, but it was actually pretty enjoyable."
+
+    show john b_0
+
+    "Well, for one of us at least."
+
+    show sayaka a_5
+
+    john "You're still angry about today?"
+
+    show sayaka a_16 at faceleft
+    show john b_11
+
+    sayaka "Oh no, John, I am actually so freaking happy right now. You ended up having loads of fun hanging out with that bitch while I was stuck talking with the other guy about how he tuned his motorbike."
+
+    show sayaka a_5
+
+    sayaka "Just a splendid time."
+
+    show john a_6
+
+    john "...I'll take that as a yes."
+
+    show sayaka a_16 at faceright
+    show john a_0
+
+    sayaka "{i}Sigh...{/i} It's just frustrating..."
+
+    show john a_4
+
+    john "..."
+
+    show sayaka a_5 at faceleft
+    show john a_10
+
+    john "You... Uh, want to stay a bit longer at your own house? Your parents probably won't be home until ten or so as usual."
+    sayaka "It's fine. Your mom was going to make me pancakes today."
+
+    show john a_18
+
+    john "Oh, right..."
+
+    show john a_4
+
+    think "Man, what would I give to get a good meal like yesterday again for dinner..."
+
+    show john b_0
+    show sayaka a_2
+
+    think "Which reminds me, I should probably go and stock up on ingredients."
+
+    show john b_14
+
+    "In that moment I decided that I would be making pancakes myself today."
+
+    scene black with dissolve
+    pause 0.5
+    scene bg neighborhood3 day
+    show john b_0 at center, faceleft
+    show sayaka a_5:
+        centerleft
+        faceleft
+        pause 1
+        faceright
+    with dissolve
+    pause 0.5
+
+    john "Well, see you tomorrow then."
+    sayaka "Yeah yeah."
+    sayaka "And don't forget to read the links I sent you."
+
+    show john b_14
+
+    john "Will do."
+
+    show sayaka:
+        faceleft
+        ease 4 offscreenleft
+    show john b_13
+
+    "She went her own way without looking back, but did wave a hand in the air briefly when we got to the crossing where the roads home forked."
+
+    show john b_1
+
+    think "Huh, she even said {q}see you{/q} in her own roundabout way."
+    "Today really was weird. Sayaka seemed to tolerate me at the end there. A real world first."
+    john "Hm, maybe things are starting to look better between us, somehow."
+
+    scene black with Dissolve(2.0)
+    pause 1
+
+    title "23rd of August (Tuesday)" "Day 16 - Cornelia and Kiyoshi (side story)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -14048,19 +14048,917 @@ label AN_day_1:
 
     title "23rd of August (Tuesday)" "Day 16 - Cornelia and Kiyoshi (side story)"
 
+    show bg lunch:
+        zoom 2.0 xalign 0.2 yalign 0.5
+    show cornelia a_5:
+        centerright
+        faceleft
+        ypos 1.1
+    show kiyoshi a_1:
+        centerleft
+        faceright
+        ypos 1.1
+    with dissolve
+    pause 2
 
+    cornelia "..."
 
+    show cornelia b_6
+    show kiyoshi a_0
 
+    cornelia "...They aren't coming, are they?"
 
+    show kiyoshi a_2
+    show cornelia b_24
 
+    kiyoshi "Ah, it would appear so."
 
+    show cornelia a_0
+    show kiyoshi a_1
 
+    cornelia "...What is Sayaka even doing right now? I know that John is doing that stupid {q}future plans interview{/q} or whatever they call it, but you guys have to do that tomorrow, not today."
 
+    show kiyoshi a_7
 
+    kiyoshi "You must know that this interview can determine your future. After all, this is where you tell your teacher and education supervisor what you would like to do when you get older."
 
+    show kiyoshi a_1
+    show cornelia a_19
 
+    cornelia "...Yeah, I kind of know what they do, I just opted not to spend 20 seconds explaining it."
 
+    show cornelia b_24
 
+    cornelia "I've already been in there, but thanks for explaining something I already knew."
+
+    show cornelia b_0
+    show kiyoshi a_9
+
+    kiyoshi "Oh. And my sweet Sayaka was going to try out my swapping theory of using the school computers I believe."
+
+    show kiyoshi a_0
+    show cornelia b_5
+
+    cornelia "...Computers? How does that make sense?"
+
+    show kiyoshi a_6
+
+    kiyoshi "You see, in the recent piece of {i}modern literature{/i} I read, the two heroes trade bodies when their personal computer files are traded around."
+
+    show kiyoshi a_1
+    show cornelia a_11
+
+    kiyoshi "I suggested that perhaps the school has the neural network of each student downloaded with high-tech alien technology, and currently she is researching whether we should continue the pursuit of this theory."
+
+    show cornelia a_15
+
+    cornelia "...What?"
+
+    show kiyoshi a_8
+    show cornelia a_11
+
+    kiyoshi "Nevermind, some theories require you to have an excellent skill in thinking to grasp."
+
+    show cornelia a_14
+    show kiyoshi a_0
+
+    cornelia "Are you saying I'm not smart enough to understand you?"
+
+    show kiyoshi a_5
+
+    kiyoshi "Uh... No...?"
+
+    show cornelia b_17 at faceright
+
+    cornelia "...Hmph, you better not get used to talking to me like that."
+
+    show kiyoshi a_0
+    show cornelia b_18
+    pause 2
+    show cornelia b_4
+
+    "..."
+
+    show cornelia b_9
+
+    cornelia "...Man, this is boring."
+
+    show kiyoshi a_4
+
+    cornelia "I wish I could sit with some other girls..."
+
+    show kiyoshi a_7
+    show cornelia a_11
+
+    kiyoshi "Indeed, if I were to be accompanied at a table with a girl, I would at least expect someone of a higher standar-"
+
+    show cornelia b_3:
+        faceleft
+        ease 0.25 xpos 0.55
+    with hpunch
+    show kiyoshi a_5
+
+    cornelia "There! You did it again! You're saying I look terrible!"
+
+    show kiyoshi a_11
+    show cornelia b_14
+
+    kiyoshi "What? Not at all, I am just saying that your features are, uh... Inadequate for my tastes."
+
+    show cornelia b_17
+    show kiyoshi a_4
+
+    cornelia "Is there really {i}nothing{/i} about me you even find slightly attractive?!"
+
+    show cornelia b_14
+    show kiyoshi a_9
+
+    kiyoshi "Well, I would need to think about it before I could give a definite answer."
+
+    show cornelia b_3
+    show mina b_3:
+        alpha 0.0
+        center
+        faceright
+        xpos 0.8
+        ypos 1.25
+    show gabriel a_4:
+        alpha 0.0
+        center
+        faceleft
+        xpos 1.0
+        ypos 1.25
+
+    cornelia "You can't even think of anything from the top of your head?! Seriously?!"
+
+    show bg lunch:
+        ease 0.75 xalign 0.5 yalign 0.65
+    show cornelia:
+        faceright
+        ease 0.5 alpha 0.0 xpos 0.35 ypos 1.0
+    show kiyoshi:
+        ease 0.5 alpha 0.0 xpos 0.1 ypos 1.0
+    show mina:
+        pause 0.25
+        ease 0.5 alpha 1.0 xpos 0.6 ypos 1.1
+    show gabriel:
+        pause 0.25
+        ease 0.5 alpha 1.0 xpos 0.8 ypos 1.1
+
+    cornelia "What about that girl over there? She is small like me too! Tell me you don't find her attractive either!"
+
+    #SKIP
+    show mina:
+        alpha 1.0
+        xpos 0.6
+        ypos 1.1
+    show gabriel:
+        alpha 1.0
+        xpos 0.8
+        ypos 1.1
+
+    hide cornelia
+    hide kiyoshi
+    show mina b_0
+    show gabriel a_16
+
+    kiyoshi "Oh, Mina. Yes, she is quite the girl. She may be small, but her personality is one that others should strive to imitate. And her assets are quite in order as well."
+
+    show gabriel a_0
+
+    cornelia "What?! You're even saying my personality is shit!"
+
+    show mina b_1
+    show gabriel a_3
+
+    kiyoshi "Oh, uh, not at all. I would definitely say that it is... Unique...?"
+
+    show gabriel a_5:
+        faceright
+        ease 2 xpos 1.2 alpha 0.0
+    show mina b_3
+
+    cornelia "Unique?"
+
+    outfit zoey uniform
+    show mina a_0
+    hide gabriel
+    show zoey a_1:
+        alpha 0.0
+        center
+        faceright
+        xpos 1.0
+        ypos 1.15
+    show mel b_0:
+        alpha 0.0
+        center
+        faceleft
+        xpos 1.2
+        ypos 1.15
+
+    cornelia "That's seriously the best you can think of?!"
+
+    show bg lunch:
+        ease 0.75 xalign 0.8 yalign 0.8
+    show mina:
+        ease 0.5 xpos 0.5 ypos 1.0 alpha 0.0
+    show zoey:
+        pause 0.25
+        ease 0.5 alpha 1.0 xpos 0.7 ypos 1.0
+    show mel:
+        pause 0.25
+        ease 0.5 alpha 1.0 xpos 0.9 ypos 1.0
+
+    cornelia "What about her? That girl that's always after Sayaka. She is annoying and even smaller than me."
+
+    hide mina
+    show zoey a_0
+    show mel a_2
+
+    kiyoshi "Well..."
+    cornelia "{q}Well{/q} what?"
+
+    show mel a_0
+
+    kiyoshi "There is a certain charm to her. I cannot describe it. I believe that if Sayaka hadn't tried her luck, I would have tried it myself."
+    kiyoshi "Having a girl try to fight for your affection all the time seems like something that happens to an antagonist of an epic story."
+
+    show bg lunch:
+        zoom 2.0 xalign 0.2 yalign 0.5
+    show cornelia b_17:
+        center
+        faceleft
+        xpos 0.55
+    show kiyoshi a_0 at centerleft, faceright
+    hide zoey
+    hide mel
+    with dissolve
+    cornelia "For real? Even her?"
+
+    show cornelia b_14
+    show kiyoshi a_2
+
+    kiyoshi "She would still be a second pick if uh... That helps."
+
+    show kiyoshi a_1
+    show cornelia b_4:
+        faceright
+        ease 0.5 xpos 0.6
+    outfit john uniform_pony_pants
+    accessory john set glasses
+    show john b_19:
+        alpha 0.0
+        center
+        faceleft
+        xpos 0.95
+
+    cornelia "...Seriously, weren't you supposed to get advice from Saya on how to treat girls..."
+
+    show kiyoshi a_0
+    show cornelia b_0
+    show john:
+        ease 0.5 alpha 1.0 xpos 0.8
+
+    john "{i}Hah... Hah... Hah...{/i} Sayaka!"
+
+    show john b_22
+    show cornelia b_11
+
+    cornelia "Huh? John? Why are you out of breath?"
+
+    show john b_19
+
+    john "Where the hell is Sayaka?!"
+
+    show cornelia a_5
+    show john b_17
+
+    cornelia "What happened? Weren't you supposed to be doing that interview right now?"
+
+    show john b_18
+
+    john "Yes!"
+    john "And she filled out her own form for it and everything. But!"
+
+    show cornelia a_0
+    show john b_28
+
+    john "What the hell does she mean with {i}{q}I want to be the loving wife of a billionaire in the future{/q}{/i}?!"
+
+    scene black with Dissolve(1.0)
+    pause 0.5
+
+    title "24th of August (Wednesday)" "Day 17 - John"
+
+    pause 1
+    outfit anuja uniform
+    scene bg classroom 2
+    show cornelia b_24:
+        center
+        faceright
+        xpos 0.3
+    show john b_11:
+        center
+        faceright
+        xpos 0.15
+    show katrina a_9:
+        center
+        faceleft
+        xpos 0.6
+    show kyoko a_0:
+        center
+        faceleft
+        xpos 0.75
+    show anuja a_11:
+        center
+        faceleft
+        xpos 0.9
+    with Dissolve(1.0)
+    pause 1
+
+    think "Wha-"
+    "For some reason, Kat, Kyoko and Anuja were here before I could out of my classroom."
+
+    show cornelia b_23
+
+    cornelia "What do {i}you{/i} want?"
+
+    show cornelia b_5
+    show katrina a_18
+    show john b_0
+
+    katrina "Buzz off. I need to talk with her in private."
+
+    show john b_11
+    show katrina a_4
+
+    john "Me?"
+
+    show john b_13
+
+    katrina "Yes, you."
+
+    show cornelia b_17
+
+    cornelia "Hell no you aren't-"
+
+    show john a_10
+    show cornelia b_0 at faceleft
+    show katrina a_18
+
+    john "Hey, Cornelia, it's okay."
+
+    show cornelia a_4
+
+    john "Just you and me?"
+
+    show katrina a_4
+
+    katrina "Yes."
+
+    show john a_14
+
+    john "Fine."
+
+    show john a_10
+
+    "I was hoping for the day where they would finally try to talk with me again. I expected they would come around sooner than this, but better late than never."
+
+    show john a_13
+    show cornelia b_0
+
+    john "And {i}don't{/i} start any quarrels with the other two while I'm gone, got it?"
+
+    show cornelia b_24 at faceright
+
+    cornelia "Tch, fine."
+
+    show john a_0
+
+    "Kat looked at me with serious eyes all the time."
+
+    scene black with dissolve
+    pause 0.5
+    play sound sfx_sliding_door_open
+    pause 0.5
+    scene bg school classroom hallway day
+    show john b_13:
+        center
+        alpha 0.0
+        xpos 0.45
+        faceright
+        pause 0.5
+        ease 0.75 alpha 1.0 xpos 0.55
+    show katrina b_7:
+        center
+        alpha 0.0
+        xpos 0.6
+        faceright
+        pause 0.35
+        ease 0.75 alpha 1.0 xpos 0.8
+    with dissolve
+
+    "We eventually got to a corner where nobody else was around."
+
+    #SKIP
+    show katrina:
+        xpos 0.8
+        alpha 1.0
+    show john:
+        xpos 0.55
+        alpha 1.0
+
+    "I was honestly interested in hearing what she wanted to talk with me about. Ideally, she'd finally believe me about the swap."
+
+    show john b_14
+
+    john "This looks private enough."
+
+    show john b_0
+    show katrina b_2
+
+    john "..."
+
+    show john b_11
+
+    john "Do you, uh... Believe what I said now?"
+
+    show katrina a_2 at faceleft
+
+    katrina "..."
+
+    show katrina a_12
+
+    katrina "John has been doing some screwed up stuff lately, you know that, right?"
+
+    show katrina a_4
+    show john b_4
+
+    john "So you still don't believe me..."
+
+    show john b_0
+    show katrina a_12
+
+    katrina "Stuff that I know he wouldn't have done."
+
+    show katrina a_17
+    show john b_11
+
+    katrina "I know that he liked his hair the way it was, and that he never really was into all of that love-life crap."
+    katrina "So to see him suddenly {q}confess{/q} to Emily and that new girl on the same day makes me incredibly sus."
+
+    show katrina a_18
+    show john a_14
+
+    john "Ah, ye-{nw}"
+
+    show john b_19
+
+    extend " She did what?!"
+
+    show john b_27
+    show katrina a_23
+
+    katrina "None of this is something he would have done."
+
+    show katrina a_12
+
+    katrina "At the same time, you suddenly dress up like a total geek, have the worst hair-do since middle-school and act all nice towards your pathetic group of posh-ups."
+
+    show john b_0
+    show katrina b_7
+
+    katrina "So, without any tricks, are you for real the actual John who looks like this bitch right now?"
+
+    show john a_2
+    show katrina b_13
+
+    john "Finally, you get it. Yes!"
+
+    show john a_14
+
+    "While I was hoping for her to be a bit more energetic about this, she instead looked kind of sad."
+
+    show john a_0
+
+    "Did I say something wrong now all of a sudden? Was I not supposed to be happy that she finally came around to it?"
+
+    show katrina a_4
+
+    katrina "Just... How did this happen then? Kiyoshi has been spamming us with texts about what he is doing and what happened, but..."
+
+    show john a_4
+
+    john "Well that's the thing, none of us know what happened. It just... Suddenly happened overnight."
+
+    show katrina a_2
+
+    katrina "But why her?"
+
+    show john a_30
+
+    john "I really don't know..."
+
+    pause 1
+    show katrina a_6 at faceright
+
+    katrina "{size=-5}Why her...{/size}"
+
+    show john b_4
+
+    john "It's... Sorry, but I didn't have a say in that..."
+
+    show katrina a_7
+
+    "I knew Kat hated Sayaka with an absolute burning passion."
+    "Their background was still a mystery to me since they seemed to be close as kids, but Cornelia said I was better off not knowing about this."
+
+    show john b_13
+
+    think "Maybe now I can ask though..."
+
+    show katrina a_14 at faceleft
+    show john b_12
+
+    john "Hey, would you mind if I asked what happened between you and her when you were kids?"
+
+    show katrina a_11 blush
+    show john b_0
+
+    "Her sad face turned bright all of a sudden."
+
+    show katrina b_9 blush at faceright
+
+    katrina "I would very much mind."
+
+    show john b_11
+
+    john "...Uhm... Why?"
+
+    show katrina a_14 at faceleft
+
+    katrina "Because, Sayaka. That's why."
+
+    show katrina a_2
+
+    katrina "-I -I mean, John. Sorry."
+
+    show john b_4
+
+    "For some reason her voice trembled with embarrassment. So something must have happened that neither Sayaka nor Kat would want me to know."
+
+    show john b_6
+
+    think "{i}Sigh...{/i} Honestly, these guys."
+
+    show john b_5
+    show katrina a_14
+
+    john "Then, if you don't mind me asking, do you hang out with Anuja a lot now? I saw that she was with you, and I think I've seen you talk occasionally a lot as well..."
+
+    show katrina a_15
+
+    katrina "It's, uh... It's because of Michelle..."
+
+    show john b_0
+
+    think "Michelle...? Wasn't there a rumor about her at some point?"
+    john "Did something happen to her?"
+
+    show katrina b_6
+
+    katrina "{i}Sigh...{/i} Well for one, she's gone insane..."
+
+    show john a_30
+
+    john "Insane? What happened to her?"
+
+    show john a_0
+    show katrina a_4
+
+    katrina "Don't you dare tell this to someone else. I'm trusting that you're the real John I know on this."
+
+    show john a_14
+    show katrina a_14
+
+    john "Your trust is well placed then."
+
+    show katrina a_2
+    show john a_10
+
+    katrina "...One day when she woke up, Anuja found her rolling on the ground with her entire room completely destroyed."
+
+    show john a_30
+
+    katrina "Everything had been thrown around, and everyone says Michelle herself did it, almost as if possessed by some kind of demon."
+
+    show john a_8
+
+    john "...Wha..."
+
+    show john a_30
+    show katrina a_21
+
+    katrina "It was so bad that her fingernails were almost entirely ripped off, and... There was blood everywhere on her hands and face when they found her..."
+
+    show katrina a_2
+    show john a_27
+
+    john "...Holy shit..."
+
+    show katrina b_4
+
+    katrina "I've heard about it from Anuja and Michelle's parents. Anuja said that when she first saw Michelle like that, Michelle was mumbling as if talking another language entirely..."
+    katrian "It freaked Anuja completely to the point where she now has nightmares about it..."
+
+    show katrina b_8
+
+    katrina "And, uh... Well, Anuja now lives with my family for the time being after that."
+
+    show katrina b_9
+    show john b_27
+
+    john "..."
+
+    show john b_26
+
+    "What the actual fuck?"
+
+    show john b_27
+
+    "Michelle always seemed like a stable role-student who was organized and had everything in order..."
+    "Just how would it ever make sense that she'd just wake up one night and suddenly go mental like that..."
+
+    show john b_4
+
+    "I could only shudder thinking about it."
+
+    show john b_11
+    show katrina a_23
+
+    john "Is she okay?"
+
+    show katrina a_2
+
+    katrina "She's supposedly still in the hospital. I haven't heard from her since then. Not even Anuja knows anything."
+
+    show john a_4
+
+    john "...Shit, I'm so sorry to hear that. You two were close friends even though I never really talked to her, right?"
+
+    show katrina a_23
+
+    katrina "..."
+
+    show katrina a_2
+    show john a_0
+
+    katrina "It's... Been a tough couple of weeks lately. And I'm sorry I... Didn't believe you at first when you said you were John."
+
+    show john a_10
+
+    john "Hey, I don't blame you at all if that happened without my knowing."
+
+    show john a_14
+    show katrina a_23
+
+    john "Besides, the people we've told were all really skeptical about it as well, except for Kiyoshi."
+
+    show john a_10
+    show katrina a_16
+
+    katrina "Thanks, but..."
+
+    show john a_0
+    show katrina a_5
+
+    "She looked at me for a brief moment in consideration."
+
+    show katrina a_15
+
+    katrina "I'm sorry, I just can't..."
+
+    show katrina b_7
+
+    katrina "You look exactly like her, sound like her, smell like her..."
+
+    show katrina b_11 at faceright
+
+    katrina "{size=-5}...The guy I liked more than anything turned into the girl I hate more than anything...{/size}"
+
+    show john a_5
+
+    "It was a mumble, but I could still hear her clearly."
+
+    show john b_0
+    show katrina a_23 at faceleft
+
+    "It came over me that she just said she liked me, probably more than a friend."
+
+    show john b_4
+
+    "But... It just felt kind of... Empty to me for some reason?"
+
+    show john b_2
+
+    john "Is that so... I, uh... Thanks, I guess..."
+
+    show john b_13
+    show katrina a_2
+
+    katrina "{size=-8}You guess, huh...{/size}"
+    katrina "I don't have any ill will against you, or hate you John..."
+
+    show katrina a_14
+
+    katrina "But I just cannot look at you right now and not hate you."
+
+    show katrina b_2
+
+    katrina "We are still friends, but..."
+
+    show katrina b_3
+
+    katrina "I wanted to tell you that. It's selfish of me to say this, but when you go back to being yourself, please tell me as soon as possible."
+
+    show katrina a_15
+    show john b_22
+
+    katrina "But until then, I..."
+    "..."
+    john "Oh..."
+
+    show john b_17
+
+    think "What is wrong with me?! A girl, Kat of all people, is probably pouring out her heart for me right now, and all I am thinking of is just passive thoughts!"
+    "{q}Ah, so that's how it is.{/q}"
+    "{q}That's a bummer.{/q}"
+
+    show john b_18
+
+    think "How are any of these thoughts even acceptable in this situation? Is this body really affecting me so much that I feel nothing but apathy for her feelings?"
+
+    show john b_9
+
+    think "Come on, head! Feel sympathy!"
+
+    show katrina b_7
+    show john b_13
+
+    katrina "Sorry."
+
+    show katrina a_6:
+        pause 1.5
+        ease 4 offscreenleft alpha 0.0
+    show john:
+        pause 2.5
+        faceleft
+
+    "She waited a few seconds before walking away."
+    "I didn't have a response. I wasn't extremely torn about it. Everything was a mess."
+
+    show john b_4 at faceleft
+    show kyoko a_12:
+        centerleft
+        faceright
+        xpos 0.2
+        alpha 0.0
+
+    "It was sad, and a tear of regret not being able to respond to her feelings did roll down my cheek, but I didn't know if that was the {q}old me{/q} somehow weeping or not."
+
+    show kyoko:
+        ease 0.5 xpos 0.3 alpha 1.0
+
+    kyoko "Are you okay?"
+
+    show john b_11
+
+    john "Huh? Oh, Kyoko."
+
+    show john b_13
+
+    kyoko "I just wanted to make sure you are okay. If Kat and Kiyoshi both believe it's you, then I do too, John."
+
+    show john b_20
+
+    john "Heh, thanks."
+
+    show john b_1
+
+    john "I'm guessing you want to stay with Kat."
+
+    show kyoko a_4
+
+    kyoko "You already know then."
+
+    show kyoko b_8
+
+    kyoko "Yes, she's going through a lot right now, so I think it is best if I stay by her side."
+
+    show john b_20
+
+    john "Makes sense..."
+
+    show kyoko b_3
+
+    kyoko "..."
+
+    show kyoko a_6
+    show john b_0
+
+    kyoko "You know, if it really is you, I still consider you as one of my best friends, if that worries you."
+    kyoko "Kiyoshi has been texting us a lot about finding a solution to revert this swap of personality that you and Sayaka have experienced, and I'll try giving it a shot to figure out what happened as well."
+
+    show kyoko a_13
+
+    kyoko "If I find or need anything, I will let Kiyoshi know. And I hope everything goes well between you and Sayaka."
+
+    show kyoko a_10
+    show john b_14
+
+    john "...Thanks. It helps knowing you're supporting me through this."
+
+    show john b_1
+    show kyoko a_1
+
+    kyoko "Heh, don't mention it."
+
+    show kyoko a_10
+
+    kyoko "I'm going to have to run now, we're still in school after all. I'll catch you later at some point."
+
+    show john a_10
+
+    john "Ah, yeah. I hope we can talk more later."
+
+    show kyoko a_8
+
+    kyoko "Me too. Good luck, and see you later."
+
+    show kyoko a_1:
+        pause 1.5
+        faceleft
+        ease 0.75 alpha 0.0 xpos 0.15
+    show john b_1
+
+    "She gave me a really heartwarming smile before leaving."
+    think "She knew exactly what Kat would be telling me, didn't she?"
+
+    show john b_14
+
+    "At least I wouldn't go from this spot with nothing but depressing thoughts in my mind. Knowing Kyoko was fine with our situation was a great boost in confidence."
+
+    show john a_1
+
+    think "After all, if someone knows something about mysteries, it's Kyoko."
+
+    show john a_13
+
+    think "Well, Kiyoshi does as well, but his methods are a bit more unorthodox."
+
+    scene black with dissolve
+    scene bg school hallway day
+    show cornelia b_24 at centerleft, faceright
+    show john b_13:
+        center
+        faceleft
+        xpos 0.75
+        alpha 0.0
+        pause 0.75
+        ease 0.75 alpha 1.0 xpos 0.6
+    with dissolve
+    pause 1
+    show cornelia b_6
+
+    cornelia "Finally."
+
+    show cornelia b_24
+    show john b_2
+
+    john "Sorry to make you wait. I hope you didn't start anything back here."
+
+    show john b_1
+    show cornelia a_5
+
+    cornelia "Of course not. I do have self restraint after all."
+    cornelia "But what were you talking about?"
+
+    show john b_12
+
+    john "Just... It's, uh... Private..."
+
+    show john b_13
+    show cornelia b_6 at faceleft
+
+    cornelia "Tch, fine. Keep your secrets then."
+
+    scene black with Dissolve(1.0)
+    pause 1.5
+
+    title "25th of August (Thursday)" "Day 18 - John"
+
+    scene bg sayaka livingroom day
+    with dissolve
 
 
 

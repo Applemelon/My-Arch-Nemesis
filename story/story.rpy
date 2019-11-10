@@ -14957,15 +14957,655 @@ label AN_day_1:
 
     title "25th of August (Thursday)" "Day 18 - John"
 
-    scene bg sayaka livingroom day
+    outfit john formal_pony
+    show bg sayaka livingroom day:
+        zoom 2.0 xalign 0.2 yalign 0.5
+    show john b_25:
+        center
+        faceright
+        xpos 0.2
+        ypos 1.15
+    show cornelia b_0:
+        centerright
+        faceright
+    with dissolve
+    pause 1
+
+    "So, this supposed party Sayaka was throwing every month without me knowing about it was starting to creep up."
+
+    show john b_0
+
+    "As a result, I ended up bringing Cornelia and Sayaka along with me home."
+
+    show cornelia a_0 at faceleft
+    show john a_0 at faceleft
+
+    sayaka "{size=-5}Corny, we need to check the lights in the kitchen.{/size}"
+
+    show cornelia b_2:
+        ease 3 offscreenleft
+    show john b_25
+
+    cornelia "Coming!"
+    "And now they were rushing around the house to check things."
+
+    show john b_23 at faceright
+
+    "You could consider it as a different kind of entertainment. Sayaka had completely forgotten I existed, which made it possible for me to munch on popcorn in the living room while watching TV."
+    "I was still feeling a bit melancholic after the talk I had with Kat yesterday, but I felt a bit better after me and Kyoko texted each other about what had been happening on both sides of our friend group."
+
+    show john b_25
+
+    "It was one thing I had thought about a lot recently. I had become way too emotional after swapping with Sayaka, which had to be another side-effect like the liking guys thing."
+    "The confrontations with Kat made that obvious."
+
+    show john b_11 at faceleft
+
+    sayaka "{size=-5}The lights are working fine, right?{/size}"
+
+    show john b_6
+
+    cornelia "{size=-5}Uhm... All good, all lights work.{/size}"
+    think "But really, they're even checking if all of the 20 small light bulbs in the kitchen work...?"
+
+    show john a_6
+
+    think "And yeah, I checked, there are exactly 20 light bulbs in the kitchen."
+    think "Don't blame me, this place is {i}that{/i} boring."
+
+    show john b_23 at faceright
+
+    "But after all, the only response to the situation that came to mind was {q}Ah well{/q} after I dropped another two or three popcorn down into my mouth."
+
+    scene black with dissolve
+    outfit sayaka uniform
+    scene bg sayaka kitchen day
+    show sayaka a_5:
+        center
+        faceright
+        xpos 0.2
+    show john b_25:
+        center
+        faceleft
+        xpos 0.45
     with dissolve
 
+    "The peace didn't last long though. Sayaka wanted to check if every formal thing was in check."
+    "I had busted my ass off doing what she told me, making sure her parents knew that she was throwing the party (and of course getting permission for it), and all other stuff like alcohol, snacks, you name it."
+    sayaka "And you've notified the neighbors?"
+    john "Check."
+    sayaka "Made sure the pool is getting cleaned tomorrow?"
+    john "Check."
+    sayaka "And... You've notified Marty about the snacks?"
 
+    show john b_6
 
+    john "Cheee~~~eck."
+    "It went on and on."
 
+    scene black with dissolve
+    scene bg sayaka livingroom dusk
+    show john b_5 at center, faceright
+    show sayaka a_5:
+        centerright
+        faceright
+        xpos 0.8
+    with dissolve
 
+    "They stayed for a long time. Every little nook was checked, as if fanatic that everything would be perfect."
+    "And to that end, I just had to ask."
 
+    show sayaka a_2
 
+    john "Hey, is this really just a regular party?"
+
+    show sayaka a_5 at faceleft
+
+    sayaka "What do you mean?"
+
+    show john b_6
+
+    john "I mean, you are really making a huge deal out of this. Will it really matter if you've made sure there isn't a single speck of dust behind the refrigerator?"
+
+    show john b_11
+    show sayaka a_16
+
+    sayaka "Really? You still haven't noticed?"
+    john "...Noticed what?"
+    sayaka "That this is my last chance of redeeming myself as a public figure?"
+
+    show john b_13
+
+    john "...Public figure?"
+
+    show sayaka a_24
+
+    sayaka "Oh my god, you are just so dense..."
+
+    show sayaka a_7
+
+    sayaka "You've ruined me over these last three weeks. This is my last chance to make sure I'm not perceived as some sort of boring librarian the way you're making me look right now."
+
+    show sayaka a_16
+    show john b_17
+
+    sayaka "Unlike you, I actually believe we can swap back. I bet you're living life as me, so you don't worry too much about the bigger picture as always, but some of us want to right what's wrong."
+
+    show john b_18
+
+    john "Wait, hold up. Don't start thinking I don't want to swap back either here, I've already made it perfectly clear several times that your life sucks."
+
+    show john b_17
+    show sayaka a_7
+
+    sayaka "Well if it sucks so much then why are you spending your useless brain power on video games if you've managed to hack your way into my computer and phone, huh?"
+
+    show john b_19
+    show sayaka a_16
+
+    john "Those are {i}essentials{/i} in our current day and age! If I didn't forcibly break open the locks to your devices then I'd have to buy new ones entirely!"
+
+    show john b_17
+    show sayaka a_7
+
+    sayaka "That's not the point! You are breaching my privacy by having access to my files!"
+
+    show sayaka a_16
+    show john b_28
+
+    john "Oh my god, can you please, for the love of god, shut up about our privacy?!"
+
+    show john b_19
+    show sayaka a_21
+
+    john "In case you haven't noticed, right now, that computer and that phone are both {i}my{/i} property, and I-"
+
+    show sayaka a_20:
+        ease 0.25 xpos 0.7
+    show john b_27
+
+    sayaka "Don't you dare say another word about property, as if you know who it belongs to!"
+
+    show sayaka a_16
+    show john b_18
+
+    john "You sure as hell believed that my life was your property when you tried to kill my relationship with Kat!"
+
+    show sayaka a_7
+    show john b_17
+
+    sayaka "That bitch had it coming!"
+
+    show john b_19
+    show sayaka a_16
+
+    john "Fuck no she didn't! She's been going through hell and you only made it worse! I can only say that it's pure luck she's even wanted to talk to me recently!"
+
+    show sayaka a_15
+    show john b_17
+
+    sayaka "What?! You're talking with Katrina?!"
+
+    show john a_33
+    show cornelia a_14:
+        alpha 0.0
+        center
+        faceright
+        xpos 0.05
+
+    john "As if it concerns a self-centered douchebag like you who I talk to-"
+
+    show sayaka a_20
+    show john a_27
+    show cornelia:
+        ease 0.75 alpha 1.0 xpos 0.15
+
+    sayaka "You are {b}not{/b} talking to her while we are swapped! Do you fucking understand?!"
+
+    show cornelia a_3
+    show sayaka a_21
+
+    cornelia "What the hell is going on in here?"
+
+    show john b_19
+    show cornelia a_6
+
+    john "It's none of your business Sayaka! Absolutely, none of your business."
+
+    show sayaka a_20
+    show john b_17
+
+    sayaka "You piece of fucking shit! I knew it, the moment I started to trust you just a little bit, you begin backstabbing me just like her!"
+
+    show sayaka a_21
+    show john a_16
+    show cornelia b_6
+
+    john "You call this a display of trust? Don't make me laugh, you'e been commanding me around like I'm your stupid puppy or something!"
+
+    show cornelia b_3
+    show john a_17 at faceleft
+    show sayaka a_15
+
+    cornelia "{size=+5}{b}{i}HEY! Both of you, stop it!{/i}{/b}{/size}"
+
+    pause 1.5
+    show sayaka a_16
+    show cornelia b_17
+
+    john "...If you want to stop anyone, then stop her! I am tired of her constant whining about how I am misusing {i}my own{/i} life."
+
+    show sayaka a_7
+    show john a_6
+
+    sayaka "This isn't your life! It's {i}{b}my{/b}{/i} life!"
+
+    show cornelia b_3
+    show john a_0
+    show sayaka a_5
+
+    cornelia "That's it! Both of you! I've had enough of your constant fighting!"
+
+    show john a_30
+
+    cornelia "If you don't stop it right now, then I'm calling both of your parents until we figure something out!"
+
+    show sayaka a_16
+    show john a_32
+
+    john "What, is that supposed to be some kind of threat?"
+
+    show cornelia b_14
+    show john a_6
+
+    cornelia "You should know by now how Sayaka's parents work, shouldn't you?!"
+
+    show john b_7
+
+    "...Crap, she did have a point. I already didn't live up to their ideals of their perfect daughter who wouldn't embarrass them or their image, so I sure as hell wouldn't want to endure whatever punishment they could come up with..."
+
+    show john b_17
+
+    cornelia "Did you two idiots finally come to your fucking senses then?"
+
+    show sayaka a_7
+
+    sayaka "Corny, don't you dare call me an id-"
+
+    show sayaka a_15
+    show john b_11
+    show cornelia b_3:
+        ease 0.5 xpos 0.25
+
+    cornelia "You clearly aren't in the right mindset to take any decisions right now, so I'm taking the fucking wheel here!"
+
+    show sayaka a_16
+
+    cornelia "You're both left alone for even a few minutes and it ends up with both of you shouting your lungs out just because you can't agree on the most minor things!"
+
+    show cornelia a_3
+
+    cornelia "If you're going to continue like this, then there {i}is{/i} no saving your image, Saya! We need this jerk if we want there to be any point to this party!"
+
+    show cornelia b_3
+    show john b_27
+    show sayaka a_15
+    with hpunch
+
+    cornelia "{size=+5}{b}So calm the fuck down, both of you!{/b}{/size}"
+
+    show sayaka a_27
+    show john b_22
+    show cornelia b_18
+
+    sayaka "..."
+    john "..."
+
+    show sayaka a_24:
+        faceright
+        ease 0.5 xpos 0.75
+    show john a_0
+
+    sayaka "Tch, fine."
+
+    show sayaka a_16 at faceleft
+    show john a_5 at faceright
+
+    sayaka "Once we swap back I'll be glad to finally cut all ties I have with this dickhead."
+
+    show john a_13
+
+    john "Oh, you wouldn't be able to imagine the pure ecstacy I would feel if I never had to talk with you again, honey."
+
+    show cornelia b_34 at faceleft
+    show john a_35 at faceleft
+
+    cornelia "{i}Sigh...{/i}"
+
+    show cornelia b_24
+
+    "She turned her head away after a long scoff."
+
+    show john a_17
+    show cornelia at faceright
+
+    "This absolute bitch was criticizing my every life choice, and I was getting sick of it."
+    "This stupid party would be the very last thing I would even attempt to tolerate, and only because we had already sent out the invitations for it."
+    "Cutting ties with this child should have been the solution from the beginning. At least then I wouldn't have to put up with her constant crying and could peacefully hope we might swap back one day."
+    "Nothing we tried was working anyways, and no fucking wonder. After all, we barely interacted in the first place, so us performing some sort of ritual that allowed a full body swap by accident was practically impossible."
+
+    show john at faceleft
+    show cornelia b_25
+
+    cornelia "Good. Are we fine?"
+
+    show john a_13 at faceright
+    show sayaka at faceright
+    show cornelia b_24
+
+    sayaka "Hmph."
+    john "Right back at you."
+
+    show cornelia b_6
+
+    cornelia "..."
+
+    scene black with dissolve
+    scene bg sayaka bedroom dusk
+    show john b_25:
+        center
+        faceright
+        xpos 0.6
+        ypos 1.1
+    with dissolve
+
+    "The day ended up with a very hostile feeling in the air."
+    "I intentionally avoided talking to her, and she did the same."
+    "We were both clearly at our limits of tolerance it seemed, and my pride only allowed for one goodbye to Cornelia."
+    think "As if I'd ever talk to her again."
+    "That was the only thought in my head."
+    "I now cemented it into my brain. I hated her with a burning passion. I wanted out of this sickening scenario I was put into."
+    "I just couldn't wait to get this party over with and get back to regular school-days, and to hopefully talk with Kiyoshi, Kyoko and Kat on a nice noon where the only real concern was coming up with new non-sense to talk about after a long class with any of our teachers."
+    "I hoped that once the new week started, everything could go back to the way it was before. That Kyoko somehow figured out how to swap two people."
+    "And at the end of the day, that hope was the only thing that really kept me going right now."
+    "I didn't want to live my remaining life as Sayaka Sato."
+    "I knew it in my very being that I did not want to."
+
+    scene black with Dissolve(2.0)
+    pause 1.5
+
+    title "26th of August (Friday)" "Day 19 - John"
+
+    outfit john uniform_pony_pants
+    pause 1
+    scene bg lunch:
+        zoom 1.5 xalign 0.3 yalign 0.8
+    show john a_0:
+        center
+        faceright
+        xpos 0.4
+        ypos 1.15
+    show cornelia b_0 behind john:
+        center
+        faceright
+        xpos 0.2
+        ypos 1.15
+    with dissolve
+
+    "Lunch had basically become our regular meeting spot for the last few weeks, and today was supposed to be no exception."
+    "For once, me and Cornelia were the first to get to the table we've managed to secure as our own now."
+    "Without really talking much, we had sat down and started eating what we bought from the canteen."
+
+    show john b_4
+
+    "And, uh..."
+    think "It's been kind of awkward today."
+
+    show john b_5
+
+    "The fight me and Sayaka had was still lingering in the air."
+
+    show cornelia b_4
+    show john b_13 at faceleft
+
+    "I would have thought that Cornelia would have taken Sayaka's side more and ridiculed me for pissing her majorly off, but she had been surprisingly okay with me throughout the entire day."
+
+    show kiyoshi a_2:
+        alpha 0.0
+        center
+        faceleft
+        xpos 0.75
+    show sayaka a_5:
+        alpha 0.0
+        center
+        faceleft
+        xpos 0.95
+
+    "She didn't talk quite as much, but she was still walking around with me from classroom to classroom as usual."
+
+    show kiyoshi:
+        ease 0.75 alpha 1.0 xpos 0.6
+    show sayaka:
+        pause 0.25
+        ease 0.75 alpha 1.0 xpos 0.8
+    show john b_11 at faceright
+    show cornelia b_11
+
+    kiyoshi "Good noon to both of you!"
+
+    #SKIP
+    show kiyoshi:
+        alpha 1.0
+        xpos 0.6
+    show sayaka:
+        alpha 1.0
+        xpos 0.8
+
+    show kiyoshi a_1
+    show sayaka a_16
+    show john a_14
+
+    john "Hey man."
+
+    show john a_0
+
+    "Kiyoshi arrived, and just behind her was Sayaka."
+
+    show john a_32
+    show cornelia b_1
+
+    think "Ugh, I just... Cannot stand looking at her after all..."
+
+    show cornelia a_2
+    show john a_6
+    show kiyoshi:
+        pause 0.5
+        ease 1 ypos 1.15
+
+    cornelia "Uhm... Hey Saya."
+
+    show cornelia a_11
+    show sayaka a_33
+
+    sayaka "..."
+
+    show sayaka a_16 at faceright
+    show kiyoshi a_0 at faceright
+    show cornelia a_8
+    show john b_11
+
+    sayaka "I'm going somewhere else."
+
+    show sayaka:
+        ease 1.5 alpha 0.0 offscreenright
+    show cornelia:
+        pause 0.75
+        ease 0.5 ypos 1.0
+
+    "She spun around and walked away."
+
+    show cornelia b_8:
+        ease 1.0 xpos 0.8
+    show john:
+        faceleft
+        pause 0.5
+        faceright
+    show kiyoshi:
+        faceleft
+        pause 1
+        faceright
+
+    cornelia "Wha- Saya, wait!"
+
+    #SKIP
+    show cornelia:
+        xpos 0.8
+        ypos 1.0
+
+    "She was distressed about her, quote on quote, {q}best friend{/q} just not bothering to respond, but to my surprise, Cornelia didn't follow her."
+
+    show cornelia b_4:
+        faceleft
+        ease 1.5 xpos 0.2
+        pause 0.25
+        faceright
+        pause 0.5
+        ease 0.5 ypos 1.15
+    show john:
+        pause 1
+        faceleft
+    show kiyoshi a_4:
+        pause 0.5
+        faceleft
+
+    "Instead, she went and sat down again, although with a really sad expression on her face."
+    cornelia "..."
+
+    show john b_4
+
+    john "...Uhm..."
+
+    show cornelia a_3
+    show john b_11
+
+    cornelia "{q}Uhm{/q} what?"
+
+    show john b_4
+    show cornelia a_14
+
+    john "...Sorry if this rift between us affects you."
+
+    show cornelia a_0
+
+    cornelia "..."
+
+    show cornelia a_4
+
+    cornelia "{i}Sigh...{/i}"
+
+    show cornelia b_4
+    show john b_0
+
+    cornelia "It's fine."
+
+    show john b_13
+
+    think "Now that's a response I didn't expect to hear."
+
+    show cornelia a_22
+
+    cornelia "She'll... Come around eventually. Sometimes she just gets really angry at something... Or someone."
+
+    show cornelia a_4
+
+    cornelia "What I'm worried about is tomorrow..."
+
+    show john b_4
+    show kiyoshi a_9
+
+    john "Ah, yeah..."
+
+    show cornelia a_0
+    show john b_0
+
+    cornelia "And I'm not just simply worried about her being happy again, it's more about-"
+
+    show john b_25
+
+    john "{size=-5}Is she even able to be happy?{/size}"
+
+    show cornelia a_5
+    pause 1.5
+    show cornelia b_6
+    show john b_13
+
+    cornelia "Can you keep your quips to yourself for now, thanks?"
+
+    show john b_21
+    show cornelia b_24
+
+    john "...Sorry."
+
+    show john b_13
+    show cornelia a_17
+
+    cornelia "I'm worried about what might happen in the future between us..."
+
+    show cornelia a_22
+
+    cornelia "Saya is one of my only friends and my best friend. If the two of you don't swap back soon, I might never talk to her again in the future."
+
+    show john a_4
+
+    john "...Oh, it's like that..."
+
+    show cornelia a_0
+
+    think "..."
+    think "I really want to swap back myself, but everything we've tried so far doesn't even work..."
+
+    show john a_20
+
+    "The past few days have in between school-hours been a constant adventure of Kiyoshi and Sayaka coming up with weird schemes that could trigger some sort of swap similar from a manga or light novel."
+    "But it's just been complete bollocks, all of it. Some were so outlandish that I even wondered why they thought it would work in the first place."
+
+    show john b_0 at faceright
+
+    john "Hey, Kiyoshi, you haven't heard anything from Kyoko yet, right?"
+
+    show kiyoshi a_0
+
+    kiyoshi "Hm? Ah, Kyoko? I'm afraid not."
+
+    show kiyoshi a_1
+
+    kiyoshi "I do know that she is heavily interested in the topic. I am actually visiting her later this afternoon. Do you want me to tell her something?"
+
+    show john b_1
+
+    john "Oh, no, I was just curious if maybe she figured out something really quickly."
+
+    show kiyoshi a_4
+
+    kiyoshi "Ah, I am sorry to disappoint you then."
+
+    show john b_6
+
+    john "Well, to disappoint me I would have needed some sort of hope in the first place."
+
+    show kiyoshi a_3
+
+    kiyoshi "...That sounds rather grim."
+
+    show kiyoshi a_0
+    show john b_4
+
+    john "Yeah, kinda does."
+
+    scene black with Dissolve(1.0)
+    pause 1.5
+
+    title "27th of August (Saturday)" "Day 20 - John"
 
 
 

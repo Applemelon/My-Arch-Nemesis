@@ -12394,7 +12394,7 @@ label AN_day_1:
     "I was still munching on my cereal, so I took the bowl with me to the front door."
 
     scene black with dissolve
-    scene AN_bg sayaka backyard day
+    scene AN_bg sayaka frontyard day
     show john b_0:
         right
         faceleft
@@ -15606,6 +15606,1285 @@ label AN_day_1:
     pause 1.5
 
     title "27th of August (Saturday)" "Day 20 - John"
+
+    scene bg sayaka house day
+    show AN_asset truck:
+        right
+        ypos 1.25
+        zoom 1.35
+    show john b_11 at center, faceright
+    show cornelia b_0 at centerleft, faceright
+    with dissolve
+
+    john "Huh? What's a truck doing here?!"
+
+    show cornelia b_6
+
+    cornelia "They are here with the alcohol and snacks, idiot."
+
+    show john b_7 at faceleft
+    show cornelia b_24
+
+    john "Just how much do you think we're gonna be drinking?!"
+
+    show cornelia a_6
+    show john b_0
+
+    cornelia "{i}Sigh...{/i} Just don't think too much about it."
+
+    show john a_30 at faceright
+
+    john "Alright then..."
+
+    show cornelia a_0
+    show john a_5 at faceleft
+
+    cornelia "Either way, we need to start getting you ready. Saya doesn't want to fix you up, so I am going to have to do that."
+
+    show john a_0
+
+    "Ah yeah, Sayaka was perfectly able to do my hair and make-up and whatever else sort of ritual she performed before that mixer thing, but she refused to even talk to me right now."
+    "Not that I was complaining. A bit of peace and quiet was always nice. At least when that peace and quiet was away from her."
+
+    show cornelia b_6
+
+    cornelia "Really, I can't believe you two are still fighting..."
+
+    show john a_13
+    show cornelia b_24
+
+    john "It's not my fault she keeps attacking me for not living her life the way she wants."
+    cornelia "Yeah, yeah, we get it, it's difficult having to get up in the morning to do your hair properly."
+
+    show john a_32
+    show cornelia b_5
+
+    cornelia "Now get your ass inside instead of staring at a couple delivery workers."
+
+    scene black with dissolve
+    pause 1
+    outfit john underwear_badhair
+    accessory john set
+    $ screenfilter.blur = 2
+    scene bg sadie bathroom day
+    show cornelia b_0:
+        center
+        faceright
+        xpos 0.6
+    show john b_0:
+        center
+        faceright
+        xpos 0.75
+        ypos 1.15
+    with dissolve
+
+    "At least she knew what she was doing."
+
+    show john b_23
+
+    "Cornelia was using all kinds of potentially dangerous chemicals on my face, just like Sayaka did."
+
+    show john b_6
+
+    think "Although I probably wouldn't know the difference between what Cornelia is doing right now and what Sayaka did..."
+
+    show john b_1
+
+    "I was fresh out of a nice shower and it was kind of refreshing to just sit around and have my face being operated on."
+
+    show john b_0
+    pause 1.5
+    show john b_6
+
+    john "Hey."
+
+    show cornelia b_5
+
+    cornelia "What?"
+    john "You use this stuff often, right?"
+
+    show cornelia b_6
+    show john b_11
+
+    cornelia "Is that a serious question?"
+
+    show cornelia b_24
+
+    john "Uh... Yeah."
+
+    show john b_0
+    show cornelia b_5
+
+    cornelia "Of course I do. There aren't many girls who don't use some sort of make-up."
+
+    show john b_11
+
+    john "Oh."
+
+    show john b_5
+    show cornelia b_0
+
+    john "Right."
+    john "..."
+
+    show john b_6
+
+    john "Hey."
+
+    show cornelia b_6
+    show john b_25
+
+    cornelia "What?"
+
+    show cornelia b_24
+    show john b_13
+
+    john "If I'm stuck like this for longer, can you teach me this stuff?"
+
+    show cornelia a_0
+
+    cornelia "You haven't looked up anything yourself?"
+
+    show john b_4
+
+    john "Uh... No."
+
+    show john b_13
+    show cornelia b_5
+
+    cornelia "Geez, you really aren't doing a lot to adapt yourself to being a girl, are you?"
+
+    show cornelia b_1
+
+    cornelia "But yeah, I can teach you."
+
+    show cornelia b_5
+
+    cornelia "Not right now since I need to do my own hair and face too, though. I haven't even showered myself yet."
+
+    show john b_14
+
+    john "Mhm."
+
+    scene black with dissolve
+    outfit john underwear
+    scene bg sadie bathroom day
+    show john b_1:
+        center
+        faceright
+        xpos 0.4
+    show cornelia a_1 at centerright, faceleft
+    with dissolve
+
+    "I spent another good 10 to 15 minutes shackled to this impromptu saloon chair we put into the bathroom."
+
+    show john b_14
+
+    "It honestly almost felt like Cornelia had a better grip of what to do compared to Sayaka."
+
+    show john b_1
+
+    "In the very least, she was done faster."
+    cornelia "Okay, done."
+
+    show cornelia a_3
+
+    cornelia "And don't touch your face for the next hour or so, or else you're going to end up looking like a ghost or some shit."
+
+    show john a_14
+    show cornelia a_5
+
+    john "'Kay."
+
+    show cornelia b_1:
+        ease 0.75 xpos 0.45
+    show john b_7:
+        pause 0.25
+        faceleft
+        ease 0.6 xpos 0.25
+
+    cornelia "Now get out, I need to get ready too."
+    cornelia "Shoo."
+
+    show john a_0 at faceright
+    show cornelia a_1
+
+    cornelia "Find some clothes that don't suck while I'm doing my own appearance."
+
+    show john b_2
+
+    john "Will do."
+
+    scene black with dissolve
+    pause 0.5
+    play sound sfx_door_open
+    scene bg sayaka bedroom day
+    show john b_0:
+        center
+        faceleft
+        xpos 0.9
+        alpha 0.0
+        ease 1.25 alpha 1.0 xpos 0.35
+    with dissolve
+    pause 0.75
+
+    think "Okay, so I have to find clothes that {q}don't suck{/q}."
+    think "My wardrobe is absolutely massive, so it shouldn't be impossible to find something like that."
+    think "..."
+
+    show john a_6
+
+    think "Wait, what does {q}don't suck{/q} even mean?"
+
+    show john b_13
+
+    "Puzzled at how I should know exactly what {q}doesn't suck{/q}, I wavered my options."
+
+    show john b_25:
+        ease 0.5 xpos 0.25
+
+    "And I wavered my options for about 15 seconds before just settling on the thing Sayaka told me to wear during the mixer."
+
+    show john a_13
+
+    think "Surely this falls under the category of {q}doesn't suck{/q}."
+
+    scene black with dissolve
+    outfit john casual
+    accessory john set glasses
+    $ screenfilter.blur = 0
+    scene bg sayaka bedroom day
+    show john b_0:
+        center
+        faceright
+        xpos 0.6
+        ypos 1.1
+    with dissolve
+
+    "I got changed into this outfit once more and then turned on my EksBox."
+    "Apparently, the people who were setting stuff up down below knew what they were doing, so there wasn't much for me to do anymore."
+    "It was probably some party delivery thing, and I bet they've been here a couple times now."
+
+    show john b_11
+
+    "While playing the same old games, I checked if any new games were cropping up. I had done nothing but play the same stuff for who knows how long now, and it was starting to get rather boring not having anything new."
+
+    show john b_23
+
+    "And with Sayaka's credit currently in my possession, surely she wouldn't get even angrier if I spent just a little on a new title or two to pass the time."
+
+    show john b_0
+
+    "So there I was, browsing the shop, as I rarely do."
+
+    show john b_13
+
+    think "Hm... Looks crappy... Looks like pay to win... Looks like some crappy fan-made japanese visual novel..."
+
+    show john b_11
+
+    "Then I got my eyes on an apparently big reveal."
+    think "Dank Souls... Huh, that looks cool."
+
+    show john b_6
+
+    think "...Releases in a week.... Great..."
+
+    show john b_0
+
+    "With nothing but disappointing looking titles apart from a few cool ones, I went back to trying to 100% this stupid game I played with Cornelia."
+
+    play sound sfx_knock
+    show john a_13
+
+    "Not long after, Cornelia knocked on the door."
+    cornelia "{size=-5}John? Are my clothes in there?{/size}"
+
+    show john b_0
+
+    think "Her clothes...?"
+
+    show john:
+        pause 0.5 faceleft
+
+    "I looked around and remembered that she did drop her backpack of party clothes or whatever you call them off in here before we went to the bathroom together."
+
+    show john b_12 at faceright
+
+    john "Yeah, they're here."
+
+    show john b_1
+
+    cornelia "..."
+
+    show john b_11
+
+    cornelia "{size=-5}Well, are you going to give them to me?{/size}"
+
+    show john b_6
+
+    john "The door is unlocked, just come in here."
+
+    show john b_25
+
+    cornelia "{size=-5}I'm half naked out here!{/size}"
+    john "...So what? You're going to be half naked out there too if you want to change in the hallway."
+    cornelia "{size=-5}John!{/size}"
+
+    show john b_6
+
+    john "{i}Sigh...{/i}"
+
+    show john a_3
+
+    john "We told you about the entire sexuality thing that happened to us already, so chill, I'm not going to suddenly jump you or anything."
+
+    show john a_13
+
+    john "The game is probably more interesting anyways."
+
+    outfit cornelia towel
+    show cornelia a_5:
+        center
+        faceleft
+        alpha 0.0
+        xpos 1.0
+    show john b_5
+
+    cornelia "{size=-5}Urgh, fine!{/size}"
+
+    play sound sfx_door_open
+    show john b_0
+    show cornelia:
+        parallel:
+            ease 0.5 alpha 1.0
+        parallel:
+            ease 1.5 xpos 0.3
+
+    "With just a tad bit of hesitation, she finally came into the room."
+
+    show john b_5
+
+    "Sure enough, she was wearing nothing but a towel. If I was still an actual guy I might have felt a bit differently, but the game I was playing was more interesting after all and required concentration, so I barely even bothered to look."
+
+    show cornelia a_0
+    show john b_11
+
+    john "Hey-"
+
+    show cornelia a_7 at faceright
+    show john b_13
+
+    cornelia "D- Don't you dare turn around!"
+
+    show john b_6
+    show cornelia a_11
+
+    john "...I was just going to ask how you managed to beat this guy last time."
+
+    show cornelia a_0
+
+    cornelia "{q}This guy{/q}? Oh, the Dedris King."
+
+    show cornelia a_12
+    show john b_0
+
+    cornelia "Wait, just, let me get changed first."
+
+    show cornelia a_1 at faceleft
+    show john b_1
+
+    john "No need to hurry."
+
+    scene black with dissolve
+    pause 0.5
+    outfit cornelia casual
+    accessory john set
+    show bg sayaka livingroom dusk:
+        zoom 1.5 xalign 0.2 yalign 0.7
+    show john b_0 at center, faceright
+    show cornelia b_0 at centerright, faceright
+    with dissolve
+
+    "In the end, we managed to spend some 10 or 15 minutes again playing before we went downstairs to check up on how things were going."
+    "I was forced to wear my eye contacts, even though I was promised I could dress however I wanted to."
+
+    show john b_25
+    show cornelia b_5
+
+    "Guess I really didn't get anything out of that mixer thing after all..."
+
+    show john b_11
+    show cornelia b_23:
+        ease 0.75 xpos 0.9 alpha 0.0
+
+    cornelia "Hey, wait, we need the pult over in that corner!"
+
+    show john a_6
+    hide cornelia
+    show marty a_9:
+        alpha 0.0
+        center
+        faceright
+        xpos 0.05
+    think "And off she goes..."
+
+    show marty:
+        ease 0.5 alpha 1.0 xpos 0.25
+    show john b_11 at faceleft
+
+    marty "Ah, Ms. Sato, there you are."
+
+    show john b_12
+
+    john "Oh, uh... Yeah, that's me. What's up?"
+
+    show john b_1
+    show marty a_0
+
+    marty "We are about done with the set-up. Could you make sure everything is as it should be? Just say the word and we'll make sure to rectify any mistakes."
+
+    show john b_2
+
+    john "Yeah, yeah, of course."
+
+    show john b_1
+    show marty a_1
+
+    marty "Thanks."
+
+    show john a_31
+    show marty a_9:
+        faceleft
+        ease 0.75 alpha 0.0 xpos 0.05
+
+    think "As if I know where everything is supposed to be, though."
+
+    show john a_0
+
+    think "I better let Cornelia handle this one..."
+
+    scene black with dissolve
+    pause 0.5
+    scene bg sayaka house dusk
+    show AN_asset truck:
+        right
+        ypos 1.25
+        zoom 1.35
+    show marty a_0 at right, faceleft
+    show john b_0:
+        center
+        faceright
+        xpos 0.55
+    show cornelia b_0:
+        center
+        faceright
+        xpos 0.35
+    with dissolve
+
+    marty "Once more, thank you for choosing our service."
+
+    show marty a_1
+
+    marty "I hope the party will turn out a success as always."
+
+    show marty a_9
+    show cornelia b_1
+    show john b_25
+
+    think "Man, this guy is probably only a couple years older than me and is already talking as if he's from the middle-ages."
+
+    show john b_1
+
+    think "Although it is kind of sweet how he addresses me-"
+
+    show john b_27 blush
+    show cornelia b_11
+
+    extend " No no no, bad thoughts!"
+
+    show john b_2
+    show cornelia b_22
+
+    john "Thank you for your help. Have a safe trip back."
+
+    show marty a_0
+    show john b_1
+
+    marty "Thanks. And please give my regards to your father."
+
+    show john a_12
+
+    john "Heh... Uh, yeah, will do."
+
+    show john a_13
+    show cornelia b_0
+    show marty:
+        faceright
+        ease 2 alpha 0.0 xpos 1.2
+
+    "He got into the truck where the two other people that helped were already sitting."
+
+    show cornelia a_1
+    show john b_11 at faceleft
+    hide marty
+
+    cornelia "At least there is some hope for the party now."
+
+    #TODO: Add truck sound here
+    show AN_asset truck:
+        ease 8 xpos 1.75
+    show john b_6
+
+    john "Hope? Uh... Am I supposed to know why?"
+
+    show john b_25
+
+    cornelia "Considering you didn't embarrass yourself at all in front of the delivery guys."
+
+    show john b_0
+
+    john "Oh, like that."
+
+    show john a_14
+
+    john "If all I have to do is just walk around for an evening then it's going to be a piece of cake."
+
+    show john a_1
+    show cornelia a_6
+
+    cornelia "Well, you have to do a bit more than just {q}walk around{/q}, but it's a start."
+
+    scene black with dissolve
+    pause 1.0
+    outfit sayaka casual
+    play sound sfx_door_open
+    scene bg sayaka kitchen dusk
+    show john b_11:
+        centerright
+        faceleft
+        ypos 1.1
+    show cornelia a_0:
+        center
+        faceright
+        ypos 1.1
+        pause 0.5
+        faceleft
+    show sayaka a_5:
+        offscreenleft
+        faceright
+        ease 1.0 left
+    with dissolve
+
+    "About thirty minutes after the delivery boys left, Sayaka finally decided to show up."
+
+    show cornelia a_1
+    show john b_25
+
+    "Compared to what I've been put through, she sure didn't put in a lot of effort to make me look refined or whatever word she would use for herself."
+    "It was just my usual clothes."
+
+    show cornelia a_2
+
+    cornelia "Saya, there you are! How's it going?"
+
+    show cornelia a_1
+
+    sayaka "Fine."
+
+    show cornelia a_11
+
+    cornelia "Oh... Uh, great."
+
+    show cornelia a_1
+
+    cornelia "There is still an hour left before the first show up, but do you... Maybe want to watch a movie while we wai-"
+
+    show sayaka a_16
+    show cornelia a_11
+
+    sayaka "I'm checking if this idiot over there has messed something up."
+
+    show john a_32
+
+    cornelia "O- Oh, right, you have to do that."
+
+    show john a_6
+    show sayaka a_5
+
+    john "Really? First thing the Dunning-Kruger bitch says to me is an insult, as usual."
+
+    show sayaka a_16
+
+    sayaka "Do you expect anything else than the treatment of a twerp?"
+
+    show john a_13:
+        ease 0.5 ypos 1.0
+    show cornelia at faceright
+
+    john "Yeah, screw it, I'm going to my room while you have fun licking up dust to make sure it's clean."
+
+    show john b_3:
+        faceright
+        ease 1.5 offscreenright
+    show cornelia a_8:
+        pause 0.75
+        faceleft
+
+    sayaka "Hmph. Suit yourself, moron."
+
+    show sayaka:
+        ease 2 offscreenright
+    show cornelia a_4:
+        pause 0.75
+        faceright
+
+    cornelia "..."
+
+    show cornelia a_6
+
+    cornelia "{i}{q}Yes, one of us would love to spend time with you, Cornelia!{/q}{/i}"
+
+    show cornelia a_19
+
+    cornelia "Jerks."
+
+    scene black with dissolve
+    pause 1
+
+    title "27th of August (Saturday)" "Day 20 - Sayaka"
+
+    scene bg sayaka livingroom night
+    show sayaka a_5 at centerleft, faceleft:
+        pause 1
+        faceright
+        pause 0.75
+        faceleft
+    show cornelia a_19 at right, faceright
+    with dissolve
+    pause 1
+
+    think "Hmph, at least he was competent enough to not screw something up."
+    "I had just finished checking everything to make sure he wasn't stupid enough to leave a bowl of cereal or something around."
+    "I made double sure everything was clean and having Corny check on other stuff."
+    "At least she has some interest in doing this right."
+
+    play sound sfx_bell
+    show sayaka a_32 at faceleft
+    show cornelia a_11:
+        pause 1
+        faceleft
+
+    "And just in time, the first guest arrived."
+    "I already had a good guess as to who it was."
+
+    show sayaka a_5:
+        ease 0.5 xpos 0.0 alpha 0.0
+
+    "That couple was always way earlier than anyone else."
+
+    scene black with dissolve
+    outfit maria casual
+    outfit eric casual
+    accessory eric set cigarette
+    scene AN_bg sayaka frontyard night
+    show maria a_4 at centerleft, faceright
+    show eric a_4 at left, faceright
+    show sayaka a_8:
+        center
+        faceleft
+        alpha 0.0
+        xpos 1.0
+        pause 1
+        ease 0.75 xpos 0.6 alpha 1.0
+    with dissolve
+
+    "I was of course right. Maria and Eric always managed to be there early, due to Maria having the annoying tendency of wanting to snoop around before everyone shows up."
+
+    #SKIP
+    show sayaka:
+        alpha 1.0
+        xpos 0.6
+
+    show maria a_10
+
+    sayaka "Maria, Eric, welcome."
+
+    show maria a_9
+    show eric a_0
+
+    maria "John! You're here already as well!"
+
+    show sayaka a_5
+    show maria a_24
+
+    maria "Heheh, did Sayaka employ you as her new butler?"
+
+    show sayaka a_33
+    show maria a_12
+    show eric a_1
+
+    "She grinned to herself at her shitty joke, and of course Eric cracked a grin as well like the pathetic boyfriend he was."
+
+    show maria a_0
+    show eric a_0
+    show sayaka a_2
+
+    maria "Just kidding! It's good to see you."
+
+    show maria a_9 at faceleft
+
+    maria "Eric, show him what you brought."
+
+    show eric a_7
+    show maria a_0
+    show sayaka a_32
+
+    eric "Here."
+    "He held up a rather large plastic bag which was filled with rattling bottles."
+
+    show eric a_1
+    show maria a_12
+
+    eric "The strongest you can find around here."
+
+    show eric a_0
+    show maria a_0 at faceright
+    show sayaka a_2
+
+    sayaka "Is this what I think it is?"
+
+    show eric a_1
+
+    eric "If you're thinking shots, sure is."
+
+    show sayaka a_16
+    show eric a_0
+
+    sayaka "You sure you should be bringing that?"
+
+    show eric a_1
+    show maria at faceleft
+
+    eric "It's for the guys. The girls would go crazy after drinking this stuff, so better we get wasted instead. Heh."
+
+    show eric a_0
+    show maria a_13 at faceright
+    show sayaka a_2
+
+    maria "Can you believe it? Even I don't know where he managed to buy this stuff! I don't even think it's legal for us to have it!"
+
+    show maria a_14
+
+    maria "I tried that stuff and I'm lucky he didn't have the guts to completely manhandle me, haha."
+
+    show maria a_17
+
+    maria "Even if I would'nt have minded..."
+
+    show sayaka a_16
+    show maria a_4
+
+    sayaka "...And you're bringing {i}that{/i} to my party?"
+
+    show maria a_12
+    show eric a_4
+
+    maria "Are you collaborating with Sayaka on parties now too? Haha, you guys have been hanging out so much that she's even rubbing off on you."
+
+    show maria a_0
+
+    sayaka "I wish it were the other way around."
+
+    show sayaka a_17
+
+    sayaka "Anyways, get inside already."
+
+    show maria a_24
+    show eric a_0
+    show sayaka a_5
+
+    maria "Sure thing. Oh, and you still aren't going to spill anything about your romance between each other?"
+
+    show sayaka a_7
+
+    sayaka "For the last time, there is no romance!"
+
+    show sayaka a_16
+    show maria a_27
+
+    maria "Mhm. If you say so."
+
+    show maria a_0 at faceleft
+
+    maria "Let's go get some chips, babe."
+
+    show eric a_1
+
+    eric "Heh, sure."
+
+    show maria:
+        faceright
+        ease 1.5 xpos 1.2 alpha 0.0
+    show eric a_0:
+        pause 0.15
+        ease 1.4 xpos 1.05 alpha 0.0
+    show sayaka:
+        pause 0.5
+        faceright
+
+    think "For fucks sake, can she let this go already?"
+    "She'd been pestering me all the time lately, about somehow being in a loving relationship with my own body."
+    "And I mean, sure, {q}John{/q} was spending an unusual amount of time with {q}Sayaka{/q} recently, but of course she had to interpret it as a freaking romance."
+
+    show sayaka a_24
+
+    think "It just reminds me of why I hate people who gossip about me..."
+
+    scene black with dissolve
+    outfit rita dress
+    outfit irene casual_b
+    outfit allison casual_b
+    outfit brad casual
+    outfit kiyoshi uniform_b
+    show bg sayaka livingroom party:
+        zoom 1.5 xalign 0.35 yalign 0.55
+    show sayaka a_0:
+        center
+        faceright
+        xpos 0.15
+    show rita a_3:
+        center
+        faceright
+        xpos 0.4
+    show irene a_1:
+        center
+        faceleft
+        xpos 0.55
+    show allison b_5:
+        center
+        faceleft
+        xpos 0.65
+    show eric a_1:
+        center
+        faceright
+        xpos 0.8
+    show brad a_12:
+        center
+        faceleft
+        xpos 0.95
+    show kiyoshi a_6:
+        offscreenleft
+        faceright
+    with dissolve
+
+    "Eventually, most people started to arrive."
+    "If I didn't know better, this was like any of my other parties."
+
+    show bg sayaka livingroom party:
+        ease 1.5 xalign 0.0
+    show rita:
+        ease 1.5 alpha 0.0 xpos 0.65
+    show irene:
+        ease 1.5 alpha 0.0 xpos 0.8
+    show allison:
+        ease 1.5 alpha 0.0 xpos 0.9
+    show eric:
+        ease 1.5 alpha 0.0 xpos 1.05
+    show brad:
+        ease 1.5 alpha 0.0 xpos 1.12
+    show kiyoshi:
+        ease 1.5 xpos 0.25
+    show sayaka:
+        ease 1.5 xpos 0.4
+    pause 2
+    show sayaka a_33
+
+    "Well, if it weren't for this guy."
+    kiyoshi "It truly is lively."
+    sayaka "..."
+
+    show sayaka a_16 at faceleft
+    show kiyoshi a_10
+
+    sayaka "Why are you even here?"
+
+    show kiyoshi a_8
+
+    kiyoshi "To party, of course!"
+
+    show sayaka a_24
+    show kiyoshi a_13
+
+    sayaka "{i}Sigh...{/i}"
+
+    show sayaka a_16
+
+    sayaka "Fine. Just don't do weird shit."
+
+    show kiyoshi a_14
+
+    kiyoshi "Score!"
+
+    show kiyoshi a_10
+
+    kiyoshi "But I can make no promises."
+    sayaka "...Seriously, don't attempt anything."
+
+    play sound sfx_bell
+    show sayaka a_5
+    show kiyoshi a_0
+
+    "Before I could shoot him more of my serious glare, I heard someone else ringing the door."
+    think "Someone sure is late."
+
+    scene black with dissolve
+    pause 0.5
+    outfit AN_harry casual
+    scene AN_bg sayaka frontyard night
+    show AN_harry a_6:
+        centerleft
+        faceleft
+        pause 1.5
+        faceright
+    show sayaka a_5:
+        center
+        faceleft
+        alpha 0.0
+        xpos 1.0
+        pause 1
+        ease 0.75 xpos 0.6 alpha 1.0
+    with dissolve
+
+    "Who waited for me was not exactly someone I expected though."
+    AN_harry "...Uhm..."
+
+    show AN_harry a_3
+    show kiyoshi a_1:
+        center
+        faceleft
+        alpha 0.0
+        xpos 1.2
+        pause 1
+        ease 0.75 xpos 0.8 alpha 1.0
+
+    AN_harry "Might this be the Sato Estate?"
+
+    show kiyoshi a_14:
+        xpos 0.8 alpha 1.0
+
+    kiyoshi "Ahh! Harry! There you are!"
+
+    show kiyoshi a_1
+    show AN_harry a_0
+
+    AN_harry "Hello Kiyoshi. This must be the place then. Sorry, I'm a bit late."
+
+    show AN_harry a_1
+
+    AN_harry "And thanks for the invitation. I barely get the opportunity to go to parties like these."
+
+    show AN_harry a_0
+    show kiyoshi a_2
+    show sayaka at faceright
+
+    kiyoshi "No problemo! Anything for a friend."
+
+    show sayaka a_16
+
+    think "Does Kiyoshi think he is the one hosting the party when he apparently just invites people willy-nilly?"
+
+    show sayaka at faceleft
+    show AN_harry a_3
+    show kiyoshi a_1
+
+    sayaka "Who are you again?"
+
+    show AN_harry a_7
+
+    AN_harry "Oh yeah, I don't think we've met each other. You're John, right?"
+    sayaka "And you?"
+
+    show AN_harry a_11
+
+    AN_harry "Harry Barlow. Nice to meet you."
+
+    show sayaka a_5
+    show AN_harry a_7
+
+    "The name rang a bell, but I couldn't quite put my tongue on where exactly I had heard it before."
+    "The guy was probably someone who had an overall low profile during school."
+    sayaka "You were invited by Kiyoshi?"
+
+    show AN_harry a_10
+
+    AN_harry "Ah, no. Sayaka asked me if I would like to come. Kiyoshi was just kinda... There at that time, I guess?"
+
+    show AN_harry a_7
+    show sayaka a_16
+
+    think "Seriously, what went through that guy's head when he decided to also invite this guy?"
+    sayaka "Fine then, come on in. But don't cause a mess, got it?"
+
+    show AN_harry a_9
+
+    AN_harry "I'll try not to. Thanks."
+
+    show AN_harry a_0:
+        ease 1.5 xpos 1.2 alpha 0.0
+    show sayaka:
+        pause 0.5
+        faceright
+    show kiyoshi:
+        pause 0.9
+        faceright
+
+    "He waddled his way in with a smile."
+
+    show kiyoshi a_0 at faceleft
+
+    sayaka "...You know this guy?"
+
+    show kiyoshi a_10
+
+    kiyoshi "Harry? Of course. J-man and Cornelia seem to be quite fond of him."
+
+    show sayaka a_5
+
+    sayaka "John is {q}fond{/q} of him?"
+
+    show sayaka a_16
+
+    sayaka "What does that mean?"
+
+    show kiyoshi a_16
+
+    kiyoshi "That they are... Uh... Friends?"
+    sayaka "...That idiot."
+    think "Does John not know what happens if a girl and a boy just casually become {q}friends{/q}?"
+    think "The list of shit he's done keeps on piling up it seems."
+
+    show sayaka a_5
+
+    think "..."
+    think "Isn't that the exact same that's happening between me and John...?"
+
+    show sayaka a_20
+
+    think "Urgh, no! No it isn't!"
+
+    scene black with dissolve
+    pause 1
+    show bg sayaka livingroom party:
+        zoom 1.25 xalign 0.3 yalign 0.55
+    show sayaka a_5:
+        center
+        faceright
+        xpos 0.35
+    with dissolve
+
+    "As the evening began to really roll around, no major issues had really presented themselves."
+    "Music was good, everyone was chatting, some already dancing..."
+
+    show sayaka a_0
+    show kiyoshi a_11:
+        center
+        faceright
+        xpos 0.6
+        alpha 0.0
+    show maria a_1:
+        center
+        faceleft
+        xpos 0.8
+        alpha 0.0
+    show audrey a_0:
+        center
+        faceleft
+        xpos 0.95
+        alpha 0.0
+
+    "The outlook towards success was starting to become visible for once during these last three weeks."
+
+    show bg sayaka livingroom party:
+        ease 0.5 xalign 0.6
+    show sayaka:
+        ease 0.5 xpos 0.15
+    show kiyoshi:
+        ease 0.5 xpos 0.4 alpha 1.0
+    show maria:
+        ease 0.5 xpos 0.6 alpha 1.0
+    show audrey:
+        ease 0.5 xpos 0.75 alpha 1.0
+
+    "I had also spent a lot of time tutoring Kiyoshi in socializing with girls properly. He actually took it to heart, which was completely alien to me."
+    "Because right now, he actually felt a bit more relaxed and not up in your face."
+
+    show kiyoshi a_6 at faceleft
+    show maria a_0
+    show audrey a_6
+
+    "I frequently gave him a thumbs up when I he shot a glance my way. The girls not slapping him in the face was a constant success."
+
+    show kiyoshi a_15 at faceright
+
+    "I was almost proud of how he was currently talking to Maria and that Audrey girl that John apparently was in contact with without them having a look of disgust on their faces."
+    think "It really was a good idea to bring him, huh?"
+
+    show bg sayaka livingroom party:
+        ease 0.5 xalign 0.45
+    show sayaka a_5:
+        ease 0.5 xpos 0.2
+    show kiyoshi:
+        ease 0.5 xpos 0.5 alpha 0.0
+    show maria:
+        ease 0.5 xpos 0.7 alpha 0.0
+    show audrey:
+        ease 0.5 xpos 0.85 alpha 0.0
+    play sound AN_sfx_cell_buzz
+
+    think "Huh? A phone call?"
+
+    show sayaka a_16 at faceleft
+
+    think "Who is it now?"
+    "As I took out the phone from my pocket, I saw the person contacting me and dreaded in silence."
+
+    show sayaka a_24
+    show AN_phone a_0:
+        centerright
+        faceleft
+        ypos 2.0
+
+    think "Annoying Citrus. Fuck."
+
+    show sayaka a_16 at faceright
+    show AN_phone:
+        ease 0.75 ypos 1.0
+
+    "This Zoey girl had gotten a hold of my number and was calling me in the most annoying times possible. Right now was one of those times."
+    think "Better tell her to screw off and not call me anymore today."
+
+    play sound AN_sfx_silence
+    show AN_phone a_1
+
+    zoey "-better pick up his stupid pho-"
+
+    show AN_phone a_2
+    show sayaka a_5
+
+    zoey "Oh! Hey John!"
+
+    show sayaka a_16
+    show AN_phone a_3
+
+    sayaka "I can't talk right now, so stop calling me today. Got it?"
+
+    show AN_phone a_4
+
+    zoey "What do you mean?"
+
+    show AN_phone a_5
+
+    zoey "Wait, who are these people behind you-"
+
+    show AN_phone a_6
+
+    zoey "Are you throwing a party without inviting me, John?!"
+    sayaka "See you, hopefully never."
+    zoey "Hold up, answer me, Joh-!"
+
+    show AN_phone a_7
+    show sayaka a_5
+    play sound AN_sfx_cell_end
+
+    think "There."
+
+    show AN_phone:
+        ease 0.75 ypos 2.0
+    show cornelia a_11:
+        offscreenleft
+        faceright
+
+    think "Now to put it on silent mode."
+
+    hide AN_phone
+    show bg sayaka livingroom party:
+        ease 0.5 xalign 0.0
+    show sayaka a_15:
+        ease 0.5 xpos 0.4
+    show cornelia:
+        ease 0.5 xpos 0.3
+    pause 0.25
+
+    cornelia "Who was that?"
+
+    show sayaka a_4:
+        faceleft
+        ease 0.25 xpos 0.45
+    with hpunch
+
+    sayaka "Oh Jesus Chris-"
+
+    show cornelia a_19
+    show sayaka a_7
+
+    sayaka "Stop scaring me like that!"
+
+    show cornelia a_17
+    show sayaka a_16
+
+    cornelia "...Sure..."
+
+    show cornelia a_0
+    show sayaka a_5
+
+    cornelia "But who was that? John's mom?"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

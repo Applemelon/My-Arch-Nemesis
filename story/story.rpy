@@ -9714,8 +9714,6 @@ label AN_day_1:
 
     sayaka "...What the fuck is he wearing?!"
 
-    #TODO: Fix Sayaka legs with jeans on
-
     show bg school entrance day:
         ease 0.75 xalign 0.8
     show carrie:
@@ -12743,7 +12741,7 @@ label AN_day_1:
         faceright
         ease 2.5 offscreenright
 
-    think "I was curious what on earth made her stick to Sayaka in the first place, but it wouldn't seem she wants to talk about it."
+    think "I was curious what on earth made her stick to Sayaka in the first place, but it doesnt't seem like she wants to talk about it."
 
     play sound sfx_door_open
     scene black with dissolve
@@ -12994,7 +12992,7 @@ label AN_day_1:
 
     show john b_19
 
-    john "Wha- Why would he do tha-"
+    john "Wha- Why would she do tha-"
 
     show john b_27
     play sound sfx_door_open
@@ -13207,7 +13205,7 @@ label AN_day_1:
 
     show john b_6
 
-    "Sayaka had somehow arranged this unfathomably quick and rented some really cliche karaoke room for four."
+    "Sayaka had somehow arranged this unfathomably quickly and rented some really cliche karaoke room for four."
 
     show john a_0
 
@@ -13284,7 +13282,7 @@ label AN_day_1:
 
     show sayaka a_16 blush
 
-    "It was probably something I would have digged further into to get my satisfaction of annoying her a bit, but with this mixer thing coming up I figured probably shouldn't tempt the devil."
+    "It was probably something I would have digged further into to get my satisfaction of annoying her a bit, but with this mixer thing coming up I figured that I probably shouldn't tempt the devil."
 
     scene black with dissolve
     scene AN_bg karaoke bar alt
@@ -13627,11 +13625,11 @@ label AN_day_1:
     show audrey b_6
 
     "I felt just a tiny bit bad for apparently robbing her of her talent to hit notes, since I knew that I was terrible at it with my actual body."
-    "Turns out, that talent at being terrible at singing carries over when you swap with someone."
+    "Turns out that the talent of being terrible at singing carries over when you swap with someone."
 
     show john b_6
 
-    think "But she is having just a bit of an existential crisis right now, isn't she?"
+    think "But isn't she is having just a bit too much of an existential crisis right now?"
 
     accessory sayaka set
     show dominic a_0
@@ -13773,7 +13771,7 @@ label AN_day_1:
     show sayaka a_7 at faceleft
     show john b_13
 
-    sayaka "Don't you see it? They are clearly already buddy-buddy with each other and are just finding excuses not to fuck already because they are too scared what the other one would say!"
+    sayaka "Don't you see it? They are clearly already buddy-buddy with each other and are just finding excuses not to fuck already because they are too scared about what the other one would say!"
 
     show sayaka a_25
 
@@ -13923,6 +13921,7 @@ label AN_day_1:
 
     scene black with dissolve
     outfit sayaka winter
+    outfit audrey casual
     scene bg city walkway day
     show sayaka a_12:
         center
@@ -13945,7 +13944,7 @@ label AN_day_1:
         pause 0.5
         faceright
         ease 2 alpha 0.0 xpos 1.2
-    show audrey b_0:
+    show audrey a_0:
         pause 0.4
         faceright
         ease 2 alpha 0.0 xpos 1.35
@@ -14024,7 +14023,7 @@ label AN_day_1:
 
     john "Well, see you tomorrow then."
     sayaka "Yeah yeah."
-    sayaka "And don't forget to read the links I sent you."
+    sayaka "And don't forget to read the links to those stories I sent you."
 
     show john b_14
 
@@ -14377,7 +14376,7 @@ label AN_day_1:
     pause 1
 
     think "Wha-"
-    "For some reason, Kat, Kyoko and Anuja were here before I could out of my classroom."
+    "For some reason, Kat, Kyoko and Anuja were here before I could get out of my classroom."
 
     show cornelia b_23
 
@@ -14669,7 +14668,7 @@ label AN_day_1:
     show katrina b_4
 
     katrina "I've heard about it from Anuja and Michelle's parents. Anuja said that when she first saw Michelle like that, Michelle was mumbling as if talking another language entirely..."
-    katrian "It freaked Anuja completely to the point where she now has nightmares about it..."
+    katrina "It freaked Anuja completely to the point where she now has nightmares about it..."
 
     show katrina b_8
 
@@ -14893,7 +14892,7 @@ label AN_day_1:
 
     show kyoko a_8
 
-    kyoko "Me too. Good luck, and see you later."
+    kyoko "Me too. Good luck."
 
     show kyoko a_1:
         pause 1.5
@@ -15089,7 +15088,7 @@ label AN_day_1:
     show sayaka a_16
     show john b_17
 
-    sayaka "Unlike you, I actually believe we can swap back. I bet you're living life as me, so you don't worry too much about the bigger picture as always, but some of us want to right what's wrong."
+    sayaka "Unlike you, I actually believe we can swap back. I bet you're having the time of your life as me, so you don't worry too much about the bigger picture as always, but some of us want to right what's wrong."
 
     show john b_18
 
@@ -15237,7 +15236,7 @@ label AN_day_1:
     show cornelia b_3:
         ease 0.5 xpos 0.25
 
-    cornelia "You clearly aren't in the right mindset to take any decisions right now, so I'm taking the fucking wheel here!"
+    cornelia "You clearly aren't in the right mindset to make any decisions right now, so I'm taking the fucking wheel here!"
 
     show sayaka a_16
 
@@ -15271,7 +15270,7 @@ label AN_day_1:
     show sayaka a_16 at faceleft
     show john a_5 at faceright
 
-    sayaka "Once we swap back I'll be glad to finally cut all ties I have with this dickhead."
+    sayaka "Once we swap back I'll be glad to finally cut all ties I have with this moron."
 
     show john a_13
 
@@ -16376,7 +16375,7 @@ label AN_day_1:
 
     show maria a_14
 
-    maria "I tried that stuff and I'm lucky he didn't have the guts to completely manhandle me, haha."
+    maria "I tried that stuff and I'm lucky he didn't have the guts to completely manhandle me while I was completely wasted, haha."
 
     show maria a_17
 
@@ -16801,7 +16800,7 @@ label AN_day_1:
 
     show AN_phone:
         ease 0.75 ypos 2.0
-    show cornelia a_11:
+    show cornelia a_11 blush:
         offscreenleft
         faceright
 
@@ -16825,56 +16824,4117 @@ label AN_day_1:
 
     sayaka "Oh Jesus Chris-"
 
-    show cornelia a_19
+    show cornelia a_19 blush
     show sayaka a_7
 
     sayaka "Stop scaring me like that!"
 
-    show cornelia a_17
+    show cornelia a_17 blush
     show sayaka a_16
 
     cornelia "...Sure..."
 
-    show cornelia a_0
+    show cornelia a_0 blush
     show sayaka a_5
 
     cornelia "But who was that? John's mom?"
 
+    show sayaka a_16
+
+    sayaka "It was that annoying sister of Brad."
+    sayaka "Gosh, can she leave me freaking alone already?"
+
+    show cornelia a_5 blush
+
+    sayaka "Like, does she need to be hit by a car or something before she gets the hint that I don't give a damn about her?"
+
+    show sayaka a_21
+
+    sayaka "It's as if I'm her only fucking friend, and I can't stand having to talk to a measly little shitty runt like her!"
+
+    show cornelia a_11 blush
+    show sayaka a_16
+
+    cornelia "..."
+
+    show sayaka a_7
+
+    sayaka "What?! You look at me like I'm a dog or something!"
+
+    show cornelia a_14 blush
+    show sayaka a_16
+
+    cornelia "Are you, like, okay?"
+    sayaka "Who? Me?"
+
+    show cornelia a_3 blush
+
+    cornelia "Who else?"
+
+    show cornelia a_14 blush
+
+    sayaka "What the hell do you think? I'm doing just fine, for your information. Why are you even asking?"
+
+    show cornelia a_19 blush
+
+    cornelia "No offense, but you've been acting really tense lately, and I don't think I've seen you talk to John today at all."
+
+    show cornelia a_0 blush
+    show sayaka a_5
+
+    cornelia "So are you sure you're okay? You sound like you're bottling up a lot of frustration as of late."
+
+    show sayaka a_16
+
+    sayaka "Of course I'm okay. Have you ever seen me not being okay?"
+    sayaka "Besides, as long as that dickhead doesn't screw up I'd rather not talk to him {i}at all{/i} anymore. Let alone right now."
+
+    show cornelia b_6 blush
+
+    cornelia "{i}Sigh...{/i} You two really... Uh... Need to fix things, you know?"
+
+    show cornelia b_24 blush
+
+    sayaka "And why should I listen to that idiot talking for even a second?"
+    cornelia "Do I really have to explain why? You're still living his life, you two should work together, not against each other."
+
+    show sayaka a_7
+    show cornelia b_31 blush
+
+    sayaka "Oh, lay it off already! You're starting to sound more and more like you adore him more than me!"
+
+    show cornelia b_29 blush
+    show sayaka a_16
+
+    cornelia "...What? Who?"
+
+    show sayaka a_7
+
+    sayaka "John!"
+
+    show cornelia a_11 blush
+
+    cornelia "...Ohhh..."
+
+    show sayaka a_15
+
+    think "Wait, don't tell me she's already..."
+
+    show sayaka a_16
+    show cornelia a_0 blush
+
+    sayaka "How many have you had already?"
+
+    show cornelia b_6 blush
+
+    cornelia "How many cans?"
+
+    show cornelia b_24 blush
+
+    sayaka "Yes, how many?"
+
+    show cornelia b_34 blush
+
+    cornelia "Uh... I think this is my ninth...?"
+
+    show sayaka a_7
+    show cornelia a_11 blush
+
+    sayaka "What?! The clock is not even eleven yet, and you've been downing cans of alcohol like it's a fucking bachelor's party!"
+    sayaka "You're supposed to help keep an eye out here!"
+
+    show sayaka a_16
+    show cornelia b_17 blush
+
+    cornelia "Ngh... Well, it's not my fault you know! If only that asshole would finally tell me that he likes me too, then I wouldn't try to-"
+
+    show sayaka a_7
+    show cornelia b_0 blush
+
+    sayaka "Wait, who? Kiyoshi?"
+
+    show sayaka a_16
+    show cornelia a_3 blush
+
+    cornelia "Well, duh..."
+
+    show cornelia a_8 blush
+    show sayaka a_15
+
+    cornelia "He isn't getting drunk at all! What's with him?"
+
+    show cornelia b_4 blush
+
+    cornelia "It makes, like... No sense."
+
+    show sayaka a_25
+    show cornelia b_5 blush
+
+    sayaka "You- Ugh..."
+
+    show sayaka a_16
+
+    sayaka "You're a light-weight, you idiot. If you keep going you're going to be out soon."
+
+    show sayaka a_2
+    show cornelia b_3 blush
+
+    cornelia "Then make him tell me that I look good!"
+
+    show sayaka a_7
+    show cornelia b_24 blush
+
+    sayaka "What the hell is your obsession with this guy?!"
+
+    show sayaka a_16
+    show cornelia b_29 blush
+
+    cornelia "He said I look ugly! I don't! Look at me!"
+
+    show cornelia b_32 blush
+
+    cornelia "If I just... Keep drinking with him then maybe sometime later..."
+
+    show sayaka a_24 at faceright
+
+    sayaka "Oh my god..."
+
+    show sayaka a_16 at faceleft
+    show cornelia b_26 blush
+
+    sayaka "Don't tell me you're trying to get him wasted in order to make him say he likes you..."
+
+    show cornelia b_29 blush
+
+    cornelia "Uh..."
+
+    show cornelia a_11 blush
+
+    cornelia "...No...?"
+
+    show cornelia a_0 blush
+    show sayaka a_7
+
+    sayaka "Doesn't it defeat the fucking purpose if he tells you without being at his senses? Because he'd be wasted?"
+
+    show cornelia a_22 blush
+    show sayaka a_16
+
+    cornelia "When you're drunk, you spill the truth of what you're thinking."
+
+    show cornelia a_17 blush
+
+    cornelia "I think."
+
+    show cornelia a_18 blush
+
+    cornelia "Yeah!"
+
+    show sayaka a_24:
+        faceright
+        ease 0.5 xpos 0.55
+    show cornelia a_11 blush
+
+    sayaka "Oh my god, you're a completely lost cause..."
+
+    show cornelia a_8 blush
+
+    cornelia "No, I'll even record it so you believe me when I say it!"
+
+    show sayaka a_7:
+        faceleft
+        pause 1
+        faceright
+
+    sayaka "That wasn't what I was talking abou- Oh, fuck it."
+
+    show sayaka a_16
+    show cornelia a_11 blush
+
+    think "At least I now know that {i}she{/i} isn't going to be of any fucking help today."
+
+    scene black with dissolve
+    pause 1.5
+    show bg sayaka livingroom party
+    show sayaka a_5:
+        center
+        faceright
+        xpos 0.8
+    with dissolve
+    pause 0.25
+
+    "Another half an hour passed."
+
+    show sayaka at faceleft
+    show john b_24 blush:
+        center
+        faceleft
+        xpos 0.3
+        zoom 0.75
+        alpha 0.0
+        ypos 1.1
+    show cornelia a_19 blush:
+        center
+        faceleft
+        xpos 0.4
+        zoom 0.75
+        alpha 0.0
+        ypos 1.1
+    show brad a_3:
+        center
+        faceright
+        xpos 0.2
+        zoom 0.75
+        alpha 0.0
+        ypos 1.1
+    show AN_harry a_3:
+        center
+        faceright
+        xpos 0.1
+        zoom 0.75
+        alpha 0.0
+        ypos 1.1
+
+    "It was perplexing not being the center of attention all the time, and John seemingly wasn't screwing things over..."
+
+    show bg sayaka livingroom party:
+        ease 0.75 zoom 1.75 xalign 0.25 yalign 0.4
+    show sayaka:
+        ease 0.5 zoom 1.2 xpos 0.95 alpha 0.0
+    show john:
+        ease 0.75 zoom 1.0 xpos 0.5 alpha 1.0
+    show brad:
+        ease 0.75 zoom 1.0 xpos 0.3 alpha 1.0
+    show cornelia:
+        ease 0.75 zoom 1.0 xpos 0.7 alpha 1.0
+    show AN_harry:
+        ease 0.75 zoom 1.0 xpos 0.1 alpha 1.0
+
+    "Still, instead of talking with the people he was {i}supposed{/i} to be talking with, he kept spending time with that Harry guy, Brad, Cornelia..."
+
+    show john b_6 blush
+    show brad a_15
+
+    "The same group of friends like fucking always."
+
+    show AN_harry a_10
+    show brad a_0
+    show john b_3 blush
+
+    "I had a lot of time to think about things right now, and I had to slowly accept that things wouldn't go back to how they were before."
+
+    show cornelia b_24 blush at faceright
+    show john a_6 blush
+    show AN_harry a_7
+
+    "I was in a terrible mood. The benefits I had from being the leader of the highest circle of people in school was evaporating in front of my eyes."
+
+    #TODO: Make blush for this face
+    show john a_32 blush:
+        ease 0.5 ypos 1.0
+    show brad a_1
+    show AN_harry a_0
+
+    "It had been evaporating since this semester started. And fuck, it was frustrating not being able to do anything about it."
+
+    show bg sayaka livingroom party:
+        ease 0.75 zoom 1.0
+    show john:
+        ease 0.75 xpos 0.3 zoom 0.75 alpha 0.0 ypos 1.0
+    show cornelia:
+        ease 0.75 xpos 0.4 zoom 0.75 alpha 0.0 ypos 1.1
+    show brad:
+        ease 0.75 xpos 0.2 zoom 0.75 alpha 0.0 ypos 1.1
+    show AN_harry:
+        ease 0.75 xpos 0.1 zoom 0.75 alpha 0.0 ypos 1.1
+    show sayaka:
+        faceright
+        pause 0.25
+        ease 0.5 alpha 1.0 zoom 1.0 xpos 0.8
+
+    "Again, I kept thinking to myself, {q}Why John? What's so special about him{/q}."
+    "I mean, sure, his family is great and he has friends, but the same was true for me too, right?"
+
+    show john b_14 blush:
+        ypos 1.01
+        zoom 1.0
+        xpos 0.35
+        faceright
+
+    "But really, what mistake did I do to be swapped with him..."
+
+    show john:
+        ease 0.5 alpha 1.0 xpos 0.5
+
+    john "Heyy~~y Sayakaa~~~a- I mean, John, heh..."
+
+    show sayaka a_33 at faceleft
+    show john b_1 blush
+    pause 1.5
+
+    sayaka "...What?"
+
+    show john b_12 blush
+
+    john "You look, like... Lonely, and stuff, heh."
+
+    show sayaka a_16
+    show john b_11 blush
+
+    sayaka "What do you care?"
+
+    show john b_2 blush
+
+    john "Hahah, good one!"
+
+    show john b_13 blush
+
+    sayaka "..."
+
+    show john a_11 blush
+
+    john "...Uh... So, Brad and Harry both like... Said you looked a bit lonely, you know."
+
+    show john b_22 blush:
+        ease 0.15 ypos 1.0
+        ease 1.0 ypos 1.01
+
+    john "{i}{b}Hic!{/b}{/i}"
+
+    show sayaka a_5
+    show john a_19 blush
+
+    john "So! Do you like... Want to have a drink with us to boost the mood you're in? Heh..."
+
+    show john a_0 blush
+    show sayaka a_33
+
+    sayaka "Are you drunk?"
+
+    show john a_12 blush
+
+    john "Whaat, noo..."
+
+    show john b_2 blush
+    show sayaka a_32
+
+    john "I only had some punch and a bit of beer and some shots and you know you probably do this all the time so I bet I can take it too you know."
+
+    show john:
+        block:
+            faceleft
+            pause 1
+            faceright
+            pause 1
+            repeat
+
+    john "Whee~~"
+
+    show sayaka a_24
+
+    think "{i}Sigh...{/i} Add one more item to the list of issues that I have with this guy."
+
+    show john b_12 blush at faceright
+    show sayaka a_16
+
+    john "See? My equibribrium is totally fine even after spinning~~"
+
+    show john b_1 blush
+
+    "I knew that my body could take a lot of alcohol before getting really wasted, so either that doesn't matter due to this swap and this guy doesn't know how to handle being drunk or he really had way too much already."
+
+    show sayaka a_7
+    show john b_11 blush
+
+    sayaka "I am {b}not{/b} spending time with you. And stop drinking Rita's punch! It's fucking filled with alcohol!"
+
+    show sayaka a_16
+    show john b_6 blush at faceleft
+
+    john "Alright Miss Naggy. Sorry for trying to make you happy."
+
+    show sayaka a_7
+    show john b_23 blush
+
+    sayaka "What did you just call me?"
+
+    show john b_25 blush:
+        ease 1.5 zoom 0.9 xpos 0.35 alpha 0.0
+    show sayaka a_16
+
+    john "...Nothing..."
+    think "I suddenly have a bad feeling about tonight with him on the loose."
+
+    scene black with dissolve
+    pause 1
+    show bg sayaka livingroom party:
+        zoom 2.0 xalign 0.3 yalign 0.7
+    show sayaka a_5:
+        centerright
+        faceleft
+    show maria a_2:
+        center
+        faceleft
+    show kiyoshi a_0:
+        centerleft
+        faceright
+    show cornelia a_6 blush:
+        right
+        faceleft
+    with dissolve
+
+    maria "So then, what do you think I see?"
+
+    show maria a_3
+    show sayaka a_32
+
+    maria "Mallory, of all people, walking out of the dressing room!"
+
+    show maria a_9
+
+    maria "And where did the clothes he was allegedly {q}trying on{/q} go?"
+
+    show maria a_20
+
+    maria "They weren't there, at all!"
+
+    show maria a_23
+
+    maria "I checked all trying rooms the shop had, but none of the clothes he brought in were there!"
+
+    show kiyoshi a_9
+    show maria a_6
+
+    kiyoshi "A robbery?"
+
+    show maria a_1
+    show kiyoshi a_4
+
+    maria "You bet!"
+
+    show maria a_4
+
+    maria "But how did he do it? There were {i}way{/i} too many clothes for him to just, you know, put them on under his clothes and walk away."
+
+    show kiyoshi a_17
+    show maria a_0
+
+    kiyoshi "Hm... Could he have an accomplice of sorts?"
+
+    show maria a_8
+    show sayaka a_33
+
+    maria "That's the first thing I thought too. If only I had my camera with me, I could have used it as evidence."
+
+    show kiyoshi a_0
+    show maria a_13
+
+    maria "Man, that still bums me out that I didn't have it on me. It would have been a massive story."
+
+    show kiyoshi a_7
+    show maria a_10
+
+    kiyoshi "Perhaps you would be interested in the new Moogle watches then."
+
+    show kiyoshi a_1
+    show maria a_11
+
+    maria "Moogle what?"
+
+    show kiyoshi a_12
+
+    kiyoshi "It is a watch that is currently being developed by Moogle. I believe it has an in-built camera that you can use on the fly."
+    kiyoshi "I wish to acquire one for my alien hunting as well, but I am currently short on funds. I would imagine someone like you having enough cash for it however."
+
+    show maria a_20
+
+    sayaka "..."
+
+    show kiyoshi a_7
+
+    kiyoshi "Truly innovating technology."
+
+    show kiyoshi a_8
+
+    cornelia "..."
+
+    show maria a_19
+
+    maria "For real? I need to save up some money for that then!"
+
+    show maria a_1
+    show kiyoshi a_2
+
+    think "..."
+
+    show sayaka at faceright
+
+    think "Oh my god this is boring..."
+
+    show maria a_0 at faceright
+    show kiyoshi a_1 at faceright
+    show sayaka a_5
+
+    cornelia "Uh..."
+
+    show cornelia a_17 blush
+    show sayaka a_32
+    show kiyoshi a_0
+
+    cornelia "Uhm... What's the word..."
+
+    show maria a_4
+
+    maria "Is she... Okay?"
+    maria "I don't think I've ever seen Corny {i}this{/i} wasted before..."
+
+    show cornelia b_17 blush
+
+    cornelia "I'm not..."
+
+    show cornelia b_21
+
+    cornelia "..."
+
+    show sayaka a_2 at faceleft
+    show maria a_27
+    show cornelia b_4 blush
+
+    maria "..."
+
+    show kiyoshi a_9
+    show maria a_11 at faceleft
+    show sayaka a_5
+
+    kiyoshi "She likely had a few too many. I do not know why, but she really wanted to drink with me today."
+
+    show cornelia a_4 blush
+    show maria a_10 at faceright
+    show sayaka at faceright
+    show kiyoshi a_0
+
+    cornelia "Just... One more, please?"
+
+    show kiyoshi a_2
+    show maria a_21
+
+    kiyoshi "If you insist, sure."
+
+    show maria a_3 at faceleft
+    show sayaka a_2
+    show kiyoshi a_1
+
+    maria "You've been tallying with her?"
+
+    show sayaka a_5 at faceleft
+    show kiyoshi a_0
+    show maria a_6
+
+    kiyoshi "Tallying?"
+
+    show maria at faceright
+
+    sayaka "It means that you've been drinking the exact same as her for the entire night."
+
+    show maria at faceleft
+
+    maria "Yeah, that."
+
+    show kiyoshi a_9
+
+    kiyoshi "Hmm... I believe so? I've only had what she brought me so far."
+
+    show maria a_5
+
+    maria "And how much is that?"
+
+    show kiyoshi a_4
+
+    kiyoshi "About seventeen cups, slash, cans of beverages if I counted correctly?"
+
+    show sayaka a_15
+    show maria a_3
+    show kiyoshi a_5
+
+    maria "Seventeen?! Seventeen of what?"
+
+    show maria a_21
+    show kiyoshi a_1
+    show cornelia a_17 blush
+
+    kiyoshi "It's been a mix, but some beer, some of the small cups, some of that delicious beverage over there."
+
+    show sayaka a_32 at faceright
+    show maria a_20 at faceright
+
+    "He pointed toward Rita's toxic Wanda surprise."
+
+    show sayaka a_2 at faceleft
+    show maria at faceleft
+
+    sayaka "And you're not drunk at all?"
+
+    show kiyoshi a_9
+
+    kiyoshi "I do feel a little tingling in my head. Is that considered {q}drunk{/q}?"
+
+    show maria a_22
+
+    maria "...Dude, do you have some sort of black hole in your stomach?"
+
+    show sayaka a_32 at faceright
+    show maria a_17 at faceright
+    show kiyoshi a_0
+
+    cornelia "Come on..."
+    maria "Girl, you really shouldn't have any more."
+
+    show cornelia b_4 blush
+
+    cornelia "Just one more, please..."
+
+    show maria a_6
+
+    maria "..."
+
+    show sayaka a_5 at faceleft
+
+    maria "{size=-5}Hey, what's gotten into her?{/size}"
+
+    show maria at faceleft
+
+    kiyoshi "Beats me."
+
+    show maria at faceright
+
+    "I lifted my shoulders in indifference. Telling little Ms. Gossip about touchy subjects was never a good idea, so I feigned ignorance."
+
+    show sayaka at faceright
+    show cornelia a_17:
+        parallel:
+            ease 0.15 xpos 0.86
+            ease 0.2 xpos 0.84
+        parallel:
+            transform_anchor True
+            ease 0.4 rotate 5 ypos 1.1
+
+    cornelia "{i}Ugh...{/i}"
+
+    show sayaka a_33
+    show maria a_23
+
+    think "Aa~~~and she's close to throwing up..."
+
+    show sayaka a_6 at faceleft
+    show maria a_4
+
+    sayaka "Can you take her to the bathroom upstairs?"
+
+    show maria a_8
+
+    maria "Oh, it's that time of the day, huh?"
+    maria "Sure."
+
+    show maria a_9:
+        ease 0.75 xpos 0.7
+    show cornelia:
+        pause 0.5
+        faceright
+    show sayaka a_5:
+        pause 0.25
+        faceright
+        ease 0.75 xpos 0.55
+
+    maria "Now, let's go, princess, you need to at least be able to stand on two feet."
+
+    show maria a_8:
+        ease 1 alpha 0.0 xpos 0.9
+    show cornelia:
+        parallel:
+            ease 0.25 ypos 1.0
+        parallel:
+            ease 0.9 alpha 0.0 xpos 1.05
+
+    cornelia "...But after this... Just one more... {i}{b}Hic!{/b}{/i}"
+    sayaka "..."
+    kiyoshi "..."
+    sayaka "{size=-5}{i}Sigh... {/i}Idiot...{/size}"
+
+    show sayaka a_32
+
+    think "Speaking of drunk people, where is the other supposed organizer of this party?"
+
+    show sayaka:
+        faceleft
+        pause 0.75
+        faceright
+
+    "I looked around the room but couldn't find my own shape amongst the people."
+
+    show sayaka a_16
+
+    "It kind of set an alarm of inside my head not having control over his location, but calmed down soon after since I knew I was on edge lately."
+
+    show sayaka at faceleft
+
+    sayaka "Do you know where John is?"
+
+    show kiyoshi a_4
+
+    kiyoshi "He went with Eric and Tori outside, did he not?"
+
+    show sayaka a_7
+
+    sayaka "Tori?!"
+    sayaka "She's here again?!"
+
+    show sayaka a_16
+    show kiyoshi a_5
+
+    kiyoshi "You didn't invite her?"
+
+    show kiyoshi a_0
+
+    sayaka "Of course not, but she always sneaks in and steals my drinks."
+
+    show sayaka a_7 at faceright
+
+    sayaka "Ugh, I'm throwing her out!"
+
+    scene black with dissolve
+    pause 0.5
+    outfit tori casual
+    accessory eric set
+    scene bg sayaka backyard night
+    show tori a_10:
+        center
+        faceright
+        xpos 0.35
+    show john b_18 blush:
+        center
+        faceleft
+        xpos 0.575
+    show eric a_0:
+        center
+        faceleft
+        xpos 0.8
+    show sayaka a_7:
+        center
+        faceright
+        xpos 0.0
+        alpha 0.0
+        pause 0.25
+        ease 0.5 alpha 1.0 xpos 0.1
+    with dissolve
+
+    sayaka "What is going on out he-"
+
+    show sayaka a_5
+
+    john "-And, if I ever! Ever! See you again! {i}{b}Hic!{/b}{/i}"
+
+    show john a_0 blush
+
+    john "Uh..."
+
+    show john b_18 blush
+
+    john "Yes! That!"
+
+    show john a_13 blush
+    show tori a_17
+
+    tori "What the hell did you give her?"
+
+    show eric a_4
+    show tori a_19
+
+    eric "She wanted to try it, so I let her."
+
+    show eric a_2
+    show sayaka a_15
+    show john a_17 blush
+
+    eric "Got a problem with that?"
+
+    show eric a_0
+    show tori a_1
+
+    tori "Hah, fuck no, this is hilarious."
+
+    show john b_17 blush
+    show tori a_11
+    show eric a_1
+
+    john "It is!"
+
+    show tori a_20
+    show john b_19 blush
+
+    john "...Not! Not!"
+
+    show john b_22 blush
+    show sayaka a_7
+    show eric a_0
+    show tori a_11 at faceleft
+
+    sayaka "Wha- What's going on here?!"
+
+    show sayaka a_16
+    show tori a_1
+
+    tori "Oh, hey twerp. So you're here too."
+
+    show tori a_0 at faceright
+    show sayaka a_5
+    show john b_18 blush
+
+    john "Sayaka, I totally got this."
+
+    show john b_19 blush
+    show sayaka a_33
+
+    john "Hey! Get over here Vicky!"
+
+    show john b_17 blush
+    show tori a_17
+
+    tori "...I'm right next to you."
+
+    show john b_9 blush
+    show tori a_18
+
+    john "Stop running!"
+
+    show john b_6 blush
+    show sayaka a_7
+    show tori a_19 at faceleft
+
+    sayaka "Did you have her drink your garbage, Eric?!"
+
+    show sayaka a_16
+    show eric a_1
+
+    eric "Exactly, hahah."
+
+    show eric a_4
+    show tori a_20
+
+    "He flashed one of the bottles he was so proud of when he arrived."
+
+    show sayaka a_15
+
+    "78% alcohol. Enough to basically kill anyone who drank a full bottle."
+    "What the hell are any of them thinking?!"
+
+    show sayaka a_20
+
+    sayaka "Fuck you Eric, you knew she was hammered already!"
+
+    show sayaka a_16
+    show tori a_0 at faceright
+    show eric a_0
+    show john a_3 blush
+
+    john "Hey, hey! I'm not... A hammer!"
+
+    show sayaka a_24
+    show tori a_1
+    show eric a_1
+    show john a_6 blush
+
+    think "Oh god, please stop embarrassing me like this..."
+
+    show eric a_0
+    show sayaka a_16
+
+    eric "You want some too?"
+
+    show sayaka a_7
+    show tori a_20 at faceleft
+
+    sayaka "No! And you! Get off my property!"
+
+    show sayaka a_16
+    show tori a_17
+
+    tori "Your property? You married to this bitch or something?"
+
+    show sayaka a_20
+    show tori a_10
+    show eric a_3
+    show john a_13 blush
+
+    sayaka "Get out!"
+
+    show tori a_13
+    show eric a_7
+    show sayaka a_21
+
+    tori "Bah, as if I'd listen to you."
+
+    show tori a_20
+
+    tori "I got better things to do."
+
+    show eric a_0
+
+    "A few others were also in the garden talking, and what John was doing was clearly the main attraction for anyone who was out here right now."
+
+    show sayaka a_16
+
+    think "Fucks sake, does he not know how to hold back at all?"
+
+    show sayaka a_24
+
+    think "This is so freaking embarrassing to watch..."
+
+    show tori a_1 at faceright
+    show john a_17 blush
+    show sayaka a_16
+
+    tori "Let's go have some of your sip."
+
+    show eric a_1
+
+    eric "Heh, feeling ballsy?"
+    tori "Hell yeah."
+
+    menu:
+        "choice":
+            "text"
+
+    show tori:
+        faceleft
+        pause 0.25
+        ease 0.5 alpha 0.0 xpos 0.0
+    show eric a_0:
+        ease 0.85 alpha 0.0 xpos 0.35
+    show sayaka:
+        pause 0.5
+        faceleft
+    show john a_3 blush
+
+    john "Hey! Toria, you aren't supposed to be here!"
+
+    show sayaka a_24
+    show john a_17 blush
+
+    tori "{size=-5}Yeah yeah, love you too.{/size}"
+
+    show john b_19 blush
+    show sayaka a_16 at faceright
+
+    john "No you don't!"
+
+    show sayaka:
+        ease 0.5 xpos 0.3
+    show john b_17 blush
+
+    sayaka "{size=-5}Can you shut the fuck up already?{/size}"
+
+    show john b_11 blush
+
+    john "Uhuh? Me?"
+
+    show sayaka at faceleft
+
+    "Looking around, people started minding their own business again."
+    "At least he wouldn't be able to embarrass me any further for the time being."
+
+    show sayaka a_7 at faceright
+
+    sayaka "{size=-5}Why the hell did you drink so much?!{/size}"
+
+    show john a_27 blush
+    show sayaka a_16
+
+    john "Wh- Whaa...?"
+
+    show sayaka a_7
+
+    sayaka "{size=-5}You are so fucking useless! All I wanted was to at least give people the impression that I haven't lost my mind, but now you're just making things worse!{/size}"
+
+    show john a_17 blush
+
+    sayaka "{size=-5}All you had to do was talk with people!{/size}"
+
+    show sayaka a_16
+    show john a_3 blush
+
+    john "But I- But I did that!"
+    john "I tried all night to talk with those stupids- Stupid people!"
+
+    show sayaka a_20
+    show john a_27 blush
+
+    sayaka "Those people are my friends!"
+
+    show john b_16 blush
+    show sayaka a_21
+
+    john "Hah, they are all just- They just all suck."
+
+    show sayaka a_20
+    show john b_15 blush
+
+    sayaka "Suck?! You absolute-"
+
+    show john b_6 blush
+    show sayaka a_15
+
+    john "Nobody even wants to hang out with you besides Kiyoshi, hah, what a loser."
+
+    show sayaka a_20
+
+    sayaka "You- Wh- What?!"
+
+    show john a_32 blush
+
+    sayaka "Would you like to repeat what you just fucking said?!"
+
+    show john a_3 blush
+    show sayaka a_21
+
+    john "Ohoh, you want me to repeat that? For everyone to hear how freaking {i}annoying{/i} you are with nagging- With your nagging?"
+
+    show john b_19 blush:
+        pause 0.25
+        ease 1.0 xpos 0.0 alpha 0.0
+    show sayaka a_15:
+        pause 0.55
+        faceleft
+
+    john "{size=+7}Hey everyone, I have something totally funny to say!{/size}"
+
+    show sayaka a_4:
+        faceleft
+        ease 0.5 xpos 0.0 alpha 0.0
+
+    sayaka "No- Hey- Wait! Wha- What are you doing?!"
+
+    scene bg sayaka livingroom party
+    show bg sayaka livingroom party:
+        zoom 1.5 xalign 0.7 yalign 0.5
+    show tori a_18:
+        center
+        faceleft
+        xpos 0.05
+        zoom 0.8
+    show brad a_8 behind tori:
+        center
+        faceright
+        xpos 0.15
+        zoom 0.8
+    show AN_harry a_5:
+        center
+        faceleft
+        xpos 0.225
+        zoom 0.8
+    show rita b_0:
+        center
+        faceright
+        xpos 0.35
+        zoom 0.8
+    show allison a_21:
+        center
+        faceleft
+        xpos 0.45
+        zoom 0.8
+    show irene a_0:
+        center
+        faceleft
+        xpos 0.525
+        zoom 0.8
+    show john b_3 blush:
+        center
+        faceleft
+        xpos 0.9
+        zoom 0.95
+        alpha 0.0
+        pause 0.25
+        ease 0.5 alpha 1.0 xpos 0.725
+    show sayaka a_21:
+        center
+        faceleft
+        xpos 1.1
+        zoom 0.95
+        alpha 0.0
+        pause 0.75
+        ease 0.5 alpha 1.0 xpos 0.975
+    with dissolve
+
+    "He went into the living room again before I could react."
+
+    show john:
+        transform_anchor True
+        faceright
+        pause 0.5
+        ease 0.5 rotate 5 xpos 0.775
+        ease 0.25 rotate 0
+        faceleft
+    show bg sayaka livingroom party:
+        pause 0.5
+        ease 0.5 yalign 0.35
+    show tori a_18:
+        pause 0.5
+        ease 0.5 ypos 1.15
+    show brad a_8:
+        pause 0.5
+        ease 0.5 ypos 1.15
+    show AN_harry a_5:
+        pause 0.5
+        ease 0.5 ypos 1.15
+    show rita b_0:
+        pause 0.5
+        ease 0.5 ypos 1.15
+    show allison a_21:
+        pause 0.5
+        ease 0.5 ypos 1.15
+    show irene a_0 behind allison:
+        pause 0.5
+        ease 0.5 ypos 1.15
+    show sayaka a_15:
+        pause 0.5
+        ease 0.5 ypos 1.15
+
+    "Once inside, he managed to climb onto the sofa looking all triumphant."
+    "He looked at everyone, with some people seeing him pulling this stunt."
+    think "Fuck, fuck fuck, what is this drunk ass doing?!"
+
+    show john b_16 blush
+    show brad a_4
+    show AN_harry a_3 at faceright
+    show tori at faceright
+    show rita b_11
+    show allison a_24 at faceright
+    show irene a_5 at faceright
+
+    john "Heheey, everyone! A friend of mine {i}really{/i} wanted me to introduce myself to everyone so that we {i}all get along just fine!{/i}"
+
+    show sayaka a_2:
+        ease 0.5 xpos 0.925
+    show john b_15 blush
+
+    sayaka "{size=-5}Get down from there, please!{/size}"
+
+    show john b_17 blush:
+        faceright
+        ease 0.15 xpos 0.79
+        ease 0.35 xpos 0.775
+    show sayaka:
+        ease 0.3 xpos 0.95
+
+    john "As if I have to listen to you! Get off me!"
+
+    show john b_16 blush at faceleft
+    show brad a_9
+    show irene a_8
+
+    john "Hey, guys! You all know me as Sayaka Sato, I bet! But do you know what else my name is?"
+
+    show sayaka a_15
+
+    think "Wait. No."
+
+    show john b_2 blush
+    show allison a_26
+
+    john "That's right, I have a {i}really cool{/i} middle name too! Anybody want to guess?"
+
+    show john a_14 blush
+
+    irene "What the hell is going on with her?"
+
+    show john a_16 blush
+
+    john "Aha, no takers, well, I have apparently {i}never{/i} told anyone about it before!"
+
+    show john b_16 blush
+
+    john "That's right! Sayaka {q}Sparrow{/q} Sato!"
+
+    show sayaka a_25
+    show allison a_22
+    show irene a_0
+    show tori a_1
+    show AN_harry a_6
+    show rita a_5
+    show john a_15 blush
+
+    sayaka "No no {size=+5}no no{/size}!"
+
+    show sayaka a_21
+    show tori a_20
+
+    tori "Pfft, for real?"
+
+    show irene b_1
+    show rita a_14
+
+    irene "Ahahahah... Seriously?! Sparrow?"
+    rita "What kind of shitty parents name their daughter {q}Sparrow{/q}?"
+
+    show rita a_19
+    show brad a_14
+
+    rita "Did they think they were going to raise a bird?"
+    think "Oh god, no."
+    "I never intended for anyone to know. I made sure never to use that shitty name at all. How the fuck did he figure that out?!"
+
+    show AN_harry at faceleft
+    show brad a_13
+
+    "He must have found it by snooping around in some private stuff! That absolute...!"
+
+    show john a_14 blush
+
+    john "Hahah, funny, right? And I probably never even told you guys because it's such a stupid name!"
+
+    show john b_16 blush at faceright
+    show brad:
+        ease 1.25 xpos 0.6 zoom 0.9
+    show AN_harry:
+        pause 0.25
+        faceright
+        pause 0.25
+        ease 0.5 xpos 0.175
+    show rita a_8:
+        pause 0.65
+        ease 0.5 xpos 0.275
+    show allison:
+        pause 0.7
+        ease 0.5 xpos 0.35
+    show irene:
+        pause 0.75
+        ease 0.5 xpos 0.45
+
+    john "So. Incredibly. Stupid!"
+
+    show john b_15 blush at faceleft
+
+    brad "{size=-5}What exactly is going on with you?{/size}"
+
+    "Brad had come up from the back of the crowd of people and was staring at this fucking moron having the time of his life apparently."
+
+    show sayaka a_15
+
+    sayaka "He- He is-"
+
+    show john b_19 blush
+    show irene a_0
+
+    john "Oh yeah! Speaking of parents! Do you guys know {i}just how little{/i} they care about me?"
+
+    show brad a_14
+    show john b_16 blush
+
+    john "Imagine this, right? Every day, they just don't give {i}a single shit{/i} about me! Just overall horrible people that don't even want to see me!"
+
+    show AN_harry a_4
+    show sayaka a_24
+    show allison a_3
+
+    john "My response? Cool! As long as they don't get in the way of me trying to bitch around {i}everyone around me{/i}!"
+
+    show irene a_8
+
+    john "They even told me that I look ugly with glasses on, can you believe that?"
+
+    show john b_18 blush
+    show sayaka:
+        faceright
+        ease 0.5 xpos 0.965 ypos 1.2
+    show brad a_5
+
+    sayaka "{size=-5}No- no, please stop...{/size}"
+
+    show brad at faceleft
+
+    john "Is it my fault they gave me some shitty nearsighted eyes? Apparently it totally is!"
+
+    show john b_19 blush
+
+    john "Actually, their horrible treatment is a positive! Because I get more time to practice being a terrible piece of shit myself, just like them!"
+
+    show john a_16 blush
+
+    john "A complete win-win situation!"
+
+    show john a_15 blush
+
+    irene "...She's lost it."
+
+    show rita a_9
+    show irene at faceleft
+
+    rita "Yeah, and it's hella hilarious."
+
+    show rita a_0
+    show john b_16 blush at faceright
+    show brad at faceright
+    show irene at faceright
+    show sayaka a_2 at faceleft
+
+    john "Aahhh~~hahaha, take that, you stuck up bitch!"
+
+    show john b_18 blush at faceleft
+
+    john "And get this, they don't even give me any allowance if I don't get the grades they tell me! So this next month, I'm practically going in with almost no money to buy stuff with. Woohoo for capitalism!"
+
+    show john b_3 blush
+
+    irene "...Let's just get out of here."
+    think "..."
+
+    show brad a_2
+
+    brad "Sayaka, seriously, what is this about?"
+
+    show brad a_13
+    show john b_16 blush
+
+    john "Hey now! I'm {i}totally{/i} not forcing you annoying leeches to stay, but feel free to come back to this ghost house during halloween! Maybe we might catch a ghost of my parents!"
+
+    show sayaka a_15
+    show john a_3 blush
+    show brad a_18
+    show AN_harry a_6
+    show rita a_12
+    show irene a_3
+    show allison a_26
+
+    john "I could even increase immersion by putting on the costume of a psycho- Oh wait, I already fucking am one!"
+
+    show john a_17 blush
+    show sayaka a_2
+
+    sayaka "{i}Sniff...{/i}"
+
+    show rita b_12:
+        faceleft
+        pause 0.5
+        ease 0.75 xpos 0.15 alpha 0.0
+    show allison b_4:
+        pause 0.75
+        faceleft
+        pause 0.75
+        ease 0.5 xpos 0.325 alpha 0.0
+    show irene a_8:
+        faceleft
+        pause 1
+        ease 0.75 xpos 0.4 alpha 0.0
+
+    think "..."
+    "Tears were piling up now."
+
+    show brad a_2
+    show john a_13 blush
+
+    brad "Alright, you're getting down from there, now!"
+
+    show tori a_12:
+        pause 1
+        faceleft
+        ease 0.75 xpos -0.05 alpha 0.0
+    show brad a_14
+
+    tori "Ahahah, that's the most hilarious thing I've seen in a while!"
+
+    show sayaka a_15
+
+    "He was completely humiliating me in front of everyone. Everyone who mattered was starting to leave."
+
+    show sayaka a_2
+
+    "And worst of all, he-"
+
+    show brad a_3
+    show AN_harry a_4:
+        ease 0.75 zoom 0.9 xpos 0.25
+
+    brad "Sayaka, what the hell are you doing?"
+
+    show AN_harry a_6
+
+    AN_harry "I was about to ask the same. What was that all about?"
+
+    show john b_2 blush
+
+    john "I am just telling everyone exactly who I am."
+
+    show brad a_18
+
+    brad "You- Oh, for god's sake-"
+
+    show brad a_14
+
+    brad "Get down from there already you lunatic."
+
+    show john b_6 blush
+
+    john "I- Uh- Whoah, there's far down from here."
+
+    show brad a_14
+
+    brad "It's 30 centimeters..."
+
+    show brad a_3
+
+    brad "{i}Sigh...{/i} Here, grab on."
+
+    show bg sayaka livingroom party:
+        ease 0.75 yalign 0.5
+    show john b_11 blush:
+        parallel:
+            ease 0.5 xpos 0.7
+        parallel:
+            ease 0.5 ypos 1.05
+            ease 0.25 ypos 1.0
+    show brad:
+        ease 0.75 ypos 1.0 xpos 0.45
+    show sayaka:
+        ease 0.75 ypos 1.05
+    show AN_harry:
+        ease 0.75 ypos 1.0
+
+    john "Oh, thank you very much."
+
+    scene black with Dissolve(1.5)
+    pause 0.5
+
+    title "27th of August (Saturday)" "Day 20 - John"
+
+    scene bg sayaka livingroom party
+    show john b_6 blush:
+        center
+        faceleft
+        xpos 0.6
+    show brad a_3:
+        center
+        faceright
+        xpos 0.4
+    show AN_harry a_3:
+        center
+        faceright
+        xpos 0.2
+    show sayaka a_2:
+        center
+        faceleft
+        xpos 0.875
+    with dissolve
+
+    think "Oohhh, boy, I might have had a little too much after all."
+    "Sayaka told me she could take an unusual amount of alcohol before she really got sick, but even so, the few drinks I had were making me very dizzy. I felt especially weird after taking in a little shot of what Eric had..."
+
+    show john b_15 blush
+
+    "But, finally, she got what she rightfully deserved. Hah, take that, you annoying hag."
+
+    show john b_1 blush
+
+    "Brad had extended his hand so I could get down from the couch without tripping."
+
+    show john a_13 blush
+
+    "But for some reason, everyone here looked at me in a... Uh... Weird way?"
+    think "What, do they want more?"
+
+    show john b_11 blush at faceright
+
+    "Sayaka herself, of course, was standing there like a total crybaby."
+
+    show john b_15 blush
+    show sayaka a_21
+
+    "One look at her was enough to make her contort her face to her typical angry self."
+
+    show john a_13 blush
+    show brad a_14
+
+    brad "Mind explaining what went through your head in more detail?"
+
+    show john b_2 blush at faceleft
+
+    john "Oh, that little show? Hah, I'm glad you aske-"
+
+    show john b_7 blush
+    show brad a_2
+    with hpunch
+
+    brad "You call that a show?"
+
+    show john b_27 blush
+    show brad a_14
+
+    john "Uh.. Well, yeah.. Wasn't it?"
+
+    show brad a_19
+
+    brad "Look at her for just a second and tell me she enjoyed that."
+
+    show brad a_13
+    show AN_harry a_6
+
+    AN_harry "Why did you say all of that?"
+
+    show john b_17 blush:
+        pause 1.0
+        faceright
+
+    john "Oh, it's because John over there had it coming! Exactly."
+
+    show AN_harry a_2
+
+    AN_harry "...?"
+
+    show brad a_5
+    show john b_5 blush at faceleft
+
+    brad "...Look, I know you two really... Uh... Dislike each other. But this really went too far, especially for you."
+
+    show john a_32 blush
+
+    john "She told me to say all of this. Not my fault."
+
+    show brad a_13
+    show AN_harry a_3
+    show sayaka a_35
+    show john a_6
+
+    sayaka "Y- You-"
+
+    show john a_24
+
+    think "Heh, she's totally trembling. I bet she is really mad."
+
+    show john b_11:
+        pause 0.5
+        faceleft
+    show sayaka a_24:
+        ease 0.75 xpos -0.2 alpha 0.0
+    show brad:
+        pause 0.65
+        faceleft
+    show AN_harry:
+        pause 0.75
+        faceleft
+
+    "Without another word, she blazed out of the livingroom, straight to the kitchen."
+
+    play sound sfx_door_close
+
+    "After a bit of more time, I could hear a distant front door slamming."
+
+    show brad a_14
+
+    brad "{i}Sigh...{/i}"
+
+    show brad at faceright
+
+    brad "Weren't you two supposed to be working together on this?"
+
+    show AN_harry at faceright
+
+    john "Working together?"
+    brad "...Does this guy know about your situation?"
+
+    show brad at faceleft
+    show john b_13 blush
+    show AN_harry a_2
+
+    "He pointed at Harry who was seemingly speechless at what happened."
+    AN_harry "...What situation?"
+
+    show AN_harry a_3
+    show brad a_13 at faceright
+    show john b_4 blush
+
+    john "Uhm... No, he doesn't."
+
+    show brad a_9
+
+    brad "Alright. Come with me, we're going to have a talk in private."
+
+    show brad a_7
+
+    brad "Sorry Harry, can you wait here?"
+
+    show AN_harry a_7
+
+    AN_harry "Ehm... Sure, this sounds like something between friends..."
+
+    show john b_11 blush:
+        faceright
+        ease 0.25 xpos 0.5
+        pause 0.5
+        ease 0.75 alpha 0.0 xpos 0.75
+    show brad a_13:
+        parallel:
+            ease 1.25 xpos 0.775
+        parallel:
+            pause 0.5
+            ease 0.75 alpha 0.0
+
+    "Without much of a warning he grabbed my arm and dragged me along with him."
+
+    scene black with dissolve
+    pause 0.5
+    scene AN_bg sayaka hallway night
+    show john b_4 blush:
+        center
+        faceright
+        xpos 0.35
+        pause 0.5
+        ease 0.5 alpha 1.0 xpos 0.45
+    show brad a_14:
+        center
+        faceright
+        xpos 0.45
+        pause 0.25
+        ease 0.75 alpha 1.0 xpos 0.65
+    with dissolve
+
+    brad "Anyone here?!"
+
+    show brad a_9
+
+    brad "..."
+
+    show brad a_7
+
+    brad "Seems not."
+
+    show brad a_14 at faceleft
+    show john b_5 blush
+
+    brad "Alright, what's going on between you two?"
+
+    show john b_13 blush
+
+    john "Uhm... She told me to act like herself...?"
+
+    show brad a_18
+
+    brad "What part of that was acting as {q}herself{/q}?"
+
+    show john b_18 blush
+
+    john "She's been a pain in the ass, dude! She asked for this!"
+
+    show brad a_9
+    show john b_3 blush
+
+    brad "{i}Sigh...{/i}"
+
+    show brad a_14
+
+    brad "Didn't you both want to figure out how to do that swapping thing?"
+
+    show brad a_13
+    show john b_5 blush
+
+    john "...Well- Well yeah. But how do you even know we swapped?"
+
+    show brad a_3
+
+    brad "...You literally told me a few weeks ago."
+
+    show john a_30 blush
+
+    john "...Oh, right."
+
+    show john a_13 blush
+
+    brad "Queenie has also been feeling down lately, so I thought the least I could do was talk with her during school."
+
+    show john b_11 blush
+
+    john "Wait, who is {q}Quee-{/q} Oh, Sayaka."
+
+    show brad a_14
+    show john b_5 blush
+
+    brad "Yes. Again, what made you think that humiliating her like that is going to be helpful to anyone?"
+
+    show john b_6 blush
+    show brad a_13
+
+    john "Aw, come on, what I said wasn't even that bad..."
+    brad "It sure looked that way."
+
+    show brad a_9
+    show john b_0 blush
+
+    brad "Have you ever seen her act like that?"
+
+    show john a_5 blush
+    show brad a_3
+
+    john "What, you mean angry?"
+
+    show brad a_13
+
+    brad "No, depressed."
+
+    show john a_4 blush
+
+    john "..."
+
+    show brad a_5
+
+    brad "...{i}Sigh{/i}..."
+
+    show brad a_23
+
+    brad "...Look, I don't {i}particularly{/i} like her either, but what you did there was stepping over the line."
+
+    show john b_4 blush
+    show brad a_5
+
+    john "Well, yeah, but she has done that herself..."
+    brad "So what? Two wrongs don't make a right."
+
+    show john b_0 blush
+    show brad a_8
+
+    brad "Look at it this way; Have you ever experienced Sayaka cry?"
+
+    show brad a_7
+    show john b_4 blush
+
+    john "..."
+    john "...No."
+
+    show john b_13 blush
+
+    think "...Alright, maybe I did overstep my boundaries a bit."
+
+    show john b_25 blush
+
+    john "...So you want me to apologize to her?"
+
+    show brad a_5
+
+    brad "I didn't say that. But if that's what you got out of this, then that is probably what you think is the right thing to do."
+
+    show john b_22 blush
+
+    think "...He got me there..."
+
+    show john b_19 blush
+
+    john "Urgh, fine!"
+
+    show john a_6 blush
+
+    john "But all I'm going to do is apologize for this. She is still a bitch."
+
+    show brad a_3
+
+    brad "Telling me what she is won't change anything."
+
+    show john a_13 blush
+
+    john "Right."
+
+    scene black with dissolve
+    pause 0.75
+    scene bg sadie bathroom day
+    show john b_5 blush:
+        alpha 0.0
+        center
+        faceright
+        pause 0.75
+        ease 0.5 alpha 1.0 centerright
+    with dissolve
+    play sound sfx_door_open
+
+    "Before I'd go out looking for the crazy lady, I decided to quickly take out the contacts that had been injected into my eyes."
+
+    #TODO: face b_5 blush with glasses
+    accessory john set glasses
+    with dissolve
+
+    "Walking around with glasses was way more comfortable."
+
+    scene black with dissolve
+    show bg sayaka livingroom party:
+        zoom 1.75 xalign 0.0 yalign 0.65
+    show cornelia a_19:
+        transform_anchor True
+        offscreenleft
+        zoom 0.8
+        rotate 85
+        ypos 1.025
+        xpos -0.1
+    show maria a_5:
+        centerleft
+        faceleft
+        zoom 0.9
+    show AN_harry a_3:
+        center
+        faceleft
+        xpos 0.55
+    show audrey a_1:
+        center
+        faceright
+        xpos 0.975
+        zoom 0.9
+    #TODO: add a_0 blush with glasses
+    show john a_0 blush:
+        center
+        faceleft
+        alpha 0.0
+        xpos 0.75
+        pause 0.25
+        ease 0.5 alpha 1.0
+    with dissolve
+
+    "People were still around downstairs, but it was obvious that a lot of people had left now."
+    "Some were still dancing around to the music though."
+
+    show AN_harry at faceright
+
+    "I had hoped that Sayaka had come back after she left, but after looking around, she wasn't anywhere to be seen."
+
+    #TODO: add b_0 blush with glasses
+    show john b_0 blush:
+        ease 0.5 xpos 0.7
+
+    john "Hey Harry, have you seen John?"
+
+    show AN_harry a_8
+
+    AN_harry "Of course not, he left after you did... That."
+
+    #TODO: add b_6 blush with glasses
+    show john b_6 blush
+
+    john "Right..."
+
+    show john b_0 blush
+    show AN_harry a_3
+
+    john "..."
+
+    show john b_6 blush
+
+    john "Also, what's with her?"
+
+    show AN_harry a_8 at faceleft
+
+    AN_harry "Cornelia? Hungover already, apparently."
+
+    show AN_harry a_3 at faceright
+
+    john "..."
+    "Cornelia looked absolutely terrible and looked like some dead girl the way she was sitting on the couch."
+
+    show john b_0 blush
+
+    john "I'm not gonna ask what happened. I'm going to try finding John."
+    john "Can you, uh... Hold down the fort while I'm gone?"
+
+    show AN_harry a_2
+
+    AN_harry "Uhh... You want me to {q}hold own the fort{/q}?"
+
+    #TODO: add b_2 blush with glasses
+    show john b_2 blush
+
+    john "Thanks, I appreciate it."
+
+    show john b_0 blush:
+        ease 0.75 alpha 0.0 xpos 0.35
+    show AN_harry a_5:
+        pause 0.35
+        faceleft
+
+    AN_harry "Wai- Wha-"
+
+    scene black with dissolve
+    pause 0.5
+    outfit vanessa casual
+    scene bg sayaka house night lights on
+    show vanessa a_13:
+        center
+        faceright
+        zoom 0.9
+        xpos 0.1
+    show tori a_1 behind vanessa:
+        center
+        faceright
+        xpos 0.2
+        zoom 0.9
+    show eric a_1:
+        center
+        faceleft
+        xpos 0.4
+        zoom 0.9
+    show john a_0:
+        centerright
+        faceleft
+        alpha 0.0
+        pause 0.25
+        ease 0.5 alpha 1.0
+    with dissolve
+
+    "I couldn't find her anywhere outside her house."
+
+    show john b_25 at faceright
+    show eric a_0 at faceright
+    show tori a_11
+    show vanessa a_8
+
+    "Some random people were sitting out here with a bottle of beer each, and the moment they looked at me, I turned my head away as if not noticing them."
+    think "I can't be bothered talking to some drunkards right now..."
+
+    scene black with dissolve
+    pause 2
+    show bg beach road night
+    show john b_5 at centerleft, faceright
+    with Dissolve(1.0)
+    pause 0.75
+
+    "I think I spent about 30 minutes just walking around the premises without being able to find her."
+    "It was nice to get the dizziness out of the system, but there wasn't any trace of her in the city."
+
+    show john b_22:
+        parallel:
+            ease 1.2 xpos 0.65
+        parallel:
+            ease 0.5 ypos 1.1
+            ease 0.6 ypos 1.0
+    show bg beach road night:
+        ease 1.2 zoom 1.75 xalign 0.85 yalign 0.6
+
+    "I had just about given up and was walking home now along the beach. She most likely went to my home and straight to bed or something..."
+    think "Ugh, it's getting really chilly..."
+
+    show john b_13
+    pause 2
+
+    "I couldn't help but notice how beautiful the vast sea looked right now."
+    "It reflected the moonlight just right."
+    think "Man, it had been a weird ride for the last 3 weeks in retrospect."
+    think "If this swap never happened to me then my life would be completely different right now."
+
+    pause 1
+
+    think "..."
+    "After admiring the view for a few seconds, I looked around at the beach. It was completely empty, which shouldn't surprise anyone considering the current time."
+
+    show john b_25
+
+    "But there was something quite large and out of the ordinary some few hundred meters away, which caught my interest."
+
+    show john b_27
+
+    think "Wait, isn't that Sayaka?!"
+
+    show john b_5
+
+    think "Finally, so that's where she's been hiding."
+
+    show john b_6
+
+    think "But, uh... Do I just walk up to her...?"
+    think "..."
+    think "I can already imagine how awkward this is going to be."
+
+    scene black with dissolve
+    pause 0.5
+    scene bg beach rock night
+    show sayaka a_2:
+        center
+        faceleft
+        xpos 0.7
+        ypos 1.15
+    show john b_4:
+        center
+        faceright
+        xpos 0.0
+        alpha 0.0
+        pause 2
+        ease 0.75 alpha 1.0 xpos 0.2
+    with dissolve
+    pause 4
+    show john b_1
+
+    john "Uh... Hey!"
+
+    show sayaka a_5
+
+    sayaka "..."
+
+    show john b_4
+
+    think "I guess she is still angry."
+
+    show sayaka a_2
+    show john b_5
+
+    "She was sitting on the sand and had shot me a glance, but she immediately started looking out at the sea again."
+    john "..."
+
+    show john b_4
+    show sayaka a_5
+
+    john "Uhm... I just wanted to say that I'm so-"
+
+    show john b_0
+
+    sayaka "Shut up."
+
+    show john b_17
+
+    john "..."
+
+    show john b_18
+
+    john "Wow. Alright."
+
+    show john b_17
+    show sayaka a_9
+
+    sayaka "..."
+
+    show sayaka a_27
+    show john b_0
+
+    sayaka "I'm sorry..."
+    sayaka "I..."
+
+    show john a_27
+
+    think "Wait a minute- That's the first genuine sounding {q}sorry{/q} I've heard from her!"
+
+    show john a_0
+
+    john "...You're sorry about what?"
+
+    show sayaka a_7
+
+    sayaka "I'm saying I'm sorry, alright?!"
+    sayaka "For everything!"
+
+    show john a_28
+    show sayaka a_27
+
+    john "...Really?"
+
+    show sayaka a_25
+
+    sayaka "Do you think I'm lying? I didn't know that my parents got to you like that, alright?!"
+
+    show john b_1
+    show sayaka a_24
+
+    think "..."
+    "She actually feels sorry for my situation...?"
+
+    show john b_0 at faceleft
+
+    "I looked around to check if anyone was nearby, but nobody could be spotted."
+
+    show john a_10:
+        faceright
+        ease 0.75 xpos 0.4
+        pause 0.5
+        ease 0.5 ypos 1.15
+    show sayaka a_27
+
+    "I took the initiative to sit down next to her. The way she was sitting, knees up to her head with her arms wrapped around them just made it look like she was really sad."
+
+    show sayaka a_5
+
+    john "...Thanks."
+    john "I've started getting used to it by now, but... You know, it still gnaws at me."
+
+    show john b_1
+
+    john "Even if they aren't my actual parents."
+
+    show sayaka a_27
+
+    sayaka "...I know."
+
+    show sayaka a_31
+    show john b_0
+
+    sayaka "They haven't always been so distant."
+
+    show sayaka a_0
+
+    sayaka "I used to go shopping with mom all the time, and it was some of the best times I ever had."
+    sayaka "We used to spend evenings watching our favorite shows, and she taught me all about self-preservation back before she got promoted..."
+
+    show sayaka a_31
+
+    sayaka "And dad was always around when I got home from school and made us food that we used to eat together..."
+    sayaka "..."
+
+    show john b_4
+
+    john "...They both ended up becoming really attached to their jobs, huh?"
+
+    show sayaka a_27
+
+    sayaka "...Yeah..."
+
+    show sayaka a_2
+    show john b_0
+
+    sayaka "Mom got promoted and has to be available all the time in case something happens, and dad runs some corporation he says he can't talk about..."
+    john "...Yikes."
+
+    show john a_4
+
+    "I really should have figured out that this was a painful topic for her to be mocked about..."
+    "Even if I didn't care about her, it's still sensitive."
+
+    show sayaka a_27
+    show john a_0
+
+    sayaka "{i}Sigh...{/i} It's all just gone to shit..."
+    "She shook her head in slow motion and wiped her eyes with the side of her hand."
+
+    show sayaka a_5:
+        transform_anchor True
+        parallel:
+            ease 2 rotate 85
+        parallel:
+            ease 1 xpos 0.7 ypos 1.25
+            ease 1.5 alpha 0.0
+
+    "Soon after she let herself lay down in the soft beach sand."
+
+    scene AN_bg beach night topdown
+    show sayaka a_5:
+        transform_anchor True
+        faceleft
+        rotate 10
+        zoom 1.75
+        center
+        ypos 1.65
+        xpos 0.1
+    show john a_0:
+        transform_anchor True
+        faceright
+        zoom 1.75
+        center
+        ypos 1.65
+        xpos 0.9
+        alpha 0.0
+        pause 1.5
+        ease 0.75 alpha 1.0 rotate -10
+    with dissolve
+
+    "I joined her since it felt like the right thing to do."
+    "I came here just to say sorry, but staying with her for a while was what we both probbly needed to patch up the hole between us."
+
+    show john a_10
+
+    "Besides, the sky had next to no clouds and I was tired, so it was nice lying down in the sand of a beach. Kind of idyllic too."
+
+    show sayaka at faceright
+    show john a_0
+
+    sayaka "...Were you being serious when you said you started talking to Katrina again?"
+
+    show john a_4
+
+    john "Uhm... Well, she talked to me, but, uhm... Said she couldn't really... Stand looking at me..."
+
+    show john a_13
+
+    john "I still don't really know what happened between you two, so I don't really understand what even makes her hate you so much... Besides, you know..."
+
+    show sayaka a_2
+
+    sayaka "Besides what?"
+    john "You being a bit of a bully towards her and Kyoko, I guess..."
+
+    show sayaka a_5 at faceleft
+
+    sayaka "{i}Sigh{/i}... Yeah, I guess..."
+
+    show john a_4
+
+    john "..."
+
+    show john a_5 at faceleft
+
+    john "...Did something bad happen between you?"
+
+    show sayaka a_31
+
+    sayaka "..."
+
+    show sayaka a_5
+
+    sayaka "...Even if I told you what happened, you'd think I was lying to you."
+    sayaka "I can't even fully remember it anymore."
+
+    show john b_1
+
+    john "If you swear that you're telling the truth, then I don't really have any choice but to believe you, right?"
+
+    show sayaka a_33 at faceright
+
+    sayaka "That is not how that works."
+
+    show sayaka a_5
+    show john b_5
+
+    john "If there is one thing I know, it's that honor is a really important thing, you know?"
+    john "Swearing on your name is something that you cannot take back."
+
+    show sayaka a_32
+
+    sayaka "...What, did you come from the medieval ages or something?"
+
+    show john b_29
+
+    john "Come on, it's just as relevant for me to know if I'm stuck as you. I'll believe you unless what you're saying is too weird."
+
+    show john b_1
+    show sayaka a_5 at faceleft
+
+    sayaka "...Fine..."
+
+    show john a_0
+
+    sayaka "We actually used to be pretty good friends, if I remember right."
+
+    show john a_13
+
+    sayaka "Katrina's mom was close to mine since they worked together."
+
+    show sayaka a_32
+
+    sayaka "I think we were friends since preschool or something... I can't really remember when exactly we met."
+
+    show sayaka a_5
+
+    sayaka "We did homework together, invited friends over, all that stuff."
+
+    show sayaka a_33
+
+    sayaka "I think I even said she was my best friend or something disgusting like that once."
+
+    show john a_6
+    show sayaka a_5
+
+    john "Hey, hey, none of the insults now, please..."
+
+    show sayaka at faceright
+    show john a_0
+
+    sayaka "So then, what do you think happened?"
+
+    show john a_30
+
+    john "Uh.. You had a fight?"
+
+    show sayaka a_7 at faceleft
+
+    sayaka "Bah, if it were that easy."
+
+    show sayaka a_16
+    show john a_0
+
+    think "So something serious happened?"
+    sayaka "How would you react if you found out your best friends were just using you all the time?"
+
+    show john a_5
+
+    john "Using you? For money?"
+    sayaka "Yeah."
+
+    show john a_4
+
+    john "Well, I would probably get really angry."
+
+    show john b_0
+
+    john "That's what happened?"
+
+    show sayaka a_5
+
+    sayaka "Partially."
+    sayaka "I think I overheard them talking about how I {q}wasn't giving them enough money{/q} at some point."
+
+    show john a_0
+
+    sayaka "So I confronted them, and they started all kinds of rumors about me and treated me like some 3rd class citizen all of a sudden."
+
+    show sayaka a_33
+
+    sayaka "Realy good friends, huh?"
+
+    show sayaka a_16
+    show john b_4
+
+    sayaka "The moment they don't see any benefit in you, they throw you to the side of the road."
+
+    pause 1.5
+
+    john "..."
+    john "...I find it hard to believe that Kat would do something like that..."
+
+    show john b_0
+    show sayaka a_19 at faceright
+
+    sayaka "Oh, so {i}now{/i} your entire {q}swearing on your name{/q} thing conveniently goes up in smoke."
+
+    show john b_8
+
+    john "Hey, I didn't say that I {i}don't{/i} believe you."
+
+    show sayaka a_9 at faceleft
+    show john b_13
+
+    sayaka "Right..."
+
+    show sayaka a_27
+
+    sayaka "Sorry, I need to calm down from all of this."
+
+    show john b_1
+
+    john "Take your time. We've got all night."
+
+    show sayaka a_9
+
+    sayaka "{i}Sigh...{/i}"
+
+    show sayaka a_5
+    show john b_0
+
+    sayaka "Anyways, those pigs made my life hell in middle-school. And then, after a few years when it's convenient for her, she suddenly starts crying for forgiveness to me, claiming {q}she wasn't a good enough friend and that she would make up for it if I let her{/q}."
+
+    show sayaka a_16
+
+    sayaka "In all seriousness, the fucking nerve she has to tell me how {q}{i}she's so sorry{/i}{/q} after making me go through middle-school for four years without anyone to talk to because they decided I wasn't good enough based on made-up rumors..."
+
+    show sayaka a_25
+
+    sayaka "Can you imagine how it feels like to be rejected by everyone else as a kid? I fucking {i}hate them all{/i} for doing that!"
+
+    show sayaka a_16
+    show john b_4
+
+    john "...Sounds rough."
+
+    show sayaka a_27
+
+    sayaka "{i}Sigh...{/i} Not like that matters now anyways, I wanted to make sure people wouldn't take me as a joke in high school at least, but I guess that is going to happen now too, huh..."
+
+    show john b_13
+
+    think "But if she hates Kat so much, then why does she keep that photo she has with her?"
+
+    show sayaka a_5
+    show john b_11
+
+    john "...You really don't have any attachment to Kat or anything?"
+
+    show sayaka a_16
+
+    sayaka "Why would I want attachment to that backstabbing bitch? Her mom was nice, and her sister was cool too if I remember right, but her? No chance."
+
+    show john a_0
+
+    think "Oh, Kat's mom? Well that's a convenient answer to why she has the photo."
+
+    show sayaka a_25
+
+    sayaka "Ugh, but it's just {i}so annoying{/i} that not even my parents give a shit anymore."
+
+    show sayaka a_16
+
+    sayaka "They think that I'm doing fine on my own now that people don't look down on me and that I don't need any special treatment from them anymore."
+
+    show sayaka a_27
+
+    sayaka "...But I do..."
+
+    show john a_4
+
+    sayaka "I just... Really want them to make me something good for dinner for once again..."
+
+    show sayaka a_5
+
+    sayaka "Or maybe just, ask me if I'm okay, or watch a movie with me, or make me something for breakfast..."
+
+    show sayaka a_16
+
+    sayaka "And Ms. Davis does all of that without even knowing it's me..."
+
+    show sayaka a_7 at faceright
+    show john a_27
+
+    sayaka "For real, fuck you, John!"
+
+    show john b_11
+    show sayaka a_16
+
+    john "Uh..."
+    john "My mom did something?"
+
+    show sayaka a_7
+
+    sayaka "Not just your mom! I admit it, your life is so much fucking better than mine!"
+
+    show sayaka at faceleft
+
+    sayaka "You have her, you have friends, you have {q}hobbies{/q}, nobody cares how you look, how you act, and you've got relatives that come over regularly, fuckloads of girls that apparently want to get into your pants for god knows what reason-"
+
+    show sayaka a_16
+    show john b_27
+
+    sayaka "Seriously, what the fuck did you do to deserve so much better?"
+
+    show john b_28
+
+    john "Wai- Wait, repeat that last one again?"
+
+    show john b_27
+
+    show sayaka a_32 at faceright
+
+    sayaka "Huh? Oh, the girls in your pants?"
+
+    show sayaka a_5 at faceleft
+
+    sayaka "Yeah, I asked a handful of girls if they wanted to be your girlfriends to get payback on you and they all said yes."
+    sayaka "Still fucking beats me what's going on in that department."
+    sayaka "I can't even remember why I did it anymore."
+
+    show john b_7
+
+    john "Uhm... Alright then..."
+
+    show sayaka a_24
+    show john b_0
+
+    sayaka "{i}Sigh...{/i} And everything you said back then is true too..."
+
+    show sayaka a_5
+
+    "With a wave of relief she stretched herself out, with her hands towards the sky."
+
+    show sayaka a_9
+
+    sayaka "I really hate my life..."
+
+    show sayaka a_27
+
+    sayaka "But I can't help but enjoy things in your life..."
+
+    show sayaka a_2
+
+    sayaka "I don't have anything that you have..."
+
+    pause 1
+    show john a_4
+    pause 1.5
+
+    john "..."
+
+    show sayaka a_5
+    show john a_30
+
+    john "...You okay?"
+
+    show sayaka a_27
+
+    sayaka "..."
+
+    show sayaka a_16
+    show john a_0
+
+    sayaka "No..."
+
+    show sayaka a_5
+
+    sayaka "No matter how I look at this, there is no way I'm going to win against anyone at this rate."
+
+    show sayaka a_16
+
+    sayaka "Whoever did this... Swapping thing, has won."
+    sayaka "And you turned out to be the one who wins between us both as well. I fucking hate it."
+
+    show john a_6
+    show sayaka a_5
+
+    john "I won? You saw this entire spectacle from the last three weeks as some kind of competition?"
+
+    show sayaka a_16
+
+    sayaka "Of course not. But I just really fucking hate losing to anyone..."
+
+    show sayaka a_27
+    show john a_0
+
+    sayaka "I'm just... Really afraid of losing, I guess..."
+
+    show sayaka a_9
+
+    john "..."
+    think "Really, this wasn't the plan..."
+
+    show john a_4
+
+    think "All I wanted was to give her a short sorry and then screw off again. But here she is admitting to her own faults?"
+
+    show john a_5
+    show sayaka a_5 at faceright
+
+    john "{i}Sigh...{/i} Fine, maybe we both jumped the gun when we said we would cut off all contact last day. We both need each other if we stay like this after all."
+    sayaka "..."
+
+    show john b_5
+
+    john "...But really, did you see me as your opponent all this time?"
+
+    show sayaka a_16
+
+    sayaka "...Obviously. You're friends with {i}her{/i}."
+
+    show john a_0
+    show sayaka a_5
+
+    john "Right."
+
+    show john a_13
+
+    john "Then let's change it from now on. I know you're one for underhanded tricks, so-"
+
+    show sayaka a_33
+
+    sayaka "Rude."
+
+    show sayaka a_5
+
+    john "You know it's true. So why not just join the winning team if you're on the losing team?"
+
+    show sayaka a_32
+
+    john "We could be kind of like a team together instead of just opponents, right?"
+
+    show sayaka a_16
+
+    sayaka "God, you really suck at being cheesy."
+
+    show john b_18
+
+    john "Hey, I'm trying to motivate you!"
+
+    show john b_17
+
+    sayaka "Yeah yeah, what you're saying just sounds like some pickup line from an 80's love movie."
+
+    show john b_13
+
+    john "...Don't you like those?"
+
+    show sayaka a_16
+
+    sayaka "Well, yeah..."
+
+    show john b_5
+
+    john "...Good. So let's stop being each other's arch nemesises or something and just get along, right?"
+
+    show sayaka a_9
+
+    sayaka "..."
+
+    show sayaka a_5
+
+    sayaka "{i}Sigh...{/i} Fine. But I'm still trying to figure out how to reverse this."
+
+    show john a_0
+
+    john "Which is completely fine by me."
+
+    show sayaka a_27
+
+    sayaka "And, uh..."
+
+    show sayaka a_5 at faceright
+
+    sayaka "There is still that one thing we haven't tried yet."
+
+    show john a_5
+
+    john "...?"
+
+    show john b_0
+
+    john "That one thing?"
+
+    show sayaka a_16
+
+    sayaka "The thing Kiyoshi wanted us to do since day one?"
+
+    show john b_13
+
+    sayaka "Hello?"
+
+    show john b_11
+
+    john "...The wha- {nw}"
+
+    show john b_27
+
+    extend "Oh please don't tell me you mean kissing."
+    sayaka "Let's just get it over with, alright? There is nobody around so it's now or never."
+
+    show john b_28
+
+    john "Are you- But-"
+
+    show john b_9
+
+    john "...Argh, fuck it, alright then, let's just get this over with."
+
+    scene black with dissolve
+    pause 3
+    scene bg beach rock night
+    show john b_9:
+        transform_anchor True
+        center
+        faceright
+        xpos 0.6
+        pause 0.25
+        ease 0.75 xpos 0.7 rotate 8 ypos 1.15
+    show sayaka a_21:
+        transform_anchor True
+        center
+        faceright
+        xpos 0.45
+        pause 0.5
+        ease 0.5 xpos 0.4
+    with dissolve
+
+    john "{i}Cough{/i} Oh fuck-"
+
+    show sayaka a_25 at faceleft
+
+    sayaka "-Ew!"
+
+    show john b_28:
+        faceleft
+        ease 0.5 rotate 0
+    show sayaka a_21
+
+    john "Why the hell did you suggest this?! You made me kiss myself!"
+
+    show sayaka a_20:
+        ease 0.5 xpos 0.25 rotate -10 ypos 1.2
+    show john b_27
+
+    sayaka "What the fuck do you think it feels like for me?!"
+
+    show sayaka a_25
+
+    "She had gone closer to the water to spit out the thought of the kiss from her head."
+
+    show john b_19
+    show sayaka a_21:
+        faceright
+        ease 0.5 rotate 0
+
+    john "Don't girls like kissing other girls or something?"
+
+    show sayaka a_20
+    show john b_27
+
+    sayaka "Who the fuck made you have that sick idea?! Do you really think a straight girl would like kissing another straight girl?!"
+    sayaka "Don't tell me you watch the same sick shit as Kiyoshi does!"
+
+    show sayaka a_21
+    show john b_28
+
+    john "Of course not!"
+
+    show john b_9:
+        ease 0.2 rotate -5
+        ease 0.35 rotate 0
+
+    john "{i}Cough!{/i} Ow- Fuck! We are {i}NEVER{/i} doing this again!"
+
+    show john a_17
+    show sayaka a_7
+
+    sayaka "And we can both agree on that!"
+
+    scene black with Dissolve(2.0)
+    pause 1
+
+    title "27th of August (Saturday)" "Day 20 - Cornelia and Kiyoshi"
+
+    scene bg sayaka house night lights off
+    show cornelia a_4 at right, faceleft
+    show kiyoshi a_4 at centerright, faceleft
+    show irene a_0:
+        center
+        faceright
+        xpos 0.05
+        zoom 0.85
+    show allison a_22:
+        center
+        faceleft
+        xpos 0.2
+        zoom 0.85
+    with dissolve
+
+    kiyoshi "Hmm..."
+    cornelia "..."
+
+    show kiyoshi a_9
+
+    kiyoshi "Say... Have you ever noticed it?"
+    cornelia "..."
+
+    show kiyoshi a_2
+
+    kiyoshi "{q}Noticed what?{/q} you ask?"
+
+    show kiyoshi a_1
+
+    cornelia "..."
+
+    show kiyoshi a_3
+
+    kiyoshi "Good question. I believe it requires some studying, but have you ever noticed how the magnificent Allison has a purple glow on the back of her hair?"
+
+    show kiyoshi a_0
+
+    cornelia "..."
+
+    show kiyoshi a_11
+
+    kiyoshi "Perhaps she is an alien of some sorts... But I would have to think about which kind."
+
+    show kiyoshi a_10
+
+    cornelia "..."
+
+    show kiyoshi a_5
+
+    kiyoshi "I would need to consult my encyclopedia about species of aliens that have LED lights installed in their back-necks."
+
+    show kiyoshi a_0
+    show cornelia at anim_fall_over_right
+    pause 0.5
+    play sound sfx_whack
+    with hpunch
+
+    kiyoshi "..."
+
+    show kiyoshi at faceright
+
+    kiyoshi "Cornelia?"
+
+    show kiyoshi a_4
+
+    kiyoshi "...?"
+
+    show kiyoshi a_3:
+        ease 0.75 xpos 0.75 ypos 1.2
+
+    kiyoshi "...You alright?"
+
+    scene black with Dissolve(1.0)
+    pause 0.5
+    outfit john uniform_pony_pants
+    outfit cornelia uniform
+    outfit sayaka uniform_c
+    outfit kiyoshi uniform
+    outfit irene uniform
+    outfit allison uniform
+    outfit rita uniform
+
+    title "5th of September (Monday)" "Day 29 - John"
+
+    scene bg school hallway2 day
+    show john b_0:
+        center
+        faceleft
+        xpos 0.6
+        pause 1.5
+        faceright
+    show cornelia a_5:
+        center
+        faceleft
+        xpos 0.85
+    show irene b_1:
+        center
+        faceleft
+        xpos 0.25
+        pause 4
+        ease 0.75 alpha 0.0 xpos 0.05
+    show allison a_10:
+        center
+        faceright
+        xpos 0.05
+        pause 3
+        faceleft
+        pause 0.5
+        ease 0.75 alpha 0.0 xpos -0.15
+    with dissolve
+
+    cornelia "We're doing it now, right?"
+    john "No better time than now."
+
+    show cornelia a_1
+
+    cornelia "Okay. Count on me."
+
+    show john b_3:
+        faceleft
+        pause 0.5
+        ease 1.5 xpos 0.2 alpha 0.0
+    show cornelia b_15:
+        pause 0.75
+        ease 1.6 xpos 0.2 alpha 0.0
+
+    "So..."
+    "While the relationship with Sayaka steadily improved for the better, other things started to surface now as well."
+    "When Sayaka had told me that popularity is important for girls, I really doubted her, but it did impact me after all."
+    "Her so-called {q}friends{/q} were actively bullying {i}me{/i} now."
+    "Irene especially."
+    "Cornelia was hit as collateral as well since she stuck to me, but I was apparently too {q}lame{/q} for them now."
+    "I had tried to be friendly to them, but..."
+
+    scene bg lunch
+    show sayaka a_5:
+        center
+        faceleft
+        ypos 1.1
+    show john b_5:
+        centerleft
+        faceright
+        ypos 1.1
+    show cornelia b_5:
+        centerright
+        faceleft
+        ypos 1.1
+    show AN_asset grain
+    with dissolve
 
 
+    sayaka "{i}You're too soft, you're not interacting with them enough, and your image is in the gutter.{/i}"
 
+    show sayaka a_16
 
+    sayaka "{i}Of course they would start turning on you. Irene has had her eyes on my position for a long time now.{/i}"
 
+    show sayaka at faceright
+    show cornelia b_6
+    show john b_0
 
+    cornelia "{i}The only reason we even let Irene stay with us is because she wouldn't cause trouble then.{/i}"
 
+    show sayaka at faceleft
+    show cornelia b_24
+    show john b_6
 
+    john "{i}...You guys are talking as if this is a full on conspiracy.{/i}"
 
+    show john b_25
 
+    sayaka "{i}It is. You've already seen it, haven't you?{/i}"
 
+    show john b_4
 
+    john "{i}....Well...{/i}"
 
+    scene bg school hallway2 day
+    with dissolve
 
+    "I did."
+    "At first they completely stopped interacting with me."
+    "I didn't think much of it, to be honest, it didn't really bother me since I never really knew them."
+    "But later, I was practically put into Kyoko's shoes."
 
+    outfit john gym_pony
+    outfit cornelia gym
+    outfit irene athletic
+    outfit rita gym
+    scene bg school exterior day
+    show john a_1 at centerleft, faceleft
+    show cornelia a_1 at left, faceright
+    show irene a_1:
+        center
+        faceleft
+        xpos 0.7
+    show rita b_2:
+        center
+        faceleft
+        xpos 0.85
+    show AN_asset grain
+    with dissolve
 
+    irene "{i}I'm really hoping little birdie over there doesn't fly away today!{/i}"
 
+    show john a_0 at faceright
+    show cornelia a_0
+    show rita b_9
 
+    rita "{i}Ahh~~~haha, that fucking name!{/i}"
 
+    show john a_32
+    show cornelia a_19
+    show irene a_2
 
+    john "{size=-3}{i}Nngh, I never should have told anyone that name.{/i}{/size}"
 
+    show cornelia a_3
 
+    cornelia "{i}Screw off, Irene!{/i}"
 
+    outfit john underwear_badhair
+    outfit cornelia uniform
+    scene bg lockerroom day
+    show john b_0 at centerright, faceright
+    show cornelia b_0 at centerleft, faceleft
+    show AN_asset grain
+    with dissolve
+    play sound sfx_creak
 
+    john "..."
 
+    show john b_6
+    show cornelia a_0 at faceright
 
+    john "...{i}Really...?{/i}"
 
+    show cornelia a_11
 
+    cornelia "{i}What is it?{/i}"
 
+    show john b_4
 
+    john "{i}There is glitter {b}everywhere{/b} in my locker...{/i}"
 
+    show cornelia b_5:
+        ease 0.5 xpos 0.6
 
+    cornelia "{i}Glitter?{/i}"
 
+    show cornelia a_20
 
+    cornelia "{i}...Oh god.{/i}"
 
+    show cornelia b_3 at faceleft
+
+    cornelia "{i}Those stupid-{/i}"
+    john "{i}Sigh...{/i}"
+
+    outfit john uniform_pony_pants
+    outfit irene uniform
+    scene bg school classroom hallway day open
+    show cornelia a_1:
+        center
+        faceleft
+        xpos 0.4
+    show john b_12:
+        center
+        faceright
+        xpos 0.175
+    show irene b_0:
+        center
+        faceleft
+        alpha 0.0
+        xpos 0.7
+        pause 0.5
+        parallel:
+            ease 0.5 alpha 1.0
+        parallel:
+            ease 0.75 xpos 0.5
+    show allison a_0:
+        center
+        faceleft
+        alpha 0.0
+        xpos 0.8
+        pause 0.65
+        parallel:
+            ease 0.5 alpha 1.0
+        parallel:
+            ease 0.75 xpos 0.65
+    show AN_asset grain
+    with dissolve
+    pause 0.75
+    play sound sfx_whack
+    show cornelia b_29:
+        transform_anchor True
+        faceright
+        ease 0.5 rotate -4 xpos 0.325 ypos 1.15
+    pause 0.25
+    show john b_7:
+        ease 0.25 xpos 0.185
+
+    cornelia "{i}Ow!{/i}"
+
+    show irene b_1
+
+    irene "{i}Whoops.{/i}"
+
+    show cornelia b_17
+    show john b_11
+    show irene b_0
+
+    cornelia "{i}What the hell Irene?! What was that for?!{/i}"
+
+    show irene b_1
+    show cornelia b_14:
+        ease 0.75 ypos 1.0 rotate 0
+
+    irene "{i}So sorry, didn't see you all the way down there.{/i}"
+
+    show allison a_6
+    show irene b_9 at faceright
+
+    allison "{i}You have to remember to look down sometimes, Irene.{/i}"
+
+    show irene b_1
+
+    irene "{i}I'll keep that in mind, heh.{/i}"
+
+    outfit rita uniform
+    scene bg lunch
+    show cornelia b_5 at centerright, faceleft
+    show john b_0 at right, faceleft
+    with dissolve
+
+    "At this point, we just wanted them to stop bothering us. We decided in unison to confront Irene's group and talk this out."
+    "We had managed to slip out of our previous class just very slightly earlier so that we would be able to confront them before they went to lunch, but our timing was off."
+
+    show irene b_4:
+        center
+        alpha 0.0
+        faceleft
+        xpos 0.2
+    show rita b_0:
+        center
+        alpha 0.0
+        faceleft
+        xpos 0.3
+    show allison a_0:
+        center
+        alpha 0.0
+        faceleft
+        xpos 0.4
+
+    "The bell had just rung, and people were eager to get some food inside the lunchroom."
+
+    show irene:
+        ease 0.5 alpha 1.0
+        pause 0.25
+        ease 0.75 alpha 0.0 xpos 0.0
+    show rita:
+        pause 0.25
+        ease 0.5 alpha 1.0
+        pause 0.25
+        ease 0.75 alpha 0.0 xpos 0.1
+    show allison:
+        pause 0.5
+        ease 0.5 alpha 1.0
+        pause 0.25
+        ease 0.75 alpha 0.0 xpos 0.2
+    show cornelia b_11
+    show john b_11
+
+    cornelia "There! They are headed towards the lockers."
+    "They used the lunchroom as a shortcut to what seemed like the lockers. An infinitely better place to talk with them than in here."
+    think "Well, cripes, guess it makes more sense to talk with them alone by the lockers anyways."
+
+    scene black with dissolve
+    pause 0.25
+    scene bg lockers day
+    show irene b_0:
+        center
+        faceleft
+        xpos 0.3
+    show rita b_0:
+        center
+        faceleft
+        xpos 0.45
+    show allison a_10:
+        center
+        faceright
+        xpos 0.15
+    show john b_0:
+        alpha 0.0
+        center
+        faceleft
+        xpos 1.0
+        ypos 1.02
+        pause 2.0
+        ease 0.5 alpha 1.0 xpos 0.85
+    show cornelia b_5 behind john:
+        alpha 0.0
+        center
+        faceleft
+        xpos 0.9
+        pause 1.75
+        ease 0.5 alpha 1.0 xpos 0.7
+    with dissolve
+
+    "We followed them to the lockers."
+    "Only Rita and Allison were with her."
+
+    show allison a_3
+    show irene b_4:
+        pause 0.75
+        faceright
+    show rita a_2 behind irene:
+        pause 1.0
+        faceright
+
+    "While chatting, they noticed us approaching them."
+
+    show john b_5
+
+    john "Hey."
+
+    show irene b_5
+
+    irene "...What do {i}you{/i} want?"
+
+    show irene b_4
+    show john b_13
+
+    john "Can we talk about what's going on? Like honest people?"
+    irene "...?"
+
+    show rita b_2 at faceleft
+    show irene:
+        pause 0.75
+        faceleft
+    show allison a_24
+
+    "Irene looked at the other two, who both just slightly shrugged their shoulders."
+
+    show irene b_0 at faceright
+    show john b_5
+
+    "With a slight smile going across her face, she turned back towards me."
+
+    show irene b_1
+    show rita at faceright
+
+    irene "Alright. Let's talk alone, you and me."
+
+    show cornelia b_0
+    show irene b_0
+    show john b_27
+
+    john "M- Me?"
+    irene "Exactly."
+
+    show john b_13
+
+    john "Uh... Alright. Is it alright Cornelia?"
+
+    show cornelia a_5
+
+    cornelia "Sure. You know what to say."
+
+    show cornelia a_0
+    show irene b_3:
+        pause 0.75
+        faceleft
+    show rita b_14 at faceleft
+    show allison a_3
+
+    irene "I'll see both of you in a second. I just need to clear things up here."
+
+    show allison a_1
+    show rita a_0
+    show irene b_9 at faceright
+
+    allison "Sure."
+
+    show allison a_21
+
+    rita "Heh."
+
+    show allison a_0:
+        pause 0.75
+        ease 0.5 alpha 0.0 xpos 0.6
+    show cornelia b_0:
+        pause 0.5
+        faceright
+        ease 0.5 alpha 0.0 xpos 0.95
+    show rita a_1:
+        faceright
+        pause 1.25
+        ease 0.5 alpha 0.0 xpos 0.8
+    show john b_11:
+        pause 1.5
+        faceright
+
+    "All three gathered their things and left for the lunchroom. Cornelia clearly didn't want to accompany them, so she took the long way around rather than the short path."
+
+    show john b_3 at faceleft
+
+    "With seemingly nobody around, I started to say what I wanted to say."
+
+    show john b_4
+
+    john "So... You know, in the last few days-"
+
+    show irene b_4
+    show john b_7
+
+    irene "Hold up."
+
+    show irene:
+        faceleft
+        ease 0.5 xpos 0.2
+
+    john "...Uhm?"
+
+    show irene:
+        faceright
+        ease 0.5 xpos 0.3 alpha 0.0
+    show john b_5
+
+    "Irene double walked around the lockerroom once more, seemingly to make sure nobody was around for some reason."
+
+    show irene:
+        ease 0.5 xpos 0.4 alpha 1.0
+
+    "After confirming it, she went back and faced me."
+
+    show john b_13
+
+    john "Uhm... So as I was sayi-"
+
+    show john b_7
+    show irene b_8
+
+    irene "Do you {i}really{/i} think someone like you should be able to come and confront {i}me{/i} about {q}bullying{/q} people?"
+
+    show irene b_4
+
+    irene "I assume that's what you're here for."
+
+    show john b_4 behind irene
+
+    john "We- Well, I've done a lot of bad things, apparently, and I realize that now, but-"
+
+    play sound AN_sfx_crash
+    show irene b_5:
+        transform_anchor True
+        ease 0.35 xpos 0.7
+    with hpunch
+    play sound AN_sfx_silence
+    show john a_8:
+        ease 0.2 ypos 1.0 xpos 0.87
+        ease 0.4 ypos 1.02
+
+    john "Eek!"
+
+    show john a_27
+
+    "With no warning and full force, she straight up {i}punched{/i} the locker right behind me, only just missing my head."
+    "A massive crack of metal could be heard, which had me in complete shock."
+    "She was incredibly close to me, and her height meant that she was looking down on me with extremely threatening eyes."
+
+    show irene b_8:
+        ease 0.3 rotate 3 xpos 0.69 ypos 1.02
+    show john:
+        transform_anchor True
+        pause 0.25
+        ease 0.5 ypos 1.05 rotate 4
+
+    irene "{size=-5}Now, you listen here you sack of garbage.{/size}"
+
+    show john a_30
+
+    irene "{size=-5}You've made the life of many people in this school a living hell. Now you finally get a piece of the cake, and all of a sudden you have the {i}tenacity{/i} to come and beg for mercy?{/size}"
+
+    show irene b_1
+
+    irene "{size=-5}Don't make me laugh.{/size}"
+
+    show irene b_4
+    show john a_9
+
+    john "{size=-8}S- So- Sorry!{/size}"
+
+    show john a_36 at faceright
+
+    "I was still in complete shock at the sudden show of violence and could only look at her while I was leaning myself on the lockers behind me."
+
+    show john a_30 at faceleft
+    show irene:
+        ease 0.75 rotate 1 ypos 1.0 xpos 0.675
+
+    "She finally took her fist off the lockers, and a bit of relief came over me, but I still dreaded what she'd do now."
+
+    show john b_27
+
+    "Irene suddenly felt like a complete wild-card, and it was terrifying looking her in the eyes."
+    "My body would take heavy damage if she actually wanted to hit me, I knew that much."
+
+    show irene b_1
+    show john b_7
+
+    irene "...Hah."
+    irene "You really are pathetic. Someone finally puts you in your place, and all you can do is stand there and cower like some scared kitten."
+
+    show john b_35
+    show irene b_9
+
+    "She put her hand around the bottom of my chin, like some pervert in a movie, and looked at me for a few seconds."
+
+    show irene b_3
+
+    irene "The only reason I even bothered to sit at the same table as you was to bring you down."
+
+    show irene b_8
+    show john b_7
+
+    irene "Watching you made me sick. Seriously sick."
+
+    show irene b_3
+
+    irene "I thought that maybe I could influence you to not be such a massive dump of a personality, but instead you decided to go crazy all by yourself."
+
+    show irene b_9:
+        ease 0.5 xpos 0.575
+
+    "She let go of me and laughed to herself."
+    irene "So in the end, you really did me a favor by going nuts and giving me the opportunity to be the one who runs this shop."
+
+    show john b_4
+
+    "I was still motionless. I never thought I would be this afraid of another person, especially a girl."
+
+    show irene b_4 at faceleft
+    show john b_13
+
+    "She looked around once more to make sure nobody was watching."
+
+    show irene at faceright
+
+    irene "You satisfied with your answer?"
+
+    show irene b_8
+
+    irene "Or do you need more convincing?"
+
+    show irene b_9
+    show john b_4
+
+    "I simply shook my head in response to her question."
+    irene "Good. Now go back and play slut with Kiyoshi."
+
+    show irene b_8
+
+    irene "Next time, I'll make sure that I won't miss. I'd rather hit something that isn't as hard as the lockers."
+
+    show irene b_9:
+        parallel:
+            ease 1.0 xpos 1.1
+        parallel:
+            ease 0.5 alpha 0.0
+
+    "With that, she up and left after picking up her things."
+
+    show john b_22
+
+    irene "{size=-10}Shit, that hurt.{/size}"
+
+    show john:
+        ease 0.4 ypos 1.09
+        ease 0.3 ypos 1.1 rotate 6
+        ease 1.2 ypos 1.2
+
+    "I slowly slid down the locker I was leaning up on."
+    "It was still a sense of shock, at how sudden everything was."
+    "She just fully threatened me with violence if I bothered her again."
+
+    show john b_28
+
+    think "What the fuck?!"
+
+    show john b_27
+
+    "..."
+
+    show john a_0:
+        parallel:
+            ease 0.75 ypos 1.02
+        parallel:
+            ease 0.5 rotate 0
+
+    "I looked up at the spot on the locker that she punched."
+    "It had a quite the bulge inwards."
+
+    show john b_27
+
+    think "Just how strong is Irene? I knew she was tall, but to also be able to just bend metal like that after hitting it is way too extreme!"
+
+    show john b_4
+
+    think "...Fuck."
+
+    scene black with dissolve
+    pause 1.5
+    show bg lunch:
+        zoom 1.5 xalign 0.4 yalign 0.8
+    show cornelia a_5:
+        center
+        faceright
+        ypos 1.1
+        xpos 0.4
+    show sayaka a_5:
+        center
+        faceleft
+        ypos 1.1
+        xpos 0.6
+    show kiyoshi a_1:
+        center
+        faceleft
+        ypos 1.1
+        xpos 0.8
+    show john b_4:
+        center
+        faceright
+        xpos 0.05
+        alpha 0.0
+        pause 1.5
+        ease 1 alpha 1.0 xpos 0.2
+    with dissolve
+
+    "Regardless, I decided that I should still join the others for lunch."
+
+    show sayaka a_32
+    show cornelia a_11:
+        pause 0.5
+        faceleft
+    show kiyoshi a_0
+
+    "There were only a few minutes left of lunch break, but I had lost all appetite anyways."
+
+    show cornelia a_8 at faceleft
+    show john b_13
+
+    cornelia "...There you are! I was worried sick that Irene arrived long ago!"
+
+    show john b_21
+    show cornelia a_0
+    show sayaka a_5
+
+    john "Oh... Uhm, hey."
+
+    show john a_4:
+        ease 0.5 ypos 1.1
+    show cornelia a_14
+
+    cornelia "What took you so long?"
+    john "Nothing... Nothing."
+
+    show cornelia a_5 at faceright
+    show sayaka a_32
+
+    sayaka "...?"
+
+    show cornelia at faceleft
+    show sayaka a_5
+    show john a_5
+
+    sayaka "Sounds like something you'd say when something happened."
+
+    show john a_32
+
+    john "No, I just, uhm... Think we just should avoid her, Irene, you know."
+
+    show john a_6
+
+    "Sayaka took a bite from her sandwich before answering."
+
+    show sayaka a_33
+    show john a_5
+
+    sayaka "Wasn't the entire purpose to make her stop treating you like some 3rd world citizen?"
+
+    show john a_4
+
+    "Cornelia and Sayaka both eyed me curiously. Obviously they knew something was up. But it's not like it really mattered."
+    "If I told them about what happened, they might just end up making matters worse."
+
+    show sayaka a_5
+    show john a_5
+
+    sayaka "{i}Sigh...{/i} Guess you're going silent, huh. Well, your problem."
+    "Sayaka didn't seem to care much, Cornelia still looked at me worried, but went back to taking her last bites out of her burger anyhow."
+
+    show cornelia a_0 at faceright
+    show sayaka a_13 at faceright
+    show kiyoshi a_4
+    show john a_0
+
+    sayaka "Kiyoshi, explain to him what we're doing after school."
+
+    show kiyoshi a_6
+    show sayaka a_6
+
+    kiyoshi "Ah, sure thing."
+
+    show john a_6
+
+    think "Oh right, he is here as well."
+
+    scene black with Dissolve(1.5)
+    pause 1.5
+
+    title "24th of December (Saturday)" "Day 139 - John"
+
+    outfit john formal
+    accessory john set glasses, xmashat
+    pause 1
+    scene bg sayaka kitchen night lights on
+    show john b_3:
+        centerright
+        faceleft
+        ypos 1.1
+    with Dissolve(1.0)
+    pause 2
+    show john a_17
+    pause 3
+    show john b_3 at faceright
+
+    john "..."
+
+    show john a_17 at faceleft
+
+    think "They promised..."
+    think "They promised to at least be there today..."
+
+    show john b_4
+
+    think "...I can't take this anymore..."
+    "Was I really being too demanding?"
+    "I've been Sayaka for almost half a year now, so naturally I would want to get along with the people that mattered in her family more."
+    "Christmas is a tradition that was celebrated in my real home every year with people being happy, open and all of that..."
+
+    show john b_22
+
+    "But this is just..."
+
+    show john b_35
+
+    john "{i}Sigh...{/i}"
+
+    show john b_34
+
+    john "{size=-5}I hate them...{/size}"
+
+    show john b_9
+
+    john "{size=-5}I hate them, I hate them, I hate them!{/size}"
+
+    show john b_35
+
+    "They promised that we would spend christmas together, those stupid parents!"
+
+    show john b_22
+
+    "But instead, I got two texts telling me how {q}We have {i}soooo{/i} much important stuff to do right now{/q}, as if this {b}one{/b} favor from their own daughter was just some side-thing to worry about!"
+
+    show john b_3
+
+    "Even if they were late, they told me they would be home by nine at the latest, but they still aren't here!"
+    "I had even prepared dinner for them, all on my own without getting any help from them at all, having to look up recipes online and all of that."
+    "But now even the food I had made was starting to get cold to the point where it wasn't edible any longer."
+
+    show john a_17
+
+    "They weren't my real parents, but I still cared enough to at least not spend christmas of all things alone!"
+
+    show john a_27
+    play sound sfx_door_close
+
+    "And with perfect timing at the end of my angry monologue, I could finally hear the door from outside making a resemblance of sound."
+
+    show john b_3 at faceright
+
+    "I looked at the time, and it was twenty past ten at this point."
+
+    show john a_17 at faceleft
+    show AN_jacob a_3:
+        center
+        faceleft
+        xpos -0.1
+        alpha 0.0
+        zoom 0.95
+
+    "Oh, how I would scold them for taking so freaking long!"
+
+    show john b_3
+    show AN_jacob:
+        ease 0.75 alpha 1.0 xpos 0.2
+
+    "It was the dad. He looked tired and noticed me when I came into the kitchen."
+
+    show AN_jacob a_9:
+        ease 0.5 xpos 0.35
+    show john b_5
+
+    AN_jacob "Hello sweetie. I'm sorry I'm home late."
+
+    show AN_jacob a_0:
+        faceright
+        ease 0.5 xpos 0.3
+
+    "..."
+
+    show john b_3
+
+    "That's all he had to say?"
+
+    show AN_jacob:
+        ease 0.5 xpos 0.275
+
+    "I waited a bit longer for more of an explanation, but nothing."
+
+    show AN_jacob a_1:
+        faceleft
+        ease 0.75 xpos 0.45
+
+    "He just hung up his jacket and approached me."
+
+    show john b_0
+
+    AN_jacob "Here, I hope you like it."
+
+    show john a_5
+
+    "He handed me a small box. Not even wrapped or anything."
+    "He may run a business, but where the hell did he learn to suck so badly at reading the room?"
+
+    show john a_17
+
+    john "A christmas gift?"
+
+    show AN_jacob a_9
+
+    AN_jacob "Yes."
+    john "Aren't those supposed to be wrapped up? Or put under a tree or something?"
+
+    show AN_jacob a_10
+
+    AN_jacob "...Why would you want it wrapped? What difference does an additional coating of paper do?"
+
+    show john b_19
+
+    john "It's christmas! That's how you do it!"
+
+    show john b_3
+    show AN_jacob a_5
+
+    AN_jacob "{i}Sigh...{/i} I am not in the mood for one of your breakdowns now, Sayaka."
+
+    show john b_19
+    show AN_jacob a_0
+
+    john "One of my breakdow- {nw}"
+
+    show john b_28
+
+    extend "What?!"
+
+    show john b_3
+    show AN_jacob a_2
+
+    "He rubbed his temple to display that he was tired of me."
+
+    show AN_jacob a_3:
+        parallel:
+            pause 0.25
+            ease 0.5 alpha 0.0
+        parallel:
+            ease 1.0 xpos 1.1
+    show john b_27:
+        pause 0.5
+        faceright
+    play sound sfx_door_open
+    pause 0.5
+    play sound sfx_door_close
+
+    "While ignoring my question, he walked into the living room in a completely calm fashion."
+
+    show john at faceleft
+
+    "I had to spend a few seconds to process what just happened."
+    "Did he seriously just break his promise, then call me unstable when I get angry at him?!"
+    "Even ignoring the food I had spent all day making just for them?!"
+
+    show john b_28
+
+    "He breaks his {i}{b}one promise{/b}{/i}, and is annoyed at {i}me{/i}?!"
+
+    show john b_27 at faceright
+
+    "To make matters worse, I could now hear the TV going."
+    "He straight up ignored his daughter to go and watch television on christmas evening!"
+    think "That's it! I've fucking had it!"
+
+    scene black with dissolve
+    play sound sfx_door_open
+    scene bg sayaka livingroom night
+    show AN_jacob a_0:
+        center
+        faceleft
+        xpos 0.6
+        ypos 1.1
+        zoom 0.95
+        pause 1.25
+        faceright
+    show john b_28:
+        center
+        faceright
+        alpha 0.0
+        xpos 0.05
+        pause 0.5
+        ease 0.75 xpos 0.25 alpha 1.0
+    with dissolve
+
+    john "You are so stupid!"
+
+    show john b_9
+    show AN_jacob a_3
+
+    john "Don't you get what's going on here?!"
+
+    show AN_jacob a_4
+    show john b_27
+
+    AN_jacob "I beg your pardon?"
+
+    show AN_jacob a_3
+    show john b_28
+
+    john "You broke your promise! And now you're ignoring me! On christmas!"
+    john "Do you have any idea how much that hurts?!"
+
+    show AN_jacob a_4
+    show john b_27
+
+    AN_jacob "Don't you dare call me stupid, Sayaka."
+
+    show john b_9
+    show AN_jacob a_3
+
+    john "Seriously? That's everything you got from what I just said?!"
+
+    show AN_jacob a_10
+    show john b_3
+
+    AN_jacob "...Really, what is going on with you right now?"
+    AN_jacob "You haven't had anything to drink, have you?"
+
+    show john a_3
+    show AN_jacob a_0
+
+    john "{size=+5}Ugh! You- You terrible-!{/size}"
+
+    show john a_17
+
+    "My head was boiling at this point. I didn't care what was in the box he gave me."
+
+    show john b_19
+    accessory john set glasses
+    with dissolve
+
+    "I threw it on the ground as hard as I could together with my christmas hat."
+
+    show AN_jacob a_3:
+        ease 0.25 ypos 1.0
+    show john a_17
+
+    "He was shocked that I would do it, and immediately transitioned into a very serious expression."
+
+    show AN_jacob a_4
+
+    AN_jacob "What do you think you're doing?! Do you think I gave that to you as a joke?!"
+
+    show john b_9:
+        faceleft
+        pause 2
+        ease 0.75 alpha 0.0 xpos 0.05
+    show AN_jacob a_3
+
+    john "Fuck you, both of you!"
+
+    show AN_jacob a_4
+    scene black with dissolve
+    play sound sfx_door_close
+    scene bg sayaka kitchen night lights on
+    show john b_3:
+        center
+        faceleft
+        alpha 0.0
+        xpos 0.8
+        pause 0.25
+        ease 0.75 xpos 0.5 alpha 1.0
+    with dissolve
+
+    AN_jacob "{size=-5}Excuse me, young lady?!{/size}"
+
+    show john b_4
+
+    AN_jacob "{size=-5}You are coming back into the livingroom this instant!{/size}"
+
+    show john:
+        ease 0.75 alpha 0.0 xpos 0.2
+    play sound sfx_door_open
+    pause 2
+    scene black with dissolve
+    pause 1.5
+    show bg neighborhood2 night:
+        zoom 2.0 xalign 0.35 yalign 0.4
+        pause 0.5
+        ease 10 zoom 1.0
+    show john b_4:
+        center
+        faceright
+        xpos 0.55
+        parallel:
+            block:
+                ease 0.6 ypos 1.01
+                ease 0.4 ypos 1.02
+                ease 0.6 ypos 1.0
+                repeat
+        parallel:
+            pause 0.75
+            ease 8 xpos 0.65
+    with dissolve
+
+    "I left the house as fast as I could."
+    "I couldn't stand it anymore. It was like mental abuse."
+    "I knew he would get angry as all hell at me for saying {q}{i}Fuck you{/i}{/q} to him. And I didn't want to listen to him anymore."
+    "Not today."
+
+    show john b_13
+
+    "It was chilly outside. Very chilly. And I only had the dress and jacket on."
+    "But it still felt better than having to be next to him. It only cemented how much I hated him. And Sayaka's mom would probably not react very differently."
+
+    show john b_4
+
+    "Even though I felt like crying right now, I was just too angry to do so."
+    "But..."
+
+    show john b_34
+
+    john "{i}Achoo-!{/i}"
+
+    show john b_6
+
+    think "...God, it's cold outside..."
+
+    show john b_4
+
+    "..."
+    think "I don't want this anymore... I just want to go home...To mom, and Holly, and Natsumi who visits some days..."
+
+    scene black with dissolve
+    scene bg main house dark
+    show john b_5 at centerright, faceleft
+    with dissolve
+    pause 2
+    show john b_4
+
+    "It felt wrong to actually visit my real home."
+    "It was still... Christmas, after all..."
+    "We hadn't told anyone about the swap besides our small friend group."
+
+    show john b_5
+
+    "Kat, Kyoko, Kiyoshi, Cornelia and Brad were still the only ones who really knew about it. But recently, it started becoming extremely lonely, despite those five knowing my actual identity."
+    "So I took the courage to perhaps do this today. To perhaps convince my mom of who I really was."
+
+    show john b_3
+
+    john "{i}Sigh...{/i} Here we go..."
+
+    scene black with dissolve
+    outfit leona casual
+    outfit sayaka winter_tshirt
+    outfit yui casual
+    scene bg main entrance night
+    show john a_15:
+        centerleft
+        faceright
+        alpha 0.0
+    with dissolve
+    play sound sfx_knock
+
+    "I knocked on the door."
+
+    play sound sfx_knock
+    show sandra b_3:
+        centerright
+        faceleft
+        alpha 0.0
+
+    "It took a while before I noticed someone approaching it through the window, maybe a minute of knocking here and there was required."
+
+    show sandra:
+        ease 0.5 alpha 1.0 center
+
+    "The door was locked, and so someone from the inside opened it."
+
+    play sound sfx_door_open
+    show john:
+        ease 0.5 alpha 1.0 xpos 0.3
+    pause 1.5
+    show sandra b_7
+
+    sandra "Uh- Sayaka?!"
+
+    show john a_14
+
+    john "He- Hey..."
+
+    show john a_5
+    show sandra b_8
+
+    sandra "Goodness, what are you doing out here so late- And in those clothes?!"
+
+    show john b_4
+
+    john "Uhm... No, I just had to hurry, because... Uh-"
+
+    show john b_5
+    show sandra b_4:
+        pause 0.5
+        faceright
+    show leona a_5:
+        right
+        faceleft
+        alpha 0.0
+
+    sayaka "{size=-10}Who is it mom?!{/size}"
+
+    show sandra b_8
+    show leona:
+        ease 0.75 alpha 1.0
+
+    sandra "It's Sayaka from school! Did you invite her?!"
+
+    show john b_35
+    show sayaka a_2:
+        center
+        faceleft
+        alpha 0.0
+        xpos 0.8
+    show yui a_12:
+        center
+        faceleft
+        alpha 0.0
+        xpos 0.9
+    show sandra b_3 at faceleft
+
+    john "No, no, I'm here out of my own will, uhm-"
+
+    show sayaka:
+        ease 0.5 xpos 0.6 alpha 1.0
+    show yui:
+        pause 0.25
+        ease 0.5 xpos 0.725 alpha 1.0
+    show sandra
+
+    sayaka "Oh. Hey. Uh... What are you doing here?"
+    yui "{size=-3}Sayaka?{/size}?"
+
+    show john b_12
+
+    john "Uhm, hey guys..."
+
+    show sayaka a_5
+    show john b_3
+
+    sayaka "No really, what are you doing here?"
+
+    show john a_4
+    show yui a_13
+
+    john "..."
+
+    show sayaka a_32
+    show john b_4
+
+    john "{i}Sob....{/i}"
+
+    show sandra b_7:
+        pause 0.25
+        ease 0.25 xpos 0.525
+        ease 0.25 xpos 0.5 ypos 1.05
+    show john b_9:
+        transform_anchor True
+        ease 0.5 rotate 4 xpos 0.4 ypos 1.15
+    show sayaka a_15
+    show yui b_9
+    show leona a_8
+
+    john "I- I'm- I'm sorry, I can't do this anymore...!"
+
+    scene black with dissolve
+    pause 1
+
+    "I ended up crying my heart out in front of them that night."
+    "Even if something like that is hard to admit as a guy."
+    "It was one of the most memorable nights of my life, by far."
+    "The feeling of neglect was instantly gone when they welcomed me in and even heated up the leftovers from the many ducks they had that evening."
+
+    outfit sayaka casual
+    scene bg main livingroom day
+    show sandra a_3 at centerright, faceleft
+    show john b_4:
+        center
+        faceright
+        xpos 0.45
+    show sayaka a_5:
+        center
+        faceright
+        xpos 0.3
+    with dissolve
+
+    "Me and Sayaka both agreed that we would tell my mom about the situation the day after, and we did."
+
+    show john b_5
+    show sandra a_6
+
+    "She had noticed that something was off long ago, and hesitated a bit when we told her."
+
+    show john b_1
+    show sandra a_1
+    show sayaka a_6
+
+    "But she really believed us at the end."
+    "It turned out to be a good christmas night after all, and I never looked back on those excuses of parents that were now my biological one."
+
+    scene black with Dissolve(2.0)
+    pause 2
+    body john AN_sayakaAP
+    body sayaka AN_johnAP
+    body cornelia AN_corneliaAP
+    body kiyoshi maurice
+
+    title "11th of April - 9 years later (Friday)" "Day 3170 - John"
 
 
 

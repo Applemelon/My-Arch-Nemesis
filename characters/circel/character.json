@@ -1,0 +1,20 @@
+{
+    "name": "Circel",
+    "color": "#afe4d8",
+    "scale": 1.0,
+    "voice": "girl",
+    "outfit": "casual",
+    "eye_line": 0.18
+    "poses": {
+        "a": {
+            "image_height": 639,
+            "facing": "right",
+            "center_width": 820
+        },
+        "b": {
+            "image_height": 810,
+            "facing": "right",
+            "center_width": 700
+		}
+	}
+}

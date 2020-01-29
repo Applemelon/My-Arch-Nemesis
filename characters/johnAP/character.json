@@ -1,5 +1,10 @@
 {
 	"name_color": "#7d7c83",
 	"voice": "john",
-	"scale": 0.825
+	"scale": 0.825,
+	"poses": {
+		"a": {
+			"facing": "right"
+		}
+	}
 }

@@ -2,13 +2,5 @@
 	"name_color": "#fbca86",
 	"voice": "child",
 	"eye_line": 0.1,
-	"scale": 0.9,
-	"poses": {
-		"b": {
-			"facing": "right"
-		}
-	},
-    "mutations": {
-        "twintails": ["casual", "costume", "swimwear", "uniform", "uniform_b", "yukata", "cheer", "cheer_inverted"]
-    }
+	"scale": 0.9
 }

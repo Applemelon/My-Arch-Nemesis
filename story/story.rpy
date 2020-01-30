@@ -1766,7 +1766,7 @@ label AN_day_1:
     show john a_6
 
     john "First off, you're hungry, right?"
-    sayaka "I am {i}not{/} going to act as your pathetic girlfriend and go buy lunch with you if that is what you're hoping."
+    sayaka "I am {i}not{/i} going to act as your pathetic girlfriend and go buy lunch with you if that is what you're hoping."
 
     show john a_3
 
@@ -1897,7 +1897,7 @@ label AN_day_1:
 
     outfit kyoko uniform
     outfit sandra casual
-    accessory sandra set
+    accessory sandra clear
     scene bg main kitchen dusk
     show AN_john a_0 at Position(pos=(0.3, 1.15), anchor=(0.5, 1.0)), faceright
     show sandra b_9 at Position(pos=(0.5, 1.15), anchor=(0.5, 1.0)), faceleft
@@ -1998,7 +1998,7 @@ label AN_day_1:
 
     show john b_18
 
-    john "{i}{q}Shampoos to use...{/q} {q}Apply skin oils like this...{/q} {q}{b}How to use pads-{/b}{/q}"
+    john "{q}Shampoos to use...{/q} {q}Apply skin oils like this...{/q} {q}{b}How to use pads-{/b}{/q}"
 
     show john b_19 blush with hpunch
     show sayaka a_2
@@ -4094,7 +4094,7 @@ label AN_day_1:
 
     scene black with dissolve
     outfit sandra casual
-    accessory sandra set
+    accessory sandra clear
     outfit natsumi casual_b
     scene bg main kitchen dusk
     show sandra a_0 at Position(pos=(0.75, 1.15), anchor=(0.5, 1.0)), faceright
@@ -12311,7 +12311,7 @@ label AN_day_1:
     title "21st of August (Sunday)" "Day 14 - John"
 
     outfit john underwear_badhair
-    accessory john set
+    accessory john clear
     $ screenfilter.blur = 2
     play sound AN_sfx_rooster
     pause 1.5
@@ -12792,7 +12792,7 @@ label AN_day_1:
     scene black with dissolve
     pause 1
     outfit john underwear_badhair
-    accessory john set
+    accessory john clear
     outfit sayaka winter_tshirt
     $ screenfilter.blur = 2
     scene bg sadie bathroom day
@@ -13653,7 +13653,7 @@ label AN_day_1:
 
     think "But isn't she is having just a bit too much of an existential crisis right now?"
 
-    accessory sayaka set
+    accessory sayaka clear
     show dominic a_0
     show audrey b_0
     show john b_0
@@ -15685,7 +15685,7 @@ label AN_day_1:
     scene black with dissolve
     pause 1
     outfit john underwear_badhair
-    accessory john set
+    accessory john clear
     $ screenfilter.blur = 2
     scene bg sadie bathroom day
     show cornelia b_0:
@@ -16022,7 +16022,7 @@ label AN_day_1:
     pause 0.5
     body cornelia cornelia
     outfit cornelia casual
-    accessory john set
+    accessory john clear
     show bg sayaka livingroom dusk:
         zoom 1.5 xalign 0.2 yalign 0.7
     show john b_0 at center, faceright
@@ -17683,7 +17683,7 @@ label AN_day_1:
     scene black with dissolve
     pause 0.5
     outfit tori casual
-    accessory eric set
+    accessory eric clear
     scene bg sayaka backyard night
     show tori a_10:
         center
